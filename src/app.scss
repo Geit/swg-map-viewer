@@ -1,0 +1,294 @@
+
+.ui-palette-destroyer, :root {
+  --color_AccentDark: #1E2D2B;
+  --color_AccentLight: #5E8079;
+  --color_Activated: #366267;
+  --color_anim: #9AD6CE;
+  --color_arrowActivated: #91AEAE;
+  --color_arrowdefault: #8AB5B0;
+  --color_arrowDisabled: #000000;
+  --color_arrowHover: #FFFFFF;
+  --color_arrowSelected: #91AEAE;
+  --color_back1: rgb(67, 126, 131);
+  --color_back2: #326063;
+  --color_back3: #22423f;
+  --color_back4: #356262;
+  --color_back5: #1d4540;
+  --color_backDrop: #437e83;
+  --color_BaseDark: #2B403F;
+  --color_BaseLight: #B6C9C7;
+  --color_bottomBar: #55A8A6;
+  --color_box1: #5F9C9B;
+  --color_box2: #A001E4;
+  --color_box3: #C2FF0D;
+  --color_box4: #6618E7;
+  --color_box5: #3F2080;
+  --color_button1: #982BE1;
+  --color_button2: #631FE0;
+  --color_button3: #0000A0;
+  --color_button4: #F45000;
+  --color_button5: #FFFFFF;
+  --color_carat: #FFFFFF;
+  --color_closeActivated: #000000;
+  --color_closeDarkActivated: #94D6D6;
+  --color_closeDarkHover: #37C6C2;
+  --color_closeDarkNormal: #94D6D6;
+  --color_closeHover: #C9E7E7;
+  --color_closeNormal: #000000;
+  --color_contrast1: #FFE21A;
+  --color_contrast2: #E1FF0F;
+  --color_contrast3: #09FFFF;
+  --color_contrast3a: #000000;
+  --color_contrast3h: #048080;
+  --color_contrast4: #FFFFFF;
+  --color_contrast4a: #E9FC5F;
+  --color_contrast5: #1E4D4B;
+  --color_contrast5a: #FFFFFF;
+  --color_default: #437e83;
+  --color_disabled: #72928A;
+  --color_disabledObject: #FF0000;
+  --color_EjectActivated: #ff0000;
+  --color_EjectDefault: #ff0000;
+  --color_EjectHover: #ffc000;
+  --color_equipped: #C0C0C0;
+  --color_exp: #DDA600;
+  --color_forceBackground: #4f9499;
+  --color_gamblingActivated: #EAB600;
+  --color_gamblingactivated2: #4F9299;
+  --color_gamblingAllBets: #FFFFFF;
+  --color_gamblingBack: #4F969B;
+  --color_gamblingCircle: #7EBABE;
+  --color_gamblingDefault: #254649;
+  --color_gamblingdefault2: #4F9299;
+  --color_gamblingDisabled: #000000;
+  --color_gamblingDisabled2: #0D0D0D;
+  --color_gamblingFrame: #55A8A6;
+  --color_gamblingGlow: #7EBABE;
+  --color_gamblingHover: #84D0D0;
+  --color_gamblinghover2: #1B3234;
+  --color_gamblingJackpot: #FF3806;
+  --color_gamblingLights: #EAB600;
+  --color_gamblingPlayerBet: #EAB600;
+  --color_gamblingPushBet: #80FF00;
+  --color_gamblingPushNumber: #000000;
+  --color_gamblingRouletteGlow: #63C1C7;
+  --color_gamblingRouletteText1: #1F3032;
+  --color_gamblingRouletteText2: #98BCBB;
+  --color_glow: #9AD6CE;
+  --color_head1: #05B6B6;
+  --color_head2: #000000;
+  --color_head3: #000000;
+  --color_head4: #000000;
+  --color_head5: #000000;
+  --color_header: #94D6D6;
+  --color_health: #FF0000;
+  --color_helpBox: #000000;
+  --color_Highlight: #7BC4C4;
+  --color_holocron: #55A8A6;
+  --color_hover: #80B3B3;
+  --color_Icon: #55D7D7;
+  --color_iconactivated: #55D7D7;
+  --color_icondefault: #55D7D7;
+  --color_icondisabled: #437E83;
+  --color_iconGlow: #ffffff;
+  --color_iconhover: #AAD2D5;
+  --color_IconNegative: #FF3333;
+  --color_IconPositive: #5CFF2D;
+  --color_jedicreate_holocron: #4F9499;
+  --color_jedicreate_lightning: #81BABE;
+  --color_jedicreate_lightning2: #73B1B7;
+  --color_lightning: #9AD6CE;
+  --color_line1: #9AD6CE;
+  --color_line2: #9AD6CE;
+  --color_line3: #00FFFF;
+  --color_line4: #00FFFF;
+  --color_line5: #00FFFF;
+  --color_listback: #507A79;
+  --color_listHilite: #000000;
+  --color_listline: #FFFFFF;
+  --color_listtext: #E3EDEE;
+  --color_loadBack: #5C8F94;
+  --color_loadBar: #0B3335;
+  --color_loadbarFill: #32CBCB;
+  --color_mind: #0000FA;
+  --color_numActivated: #437E83;
+  --color_numDefault: #437E83;
+  --color_numHover: #97D9D6;
+  --color_numTextActivated: #C4DFE1;
+  --color_numTextDefault: #C4DFE1;
+  --color_numTextHover: #101E1F;
+  --color_outline1: #9AD6CE;
+  --color_outline2: #9AD6CE;
+  --color_outline3: #9AD6CE;
+  --color_outline4: #9AD6CE;
+  --color_outline5: #9AD6CE;
+  --color_OverlayDark: #44A69A;
+  --color_overlayLight: #C9E9E4;
+  --color_radactivated: #437E83;
+  --color_radar: #55A8A6;
+  --color_raddefault: #437E83;
+  --color_raddisabled: #86A29C;
+  --color_radhover: #37686C;
+  --color_radialTextDark: #D9ECEC;
+  --color_radialTextLight: #D9ECEC;
+  --color_radspin: #76C5C2;
+  --color_Runner: #9AD6CE;
+  --color_runnerDark: #ffffff;
+  --color_scrollactivated: #6BB4B1;
+  --color_scrolldefault: #6BB4B1;
+  --color_scrolldisabled: #9AD6CE;
+  --color_scrollhover: #E1F2F0;
+  --color_scrollselected: #9AD6CE;
+  --color_selected: #55A8A6;
+  --color_selectionBack: #000000;
+  --color_skillAcquiredActivated: #DDA600;
+  --color_skillAcquiredDefault: #DDA600;
+  --color_skillAcquiredDisabled: #DDA600;
+  --color_skillAcquiredHover: #A96F01;
+  --color_skillAcquiredSelected: #DDA600;
+  --color_skillAcquiredTextActivated: #EAF4F4;
+  --color_skillAcquiredTextDefault: #ECF4F4;
+  --color_skillAcquiredTextHover: #FFFFFF;
+  --color_skillactivated: #55A8A6;
+  --color_skilldefault: #55A8A6;
+  --color_skilldisabled: #55A8A6;
+  --color_skillhover: #316261;
+  --color_skillselected: #55A8A6;
+  --color_skillTextActivated: #ffffff;
+  --color_skillTextDefault: #ffffff;
+  --color_slot: #73ACB0;
+  --color_spaceGlow: #ffffff;
+  --color_spaceLoading: #ffffff;
+  --color_stamina: #00FA00;
+  --color_tab1: #00FF00;
+  --color_tab2: #4FF046;
+  --color_tab3: #1CFF1C;
+  --color_tab4: #61C100;
+  --color_tab5: #FFFF00;
+  --color_tableHeaderTextActivated: #C9DEDE;
+  --color_tableHeaderTextDefault: #BEC8CB;
+  --color_tableHeaderTextDisabled: #9EB4AE;
+  --color_tableHeaderTextHover: #000000;
+  --color_tableHeaderTextSelected: #C9DEDE;
+  --color_text1: #D5E6E3;
+  --color_text2: #EEEEEE;
+  --color_text3: #1ADBB5;
+  --color_text4: #EEEEEE;
+  --color_text5: #000000;
+  --color_textActivated: #C9DEDE;
+  --color_TextDark: #10524B;
+  --color_textdefault: #BEC8CB;
+  --color_textDisabled: #9EB4AE;
+  --color_textHover: #000000;
+  --color_textinsured: #F47A00;
+  --color_TextLight: #4B9E9A;
+  --color_textMagic: #A5F400;
+  --color_textMed: #3D7A79;
+  --color_textSelected: #000000;
+  --color_textServer: #ffffff;
+  --color_textskill: #BBE903;
+  --color_titlebar: #55A8A6;
+  --color_titleText: #1E2C2D;
+  --color_triangleHover: #91AEAE;
+  --color_triangleOff: #437E83;
+  --color_triangleOn: #BBE903;
+  --color_zoneback: #ffffff;
+}
+
+html, body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background: var(--color_AccentDark);
+  color: var(--color_text1);
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+}
+
+.cityNameTooltip {
+  &::before {
+    display: none;
+  }
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+
+  margin-top: 0;
+  background: none;
+  border: none;
+  color: yellow;
+  box-shadow: none;
+}
+
+.tint-gold {
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(5deg); 
+}
+
+.planetSelectionRim {
+  position: absolute;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 40px #ffbf00;
+  cursor: pointer;
+  
+  &:hover {
+    box-shadow: 0 0 20px #ffd000, 0 0 40px #ffbf00;
+  }
+}
+.planetSelectionPage {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  
+  .planetSelectionWrapper {
+    height: #{unquote("min(100vh, 100vw)")};
+    width: #{unquote("min(100vh, 100vw)")};
+    margin: 0 auto;
+    position: relative;
+    background: no-repeat center/contain url(/textures/ui_rebel_starfield.png);
+  }
+
+  .planetSelection2DCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .planetSelection3DCanvas {
+    pointer-events: none;
+  }
+
+  .planetSelectionName {
+    display: block;
+    position: absolute;
+  
+    white-space: nowrap;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    color: yellow;
+  
+    &--right {
+      transform: translateY(-50%);
+      top: 50%;
+      left: 100%;
+      margin-left: 10px;
+    }
+  
+    &--top {
+      bottom: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }  
+}
+
+
