@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './app.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider } from '@material-ui/core';
 
@@ -8,6 +7,9 @@ import Planet from './pages/Planet';
 import theme from './theme';
 import servers from './data/servers';
 import ServerContext from './components/contexts/ServerContext';
+
+import 'leaflet/dist/leaflet.css';
+import './app.scss';
 
 function App() {
   const [serverId, setServerId] = useState(servers[1].serverId);

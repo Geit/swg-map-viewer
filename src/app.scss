@@ -9,7 +9,7 @@
   --color_arrowDisabled: #000000;
   --color_arrowHover: #FFFFFF;
   --color_arrowSelected: #91AEAE;
-  --color_back1: rgb(67, 126, 131);
+  --color_back1: #437e83;
   --color_back2: #326063;
   --color_back3: #22423f;
   --color_back4: #356262;
@@ -209,7 +209,7 @@ html, body {
   background: transparent;
 }
 
-.cityNameTooltip {
+.markerTooltip {
   &::before {
     display: none;
   }
@@ -236,7 +236,8 @@ html, body {
   box-shadow: 0 0 40px #ffbf00;
   cursor: pointer;
   
-  &:hover {
+  &:hover, &:focus {
+    outline: 0;
     box-shadow: 0 0 20px #ffd000, 0 0 40px #ffbf00;
   }
 }
@@ -246,8 +247,10 @@ html, body {
   background: black;
   
   .planetSelectionWrapper {
-    height: #{unquote("min(100vh, 100vw)")};
-    width: #{unquote("min(100vh, 100vw)")};
+    height: 100vw;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vh;
     margin: 0 auto;
     position: relative;
     background: no-repeat center/contain url(/textures/ui_rebel_starfield.png);
@@ -291,4 +294,32 @@ html, body {
   }  
 }
 
+.mobileDrawerTrigger {
+  position: fixed !important;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
 
+  --notchSize: 5px;
+
+  button {
+    border-radius: 0;
+    text-transform: none;
+    background-color: var(--color_BaseDark);
+    color: var(--color_text1);
+  }
+
+  background-color: var(----color_backDrop);
+
+  padding: 1px;
+  
+  clip-path: 
+    polygon(
+      0 0,                 /* top left */
+      calc(100% - 5px) 0%,    /* top right */
+      100% 5px,               /* top right */
+      100% 100%,  /* bottom right */
+      5px 100%,               /* bottom left */
+      0 calc(100% - 5px)      /* bottom left */
+    );
+}

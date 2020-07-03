@@ -1,14 +1,19 @@
 export interface MapConfiguration {
   id: string;
+  waypointCommandId: string | false;
   displayName: string;
-  mapSize: {
-    height: number;
-    width: number;
+  planetMap: {
+    size: number;
+    offset: {
+      x: number;
+      z: number;
+    };
   } | null;
   raster: {
+    maxZoom: number;
+    sourceImage: string;
     attribution: string;
-    height: number;
-    width: number;
+    size: number;
   } | null;
   travelMapConfig: {
     labelPosition: 'top' | 'right';
@@ -16,7 +21,7 @@ export interface MapConfiguration {
     radius: number;
     x: number;
     y: number;
-  };
+  } | null;
 }
 
 const DEFAULT_SWG_MAP_SIZE = 16_384;
@@ -25,15 +30,14 @@ const DEFAULT_RASTERIZED_MAP_SIZE = 4_096;
 const mapConfigs: readonly MapConfiguration[] = [
   {
     id: 'corellia',
+    waypointCommandId: 'corellia',
     displayName: 'Corellia',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_corellia.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'right',
@@ -45,15 +49,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'dantooine',
+    waypointCommandId: 'dantooine',
     displayName: 'Dantooine',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_dantooine.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'top',
@@ -65,15 +68,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'dathomir',
+    waypointCommandId: 'dathomir',
     displayName: 'Dathomir',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_dathomir.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'top',
@@ -85,15 +87,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'endor',
+    waypointCommandId: 'endor',
     displayName: 'Endor',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_endor.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'right',
@@ -105,15 +106,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'lok',
+    waypointCommandId: 'lok',
     displayName: 'Lok',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_lok.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'right',
@@ -125,15 +125,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'naboo',
+    waypointCommandId: 'naboo',
     displayName: 'Naboo',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_naboo.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'right',
@@ -145,15 +144,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'rori',
+    waypointCommandId: 'rori',
     displayName: 'Rori',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_rori.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'right',
@@ -165,15 +163,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'talus',
+    waypointCommandId: 'talus',
     displayName: 'Talus',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_talus.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'top',
@@ -185,15 +182,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'tatooine',
+    waypointCommandId: 'tatooine',
     displayName: 'Tatooine',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_tatooine.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'right',
@@ -205,15 +201,14 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'yavin4',
+    waypointCommandId: 'yavin4',
     displayName: 'Yavin 4',
-    mapSize: {
-      width: DEFAULT_SWG_MAP_SIZE,
-      height: DEFAULT_SWG_MAP_SIZE,
-    },
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
+      maxZoom: 4,
+      sourceImage: '/public/planets/lossless/map_yavin4.png',
       attribution: "Sytner's Satellite Maps 2.0",
-      height: DEFAULT_RASTERIZED_MAP_SIZE,
-      width: DEFAULT_RASTERIZED_MAP_SIZE,
+      size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
     travelMapConfig: {
       labelPosition: 'top',
@@ -225,9 +220,15 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'mustafar',
+    waypointCommandId: 'mustafar',
     displayName: 'Mustafar',
-    mapSize: null,
-    raster: null,
+    planetMap: { size: 8192, offset: { x: 0, z: 0 } },
+    raster: {
+      maxZoom: 2,
+      sourceImage: '/public/planets/lossless/map_mustafar.png',
+      attribution: 'SWG Game Files',
+      size: 1024,
+    },
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_must.png',
@@ -238,9 +239,18 @@ const mapConfigs: readonly MapConfiguration[] = [
   },
   {
     id: 'kashyyyk',
+    waypointCommandId: 'kachirho',
     displayName: 'Kashyyyk',
-    mapSize: null,
-    raster: null,
+    planetMap: {
+      size: 2048,
+      offset: { x: 0, z: 112 },
+    },
+    raster: {
+      maxZoom: 2,
+      sourceImage: '/public/planets/lossless/map_kashyyyk_main.png',
+      attribution: 'SWG Game Files',
+      size: 1024,
+    },
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_kash.png',
@@ -250,9 +260,96 @@ const mapConfigs: readonly MapConfiguration[] = [
     },
   },
   {
+    id: 'kashyyyk_dead_forest',
+    waypointCommandId: 'khowir',
+    displayName: 'Kashyyyk - Kkowir Forest',
+    planetMap: {
+      size: 1000,
+      offset: { x: 0, z: 0 },
+    },
+    raster: {
+      maxZoom: 2,
+      sourceImage: '/public/planets/lossless/map_kashyyyk_dead_forest.png',
+      attribution: 'SWG Game Files',
+      size: 1024,
+    },
+    travelMapConfig: null,
+  },
+  {
+    id: 'kashyyyk_hunting',
+    waypointCommandId: 'etyyy',
+    displayName: 'Kashyyyk - Etyyy Hunting Grounds',
+    planetMap: {
+      size: 2844,
+      offset: { x: 0, z: 0 },
+    },
+    raster: {
+      maxZoom: 2,
+      sourceImage: '/public/planets/lossless/map_kashyyyk_hunting.png',
+      attribution: 'SWG Game Files',
+      size: 1024,
+    },
+    travelMapConfig: null,
+  },
+  // The Rryatt trail is weird - It has multiple different coordinate systems for each of the different levels
+  // It is not possible to make a waypoint for a given level unless the PC is already within that level.
+  // It should at the very least be possible to put points on the map for it, but that can be an excercise for a
+  // future iteration.
+  // dsrc/sku.0/sys.shared/compiled/game/datatables/buildout/areas_kashyyyk_rryatt_trail.tab may hold clues useful
+  // for implementation.
+  {
+    id: 'kashyyyk_rryatt_trail',
+    waypointCommandId: false,
+    displayName: 'Kashyyyk - Rryatt Trail',
+    planetMap: {
+      size: 2048,
+      offset: { x: -0, z: 0 },
+    },
+    raster: {
+      maxZoom: 2,
+      sourceImage: '/public/planets/lossless/map_kashyyyk_rryatt_trail.png',
+      attribution: 'SWG Game Files',
+      size: 1024,
+    },
+    travelMapConfig: null,
+  },
+  // {
+  //   id: 'map_kashyyyk_south_dungeons_bocctyyy',
+  //   waypointCommandId: false,
+  //   displayName: 'Kashyyyk - Bocctyyy Hunting Grounds',
+  //   planetMap: {
+  //     size: 512,
+  //     offset: { x: 0, z: 0 },
+  //   },
+  //   raster: {
+  //     maxZoom: 2,
+  //     sourceImage: '/public/planets/lossless/map_kashyyyk_south_dungeons_bocctyyy.png',
+  //     attribution: 'SWG Game Files',
+  //     size: 1024,
+  //   },
+  //   travelMapConfig: null,
+  // },
+  // {
+  //   id: 'map_kashyyyk_south_dungeons_hracca',
+  //   waypointCommandId: false,
+  //   displayName: 'Kashyyyk - Hracca Glade',
+  //   planetMap: {
+  //     size: 1024,
+  //     offset: { x: 0, z: 0 },
+  //   },
+  //   raster: {
+  //     maxZoom: 2,
+  //     sourceImage: '/public/planets/lossless/map_kashyyyk_south_dungeons_hracca.png',
+  //     attribution: 'SWG Game Files',
+  //     size: 1024,
+  //   },
+  //   travelMapConfig: null,
+  // },
+  {
     id: 'ord_mantell',
+    waypointCommandId: false,
     displayName: 'Ord Mantell',
-    mapSize: null,
+    planetMap: null,
     raster: null,
     travelMapConfig: {
       labelPosition: 'right',

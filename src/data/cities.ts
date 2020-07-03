@@ -1,16 +1,8 @@
 import { WaypointType } from '../enums';
 
-import { Waypoint } from './waypoints';
+import { CityWaypoint } from './waypoints';
 
-interface City extends Waypoint {
-  type: WaypointType.City;
-  extraAttributes?: {
-    foundingDate: string;
-    rank: number;
-  };
-}
-
-const cities: readonly City[] = [
+const cities: readonly CityWaypoint[] = [
   {
     name: 'Keren',
     description: null,
@@ -242,6 +234,14 @@ const cities: readonly City[] = [
     location: [-269, 0, 4896],
     planet: 'yavin4',
     serverId: null,
+  },
+  {
+    name: 'Kachirho',
+    description: null,
+    planet: 'kashyyyk',
+    location: [-572, 18, -128],
+    serverId: null,
+    type: WaypointType.City,
   },
   // Legends Cities
   {

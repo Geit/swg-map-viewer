@@ -13,7 +13,7 @@ const theme = createMuiTheme({
     },
     background: {
       default: destroyer.AccentDark,
-      paper: destroyer.box1,
+      paper: destroyer.AccentDark,
     },
     action: {
       selectedOpacity: 0.6,

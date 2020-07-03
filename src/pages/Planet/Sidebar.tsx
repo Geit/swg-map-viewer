@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box } from '@material-ui/core';
 import { TreeView, TreeItem } from '@material-ui/lab';
+import { groupBy } from 'lodash';
 
 import destroyer from '../../themes/destroyer';
 import { WaypointType } from '../../enums';
@@ -66,6 +67,20 @@ const Sidebar: React.FC<SidebarProps> = ({ waypointsForMap, currentMap, setSelec
                 .map(waypoint => (
                   <TreeItem key={`item-${waypoint.id}`} nodeId={`item-${waypoint.id}`} label={waypoint.name} />
                 ))}
+            </TreeItem>
+            <TreeItem nodeId={`category-${WaypointType.CollectionItem}`} label="Collections">
+              {Object.entries(
+                groupBy(
+                  waypointsForMap.filter(waypoint => waypoint.type === WaypointType.CollectionItem),
+                  'extraAttributes.collection'
+                )
+              ).map(([categoryTitle, waypoints]) => (
+                <TreeItem key={`item-${categoryTitle}`} nodeId={`item-${categoryTitle}`} label={categoryTitle}>
+                  {waypoints.map(waypoint => (
+                    <TreeItem key={`item-${waypoint.id}`} nodeId={`item-${waypoint.id}`} label={waypoint.name} />
+                  ))}
+                </TreeItem>
+              ))}
             </TreeItem>
           </TreeView>
         </Box>
