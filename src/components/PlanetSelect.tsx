@@ -19,11 +19,13 @@ const PlanetSelect: React.FC<PlanetSelectProps> = ({ currentPlanet }) => {
         labelId="planet-select"
         onChange={evt => history.push(`/planets/${evt.target.value}`)}
       >
-        {mapConfigs.map(map => (
-          <MenuItem value={map.id} key={map.id}>
-            {map.displayName}
-          </MenuItem>
-        ))}
+        {mapConfigs
+          .filter(mapConfig => mapConfig.raster)
+          .map(map => (
+            <MenuItem value={map.id} key={map.id}>
+              {map.displayName}
+            </MenuItem>
+          ))}
       </Select>
     </FormControl>
   );

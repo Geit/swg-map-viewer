@@ -18,8 +18,8 @@
 .env.test.local
 .env.production.local
 
-/public/tiles/*
-!/public/tiles/.gitkeep
+/public/planets/tiles/*
+!/public/planets/tiles/.gitkeep
 
 /notes
 

@@ -1,11 +1,12 @@
 import React, { Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import useMeasure from 'react-use-measure';
+import { ResizeObserver } from '@juggle/resize-observer';
 
 import mapConfigs from '../../data/maps';
 
 const Component = () => {
-  const [ref, bounds] = useMeasure();
+  const [ref, bounds] = useMeasure({ polyfill: ResizeObserver });
   const PlanetSpheres = React.lazy(() => import('./PlanetSpheres'));
 
   return (
@@ -13,8 +14,10 @@ const Component = () => {
       <div className="planetSelectionWrapper">
         <div ref={ref} className="planetSelection2DCanvas">
           {mapConfigs
-            .filter(({ raster }) => raster)
+            .filter(({ raster, travelMapConfig }) => raster && travelMapConfig)
             .map(({ id, displayName, travelMapConfig }) => {
+              if (!travelMapConfig) return null;
+
               const scaleFactor = bounds.height / 1024;
               const actualRadius = travelMapConfig.radius * scaleFactor - 1;
               const top = travelMapConfig.y * scaleFactor - actualRadius;

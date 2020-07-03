@@ -1,5 +1,5 @@
-import React, { useContext, useState, Suspense } from 'react';
-import { Grid, Box } from '@material-ui/core';
+import React, { useContext, useState, Suspense, useMemo } from 'react';
+import { Grid, Box, Drawer, Hidden, Button } from '@material-ui/core';
 import { useParams } from 'react-router-dom';
 
 import GalaxiesPlanetMap from '../../components/GalaxiesPlanetMap';
@@ -11,12 +11,13 @@ import { WaypointType } from '../../enums';
 const SidebarLazy = React.lazy(() => import('./Sidebar'));
 
 export default function Planet() {
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const { planet } = useParams();
   const { serverId } = useContext(ServerContext);
   const [selectedTreeItem, setSelectedTreeItem] = useState('');
   const [selectedTreeItemType, selectedTreeItemId] = selectedTreeItem.split('-');
 
-  const mapConfig = mapConfigs.find(({ id }) => id === planet);
+  const mapConfig = useMemo(() => mapConfigs.find(({ id }) => id === planet), [planet]);
 
   if (typeof planet !== 'string' || !mapConfig) return null;
 
@@ -40,21 +41,41 @@ export default function Planet() {
   });
 
   return (
-    <Grid container>
-      <Grid item xs>
-        <Box height="100vh">
-          <GalaxiesPlanetMap map={mapConfig} waypoints={waypointsToRender} />
-        </Box>
-      </Grid>
-      <Suspense fallback={null}>
-        <Grid item xs={4} md={2}>
-          <SidebarLazy
-            setSelectedTreeItem={setSelectedTreeItem}
-            currentMap={mapConfig}
-            waypointsForMap={waypointsForMap}
-          />
+    <>
+      <Grid container>
+        <Grid item xs>
+          <Box height="100vh">
+            <GalaxiesPlanetMap map={mapConfig} waypoints={waypointsToRender} />
+          </Box>
         </Grid>
-      </Suspense>
-    </Grid>
+        <Hidden xsDown initialWidth="lg">
+          <Grid item xs={4} sm={4} md={2}>
+            <Suspense fallback={null}>
+              <SidebarLazy
+                setSelectedTreeItem={setSelectedTreeItem}
+                currentMap={mapConfig}
+                waypointsForMap={waypointsForMap}
+              />
+            </Suspense>
+          </Grid>
+        </Hidden>
+      </Grid>
+      <Hidden smUp>
+        <Box className="mobileDrawerTrigger">
+          <Button variant="contained" color="primary" className="" onClick={() => setDrawerOpen(true)}>
+            Menu
+          </Button>
+          <Drawer onClose={() => setDrawerOpen(false)} open={drawerOpen} anchor="right">
+            <Suspense fallback={null}>
+              <SidebarLazy
+                setSelectedTreeItem={setSelectedTreeItem}
+                currentMap={mapConfig}
+                waypointsForMap={waypointsForMap}
+              />
+            </Suspense>
+          </Drawer>
+        </Box>
+      </Hidden>
+    </>
   );
 }

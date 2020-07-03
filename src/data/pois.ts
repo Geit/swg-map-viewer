@@ -1,8 +1,8 @@
 import { WaypointType } from '../enums';
 
-import { Waypoint } from './waypoints';
+import { PointOfInterestWaypoint } from './waypoints';
 
-const pointsOfInterest: Waypoint[] = [
+const pointsOfInterest: PointOfInterestWaypoint[] = [
   {
     name: 'Gate to Kachirho Region',
     description: 'This is the gate back to the Kachirho region of Kashyyyk.',
@@ -104,7 +104,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       "So named after the Mustafarian explorer who found the region, Berken's Flow was once the richest source of natural resources in the galaxy. Years of over mining and major planetary shifts have left the region fairly devoid of resources though. Only the smallest of mining operations take place in this region anymore.",
     planet: 'mustafar',
-    location: [-528, 59, 4268],
+    location: [2363, 59, 1290],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -155,7 +155,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       'The Burning Plains is a thin layer of crust floating on a sea of molten lava. Geologists expect that a major earthquake could cause the entire region to sink, leaving a gigantic lava ocean in its place.',
     planet: 'mustafar',
-    location: [-3230, 18, 5317],
+    location: [-374, 18, 2332],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -172,7 +172,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       "The lava that flows out of the great central volcano of Mustafar isn't considered to be of very high quality. Its resources are some of the poorest on Mustafar. But the volcano is an invaluable landmark on an ever changing planet, and many a lost miner has been thankful for its massive presence to help guide them home.",
     planet: 'mustafar',
-    location: [-3429, 378, 3749],
+    location: [-572, 378, 775],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -319,7 +319,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       'The Crystal Flats is a large expanse of volcanic rock. The northern portion of the area is covered with crystals formed from mineral deposits in the lava, giving the entire region its name.',
     planet: 'mustafar',
-    location: [-4716, 300, 1515],
+    location: [-1870, 300, -1471],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -1081,7 +1081,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: 'Blackscale Slaver Compound',
     description: 'Blackscale Slaver Compound',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [409, 17, 752],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1098,7 +1098,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: 'Kkowir Forest',
     description: 'Kkowir Forest',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [-760, 17, 241],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1113,9 +1113,9 @@ const pointsOfInterest: Waypoint[] = [
     type: WaypointType.PointOfInterestWaypoint,
   },
   {
-    name: 'Hunting Grounds',
+    name: 'Etyyy Hunting Grounds',
     description: 'Etyyy, Hunting Grounds',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [205, 28, -373],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1132,7 +1132,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: 'Kachirho',
     description: 'Kachirho',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [-572, 18, -128],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1140,7 +1140,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: "Rodian Hunters' Camp",
     description: "Rodian Hunters' Camp",
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [706, 23, -626],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1148,7 +1148,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: 'Rryatt Trail',
     description: 'Rryatt Trail',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [-79, 19, 784],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1156,7 +1156,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: 'Slaver Camp',
     description: 'Slaver Camp',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [147, 18, 159],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1164,7 +1164,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: 'Slaver Camp',
     description: 'Slaver Camp',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [536, 24, 253],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1199,7 +1199,7 @@ const pointsOfInterest: Waypoint[] = [
   {
     name: 'Isolationist Wookiee Village',
     description: 'Isolationist Wookiee Village',
-    planet: 'kashyyyk_main',
+    planet: 'kashyyyk',
     location: [307, 33, -189],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
@@ -1513,7 +1513,7 @@ const pointsOfInterest: Waypoint[] = [
     name: 'Mining Fields',
     description: 'The mining fields are the primary operating area for the Mensix Mining Company.',
     planet: 'mustafar',
-    location: [-2226, 134, 559],
+    location: [643, 134, -2408],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -1696,7 +1696,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       'This is the central hub of activity on this continent of Mustafar. From here the mining corporation controls their droids and workers to make sure they work as efficiently as possible. This is also where visitors to Mustafar arrive and the cantina in the center of the facility can at any time be the meeting place for both legal and illegal business deals.',
     planet: 'mustafar',
-    location: [-2525, 224, 1655],
+    location: [355, 0, -1320],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -1740,7 +1740,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       'This is an old mining facility that is no longer in use, abandoned after a battle some years ago destroyed many of its functions.',
     planet: 'mustafar',
-    location: [-1850, 211, 820],
+    location: [1002, 211, -2135],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -1898,7 +1898,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       'The Smoking Forest was once thick with black smoke that billowed out of rock chimneys. The area has grown silent over the years, and the black smoke has stopped pour out of the rock formations but the name has stuck.',
     planet: 'mustafar',
-    location: [-5166, 246, 4723],
+    location: [-2321, 0, 1757],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -2302,7 +2302,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       'This is one of the larger mining camps on this continent of Mustafar. Apparently the workers there are currently on strike, which must cost the corporation owning it a fortune.',
     planet: 'mustafar',
-    location: [-5335, 291, 4430],
+    location: [-2461, 291, 1450],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -2531,7 +2531,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       'The Tulrus Nesting Grounds are the domain of the large and dangerous tulrus. There are only two other creatures who seem to fair very well on the island, one is the vicious jundak and the other is the Sher Kar, which uses the large tulrus as a steady supply of fresh game.',
     planet: 'mustafar',
-    location: [-1735, 105, 3621],
+    location: [1148, 105, 639],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },
@@ -2549,7 +2549,7 @@ const pointsOfInterest: Waypoint[] = [
     description:
       "This is the site of an old crashed star ship. It was long ago excavated and stripped of most things but maybe there's still something useful out there.",
     planet: 'mustafar',
-    location: [-2685, 141, 3265],
+    location: [227, 141, 276],
     serverId: null,
     type: WaypointType.PointOfInterestWaypoint,
   },

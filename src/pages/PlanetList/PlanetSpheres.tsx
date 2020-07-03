@@ -48,22 +48,44 @@ const CameraViewportManager = () => {
   return null;
 };
 
+class NullRenderErrorCatch extends React.Component {
+  state = {
+    hasError: false,
+  };
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) return null;
+
+    return this.props.children;
+  }
+}
+
 const PlanetSpheres = () => {
+  // Catch lack of webgl and other faults
   return (
-    <Canvas colorManagement orthographic noEvents className="planetSelection3DCanvas">
-      <CameraViewportManager />
-      <pointLight intensity={0.4} position={[512, 512, -900]} />
-      <Suspense fallback={null}>
-        {mapConfigs.map(({ id, travelMapConfig }) => (
-          <Planet
-            key={id}
-            position={[travelMapConfig.x, travelMapConfig.y, 0]}
-            radius={travelMapConfig.radius}
-            planetImageUrl={travelMapConfig.planetTexture}
-          />
-        ))}
-      </Suspense>
-    </Canvas>
+    <NullRenderErrorCatch>
+      <Canvas colorManagement orthographic noEvents className="planetSelection3DCanvas">
+        <CameraViewportManager />
+        <pointLight intensity={0.4} position={[512, 512, -900]} />
+        <Suspense fallback={null}>
+          {mapConfigs.map(
+            ({ id, travelMapConfig }) =>
+              travelMapConfig && (
+                <Planet
+                  key={id}
+                  position={[travelMapConfig.x, travelMapConfig.y, 0]}
+                  radius={travelMapConfig.radius}
+                  planetImageUrl={travelMapConfig.planetTexture}
+                />
+              )
+          )}
+        </Suspense>
+      </Canvas>
+    </NullRenderErrorCatch>
   );
 };
 
