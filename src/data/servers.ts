@@ -12,10 +12,6 @@ const servers: readonly Server[] = [
     serverId: 'legends',
     displayName: 'Legends',
   },
-  {
-    serverId: 'basilisk',
-    displayName: 'Basilisk',
-  },
 ];
 
 export default servers;
