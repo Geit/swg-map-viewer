@@ -15,8 +15,7 @@
       ":timezone(Europe/London)"
     ],
     "schedule": [
-      "after 9pm every weekday except on Friday",
-      "before 8am every weekday"
+      "before 8am"
     ],
     "packageRules": [
       {
