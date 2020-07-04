@@ -242,6 +242,63 @@ const defaultCities: readonly CityWaypoint[] = [
     serverId: null,
     type: WaypointType.City,
   },
+  {
+    name: 'Anchorhead',
+    description: null,
+    planet: 'tatooine',
+    location: [93, 0, -5359],
+    serverId: null,
+    type: WaypointType.City,
+  },
+  {
+    name: 'Bestine',
+    description: null,
+    planet: 'tatooine',
+    location: [-1097, 0, -3593],
+    serverId: null,
+    type: WaypointType.City,
+  },
+  {
+    name: 'Mos Eisley',
+    description: null,
+    planet: 'tatooine',
+    location: [3528, 0, -4804],
+    serverId: null,
+    type: WaypointType.City,
+  },
+  {
+    name: 'Mos Entha',
+    description: null,
+    planet: 'tatooine',
+    location: [1286, 0, 3131],
+    serverId: null,
+    type: WaypointType.City,
+  },
+  {
+    name: 'Mos Espa',
+    description: null,
+    planet: 'tatooine',
+    location: [-2899, 0, 2124],
+    serverId: null,
+    type: WaypointType.City,
+  },
+  {
+    name: 'Mos Talkie',
+    description: null,
+    planet: 'tatooine',
+    location: [3791, 0, 2362],
+    serverId: null,
+    type: WaypointType.City,
+  },
+
+  {
+    name: 'Wayfar',
+    description: null,
+    planet: 'tatooine',
+    location: [-5140, 0, -6554],
+    serverId: null,
+    type: WaypointType.City,
+  },
 ];
 
 export default defaultCities;
