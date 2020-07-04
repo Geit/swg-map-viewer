@@ -48,11 +48,15 @@ async function generateTiles() {
       await asyncExec(
         `python3 ${gdalPath} -l -p raster -w none -z 0-${map.raster.maxZoom} ${imagePath} ${tileOutBasePath}`
       );
-      console.log(`Optimizing generated tiles for ${map.displayName}`);
 
-      await asyncExec(
-        `find ${tileOutBasePath} -name '*.png' -print0 | xargs -0 -P8 -L1 pngquant --ext .png --force 256`
-      );
+      if (!process.env.DISABLE_OPTIMIZATION) {
+        console.log(`Optimizing generated tiles for ${map.displayName}`);
+
+        await asyncExec(
+          `find ${tileOutBasePath} -name '*.png' -print0 | xargs -0 -P8 -L1 pngquant --ext .png --force 256`
+        );
+      }
+
       console.log(`Tiles sucesfully generated for ${map.displayName}`);
     } catch (err) {
       console.error(`Failed to generate tiles for ${map.displayName}.`);
