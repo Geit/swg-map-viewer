@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Icon } from 'leaflet';
 import { Tooltip, Popup, Marker, Circle } from 'react-leaflet';
 import CopyToClipboard from 'react-copy-to-clipboard';
-import { Button } from '@material-ui/core';
+import { Button, Box } from '@material-ui/core';
 
 import { WaypointType } from '../enums';
 import { Waypoint } from '../data/waypoints';
@@ -34,9 +34,11 @@ const GenericWaypointPopup: React.FC<WaypointMarkerRenderProps> = ({ waypoint, m
     </h3>
     {waypoint.description}
 
-    <CopyToClipboard text={waypointGenerator(waypoint.name, waypoint.location, map)}>
-      <Button color="primary">Copy as Waypoint</Button>
-    </CopyToClipboard>
+    <Box>
+      <CopyToClipboard text={waypointGenerator(waypoint.name, waypoint.location, map)}>
+        <Button color="primary">Copy as Waypoint</Button>
+      </CopyToClipboard>
+    </Box>
   </Popup>
 );
 
@@ -148,9 +150,11 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
             </ul>
           )}
 
-          <CopyToClipboard text={waypointGenerator(waypoint.name, waypoint.location, map)}>
-            <Button color="primary">Copy as Waypoint</Button>
-          </CopyToClipboard>
+          <Box>
+            <CopyToClipboard text={waypointGenerator(waypoint.name, waypoint.location, map)}>
+              <Button color="primary">Copy as Waypoint</Button>
+            </CopyToClipboard>
+          </Box>
         </Popup>
       </Marker>
     );
@@ -174,7 +178,7 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
             Part of the collection: <strong>{waypoint.extraAttributes.collection}</strong>
           </p>
           {waypoint.description}
-          <div>
+          <Box>
             <CopyToClipboard
               text={waypointGenerator(
                 `${waypoint.extraAttributes.collection} ${waypoint.name}`,
@@ -185,7 +189,7 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
             >
               <Button color="primary">Copy as Waypoint</Button>
             </CopyToClipboard>
-          </div>
+          </Box>
         </Popup>
       </Marker>
     );
