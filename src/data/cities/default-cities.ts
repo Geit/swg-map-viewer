@@ -8,7 +8,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [1616, 0, 2895],
     planet: 'naboo',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: "Dee'ja Peak",
@@ -16,7 +16,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [5325, 0, -1586],
     planet: 'naboo',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Kaadara',
@@ -24,7 +24,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [5210, 0, 6677],
     planet: 'naboo',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Lake Retreat',
@@ -32,7 +32,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-5499, 0, -27],
     planet: 'naboo',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Moenia',
@@ -40,7 +40,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [4796, 0, -4696],
     planet: 'naboo',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Theed',
@@ -48,7 +48,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-5495, 0, 4351],
     planet: 'naboo',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -57,7 +57,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [5287, 0, 5700],
     planet: 'rori',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Narmle',
@@ -65,7 +65,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-5307, 0, -2221],
     planet: 'rori',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Rebel Military Outpost',
@@ -73,7 +73,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [3681, 0, -6443],
     planet: 'rori',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -82,7 +82,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [419, 0, 5215],
     planet: 'lok',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -91,7 +91,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [3224, 0, -3470],
     planet: 'endor',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Smuggler Outpost',
@@ -99,7 +99,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-886, 0, 1588],
     planet: 'endor',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -108,7 +108,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-638, 0, 2482],
     planet: 'dantooine',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Imperial Outpost',
@@ -116,7 +116,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-4224, 0, -2400],
     planet: 'dantooine',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Pirate Outpost',
@@ -124,7 +124,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [1588, 0, -6399],
     planet: 'dantooine',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -133,7 +133,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [435, 0, -2976],
     planet: 'talus',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Nashal',
@@ -141,7 +141,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [4452, 0, 5284],
     planet: 'talus',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Imperial Military Outpost',
@@ -149,7 +149,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-2198, 0, 2301],
     planet: 'talus',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -158,7 +158,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-137, 0, -4723],
     planet: 'corellia',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Tyrena',
@@ -166,7 +166,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-5043, 0, -2294],
     planet: 'corellia',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Doaba Guerfel',
@@ -174,7 +174,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [3338, 0, 5530],
     planet: 'corellia',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Bela Vistal',
@@ -182,7 +182,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [6756, 0, -5611],
     planet: 'corellia',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Kor Vella',
@@ -190,7 +190,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-3137, 0, 2806],
     planet: 'corellia',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -199,7 +199,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-92, 0, -1609],
     planet: 'dathomir',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Trade Outpost',
@@ -207,7 +207,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [616, 0, 3092],
     planet: 'dathomir',
-    serverId: null,
+    serverIds: null,
   },
 
   {
@@ -216,7 +216,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-6922, 0, -5724],
     planet: 'yavin4',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Imperial Outpost',
@@ -224,7 +224,7 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [4050, 0, -6216],
     planet: 'yavin4',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Mining Outpost',
@@ -232,14 +232,14 @@ const defaultCities: readonly CityWaypoint[] = [
     type: WaypointType.City,
     location: [-269, 0, 4896],
     planet: 'yavin4',
-    serverId: null,
+    serverIds: null,
   },
   {
     name: 'Kachirho',
     description: null,
     planet: 'kashyyyk',
     location: [-572, 18, -128],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
   {
@@ -247,7 +247,7 @@ const defaultCities: readonly CityWaypoint[] = [
     description: null,
     planet: 'tatooine',
     location: [93, 0, -5359],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
   {
@@ -255,7 +255,7 @@ const defaultCities: readonly CityWaypoint[] = [
     description: null,
     planet: 'tatooine',
     location: [-1097, 0, -3593],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
   {
@@ -263,7 +263,7 @@ const defaultCities: readonly CityWaypoint[] = [
     description: null,
     planet: 'tatooine',
     location: [3528, 0, -4804],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
   {
@@ -271,7 +271,7 @@ const defaultCities: readonly CityWaypoint[] = [
     description: null,
     planet: 'tatooine',
     location: [1286, 0, 3131],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
   {
@@ -279,7 +279,7 @@ const defaultCities: readonly CityWaypoint[] = [
     description: null,
     planet: 'tatooine',
     location: [-2899, 0, 2124],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
   {
@@ -287,7 +287,7 @@ const defaultCities: readonly CityWaypoint[] = [
     description: null,
     planet: 'tatooine',
     location: [3791, 0, 2362],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
 
@@ -296,7 +296,7 @@ const defaultCities: readonly CityWaypoint[] = [
     description: null,
     planet: 'tatooine',
     location: [-5140, 0, -6554],
-    serverId: null,
+    serverIds: null,
     type: WaypointType.City,
   },
 ];
