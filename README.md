@@ -1,4 +1,4 @@
-# <img height="32" src="./public/swg.svg"> Star Wars Galaxies Map Viewer
+# <img height="32" src="./src/components/swg.svg"> Star Wars Galaxies Map Viewer
 A Map Viewer for Star Wars Galaxies. Uses [Leaflet](https://leafletjs.com/) to allow the original Planets from Galaxies to be richly annotated with waypoints, markers and other content.
 
 The Planet Selection screen is powered by [ThreeJS](https://threejs.org/), and [react-three-fiber](https://github.com/react-spring/react-three-fiber).
