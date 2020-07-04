@@ -1,0 +1,27 @@
+{
+    "masterIssue": true,
+    "extends": [
+      "config:base",
+      ":automergePatch",
+      ":automergeMinor",
+      ":automergeBranch",
+      ":combinePatchMinorReleases",
+      ":rebaseStalePrs",
+      ":prHourlyLimit2",
+      ":prConcurrentLimit10",
+      ":maintainLockFilesWeekly",
+      ":enableVulnerabilityAlerts",
+      ":masterIssue",
+      ":timezone(Europe/London)"
+    ],
+    "schedule": [
+      "after 9pm every weekday except on Friday",
+      "before 8am every weekday"
+    ],
+    "packageRules": [
+      {
+        "packagePatterns": ["^@types"],
+        "rangeStrategy": "update-lockfile"
+      }
+    ]
+  }
