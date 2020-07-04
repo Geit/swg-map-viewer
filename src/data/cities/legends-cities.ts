@@ -6,7 +6,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'NEW ASYLUM',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2948, 0, -2740],
     planet: 'dantooine',
     extraAttributes: {
@@ -18,7 +18,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Jack City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6252, 0, 2244],
     planet: 'talus',
     extraAttributes: {
@@ -30,7 +30,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Eureka',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4852, 0, 4620],
     planet: 'corellia',
     extraAttributes: {
@@ -42,7 +42,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Gryphon's Crossroads",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1564, 0, -1420],
     planet: 'corellia',
     extraAttributes: {
@@ -54,7 +54,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Freeport VII',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5252, 0, 3076],
     planet: 'naboo',
     extraAttributes: {
@@ -66,7 +66,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'LUCK',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2572, 0, -2596],
     planet: 'corellia',
     extraAttributes: {
@@ -78,7 +78,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Defiant',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3028, 0, 3500],
     planet: 'lok',
     extraAttributes: {
@@ -90,7 +90,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Black Sun',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [356, 0, 3564],
     planet: 'talus',
     extraAttributes: {
@@ -102,7 +102,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Lakeside Retreat',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3620, 0, -844],
     planet: 'dantooine',
     extraAttributes: {
@@ -114,7 +114,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Sith-Sanctum',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5836, 0, 7076],
     planet: 'dantooine',
     extraAttributes: {
@@ -126,7 +126,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Dreamside',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [7100, 0, -6084],
     planet: 'rori',
     extraAttributes: {
@@ -138,7 +138,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'TEMPLAR',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5148, 0, -100],
     planet: 'dantooine',
     extraAttributes: {
@@ -150,7 +150,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'River Grove',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4916, 0, 2156],
     planet: 'corellia',
     extraAttributes: {
@@ -162,7 +162,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Meridian',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3676, 0, 4404],
     planet: 'talus',
     extraAttributes: {
@@ -174,7 +174,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Imp Naval Squad',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6540, 0, 132],
     planet: 'lok',
     extraAttributes: {
@@ -186,7 +186,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Difensore Baia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-7092, 0, -1140],
     planet: 'dantooine',
     extraAttributes: {
@@ -198,7 +198,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Hidden Cove',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4596, 0, 2124],
     planet: 'talus',
     extraAttributes: {
@@ -210,7 +210,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Fisherman's Cove",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [36, 0, 1708],
     planet: 'dantooine',
     extraAttributes: {
@@ -222,7 +222,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Absaroka',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4900, 0, 4100],
     planet: 'dantooine',
     extraAttributes: {
@@ -234,7 +234,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Misery',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6132, 0, -5012],
     planet: 'lok',
     extraAttributes: {
@@ -246,7 +246,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Mos Quito',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3004, 0, -308],
     planet: 'tatooine',
     extraAttributes: {
@@ -258,7 +258,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Astoria Bay',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2500, 0, 5620],
     planet: 'naboo',
     extraAttributes: {
@@ -270,7 +270,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Knowhere',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1084, 0, -900],
     planet: 'lok',
     extraAttributes: {
@@ -282,7 +282,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Blackstar Outpost',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3852, 0, -5604],
     planet: 'dantooine',
     extraAttributes: {
@@ -294,7 +294,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'White Sands',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1780, 0, -4692],
     planet: 'tatooine',
     extraAttributes: {
@@ -306,7 +306,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Mos Vanta',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3628, 0, -7540],
     planet: 'tatooine',
     extraAttributes: {
@@ -318,7 +318,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Dodge City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [372, 0, 2388],
     planet: 'lok',
     extraAttributes: {
@@ -330,7 +330,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Fumducks',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4300, 0, -772],
     planet: 'lok',
     extraAttributes: {
@@ -342,7 +342,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Hive',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-868, 0, 3700],
     planet: 'lok',
     extraAttributes: {
@@ -354,7 +354,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Rhuidean',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6180, 0, 484],
     planet: 'dantooine',
     extraAttributes: {
@@ -366,7 +366,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Zion',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5548, 0, 108],
     planet: 'talus',
     extraAttributes: {
@@ -378,7 +378,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Valley of Shadows',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6124, 0, -3020],
     planet: 'lok',
     extraAttributes: {
@@ -390,7 +390,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Kor Spera',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4004, 0, -4324],
     planet: 'dantooine',
     extraAttributes: {
@@ -402,7 +402,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Inexplicitus',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1748, 0, 4340],
     planet: 'talus',
     extraAttributes: {
@@ -414,7 +414,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Tempest Outpost',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6444, 0, 1540],
     planet: 'tatooine',
     extraAttributes: {
@@ -426,7 +426,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Cant Touch This',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2572, 0, 5332],
     planet: 'dantooine',
     extraAttributes: {
@@ -438,7 +438,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Windfall',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3924, 0, -3284],
     planet: 'dantooine',
     extraAttributes: {
@@ -450,7 +450,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Novigrad',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [7156, 0, 5028],
     planet: 'naboo',
     extraAttributes: {
@@ -462,7 +462,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Arkham',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4508, 0, 852],
     planet: 'lok',
     extraAttributes: {
@@ -474,7 +474,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Crusher's Junction",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-732, 0, -236],
     planet: 'corellia',
     extraAttributes: {
@@ -486,7 +486,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "T'A'C'O'B'E'L'L",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-7100, 0, -4820],
     planet: 'corellia',
     extraAttributes: {
@@ -498,7 +498,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Ghetto Topia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5108, 0, -60],
     planet: 'dantooine',
     extraAttributes: {
@@ -510,7 +510,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Thar's Rest",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3668, 0, 1076],
     planet: 'lok',
     extraAttributes: {
@@ -522,7 +522,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Cobalt',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-604, 0, -372],
     planet: 'dantooine',
     extraAttributes: {
@@ -534,7 +534,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Dosha',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2612, 0, 252],
     planet: 'corellia',
     extraAttributes: {
@@ -546,7 +546,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Cydonia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5372, 0, -2252],
     planet: 'corellia',
     extraAttributes: {
@@ -558,7 +558,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Na'alehu",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-68, 0, -5748],
     planet: 'talus',
     extraAttributes: {
@@ -570,7 +570,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Napa Valley',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [844, 0, -3204],
     planet: 'corellia',
     extraAttributes: {
@@ -582,7 +582,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Outlaw Highlands',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2540, 0, 6412],
     planet: 'dantooine',
     extraAttributes: {
@@ -594,7 +594,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Midnight City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1900, 0, -5924],
     planet: 'lok',
     extraAttributes: {
@@ -606,7 +606,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: '-DCT-',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1308, 0, 716],
     planet: 'lok',
     extraAttributes: {
@@ -618,7 +618,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'NECROPOLIS OF DEAD',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5092, 0, 6628],
     planet: 'dantooine',
     extraAttributes: {
@@ -630,7 +630,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Purgatorie',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-276, 0, -3028],
     planet: 'dantooine',
     extraAttributes: {
@@ -642,7 +642,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Kum-Surgun',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [148, 0, -4364],
     planet: 'lok',
     extraAttributes: {
@@ -654,7 +654,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Deadwood',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1900, 0, -7396],
     planet: 'corellia',
     extraAttributes: {
@@ -666,7 +666,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Senate Exile',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3548, 0, -4996],
     planet: 'rori',
     extraAttributes: {
@@ -678,7 +678,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'JUBA CORP',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4292, 0, 4660],
     planet: 'lok',
     extraAttributes: {
@@ -690,7 +690,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Eucalyptus',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4660, 0, -2348],
     planet: 'tatooine',
     extraAttributes: {
@@ -702,7 +702,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Levitation',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5780, 0, -1196],
     planet: 'corellia',
     extraAttributes: {
@@ -714,7 +714,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Rising Sun',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3596, 0, 812],
     planet: 'tatooine',
     extraAttributes: {
@@ -726,7 +726,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Glee Factory District',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2436, 0, -7204],
     planet: 'dantooine',
     extraAttributes: {
@@ -738,7 +738,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Riverside',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4652, 0, 2356],
     planet: 'lok',
     extraAttributes: {
@@ -750,7 +750,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Cliffside',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3900, 0, 7244],
     planet: 'dantooine',
     extraAttributes: {
@@ -762,7 +762,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Sulphuris',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3636, 0, 4780],
     planet: 'lok',
     extraAttributes: {
@@ -774,7 +774,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Las Venturas',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1996, 0, -3348],
     planet: 'dantooine',
     extraAttributes: {
@@ -786,7 +786,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'JET',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1452, 0, 6084],
     planet: 'dantooine',
     extraAttributes: {
@@ -798,7 +798,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Clan Varad',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3588, 0, 3100],
     planet: 'lok',
     extraAttributes: {
@@ -810,7 +810,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Krakatoa',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2052, 0, 3532],
     planet: 'lok',
     extraAttributes: {
@@ -822,7 +822,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Tylas',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1012, 0, -2972],
     planet: 'dantooine',
     extraAttributes: {
@@ -834,7 +834,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Doom Plains',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3412, 0, 5524],
     planet: 'lok',
     extraAttributes: {
@@ -846,7 +846,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Grey Fox Forest',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4940, 0, 364],
     planet: 'rori',
     extraAttributes: {
@@ -858,7 +858,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Brazzars',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1236, 0, 308],
     planet: 'talus',
     extraAttributes: {
@@ -870,7 +870,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'TombStone',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [644, 0, -692],
     planet: 'talus',
     extraAttributes: {
@@ -882,7 +882,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'S-A-V-A-G-E',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6636, 0, 452],
     planet: 'rori',
     extraAttributes: {
@@ -894,7 +894,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Vaylin Valley',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5356, 0, -5300],
     planet: 'lok',
     extraAttributes: {
@@ -906,7 +906,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Terror Dome',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1436, 0, 5188],
     planet: 'rori',
     extraAttributes: {
@@ -918,7 +918,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'BD Energy',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1764, 0, -692],
     planet: 'rori',
     extraAttributes: {
@@ -930,7 +930,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Ilum',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1180, 0, 1084],
     planet: 'dantooine',
     extraAttributes: {
@@ -942,7 +942,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Abbotsford',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3748, 0, -3252],
     planet: 'rori',
     extraAttributes: {
@@ -954,7 +954,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Swamp Hollow',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-460, 0, -428],
     planet: 'talus',
     extraAttributes: {
@@ -966,7 +966,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Nomad III',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6340, 0, -4132],
     planet: 'dantooine',
     extraAttributes: {
@@ -978,7 +978,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Wayward',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5044, 0, 5316],
     planet: 'rori',
     extraAttributes: {
@@ -990,7 +990,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Grey Lagoon',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3932, 0, 1260],
     planet: 'rori',
     extraAttributes: {
@@ -1002,7 +1002,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Evaar Yaim',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3740, 0, -5516],
     planet: 'lok',
     extraAttributes: {
@@ -1014,7 +1014,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Lost City of Dosha',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4972, 0, -2044],
     planet: 'lok',
     extraAttributes: {
@@ -1026,7 +1026,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Kobala Outpost',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5284, 0, -5660],
     planet: 'rori',
     extraAttributes: {
@@ -1038,7 +1038,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'City of Lost Souls',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6156, 0, -6340],
     planet: 'rori',
     extraAttributes: {
@@ -1050,7 +1050,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Space Town',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1100, 0, -5972],
     planet: 'dantooine',
     extraAttributes: {
@@ -1062,7 +1062,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Smegville',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3452, 0, -4572],
     planet: 'naboo',
     extraAttributes: {
@@ -1074,7 +1074,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Darker Waters',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2172, 0, -1308],
     planet: 'talus',
     extraAttributes: {
@@ -1086,7 +1086,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Smuggler's Cove",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-980, 0, 2172],
     planet: 'dantooine',
     extraAttributes: {
@@ -1098,7 +1098,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Grey Fox Dunes',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5724, 0, 4972],
     planet: 'tatooine',
     extraAttributes: {
@@ -1110,7 +1110,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Valcyn',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3652, 0, -428],
     planet: 'talus',
     extraAttributes: {
@@ -1122,7 +1122,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Binring Bio Products',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3028, 0, -2020],
     planet: 'rori',
     extraAttributes: {
@@ -1134,7 +1134,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Draco Corvo',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1220, 0, 3100],
     planet: 'dantooine',
     extraAttributes: {
@@ -1146,7 +1146,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "D'Hara",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2332, 0, -1436],
     planet: 'rori',
     extraAttributes: {
@@ -1158,7 +1158,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Fort Anaxes',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-524, 0, 3964],
     planet: 'tatooine',
     extraAttributes: {
@@ -1170,7 +1170,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Mos Ferun',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4340, 0, -52],
     planet: 'tatooine',
     extraAttributes: {
@@ -1182,7 +1182,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Outer Haven',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [60, 0, 5588],
     planet: 'talus',
     extraAttributes: {
@@ -1194,7 +1194,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Another Dimension',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-36, 0, 652],
     planet: 'naboo',
     extraAttributes: {
@@ -1206,7 +1206,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Valley of Death',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3316, 0, -6036],
     planet: 'tatooine',
     extraAttributes: {
@@ -1218,7 +1218,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Eclipse',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2268, 0, -212],
     planet: 'naboo',
     extraAttributes: {
@@ -1230,7 +1230,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Jayne's Town",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3036, 0, -7308],
     planet: 'rori',
     extraAttributes: {
@@ -1242,7 +1242,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'RED HILL',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3364, 0, -2164],
     planet: 'talus',
     extraAttributes: {
@@ -1254,7 +1254,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Redemption',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3828, 0, -1532],
     planet: 'lok',
     extraAttributes: {
@@ -1266,7 +1266,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Freedom City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2156, 0, -6604],
     planet: 'tatooine',
     extraAttributes: {
@@ -1278,7 +1278,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Mos CHAOS',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1860, 0, 916],
     planet: 'tatooine',
     extraAttributes: {
@@ -1290,7 +1290,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Ann Arbor',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4092, 0, -828],
     planet: 'talus',
     extraAttributes: {
@@ -1302,7 +1302,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Coalition of Bots',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4156, 0, -3180],
     planet: 'talus',
     extraAttributes: {
@@ -1314,7 +1314,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Dark Laboratories',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5044, 0, -1548],
     planet: 'talus',
     extraAttributes: {
@@ -1326,7 +1326,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Smuggler's Run",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3244, 0, 2588],
     planet: 'naboo',
     extraAttributes: {
@@ -1338,7 +1338,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Pirates Cove',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1828, 0, 796],
     planet: 'dantooine',
     extraAttributes: {
@@ -1350,7 +1350,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Stars End',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2612, 0, -4532],
     planet: 'talus',
     extraAttributes: {
@@ -1362,7 +1362,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Chupacabra',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2236, 0, -5820],
     planet: 'lok',
     extraAttributes: {
@@ -1374,7 +1374,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Zarf's Pizzeria",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5420, 0, -3972],
     planet: 'talus',
     extraAttributes: {
@@ -1386,7 +1386,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Sandy View Moisture Farm',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2348, 0, 876],
     planet: 'tatooine',
     extraAttributes: {
@@ -1398,7 +1398,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Mirage',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [316, 0, -5820],
     planet: 'naboo',
     extraAttributes: {
@@ -1410,7 +1410,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'South Crimson City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2788, 0, -3076],
     planet: 'talus',
     extraAttributes: {
@@ -1422,7 +1422,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Valley of POWER',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2772, 0, 1140],
     planet: 'lok',
     extraAttributes: {
@@ -1434,7 +1434,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Zions Gate',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5596, 0, -2716],
     planet: 'dantooine',
     extraAttributes: {
@@ -1446,7 +1446,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Rivermont',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3428, 0, -6252],
     planet: 'rori',
     extraAttributes: {
@@ -1458,7 +1458,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Duneridge',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5004, 0, -3500],
     planet: 'tatooine',
     extraAttributes: {
@@ -1470,7 +1470,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Sin Laboratories',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4948, 0, 3652],
     planet: 'talus',
     extraAttributes: {
@@ -1482,7 +1482,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Cadia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3276, 0, 3348],
     planet: 'talus',
     extraAttributes: {
@@ -1494,7 +1494,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Aurillian Outpost',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5108, 0, 2388],
     planet: 'talus',
     extraAttributes: {
@@ -1506,7 +1506,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Forged',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6468, 0, -2308],
     planet: 'lok',
     extraAttributes: {
@@ -1518,7 +1518,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Katana Enclave',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3020, 0, 1460],
     planet: 'talus',
     extraAttributes: {
@@ -1530,7 +1530,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Lurark',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [612, 0, 3780],
     planet: 'corellia',
     extraAttributes: {
@@ -1542,7 +1542,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Ossus-Le-Vieux',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4636, 0, 6756],
     planet: 'tatooine',
     extraAttributes: {
@@ -1554,7 +1554,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Flame's Hold",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2004, 0, 1940],
     planet: 'talus',
     extraAttributes: {
@@ -1566,7 +1566,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Army Command',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [7156, 0, -6420],
     planet: 'naboo',
     extraAttributes: {
@@ -1578,7 +1578,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Sin City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2004, 0, -2244],
     planet: 'lok',
     extraAttributes: {
@@ -1590,7 +1590,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Hamunaptra',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4756, 0, -2396],
     planet: 'lok',
     extraAttributes: {
@@ -1602,7 +1602,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Solitude Base',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3364, 0, 7116],
     planet: 'tatooine',
     extraAttributes: {
@@ -1614,7 +1614,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Compton',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-556, 0, -1644],
     planet: 'tatooine',
     extraAttributes: {
@@ -1626,7 +1626,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Magnolia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2220, 0, 1300],
     planet: 'talus',
     extraAttributes: {
@@ -1638,7 +1638,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Paradise City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5836, 0, -1044],
     planet: 'lok',
     extraAttributes: {
@@ -1650,7 +1650,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Liberty',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6140, 0, -3252],
     planet: 'rori',
     extraAttributes: {
@@ -1662,7 +1662,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Phoenix',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [988, 0, 5692],
     planet: 'tatooine',
     extraAttributes: {
@@ -1674,7 +1674,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Thunder Dome',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1332, 0, 2572],
     planet: 'rori',
     extraAttributes: {
@@ -1686,7 +1686,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "World's End",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-7244, 0, 2156],
     planet: 'naboo',
     extraAttributes: {
@@ -1698,7 +1698,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Trae's crib",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4004, 0, -6252],
     planet: 'rori',
     extraAttributes: {
@@ -1710,7 +1710,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Slackphonia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3292, 0, 756],
     planet: 'naboo',
     extraAttributes: {
@@ -1722,7 +1722,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Hunters Landing',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2892, 0, -5884],
     planet: 'talus',
     extraAttributes: {
@@ -1734,7 +1734,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Dawn',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-932, 0, 4332],
     planet: 'rori',
     extraAttributes: {
@@ -1746,7 +1746,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Paradox',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [380, 0, -5012],
     planet: 'dantooine',
     extraAttributes: {
@@ -1758,7 +1758,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Bastion',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1052, 0, -5364],
     planet: 'naboo',
     extraAttributes: {
@@ -1770,7 +1770,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Rapture',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3772, 0, 3836],
     planet: 'naboo',
     extraAttributes: {
@@ -1782,7 +1782,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Radiant Moon',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4828, 0, 3076],
     planet: 'dantooine',
     extraAttributes: {
@@ -1794,7 +1794,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Burgerland',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2276, 0, 2332],
     planet: 'lok',
     extraAttributes: {
@@ -1806,7 +1806,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Corby Village',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2932, 0, -5668],
     planet: 'talus',
     extraAttributes: {
@@ -1818,7 +1818,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Narusawa Outpost',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5132, 0, -6404],
     planet: 'rori',
     extraAttributes: {
@@ -1830,7 +1830,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'MULTI-PASS',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [796, 0, 1324],
     planet: 'lok',
     extraAttributes: {
@@ -1842,7 +1842,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Dark Haven',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6124, 0, -1124],
     planet: 'talus',
     extraAttributes: {
@@ -1854,7 +1854,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Heroes Legacy',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1340, 0, 636],
     planet: 'talus',
     extraAttributes: {
@@ -1866,7 +1866,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Aurilia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3580, 0, -7268],
     planet: 'rori',
     extraAttributes: {
@@ -1878,7 +1878,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'saraphem',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3596, 0, -1300],
     planet: 'dantooine',
     extraAttributes: {
@@ -1890,7 +1890,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'NewHope',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5132, 0, -4508],
     planet: 'talus',
     extraAttributes: {
@@ -1902,7 +1902,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'OffTheGrid',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4188, 0, 1948],
     planet: 'rori',
     extraAttributes: {
@@ -1914,7 +1914,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Mount Phoenix',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3620, 0, -4820],
     planet: 'rori',
     extraAttributes: {
@@ -1926,7 +1926,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Haisting's Cutoff",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5164, 0, -3916],
     planet: 'lok',
     extraAttributes: {
@@ -1938,7 +1938,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'JEDl TEMPLE',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2740, 0, 3908],
     planet: 'dantooine',
     extraAttributes: {
@@ -1950,7 +1950,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Wrage Outpost',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1820, 0, 4932],
     planet: 'dantooine',
     extraAttributes: {
@@ -1962,7 +1962,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Shadow Lake',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1532, 0, -644],
     planet: 'dantooine',
     extraAttributes: {
@@ -1974,7 +1974,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Canton',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1148, 0, 1252],
     planet: 'corellia',
     extraAttributes: {
@@ -1986,7 +1986,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Utopia',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-780, 0, -3676],
     planet: 'talus',
     extraAttributes: {
@@ -1998,7 +1998,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Chinon -NRA- Capitol',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-12, 0, -2340],
     planet: 'lok',
     extraAttributes: {
@@ -2010,7 +2010,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Outlaws' Sanctum",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1268, 0, -5228],
     planet: 'rori',
     extraAttributes: {
@@ -2022,7 +2022,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Ikopi Ridge',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2196, 0, 6516],
     planet: 'rori',
     extraAttributes: {
@@ -2034,7 +2034,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Los Lunas',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6204, 0, 5548],
     planet: 'lok',
     extraAttributes: {
@@ -2046,7 +2046,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Imperium',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6284, 0, 5836],
     planet: 'rori',
     extraAttributes: {
@@ -2058,7 +2058,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Maternix',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2684, 0, -1988],
     planet: 'dantooine',
     extraAttributes: {
@@ -2070,7 +2070,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Infinity Island',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2116, 0, -4436],
     planet: 'corellia',
     extraAttributes: {
@@ -2082,7 +2082,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Cerulean Skies',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2604, 0, -3916],
     planet: 'corellia',
     extraAttributes: {
@@ -2094,7 +2094,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Phoenix Lake',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2236, 0, -828],
     planet: 'dantooine',
     extraAttributes: {
@@ -2106,7 +2106,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Boreal Valley',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3268, 0, -4308],
     planet: 'lok',
     extraAttributes: {
@@ -2118,7 +2118,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Maple Grove',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3988, 0, 6244],
     planet: 'corellia',
     extraAttributes: {
@@ -2130,7 +2130,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'OrDeR',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3900, 0, 3612],
     planet: 'rori',
     extraAttributes: {
@@ -2142,7 +2142,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Galactic Federation',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4716, 0, 3204],
     planet: 'lok',
     extraAttributes: {
@@ -2154,7 +2154,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Bloodline',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5572, 0, -3708],
     planet: 'lok',
     extraAttributes: {
@@ -2166,7 +2166,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Mount Olympus',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3836, 0, -2724],
     planet: 'talus',
     extraAttributes: {
@@ -2178,7 +2178,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Shev'la Bral",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4084, 0, -5236],
     planet: 'dantooine',
     extraAttributes: {
@@ -2190,7 +2190,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Corbantis',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2532, 0, 4068],
     planet: 'dantooine',
     extraAttributes: {
@@ -2202,7 +2202,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Ultraviolet',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-972, 0, 5908],
     planet: 'naboo',
     extraAttributes: {
@@ -2214,7 +2214,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Barter Town',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3740, 0, 556],
     planet: 'talus',
     extraAttributes: {
@@ -2226,7 +2226,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Starlight',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5924, 0, 364],
     planet: 'lok',
     extraAttributes: {
@@ -2238,7 +2238,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Cambria',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-5300, 0, -1460],
     planet: 'rori',
     extraAttributes: {
@@ -2250,7 +2250,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Aurebesh',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-7108, 0, 5236],
     planet: 'naboo',
     extraAttributes: {
@@ -2262,7 +2262,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Chilastra',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4572, 0, 5524],
     planet: 'naboo',
     extraAttributes: {
@@ -2274,7 +2274,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Parrlay',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5900, 0, 6196],
     planet: 'naboo',
     extraAttributes: {
@@ -2286,7 +2286,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Ruff Forward',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4220, 0, 5940],
     planet: 'rori',
     extraAttributes: {
@@ -2298,7 +2298,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Tau Volantis',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2444, 0, 4948],
     planet: 'lok',
     extraAttributes: {
@@ -2310,7 +2310,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'German Heights',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6164, 0, -1364],
     planet: 'dantooine',
     extraAttributes: {
@@ -2322,7 +2322,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Soggy Bottom',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6060, 0, -748],
     planet: 'rori',
     extraAttributes: {
@@ -2334,7 +2334,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'EPIC FOX',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [252, 0, -1100],
     planet: 'lok',
     extraAttributes: {
@@ -2346,7 +2346,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Celtic Spirit',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3668, 0, 3548],
     planet: 'dantooine',
     extraAttributes: {
@@ -2358,7 +2358,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Tarquinas',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4500, 0, -6116],
     planet: 'lok',
     extraAttributes: {
@@ -2370,7 +2370,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Bean Town',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [852, 0, 1340],
     planet: 'talus',
     extraAttributes: {
@@ -2382,7 +2382,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Savanna',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5972, 0, -5596],
     planet: 'dantooine',
     extraAttributes: {
@@ -2394,7 +2394,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Epimetheus',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [308, 0, -1772],
     planet: 'rori',
     extraAttributes: {
@@ -2406,7 +2406,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Detroit Rock City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-316, 0, -6716],
     planet: 'rori',
     extraAttributes: {
@@ -2418,7 +2418,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Obsidian Oasis',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2972, 0, 2380],
     planet: 'dantooine',
     extraAttributes: {
@@ -2430,7 +2430,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Cauth Bodva',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [164, 0, -4972],
     planet: 'rori',
     extraAttributes: {
@@ -2442,7 +2442,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Neverland Ranch',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6684, 0, -4420],
     planet: 'rori',
     extraAttributes: {
@@ -2454,7 +2454,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Transylvania',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1716, 0, 4300],
     planet: 'corellia',
     extraAttributes: {
@@ -2466,7 +2466,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Danevang',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [516, 0, -4332],
     planet: 'talus',
     extraAttributes: {
@@ -2478,7 +2478,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Darasuum Tome',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4724, 0, -6148],
     planet: 'dantooine',
     extraAttributes: {
@@ -2490,7 +2490,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Outpost Alpha',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2028, 0, -4316],
     planet: 'lok',
     extraAttributes: {
@@ -2502,7 +2502,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Name Goes Here',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6708, 0, -4428],
     planet: 'naboo',
     extraAttributes: {
@@ -2514,7 +2514,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Midian',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6068, 0, -708],
     planet: 'dantooine',
     extraAttributes: {
@@ -2526,7 +2526,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Darkness',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-412, 0, 1692],
     planet: 'talus',
     extraAttributes: {
@@ -2538,7 +2538,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Fort RUFF',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6380, 0, -3228],
     planet: 'corellia',
     extraAttributes: {
@@ -2550,7 +2550,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Crossroads',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [6540, 0, -6852],
     planet: 'dantooine',
     extraAttributes: {
@@ -2562,7 +2562,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Fate of Eighty-Eight',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-7172, 0, 3164],
     planet: 'lok',
     extraAttributes: {
@@ -2574,7 +2574,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: "Beggar's Canyon",
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6620, 0, -4804],
     planet: 'tatooine',
     extraAttributes: {
@@ -2586,7 +2586,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Lurid Dawn Naval Academy',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6276, 0, -6428],
     planet: 'lok',
     extraAttributes: {
@@ -2598,7 +2598,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Darkness Falls',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-2140, 0, -2708],
     planet: 'talus',
     extraAttributes: {
@@ -2610,7 +2610,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Anaxes-Prime',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-620, 0, -1620],
     planet: 'talus',
     extraAttributes: {
@@ -2622,7 +2622,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Sanctuary',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [4148, 0, 2212],
     planet: 'dantooine',
     extraAttributes: {
@@ -2634,7 +2634,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Imperium City',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1996, 0, -508],
     planet: 'talus',
     extraAttributes: {
@@ -2646,7 +2646,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Aaaaahnr Hnnnhrrhhh',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3700, 0, -1828],
     planet: 'lok',
     extraAttributes: {
@@ -2658,7 +2658,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Corusant',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-3884, 0, -4844],
     planet: 'talus',
     extraAttributes: {
@@ -2670,7 +2670,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Whoo Pass',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [932, 0, -5740],
     planet: 'corellia',
     extraAttributes: {
@@ -2682,7 +2682,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Citadel',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-972, 0, 2492],
     planet: 'lok',
     extraAttributes: {
@@ -2694,7 +2694,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Final Frontier',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6060, 0, 500],
     planet: 'talus',
     extraAttributes: {
@@ -2706,7 +2706,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Indomitus',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-6228, 0, -4804],
     planet: 'dantooine',
     extraAttributes: {
@@ -2718,7 +2718,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Symbiosis',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [1460, 0, 204],
     planet: 'lok',
     extraAttributes: {
@@ -2730,7 +2730,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Sunrunner',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-956, 0, -1796],
     planet: 'dantooine',
     extraAttributes: {
@@ -2742,7 +2742,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Lake Genesis',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5084, 0, 1476],
     planet: 'naboo',
     extraAttributes: {
@@ -2754,7 +2754,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Kimo-asis',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [3892, 0, -3172],
     planet: 'lok',
     extraAttributes: {
@@ -2766,7 +2766,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'New Prometheus',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [372, 0, 5244],
     planet: 'naboo',
     extraAttributes: {
@@ -2778,7 +2778,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Shadow Moses',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [7292, 0, 3252],
     planet: 'rori',
     extraAttributes: {
@@ -2790,7 +2790,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Capra',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [5764, 0, -5188],
     planet: 'rori',
     extraAttributes: {
@@ -2802,7 +2802,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Last Stop',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [2180, 0, 3252],
     planet: 'talus',
     extraAttributes: {
@@ -2814,7 +2814,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'Three Rivers',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-4276, 0, -1348],
     planet: 'corellia',
     extraAttributes: {
@@ -2826,7 +2826,7 @@ const legendsCities: readonly CityWaypoint[] = [
     name: 'DTR Outpost',
     description: null,
     type: WaypointType.City,
-    serverId: 'legends',
+    serverIds: ['legends'],
     location: [-1732, 0, -3724],
     planet: 'lok',
     extraAttributes: {

@@ -22,7 +22,8 @@ export default function Planet() {
   if (typeof planet !== 'string' || !mapConfig) return null;
 
   const waypointsForMap = waypoints.filter(
-    waypoint => waypoint.planet === mapConfig.id && (waypoint.serverId === serverId || waypoint.serverId === null)
+    waypoint =>
+      waypoint.planet === mapConfig.id && (waypoint.serverIds?.includes(serverId) || waypoint.serverIds === null)
   );
 
   const isCitySelected =

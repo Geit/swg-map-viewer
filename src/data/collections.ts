@@ -9,7 +9,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5534, 0, -2683],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -20,7 +20,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2302, 0, 5852],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -31,7 +31,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4612, 0, -5810],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -42,7 +42,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2975, 0, 2903],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -53,7 +53,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6555, 0, -3295],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -64,7 +64,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2898, 0, 2275],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -75,7 +75,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2440, 0, 3659],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -86,7 +86,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3189, 0, -3135],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -97,7 +97,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4965, 0, 6996],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -108,7 +108,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6537, 0, -4758],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -119,7 +119,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4909, 0, -6052],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -130,7 +130,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3996, 0, -6224],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -141,7 +141,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6589, 0, 5982],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -152,7 +152,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1129, 0, -3910],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -163,7 +163,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5312, 0, 2650],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -174,7 +174,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2024, 0, -3089],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -185,7 +185,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6313, 0, -535],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -196,7 +196,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-217, 0, 4878],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -207,7 +207,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5127, 0, -2283],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -218,7 +218,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2442, 0, -2210],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -229,7 +229,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4225, 0, -2445],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -240,7 +240,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6385, 0, 929],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -251,7 +251,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3979, 0, 2504],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -262,7 +262,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2164, 0, 2297],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -273,7 +273,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1607, 0, -3546],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -284,7 +284,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1157, 0, 4529],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -295,7 +295,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2724, 0, -7263],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -306,7 +306,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5044, 0, 6665],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -317,7 +317,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5546, 0, -5618],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -328,7 +328,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3852, 0, -5927],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Imperial',
     },
@@ -339,7 +339,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6862, 0, -2227],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -350,7 +350,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3999, 0, 2992],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -361,7 +361,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5357, 0, 5044],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -372,7 +372,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7146, 0, 1133],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -383,7 +383,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3112, 0, -4039],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -394,7 +394,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7466, 0, 380],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -405,7 +405,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [54, 0, -5353],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -416,7 +416,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4368, 0, 975],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -427,7 +427,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6343, 0, -6974],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -438,7 +438,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4701, 0, -4771],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -449,7 +449,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3702, 0, -6477],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -460,7 +460,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6506, 0, 5908],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -471,7 +471,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6631, 0, 5476],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -482,7 +482,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2928, 0, 2573],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -493,7 +493,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6944, 0, -107],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -504,7 +504,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1196, 0, 3248],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -515,7 +515,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4109, 0, -1256],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -526,7 +526,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7461, 0, 7039],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -537,7 +537,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7490, 0, -7089],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -548,7 +548,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5219, 0, 1023],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -559,7 +559,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4757, 0, 3517],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -570,7 +570,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3362, 0, -3811],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -581,7 +581,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-49, 0, 84],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -592,7 +592,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1881, 0, -223],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -603,7 +603,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4071, 0, -5124],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -614,7 +614,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6077, 0, 5943],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -625,7 +625,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5510, 0, 2099],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Armor, Rebel',
     },
@@ -636,7 +636,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3084, 0, -3072],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Beetle Collection',
     },
@@ -647,7 +647,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6453, 0, 897],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Beetle Collection',
     },
@@ -658,7 +658,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3959, 0, 6270],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Beetle Collection',
     },
@@ -669,7 +669,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [328, 0, -1136],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Beetle Collection',
     },
@@ -680,7 +680,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5417, 0, -6271],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Beetle Collection',
     },
@@ -691,7 +691,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7071, 0, -3332],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Beetle Collection',
     },
@@ -702,7 +702,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7054, 0, 7352],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -713,7 +713,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3978, 0, 4389],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -724,7 +724,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6232, 0, -6088],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -735,7 +735,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1166, 0, 2951],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -746,7 +746,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5816, 0, -6395],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -757,7 +757,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3720, 0, -4752],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -768,7 +768,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1913, 0, 3995],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -779,7 +779,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2523, 0, -2862],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -790,7 +790,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7056, 0, -5275],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -801,7 +801,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6191, 0, 908],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Collection',
     },
@@ -812,7 +812,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3393, 0, -4795],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -823,7 +823,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3145, 0, -5039],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -834,7 +834,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3354, 0, -4839],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -845,7 +845,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3332, 0, -4818],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -856,7 +856,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3358, 0, -4779],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -867,7 +867,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3267, 0, -4853],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -878,7 +878,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3309, 0, -4913],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -889,7 +889,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3174, 0, -5034],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -900,7 +900,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3163, 0, -5043],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -911,7 +911,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3186, 0, -5051],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
@@ -922,7 +922,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7013, 0, 3941],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -933,7 +933,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3591, 0, 349],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -944,7 +944,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6228, 0, 3390],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -955,7 +955,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1421, 0, 1986],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -966,7 +966,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3411, 0, -5467],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -977,7 +977,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4506, 0, -6486],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -988,7 +988,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6683, 0, 7268],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -999,7 +999,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3183, 0, 3345],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -1010,7 +1010,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4936, 0, -4928],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -1021,7 +1021,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6109, 0, -2450],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Datapad Collection',
     },
@@ -1032,7 +1032,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1389, 0, 3756],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
@@ -1043,7 +1043,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6760, 0, -5617],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
@@ -1054,7 +1054,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5418, 0, -6248],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
@@ -1065,7 +1065,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6530, 0, 5967],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
@@ -1076,7 +1076,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5175, 0, 1644],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
@@ -1087,7 +1087,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6836, 0, 5520],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
@@ -1098,7 +1098,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7156, 0, -883],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
@@ -1109,7 +1109,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3862, 0, -5706],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
@@ -1120,7 +1120,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4195, 0, 5203],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
@@ -1131,7 +1131,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4437, 0, 574],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
@@ -1142,7 +1142,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [668, 0, -4835],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
@@ -1153,7 +1153,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5727, 0, 1923],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
@@ -1164,7 +1164,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3021, 0, 1289],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
@@ -1175,7 +1175,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6304, 0, 753],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
@@ -1186,7 +1186,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3558, 0, 1554],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
@@ -1197,7 +1197,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2102, 0, 3165],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
@@ -1208,7 +1208,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6051, 0, -2477],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
@@ -1219,7 +1219,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1428, 0, -3273],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
@@ -1230,7 +1230,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4677, 0, -2417],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
@@ -1241,7 +1241,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4628, 0, -2273],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
@@ -1252,7 +1252,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4553, 0, -1148],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Lok',
     },
@@ -1263,7 +1263,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1814, 0, -3086],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Lok',
     },
@@ -1274,7 +1274,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3091, 0, -4638],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Lok',
     },
@@ -1285,7 +1285,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5828, 0, -93],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
@@ -1296,7 +1296,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5157, 0, -1646],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
@@ -1307,7 +1307,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2060, 0, -5421],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
@@ -1318,7 +1318,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4628, 0, 4207],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
@@ -1329,7 +1329,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5633, 0, -5661],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
@@ -1340,7 +1340,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1130, 0, 4544],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
@@ -1351,7 +1351,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7303, 0, 63],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
@@ -1362,7 +1362,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3664, 0, -6501],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
@@ -1373,7 +1373,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2184, 0, 2405],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
@@ -1384,7 +1384,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2452, 0, 3846],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
@@ -1395,7 +1395,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4425, 0, -1414],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
@@ -1406,7 +1406,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4133, 0, 962],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
@@ -1417,7 +1417,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4632, 0, -4346],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
@@ -1428,7 +1428,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4512, 0, -2270],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
@@ -1439,7 +1439,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3931, 0, -4397],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
@@ -1450,7 +1450,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3966, 0, 6267],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
@@ -1461,7 +1461,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6176, 0, -3372],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
@@ -1472,7 +1472,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7396, 0, 4478],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
@@ -1483,7 +1483,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2579, 0, -5500],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
@@ -1494,7 +1494,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5076, 0, 5537],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Yavin 4',
     },
@@ -1505,7 +1505,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-875, 0, -2047],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Yavin 4',
     },
@@ -1516,7 +1516,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [519, 0, -646],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Exploration Badges - Yavin 4',
     },
@@ -1527,7 +1527,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4989, 0, -1560],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (A)',
     },
@@ -1538,7 +1538,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [377, 0, 5155],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (A)',
     },
@@ -1549,7 +1549,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-139, 0, -4473],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (A)',
     },
@@ -1560,7 +1560,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [637, 0, -2978],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (A)',
     },
@@ -1571,7 +1571,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4546, 0, -2403],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (A)',
     },
@@ -1582,7 +1582,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [724, 0, -3250],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
     },
@@ -1593,7 +1593,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2465, 0, 2170],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
     },
@@ -1604,7 +1604,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1451, 0, -3256],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
     },
@@ -1615,7 +1615,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5002, 0, -3477],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
     },
@@ -1626,7 +1626,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3538, 0, -1129],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
     },
@@ -1637,7 +1637,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5050, 0, -2272],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
@@ -1648,7 +1648,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1141, 0, -3605],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
@@ -1659,7 +1659,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-866, 0, 1558],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
@@ -1670,7 +1670,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-45, 0, -1616],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
@@ -1681,7 +1681,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5514, 0, -2690],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
@@ -1692,7 +1692,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4324, 0, 5185],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
@@ -1703,7 +1703,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5513, 0, -45],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
@@ -1714,7 +1714,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6880, 0, -5660],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
@@ -1725,7 +1725,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1593, 0, -6361],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
@@ -1736,7 +1736,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [529, 0, 5088],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
@@ -1747,7 +1747,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-602, 0, 2475],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1758,7 +1758,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [141, 0, -5360],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1769,7 +1769,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6503, 0, 6054],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1780,7 +1780,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5512, 0, -53],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1791,7 +1791,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1165, 0, 4521],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1802,7 +1802,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [735, 0, 2938],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1813,7 +1813,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-56, 0, 2733],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1824,7 +1824,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-205, 0, 3511],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1835,7 +1835,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6399, 0, -338],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1846,7 +1846,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [20, 0, -898],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light',
     },
@@ -1857,7 +1857,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3458, 0, -4814],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1868,7 +1868,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5249, 0, -2529],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1879,7 +1879,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6741, 0, -5791],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1890,7 +1890,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4959, 0, 6737],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1901,7 +1901,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4871, 0, -4653],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1912,7 +1912,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3787, 0, 2394],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1923,7 +1923,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [471, 0, 5055],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1934,7 +1934,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-327, 0, -4474],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1945,7 +1945,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5205, 0, 4211],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1956,7 +1956,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2997, 0, 2205],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
@@ -1967,7 +1967,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [490, 0, 5054],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Instrumental Music',
     },
@@ -1978,7 +1978,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3425, 0, -4835],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Instrumental Music',
     },
@@ -1989,7 +1989,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [133, 0, -5347],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Instrumental Music',
     },
@@ -2000,7 +2000,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6875, 0, -5668],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Instrumental Music',
     },
@@ -2011,7 +2011,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5261, 0, -2319],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Instrumental Music',
     },
@@ -2022,7 +2022,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-120, 0, -1577],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Instrumental Music',
     },
@@ -2033,7 +2033,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-509, 0, -6955],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2044,7 +2044,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3820, 0, 6077],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2055,7 +2055,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5175, 0, 2687],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2066,7 +2066,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5530, 0, -6238],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2077,7 +2077,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7404, 0, 4313],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2088,7 +2088,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6142, 0, -430],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2099,7 +2099,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3700, 0, -4452],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2110,7 +2110,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4478, 0, -2285],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2121,7 +2121,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [576, 0, 367],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2132,7 +2132,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4949, 0, -4728],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
@@ -2143,7 +2143,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2890, 0, 2118],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2154,7 +2154,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [78, 0, 13],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2165,7 +2165,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5529, 0, -60],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2176,7 +2176,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7086, 0, 4409],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2187,7 +2187,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [159, 0, 4483],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2198,7 +2198,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6871, 0, -5776],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2209,7 +2209,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5543, 0, -6178],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2220,7 +2220,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1342, 0, -3616],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2231,7 +2231,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1407, 0, 2812],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2242,7 +2242,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6796, 0, 5524],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2253,7 +2253,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-825, 0, 4189],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2264,7 +2264,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4037, 0, -7672],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2275,7 +2275,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5064, 0, -5136],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2286,7 +2286,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5978, 0, -4579],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2297,7 +2297,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1556, 0, -6423],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2308,7 +2308,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5108, 0, -2223],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2319,7 +2319,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [568, 0, -2974],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2330,7 +2330,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5519, 0, -1256],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2341,7 +2341,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3883, 0, 3395],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2352,7 +2352,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5555, 0, -5667],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Plant',
     },
@@ -2363,7 +2363,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5162, 0, -6375],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2374,7 +2374,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1589, 0, 6768],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2385,7 +2385,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5009, 0, 6819],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2396,7 +2396,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4555, 0, -2464],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2407,7 +2407,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5637, 0, 173],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2418,7 +2418,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1541, 0, 3385],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2429,7 +2429,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4998, 0, -2283],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2440,7 +2440,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5046, 0, -2225],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2451,7 +2451,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3214, 0, 6001],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2462,7 +2462,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2897, 0, 2430],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2473,7 +2473,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1554, 0, 1755],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2484,7 +2484,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2419, 0, -3113],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2495,7 +2495,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7119, 0, 1179],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2506,7 +2506,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1983, 0, -5290],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2517,7 +2517,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4882, 0, -1050],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2528,7 +2528,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1705, 0, 6145],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2539,7 +2539,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1715, 0, 1620],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2550,7 +2550,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3165, 0, 6821],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2561,7 +2561,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2966, 0, -4525],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2572,7 +2572,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4338, 0, 3972],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
@@ -2583,7 +2583,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5344, 0, -4070],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
@@ -2594,7 +2594,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-868, 0, 1555],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
@@ -2605,7 +2605,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4328, 0, 5164],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
@@ -2616,7 +2616,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3215, 0, 5327],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
@@ -2627,7 +2627,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5184, 0, -6550],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
@@ -2638,7 +2638,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4891, 0, -4621],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
@@ -2649,7 +2649,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5917, 0, -6656],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2660,7 +2660,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5917, 0, -6658],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2671,7 +2671,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5915, 0, -6662],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2682,7 +2682,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5912, 0, -6667],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2693,7 +2693,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5912, 0, -6669],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2704,7 +2704,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5915, 0, -6676],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2715,7 +2715,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5917, 0, -6679],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2726,7 +2726,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5931, 0, -6681],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2737,7 +2737,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5936, 0, -6667],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2748,7 +2748,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5935, 0, -6664],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
@@ -2759,7 +2759,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5916, 0, -6677],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2770,7 +2770,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6243, 0, -6654],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2781,7 +2781,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6119, 0, -6508],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2792,7 +2792,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6317, 0, -6716],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2803,7 +2803,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5970, 0, -6519],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2814,7 +2814,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6044, 0, -6515],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2825,7 +2825,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6195, 0, -6533],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2836,7 +2836,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6009, 0, -6480],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2847,7 +2847,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6168, 0, -6449],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2858,7 +2858,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6259, 0, -6480],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2869,7 +2869,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6336, 0, -6505],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2880,7 +2880,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6207, 0, -6794],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2891,7 +2891,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6091, 0, -6756],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2902,7 +2902,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6105, 0, -6638],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2913,7 +2913,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6177, 0, -6607],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2924,7 +2924,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6422, 0, -6663],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2935,7 +2935,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6342, 0, -6599],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2946,7 +2946,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6183, 0, -6712],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2957,7 +2957,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6116, 0, -6575],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2968,7 +2968,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6258, 0, -6561],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2979,7 +2979,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6125, 0, -6663],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -2990,7 +2990,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6073, 0, -6464],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -3001,7 +3001,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6111, 0, -6824],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -3012,7 +3012,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6070, 0, -6798],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
@@ -3023,7 +3023,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6295, 0, -7515],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3034,7 +3034,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6297, 0, -7522],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3045,7 +3045,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6277, 0, -7524],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3056,7 +3056,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6284, 0, -7522],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3068,7 +3068,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6282, 0, -7522],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3079,7 +3079,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6277, 0, -7521],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3090,7 +3090,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6279, 0, -7518],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3101,7 +3101,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6289, 0, -7517],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3112,7 +3112,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6291, 0, -7516],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3123,7 +3123,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6273, 0, -7528],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
@@ -3134,7 +3134,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6289, 0, -7523],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3145,7 +3145,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6479, 0, -7527],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3156,7 +3156,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6248, 0, -7338],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3167,7 +3167,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6552, 0, -7425],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3178,7 +3178,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6537, 0, -7300],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3189,7 +3189,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6473, 0, -7345],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3200,7 +3200,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6426, 0, -7406],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3211,7 +3211,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6373, 0, -7464],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3222,7 +3222,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6457, 0, -7480],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3233,7 +3233,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6260, 0, -7371],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3244,7 +3244,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6608, 0, -7404],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3255,7 +3255,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6407, 0, -7365],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3266,7 +3266,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6402, 0, -7347],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3277,7 +3277,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6152, 0, -7441],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3288,7 +3288,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6400, 0, -7302],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3299,7 +3299,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6322, 0, -7351],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3310,7 +3310,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6290, 0, -7322],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3321,7 +3321,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6329, 0, -7300],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3332,7 +3332,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6366, 0, -7401],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3343,7 +3343,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6527, 0, -7484],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3354,7 +3354,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6493, 0, -7436],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3365,7 +3365,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6402, 0, -7487],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3376,7 +3376,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6359, 0, -7335],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3387,7 +3387,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6523, 0, -7372],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3398,7 +3398,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6463, 0, -7289],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
@@ -3409,7 +3409,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6455, 0, -5976],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3420,7 +3420,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6479, 0, -7384],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3431,7 +3431,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6486, 0, -6710],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3442,7 +3442,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6492, 0, -6968],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3453,7 +3453,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6521, 0, -5868],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3464,7 +3464,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6555, 0, -6358],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3475,7 +3475,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6607, 0, -6263],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3486,7 +3486,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6611, 0, -6966],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3497,7 +3497,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6678, 0, -7467],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3508,7 +3508,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6955, 0, -7495],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3519,7 +3519,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7004, 0, -6432],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3530,7 +3530,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7267, 0, -6259],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3541,7 +3541,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7286, 0, -7485],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3552,7 +3552,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7372, 0, -6624],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3563,7 +3563,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7400, 0, -5690],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3574,7 +3574,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7478, 0, -7323],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3585,7 +3585,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7499, 0, -7016],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3596,7 +3596,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-7500, 0, -7244],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer',
   //     },
@@ -3607,7 +3607,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [-6967, 0, -6785],
   //     planet: 'dathomir',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Quarantine Zone, Boss Slayer, Patrols In Large Figure 8',
   //     },
@@ -3618,7 +3618,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5915, 0, -6645],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
@@ -3629,7 +3629,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6290, 0, -7529],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
@@ -3640,7 +3640,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7142, 0, -6941],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
@@ -3651,7 +3651,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7463, 0, -7392],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
@@ -3662,7 +3662,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6815, 0, -6454],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
@@ -3673,7 +3673,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7149, 0, -6945],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3684,7 +3684,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7137, 0, -6930],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3695,7 +3695,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7154, 0, -6933],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3706,7 +3706,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7156, 0, -6928],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3717,7 +3717,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7148, 0, -6923],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3728,7 +3728,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7150, 0, -6917],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3739,7 +3739,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7163, 0, -6916],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3750,7 +3750,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7164, 0, -6915],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3761,7 +3761,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7128, 0, -6918],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3773,7 +3773,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7164, 0, -6905],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
@@ -3784,7 +3784,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7039, 0, -6997],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3795,7 +3795,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7306, 0, -6821],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3806,7 +3806,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7277, 0, -6881],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3817,7 +3817,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7264, 0, -6962],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3828,7 +3828,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7326, 0, -6926],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3839,7 +3839,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7214, 0, -7027],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3850,7 +3850,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7204, 0, -6828],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3861,7 +3861,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7402, 0, -6894],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3872,7 +3872,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7410, 0, -6819],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3883,7 +3883,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7377, 0, -7033],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3894,7 +3894,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7386, 0, -7018],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3905,7 +3905,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7383, 0, -6987],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3916,7 +3916,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7335, 0, -7078],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3927,7 +3927,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7352, 0, -6861],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3938,7 +3938,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7305, 0, -7023],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3949,7 +3949,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7304, 0, -7085],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
@@ -3960,7 +3960,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7410, 0, -7329],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -3971,7 +3971,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7446, 0, -7355],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -3982,7 +3982,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7458, 0, -7334],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -3993,7 +3993,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7452, 0, -7331],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -4004,7 +4004,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7443, 0, -7336],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -4015,7 +4015,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7427, 0, -7340],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -4026,7 +4026,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7419, 0, -7335],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -4037,7 +4037,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7415, 0, -7312],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -4048,7 +4048,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7449, 0, -7318],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -4059,7 +4059,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7456, 0, -7313],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
@@ -4070,7 +4070,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6842, 0, -6469],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4081,7 +4081,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6831, 0, -6454],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4092,7 +4092,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6807, 0, -6459],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4103,7 +4103,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6803, 0, -6451],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4114,7 +4114,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6815, 0, -6448],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4125,7 +4125,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6818, 0, -6431],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4136,7 +4136,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6819, 0, -6431],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4147,7 +4147,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6854, 0, -6472],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4158,7 +4158,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6812, 0, -6473],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4169,7 +4169,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6791, 0, -6438],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
@@ -4180,7 +4180,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7043, 0, -6446],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4191,7 +4191,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7109, 0, -6490],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4202,7 +4202,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7132, 0, -6558],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4213,7 +4213,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6878, 0, -6679],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4224,7 +4224,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6789, 0, -6658],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4235,7 +4235,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6579, 0, -6442],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4246,7 +4246,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6812, 0, -6563],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4257,7 +4257,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6958, 0, -6575],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4268,7 +4268,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6756, 0, -6601],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4279,7 +4279,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6674, 0, -6473],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4290,7 +4290,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6721, 0, -6538],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4301,7 +4301,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7059, 0, -6547],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4312,7 +4312,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6916, 0, -6429],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4323,7 +4323,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6867, 0, -6412],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4334,7 +4334,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6643, 0, -6528],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4345,7 +4345,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6666, 0, -6575],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4356,7 +4356,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6841, 0, -6696],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4367,7 +4367,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6982, 0, -6414],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
@@ -4378,7 +4378,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6170, 0, -7155],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4389,7 +4389,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6283, 0, -7512],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4400,7 +4400,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6582, 0, -7138],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4411,7 +4411,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6873, 0, -7212],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4422,7 +4422,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6920, 0, -7388],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4433,7 +4433,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6999, 0, -7414],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4444,7 +4444,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7278, 0, -7371],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4455,7 +4455,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7414, 0, -7311],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4466,7 +4466,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7445, 0, -7088],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4477,7 +4477,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6986, 0, -6946],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4488,7 +4488,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6865, 0, -6759],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4499,7 +4499,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7129, 0, -6720],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4510,7 +4510,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7321, 0, -6679],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4521,7 +4521,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7108, 0, -6552],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4532,7 +4532,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6937, 0, -6553],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4543,7 +4543,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6837, 0, -6434],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4554,7 +4554,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6647, 0, -6488],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4565,7 +4565,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6432, 0, -6593],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
@@ -4576,7 +4576,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7316, 0, -7518],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4587,7 +4587,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7377, 0, -7356],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4598,7 +4598,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7535, 0, -7455],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4609,7 +4609,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7374, 0, -7470],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4620,7 +4620,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7506, 0, -7411],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4631,7 +4631,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7431, 0, -7507],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4642,7 +4642,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7494, 0, -7467],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4653,7 +4653,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7269, 0, -7445],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4664,7 +4664,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7278, 0, -7575],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4675,7 +4675,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7391, 0, -7550],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
@@ -4686,7 +4686,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5219, 0, 2790],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4697,7 +4697,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [424, 0, 6973],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4708,7 +4708,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1761, 0, -5596],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4719,7 +4719,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3352, 0, 3449],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4730,7 +4730,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [953, 0, 6930],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4741,7 +4741,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [596, 0, -3859],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4752,7 +4752,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2112, 0, 1935],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4763,7 +4763,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2524, 0, 7256],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4774,7 +4774,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1755, 0, -4928],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4785,7 +4785,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1935, 0, 7142],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
@@ -4796,7 +4796,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4310, 0, 2563],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4807,7 +4807,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6293, 0, 4086],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4818,7 +4818,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2915, 0, 4521],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4829,7 +4829,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [405, 0, 6108],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4840,7 +4840,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1495, 0, 1688],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4851,7 +4851,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6076, 0, 5438],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4862,7 +4862,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7035, 0, 2509],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4873,7 +4873,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5867, 0, 3056],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4884,7 +4884,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7165, 0, 136],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4895,7 +4895,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2547, 0, -1673],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Burning',
     },
@@ -4906,7 +4906,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5201, 0, -6904],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4917,7 +4917,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1237, 0, -2960],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4928,7 +4928,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-785, 0, -4974],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4939,7 +4939,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6959, 0, -3125],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4950,7 +4950,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4210, 0, -3898],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4961,7 +4961,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3066, 0, 1210],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4972,7 +4972,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5933, 0, -3819],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4983,7 +4983,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5668, 0, -1569],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -4994,7 +4994,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6115, 0, 71],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -5005,7 +5005,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4789, 0, -6241],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
@@ -5016,7 +5016,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3381, 0, -4731],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5027,7 +5027,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [682, 0, -4724],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5038,7 +5038,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2381, 0, 2175],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5049,7 +5049,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5065, 0, 409],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5060,7 +5060,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7377, 0, -7241],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5071,7 +5071,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6791, 0, 2999],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5082,7 +5082,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7398, 0, 7514],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5093,7 +5093,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7165, 0, -2413],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5104,7 +5104,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [951, 0, -1466],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5115,7 +5115,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7542, 0, 883],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
@@ -5126,7 +5126,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [910, 0, 4640],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5137,7 +5137,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4804, 0, -4746],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5148,7 +5148,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2851, 0, -1168],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5159,7 +5159,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1209, 0, 6332],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5170,7 +5170,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [959, 0, 4473],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5181,7 +5181,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [74, 0, 944],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5192,7 +5192,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2584, 0, -4010],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5203,7 +5203,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6451, 0, -285],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
@@ -5214,7 +5214,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [774, 0, -2087],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5225,7 +5225,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-230, 0, 4815],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5236,7 +5236,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6248, 0, -5950],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5247,7 +5247,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3166, 0, -3498],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5258,7 +5258,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4197, 0, -2426],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5269,7 +5269,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6669, 0, 7185],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5280,7 +5280,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4847, 0, -4717],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5291,7 +5291,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-115, 0, -1594],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5302,7 +5302,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3890, 0, -4496],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5313,7 +5313,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1773, 0, 4668],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
@@ -5324,7 +5324,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7264, 0, -4139],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5335,7 +5335,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [128, 0, 814],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5346,7 +5346,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-463, 0, -19],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5357,7 +5357,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1557, 0, -876],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5368,7 +5368,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-595, 0, 2488],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5379,7 +5379,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3390, 0, -6587],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5390,7 +5390,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [252, 0, 580],
     planet: 'kashyyyk_rryatt_trail',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5401,7 +5401,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3768, 0, -3468],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5412,7 +5412,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3895, 0, -5711],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5423,7 +5423,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1636, 0, 5432],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5434,7 +5434,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1073, 0, -2150],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
@@ -5445,7 +5445,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [578, 0, 3034],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5456,7 +5456,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5135, 0, 3707],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5467,7 +5467,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2543, 0, 1475],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5478,7 +5478,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1250, 0, -131],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5489,7 +5489,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-470, 0, 608],
     planet: 'kashyyyk_rryatt_trail',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5500,7 +5500,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1801, 0, 2284],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5511,7 +5511,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [476, 0, 4751],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5522,7 +5522,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-89, 0, -73],
     planet: 'mustafar_kuzbacave',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5533,7 +5533,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-595, 0, -331],
     planet: 'kashyyyk_rryatt_trail',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5544,7 +5544,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-202, 0, -1631],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5555,7 +5555,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3694, 0, 3059],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5566,7 +5566,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [312, 0, 118],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
@@ -5577,7 +5577,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6710, 0, -5781],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5588,7 +5588,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [107, 0, 58],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5599,7 +5599,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-992, 0, -311],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5610,7 +5610,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [233, 0, 104],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5621,7 +5621,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [362, 0, -3004],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5632,7 +5632,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [442, 0, -1232],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5643,7 +5643,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3342, 0, -924],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5654,7 +5654,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [128, 0, -7],
     planet: 'mustafar_droidarmy',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5665,7 +5665,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-340, 0, -159],
     planet: 'kashyyyk_rryatt_trail',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5676,7 +5676,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-81, 0, -199],
     planet: 'mustafar_sherkar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
@@ -5687,7 +5687,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3334, 0, 5359],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5698,7 +5698,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4065, 0, -4823],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5709,7 +5709,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6436, 0, -1102],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5720,7 +5720,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2446, 0, -3897],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5731,7 +5731,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [10, 0, -221],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5742,7 +5742,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5252, 0, 478],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5753,7 +5753,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4620, 0, -1418],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5764,7 +5764,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1247, 0, -3509],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5775,7 +5775,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4849, 0, -4616],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5786,7 +5786,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-276, 0, -4733],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5797,7 +5797,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5886, 0, -6224],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5808,7 +5808,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5175, 0, 6638],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5819,7 +5819,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6861, 0, -5783],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5830,7 +5830,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3257, 0, 3104],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5841,7 +5841,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4927, 0, 4229],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
@@ -5852,7 +5852,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [488, 0, 5075],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5863,7 +5863,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3605, 0, 2171],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5874,7 +5874,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5253, 0, -2256],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5885,7 +5885,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6041, 0, -1817],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5896,7 +5896,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2088, 0, 3255],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5907,7 +5907,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4301, 0, 1004],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5918,7 +5918,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4526, 0, -1408],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5929,7 +5929,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4744, 0, 4210],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5940,7 +5940,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3662, 0, 5601],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5951,7 +5951,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1953, 0, -4569],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5962,7 +5962,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5383, 0, 5074],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5973,7 +5973,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6651, 0, 4058],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5984,7 +5984,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3829, 0, -538],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -5995,7 +5995,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3270, 0, -4858],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -6006,7 +6006,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2148, 0, -5649],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -6017,7 +6017,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4082, 0, -143],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
@@ -6028,7 +6028,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-804, 0, -2050],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6039,7 +6039,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [667, 0, 4972],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6050,7 +6050,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-45, 0, -1619],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6061,7 +6061,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1491, 0, 260],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6072,7 +6072,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1917, 0, -1957],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6083,7 +6083,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3973, 0, 247],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6094,7 +6094,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2659, 0, 7354],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6105,7 +6105,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5074, 0, 5502],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6116,7 +6116,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5212, 0, 1578],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6127,7 +6127,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3191, 0, -3506],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6138,7 +6138,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7080, 0, 543],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6149,7 +6149,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2817, 0, -710],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6160,7 +6160,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2505, 0, 3096],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6171,7 +6171,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1746, 0, 159],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6182,7 +6182,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5672, 0, 1900],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
@@ -6193,7 +6193,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [337, 0, -200],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6204,7 +6204,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-127, 0, 864],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6215,7 +6215,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-566, 0, -3976],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6226,7 +6226,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [222, 0, 49],
     planet: 'kashyyyk_rryatt_trail',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6237,7 +6237,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6805, 0, 6025],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6248,7 +6248,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2422, 0, 114],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6259,7 +6259,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3155, 0, -2986],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6270,7 +6270,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-7034, 0, -3353],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6281,7 +6281,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2749, 0, -2004],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6293,7 +6293,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [273, 0, 3040],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6304,7 +6304,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [76, 0, 471],
     planet: 'kashyyyk_dead_forest',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6316,7 +6316,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1629, 0, -6353],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6327,7 +6327,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6331, 0, 7467],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
@@ -6338,7 +6338,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-173, 0, -5297],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6349,7 +6349,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-329, 0, -4465],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6360,7 +6360,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5123, 0, -6524],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6371,7 +6371,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1805, 0, -877],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6382,7 +6382,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5517, 0, -6169],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6393,7 +6393,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5771, 0, 4751],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6404,7 +6404,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [437, 0, 5117],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6415,7 +6415,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6229, 0, -147],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6426,7 +6426,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-3837, 0, -3737],
     planet: 'lok',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6437,7 +6437,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5856, 0, -1883],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
@@ -6448,7 +6448,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [152, 0, 164],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6459,7 +6459,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [274, 0, 3828],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6470,7 +6470,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6965, 0, -5650],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6481,7 +6481,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1126, 0, -3589],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6492,7 +6492,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6468, 0, -1305],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6503,7 +6503,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3390, 0, 5447],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6514,7 +6514,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1264, 0, 2673],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6525,7 +6525,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [748, 0, -4714],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6536,7 +6536,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [924, 0, 3987],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6547,7 +6547,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7330, 0, 350],
     planet: 'rori',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6558,7 +6558,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5146, 0, -6370],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
@@ -6569,7 +6569,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-334, 0, 4838],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6580,7 +6580,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1045, 0, 2453],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6591,7 +6591,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4635, 0, 4030],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6602,7 +6602,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6424, 0, -384],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6613,7 +6613,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [600, 0, -685],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6624,7 +6624,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-508, 0, 2339],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6635,7 +6635,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [7499, 0, 4490],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6646,7 +6646,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [51, 0, 1233],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6657,7 +6657,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1189, 0, 2045],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6668,7 +6668,7 @@ const collections: readonly CollectionItemWaypoint[] = [
   //     location: [74, 0, -21],
   //     planet: 'mustafar',
   //     type: WaypointType.CollectionItem,
-  //     serverId: 'legends',
+  //     serverIds: ['legends'],
   //     extraAttributes: {
   //       collection: 'Weapons, Rare Pistol Weapons Mark III',
   //     },
@@ -6679,7 +6679,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-279, 0, -192],
     planet: 'kashyyyk_dead_forest',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6690,7 +6690,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3385, 0, -4602],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
@@ -6701,7 +6701,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [130, 0, 218],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6712,7 +6712,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-5724, 0, 6481],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6723,7 +6723,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [6076, 0, -2436],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6734,7 +6734,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5662, 0, -1560],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6745,7 +6745,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [601, 0, 731],
     planet: 'kashyyyk',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6756,7 +6756,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [766, 0, 2533],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6767,7 +6767,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3435, 0, -4722],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6778,7 +6778,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1299, 0, 1417],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
@@ -6789,7 +6789,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2334, 0, 2932],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6800,7 +6800,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [66, 0, -5373],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6811,7 +6811,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6830, 0, 2203],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6822,7 +6822,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4447, 0, 577],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6833,7 +6833,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-926, 0, 6910],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6844,7 +6844,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2187, 0, 3587],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6855,7 +6855,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2740, 0, 3005],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6866,7 +6866,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3252, 0, 5467],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
@@ -6877,7 +6877,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4226, 0, 4960],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6888,7 +6888,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [180, 0, 3050],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6899,7 +6899,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [1224, 0, 6030],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6910,7 +6910,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2088, 0, 3130],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6921,7 +6921,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3075, 0, 1116],
     planet: 'mustafar',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6932,7 +6932,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [2606, 0, -4012],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6943,7 +6943,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4011, 0, 72],
     planet: 'endor',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6954,7 +6954,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-6204, 0, 1838],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
@@ -6965,7 +6965,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [3568, 0, -4813],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },
@@ -6976,7 +6976,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-1324, 0, -3572],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },
@@ -6987,7 +6987,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [5243, 0, 6660],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },
@@ -6998,7 +6998,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-103, 0, -4739],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },
@@ -7009,7 +7009,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-2877, 0, 2097],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },
@@ -7020,7 +7020,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [295, 0, -2919],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },
@@ -7031,7 +7031,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [4474, 0, 5313],
     planet: 'talus',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },
@@ -7042,7 +7042,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     location: [-4771, 0, 4190],
     planet: 'naboo',
     type: WaypointType.CollectionItem,
-    serverId: 'legends',
+    serverIds: ['legends'],
     extraAttributes: {
       collection: 'What a Piece of Junk (ITV)',
     },

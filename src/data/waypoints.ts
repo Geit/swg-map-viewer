@@ -12,7 +12,7 @@ export interface BaseWaypoint {
   name: string;
   description: string | null;
   type: WaypointType;
-  serverId: string | null;
+  serverIds: string[] | null;
   location: [number, number, number];
   planet: typeof mapConfigs[number]['id'];
   extraAttributes?: unknown;
