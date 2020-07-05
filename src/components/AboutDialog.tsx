@@ -21,8 +21,8 @@ const AboutDialog: React.FC<AboutDialogProps> = ({ open, onClose }) => {
         <Typography variant="h6">Spotted a problem?</Typography>
         <Typography gutterBottom>
           If you&apos;ve spotted a problem, or have a suggestion then you can send me a Message on Discord using{' '}
-          <Link href="https://discord.com/channels/@me/271420544321191936">Geit#1694</Link>. Or, if you're so inclinced,
-          you can make a pull request on the project repository on{' '}
+          <Link href="https://discord.com/channels/@me/271420544321191936">Geit#1694</Link>. Or, if you&apos;re so
+          inclined, you can make a pull request on the project repository on{' '}
           <Link href="https://github.com/geit/swg-map-viewer">GitHub</Link>.
         </Typography>
       </DialogContent>
