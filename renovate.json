@@ -19,7 +19,7 @@
     ],
     "packageRules": [
       {
-        "packagePatterns": ["^@types"],
+        "packagePatterns": ["^@types/"],
         "rangeStrategy": "update-lockfile"
       }
     ]
