@@ -8,6 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - run: echo "::add-mask::${{ secrets.DEPLOY_SERVER_IP }}"
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2-beta
       with:
