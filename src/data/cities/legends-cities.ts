@@ -1,6 +1,31 @@
 import { WaypointType } from '../../enums';
 import { CityWaypoint } from '../waypoints';
 
+// To update this listing, run the following code snippet on https://swglegends.com/cities.php
+
+/*
+const cities = [...document.querySelectorAll('#cities tbody tr')].map((element) => {
+	const [nameEl, locationEl, foundedEl, rankEl] = element.querySelectorAll('td');
+  
+  const [planet, x, z] = locationEl.innerText.toLowerCase().split(/[\s,]+/);
+
+  return {
+		name: nameEl.innerText,
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [parseInt(x), 0, parseInt(z)],
+    planet: planet,
+    extraAttributes: {
+      foundingDate: new Date(foundedEl.innerText).toISOString(),
+      rank: parseInt(rankEl.innerText),
+    }
+  }
+});
+
+copy(JSON.stringify(cities))
+*/
+
 const legendsCities: readonly CityWaypoint[] = [
   {
     name: 'NEW ASYLUM',
@@ -11,7 +36,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2020-05-10T23:00:00.000Z',
-      rank: 1,
+      rank: 3,
     },
   },
   {
@@ -35,7 +60,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2016-09-07T23:00:00.000Z',
-      rank: 3,
+      rank: 2,
     },
   },
   {
@@ -51,18 +76,6 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Freeport VII',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [5252, 0, 3076],
-    planet: 'naboo',
-    extraAttributes: {
-      foundingDate: '2017-09-03T23:00:00.000Z',
-      rank: 2,
-    },
-  },
-  {
     name: 'LUCK',
     description: null,
     type: WaypointType.City,
@@ -72,18 +85,6 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2017-07-12T23:00:00.000Z',
       rank: 5,
-    },
-  },
-  {
-    name: 'Defiant',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-3028, 0, 3500],
-    planet: 'lok',
-    extraAttributes: {
-      foundingDate: '2019-05-08T23:00:00.000Z',
-      rank: 3,
     },
   },
   {
@@ -99,7 +100,7 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Lakeside Retreat',
+    name: 'Infinity',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -111,7 +112,7 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Sith-Sanctum',
+    name: 'Somewhere-Over-The-RNBW',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -123,27 +124,39 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Dreamside',
+    name: 'Sparta',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [7100, 0, -6084],
-    planet: 'rori',
+    location: [5612, 0, 3676],
+    planet: 'talus',
     extraAttributes: {
-      foundingDate: '2020-04-20T23:00:00.000Z',
-      rank: 1,
+      foundingDate: '2020-05-23T23:00:00.000Z',
+      rank: 3,
     },
   },
   {
-    name: 'TEMPLAR',
+    name: 'Mando Valley',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [5148, 0, -100],
-    planet: 'dantooine',
+    location: [-6292, 0, 4908],
+    planet: 'lok',
     extraAttributes: {
-      foundingDate: '2017-03-12T00:00:00.000Z',
-      rank: 1,
+      foundingDate: '2020-07-03T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'Symbiosis',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [1460, 0, 204],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-06-03T23:00:00.000Z',
+      rank: 3,
     },
   },
   {
@@ -167,7 +180,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-03-31T23:00:00.000Z',
-      rank: 2,
+      rank: 4,
     },
   },
   {
@@ -195,6 +208,18 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'Dragonfell',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [2620, 0, -4300],
+    planet: 'dantooine',
+    extraAttributes: {
+      foundingDate: '2020-06-12T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
     name: 'Hidden Cove',
     description: null,
     type: WaypointType.City,
@@ -203,7 +228,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-04-30T23:00:00.000Z',
-      rank: 1,
+      rank: 2,
     },
   },
   {
@@ -240,6 +265,18 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2018-05-24T23:00:00.000Z',
       rank: 3,
+    },
+  },
+  {
+    name: 'Highpoint Center',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-2252, 0, 5420],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-07-18T23:00:00.000Z',
+      rank: 1,
     },
   },
   {
@@ -287,19 +324,31 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2019-12-29T00:00:00.000Z',
-      rank: 4,
+      rank: 5,
     },
   },
   {
-    name: 'White Sands',
+    name: 'Ashes of Malachor',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [-1780, 0, -4692],
-    planet: 'tatooine',
+    location: [260, 0, 7348],
+    planet: 'lok',
     extraAttributes: {
-      foundingDate: '2019-11-07T00:00:00.000Z',
+      foundingDate: '2020-06-06T23:00:00.000Z',
       rank: 2,
+    },
+  },
+  {
+    name: 'Death Planes',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-3412, 0, 5540],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-07-03T23:00:00.000Z',
+      rank: 1,
     },
   },
   {
@@ -335,7 +384,19 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2020-05-07T23:00:00.000Z',
-      rank: 1,
+      rank: 3,
+    },
+  },
+  {
+    name: 'Solaris City',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [2164, 0, -6596],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-05-31T23:00:00.000Z',
+      rank: 2,
     },
   },
   {
@@ -351,18 +412,6 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Rhuidean',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-6180, 0, 484],
-    planet: 'dantooine',
-    extraAttributes: {
-      foundingDate: '2017-07-26T23:00:00.000Z',
-      rank: 3,
-    },
-  },
-  {
     name: 'New Zion',
     description: null,
     type: WaypointType.City,
@@ -371,7 +420,19 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-04-09T23:00:00.000Z',
-      rank: 2,
+      rank: 1,
+    },
+  },
+  {
+    name: 'Nulls Clearing',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [3620, 0, -4180],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-06-05T23:00:00.000Z',
+      rank: 3,
     },
   },
   {
@@ -395,7 +456,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2020-01-07T00:00:00.000Z',
-      rank: 3,
+      rank: 2,
     },
   },
   {
@@ -407,6 +468,18 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-02-28T00:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'New Jobber Paradise',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [3724, 0, -1228],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-06-13T23:00:00.000Z',
       rank: 2,
     },
   },
@@ -423,6 +496,18 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'Ater Imperium',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [1916, 0, -4460],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-06-02T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
     name: 'Cant Touch This',
     description: null,
     type: WaypointType.City,
@@ -431,11 +516,11 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2018-09-11T23:00:00.000Z',
-      rank: 2,
+      rank: 3,
     },
   },
   {
-    name: 'Windfall',
+    name: 'Red Moon',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -444,6 +529,18 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2017-12-14T00:00:00.000Z',
       rank: 3,
+    },
+  },
+  {
+    name: 'Tenn',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-2060, 0, -4908],
+    planet: 'tatooine',
+    extraAttributes: {
+      foundingDate: '2020-06-02T23:00:00.000Z',
+      rank: 2,
     },
   },
   {
@@ -479,7 +576,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2019-02-23T00:00:00.000Z',
-      rank: 5,
+      rank: 4,
     },
   },
   {
@@ -492,6 +589,18 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2018-05-26T23:00:00.000Z',
       rank: 1,
+    },
+  },
+  {
+    name: 'Capitol City',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-3404, 0, -4836],
+    planet: 'tatooine',
+    extraAttributes: {
+      foundingDate: '2020-07-14T23:00:00.000Z',
+      rank: 2,
     },
   },
   {
@@ -543,7 +652,7 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Cydonia',
+    name: 'DOOM-',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -551,18 +660,6 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2019-11-29T00:00:00.000Z',
-      rank: 3,
-    },
-  },
-  {
-    name: "Na'alehu",
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-68, 0, -5748],
-    planet: 'talus',
-    extraAttributes: {
-      foundingDate: '2020-02-16T00:00:00.000Z',
       rank: 4,
     },
   },
@@ -575,6 +672,18 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2020-03-22T00:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
+    name: 'Albuquerque',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [1644, 0, 2220],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-07-05T23:00:00.000Z',
       rank: 2,
     },
   },
@@ -587,7 +696,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2020-05-02T23:00:00.000Z',
-      rank: 2,
+      rank: 3,
     },
   },
   {
@@ -599,18 +708,6 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2019-06-15T23:00:00.000Z',
-      rank: 3,
-    },
-  },
-  {
-    name: '-DCT-',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-1308, 0, 716],
-    planet: 'lok',
-    extraAttributes: {
-      foundingDate: '2020-02-03T00:00:00.000Z',
       rank: 3,
     },
   },
@@ -647,7 +744,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2019-12-21T00:00:00.000Z',
-      rank: 4,
+      rank: 3,
     },
   },
   {
@@ -663,6 +760,42 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'San Loco Nexu',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [3492, 0, -2428],
+    planet: 'dantooine',
+    extraAttributes: {
+      foundingDate: '2020-06-24T23:00:00.000Z',
+      rank: 3,
+    },
+  },
+  {
+    name: 'Port Graul',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [5924, 0, -4364],
+    planet: 'dantooine',
+    extraAttributes: {
+      foundingDate: '2020-07-01T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'Fort Black Stag',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [7140, 0, 1012],
+    planet: 'dantooine',
+    extraAttributes: {
+      foundingDate: '2020-07-02T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
     name: 'Senate Exile',
     description: null,
     type: WaypointType.City,
@@ -675,7 +808,19 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'JUBA CORP',
+    name: 'Lunar Sanctuary',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [4476, 0, 3676],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-06-17T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
+    name: 'Blue Lives Matter',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -683,23 +828,11 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2019-10-26T23:00:00.000Z',
-      rank: 5,
-    },
-  },
-  {
-    name: 'Eucalyptus',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [4660, 0, -2348],
-    planet: 'tatooine',
-    extraAttributes: {
-      foundingDate: '2017-07-28T23:00:00.000Z',
       rank: 4,
     },
   },
   {
-    name: 'Levitation',
+    name: 'Imperium Bay',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -719,6 +852,30 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'tatooine',
     extraAttributes: {
       foundingDate: '2020-04-28T23:00:00.000Z',
+      rank: 3,
+    },
+  },
+  {
+    name: 'Dark Sands',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [3428, 0, 5164],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-07-18T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
+    name: 'MandaLab',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [2780, 0, 4892],
+    planet: 'naboo',
+    extraAttributes: {
+      foundingDate: '2020-05-30T23:00:00.000Z',
       rank: 2,
     },
   },
@@ -755,19 +912,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2019-12-24T00:00:00.000Z',
-      rank: 3,
-    },
-  },
-  {
-    name: 'Sulphuris',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [3636, 0, 4780],
-    planet: 'lok',
-    extraAttributes: {
-      foundingDate: '2020-05-04T23:00:00.000Z',
-      rank: 2,
+      rank: 4,
     },
   },
   {
@@ -795,15 +940,15 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Clan Varad',
+    name: 'Crimson Hollow',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [3588, 0, 3100],
-    planet: 'lok',
+    location: [-4524, 0, 828],
+    planet: 'talus',
     extraAttributes: {
-      foundingDate: '2020-01-30T00:00:00.000Z',
-      rank: 1,
+      foundingDate: '2020-07-14T23:00:00.000Z',
+      rank: 2,
     },
   },
   {
@@ -815,7 +960,19 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2020-04-05T23:00:00.000Z',
-      rank: 2,
+      rank: 3,
+    },
+  },
+  {
+    name: 'Ghost Town',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [2388, 0, -2596],
+    planet: 'dantooine',
+    extraAttributes: {
+      foundingDate: '2020-05-19T23:00:00.000Z',
+      rank: 3,
     },
   },
   {
@@ -831,15 +988,15 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Doom Plains',
+    name: 'Dark Eden',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [-3412, 0, 5524],
-    planet: 'lok',
+    location: [5668, 0, -3508],
+    planet: 'talus',
     extraAttributes: {
-      foundingDate: '2020-02-28T00:00:00.000Z',
-      rank: 1,
+      foundingDate: '2020-06-22T23:00:00.000Z',
+      rank: 3,
     },
   },
   {
@@ -855,6 +1012,18 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'Despair',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-1908, 0, -6340],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-06-30T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
     name: 'Brazzars',
     description: null,
     type: WaypointType.City,
@@ -863,7 +1032,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-04-15T23:00:00.000Z',
-      rank: 3,
+      rank: 2,
     },
   },
   {
@@ -927,6 +1096,18 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'Ukuthula',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-3340, 0, 7324],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-07-12T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
     name: 'Ilum',
     description: null,
     type: WaypointType.City,
@@ -939,14 +1120,50 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Abbotsford',
+    name: 'Tensa Cross',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [-3748, 0, -3252],
+    location: [-5844, 0, 1652],
     planet: 'rori',
     extraAttributes: {
-      foundingDate: '2020-04-15T23:00:00.000Z',
+      foundingDate: '2020-05-22T23:00:00.000Z',
+      rank: 3,
+    },
+  },
+  {
+    name: 'Mos Piranha',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [2324, 0, -4580],
+    planet: 'tatooine',
+    extraAttributes: {
+      foundingDate: '2020-07-20T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
+    name: 'Asgard',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-4612, 0, -6772],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-07-19T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
+    name: 'SwampFever',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-972, 0, -4860],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-07-20T23:00:00.000Z',
       rank: 1,
     },
   },
@@ -963,15 +1180,51 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Nomad III',
+    name: 'Lost Vegas',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [6340, 0, -4132],
-    planet: 'dantooine',
+    location: [-7164, 0, -5692],
+    planet: 'rori',
     extraAttributes: {
-      foundingDate: '2020-02-03T00:00:00.000Z',
-      rank: 4,
+      foundingDate: '2020-07-15T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'SinCity',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-3564, 0, 460],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-07-15T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
+    name: 'Greyhold',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [2788, 0, 3404],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-07-18T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
+    name: 'Cair Paravel',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-2868, 0, 1540],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-07-22T23:00:00.000Z',
+      rank: 1,
     },
   },
   {
@@ -987,18 +1240,6 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Grey Lagoon',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-3932, 0, 1260],
-    planet: 'rori',
-    extraAttributes: {
-      foundingDate: '2020-03-12T00:00:00.000Z',
-      rank: 4,
-    },
-  },
-  {
     name: 'Evaar Yaim',
     description: null,
     type: WaypointType.City,
@@ -1007,7 +1248,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2020-03-31T23:00:00.000Z',
-      rank: 2,
+      rank: 5,
     },
   },
   {
@@ -1019,7 +1260,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2020-02-10T00:00:00.000Z',
-      rank: 1,
+      rank: 2,
     },
   },
   {
@@ -1035,15 +1276,63 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'City of Lost Souls',
+    name: 'Fortris Maximus',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [-6156, 0, -6340],
+    location: [-6100, 0, 2932],
     planet: 'rori',
     extraAttributes: {
-      foundingDate: '2020-03-16T00:00:00.000Z',
-      rank: 1,
+      foundingDate: '2020-07-10T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'Venice',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [140, 0, 2396],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-05-28T23:00:00.000Z',
+      rank: 3,
+    },
+  },
+  {
+    name: 'Phalanx',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [1092, 0, -5356],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-06-10T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: "Outlaw's Ridge",
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-5900, 0, -1788],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-06-28T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'Kyram Ranch',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [6276, 0, 5836],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-05-23T23:00:00.000Z',
+      rank: 5,
     },
   },
   {
@@ -1151,7 +1440,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'rori',
     extraAttributes: {
       foundingDate: '2018-01-10T00:00:00.000Z',
-      rank: 4,
+      rank: 5,
     },
   },
   {
@@ -1259,7 +1548,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2020-01-18T00:00:00.000Z',
-      rank: 3,
+      rank: 4,
     },
   },
   {
@@ -1271,7 +1560,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'tatooine',
     extraAttributes: {
       foundingDate: '2018-07-11T23:00:00.000Z',
-      rank: 4,
+      rank: 3,
     },
   },
   {
@@ -1283,7 +1572,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'tatooine',
     extraAttributes: {
       foundingDate: '2020-01-20T00:00:00.000Z',
-      rank: 3,
+      rank: 4,
     },
   },
   {
@@ -1296,18 +1585,6 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2018-11-02T00:00:00.000Z',
       rank: 5,
-    },
-  },
-  {
-    name: 'Coalition of Bots',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-4156, 0, -3180],
-    planet: 'talus',
-    extraAttributes: {
-      foundingDate: '2017-05-27T23:00:00.000Z',
-      rank: 1,
     },
   },
   {
@@ -1331,7 +1608,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'naboo',
     extraAttributes: {
       foundingDate: '2019-08-30T23:00:00.000Z',
-      rank: 3,
+      rank: 2,
     },
   },
   {
@@ -1359,19 +1636,7 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Chupacabra',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [2236, 0, -5820],
-    planet: 'lok',
-    extraAttributes: {
-      foundingDate: '2020-02-02T00:00:00.000Z',
-      rank: 3,
-    },
-  },
-  {
-    name: "Zarf's Pizzeria",
+    name: 'Shadow Creek',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -1379,7 +1644,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2016-07-15T23:00:00.000Z',
-      rank: 3,
+      rank: 1,
     },
   },
   {
@@ -1439,7 +1704,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2019-11-24T00:00:00.000Z',
-      rank: 5,
+      rank: 4,
     },
   },
   {
@@ -1463,7 +1728,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'tatooine',
     extraAttributes: {
       foundingDate: '2020-01-26T00:00:00.000Z',
-      rank: 3,
+      rank: 4,
     },
   },
   {
@@ -1487,18 +1752,6 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2019-07-17T23:00:00.000Z',
-      rank: 4,
-    },
-  },
-  {
-    name: 'Aurillian Outpost',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [5108, 0, 2388],
-    planet: 'talus',
-    extraAttributes: {
-      foundingDate: '2019-08-31T23:00:00.000Z',
       rank: 1,
     },
   },
@@ -1512,18 +1765,6 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2019-12-19T00:00:00.000Z',
       rank: 3,
-    },
-  },
-  {
-    name: 'Katana Enclave',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-3020, 0, 1460],
-    planet: 'talus',
-    extraAttributes: {
-      foundingDate: '2019-03-30T00:00:00.000Z',
-      rank: 2,
     },
   },
   {
@@ -1571,7 +1812,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'naboo',
     extraAttributes: {
       foundingDate: '2019-06-25T23:00:00.000Z',
-      rank: 4,
+      rank: 5,
     },
   },
   {
@@ -1632,18 +1873,6 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2018-10-03T23:00:00.000Z',
       rank: 5,
-    },
-  },
-  {
-    name: 'Paradise City',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-5836, 0, -1044],
-    planet: 'lok',
-    extraAttributes: {
-      foundingDate: '2019-10-06T23:00:00.000Z',
-      rank: 1,
     },
   },
   {
@@ -1715,7 +1944,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'naboo',
     extraAttributes: {
       foundingDate: '2020-02-07T00:00:00.000Z',
-      rank: 2,
+      rank: 3,
     },
   },
   {
@@ -1827,30 +2056,6 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'MULTI-PASS',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [796, 0, 1324],
-    planet: 'lok',
-    extraAttributes: {
-      foundingDate: '2019-12-22T00:00:00.000Z',
-      rank: 2,
-    },
-  },
-  {
-    name: 'Dark Haven',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [6124, 0, -1124],
-    planet: 'talus',
-    extraAttributes: {
-      foundingDate: '2019-12-24T00:00:00.000Z',
-      rank: 1,
-    },
-  },
-  {
     name: 'Heroes Legacy',
     description: null,
     type: WaypointType.City,
@@ -1875,7 +2080,7 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'saraphem',
+    name: 'zero tolerance',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -1907,7 +2112,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'rori',
     extraAttributes: {
       foundingDate: '2019-10-13T23:00:00.000Z',
-      rank: 5,
+      rank: 4,
     },
   },
   {
@@ -1983,18 +2188,6 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Utopia',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-780, 0, -3676],
-    planet: 'talus',
-    extraAttributes: {
-      foundingDate: '2017-04-27T23:00:00.000Z',
-      rank: 2,
-    },
-  },
-  {
     name: 'Chinon -NRA- Capitol',
     description: null,
     type: WaypointType.City,
@@ -2015,19 +2208,19 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'rori',
     extraAttributes: {
       foundingDate: '2017-04-17T23:00:00.000Z',
-      rank: 4,
+      rank: 3,
     },
   },
   {
-    name: 'Ikopi Ridge',
+    name: 'New Seswenna',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [2196, 0, 6516],
-    planet: 'rori',
+    location: [-6196, 0, -692],
+    planet: 'talus',
     extraAttributes: {
-      foundingDate: '2019-12-31T00:00:00.000Z',
-      rank: 2,
+      foundingDate: '2020-07-16T23:00:00.000Z',
+      rank: 1,
     },
   },
   {
@@ -2043,26 +2236,14 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Imperium',
+    name: 'Fort Rex',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    location: [6284, 0, 5836],
-    planet: 'rori',
+    location: [2556, 0, 5300],
+    planet: 'talus',
     extraAttributes: {
-      foundingDate: '2017-07-08T23:00:00.000Z',
-      rank: 5,
-    },
-  },
-  {
-    name: 'New Maternix',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [2684, 0, -1988],
-    planet: 'dantooine',
-    extraAttributes: {
-      foundingDate: '2020-04-13T23:00:00.000Z',
+      foundingDate: '2020-06-23T23:00:00.000Z',
       rank: 2,
     },
   },
@@ -2115,6 +2296,18 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'Civitas',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-1484, 0, -4532],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-05-28T23:00:00.000Z',
+      rank: 3,
+    },
+  },
+  {
     name: 'Maple Grove',
     description: null,
     type: WaypointType.City,
@@ -2135,7 +2328,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'rori',
     extraAttributes: {
       foundingDate: '2017-10-31T00:00:00.000Z',
-      rank: 3,
+      rank: 4,
     },
   },
   {
@@ -2159,7 +2352,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2019-12-14T00:00:00.000Z',
-      rank: 2,
+      rank: 3,
     },
   },
   {
@@ -2175,7 +2368,31 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: "Shev'la Bral",
+    name: 'Star League',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-1396, 0, -7316],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-05-14T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'La Villa Strangiato',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [4116, 0, 4260],
+    planet: 'lok',
+    extraAttributes: {
+      foundingDate: '2020-07-11T23:00:00.000Z',
+      rank: 2,
+    },
+  },
+  {
+    name: 'Serenity',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -2219,7 +2436,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-04-10T23:00:00.000Z',
-      rank: 2,
+      rank: 1,
     },
   },
   {
@@ -2319,7 +2536,7 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Soggy Bottom',
+    name: 'Boiling Springs',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -2327,7 +2544,19 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'rori',
     extraAttributes: {
       foundingDate: '2020-04-15T23:00:00.000Z',
-      rank: 3,
+      rank: 4,
+    },
+  },
+  {
+    name: 'New Hope -RLN',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [820, 0, 4628],
+    planet: 'dantooine',
+    extraAttributes: {
+      foundingDate: '2020-07-14T23:00:00.000Z',
+      rank: 2,
     },
   },
   {
@@ -2375,7 +2604,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-04-24T23:00:00.000Z',
-      rank: 3,
+      rank: 5,
     },
   },
   {
@@ -2415,18 +2644,6 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Obsidian Oasis',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [-2972, 0, 2380],
-    planet: 'dantooine',
-    extraAttributes: {
-      foundingDate: '2019-12-12T00:00:00.000Z',
-      rank: 3,
-    },
-  },
-  {
     name: 'Cauth Bodva',
     description: null,
     type: WaypointType.City,
@@ -2447,7 +2664,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'rori',
     extraAttributes: {
       foundingDate: '2020-02-09T00:00:00.000Z',
-      rank: 4,
+      rank: 3,
     },
   },
   {
@@ -2459,7 +2676,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2020-01-05T00:00:00.000Z',
-      rank: 4,
+      rank: 5,
     },
   },
   {
@@ -2499,7 +2716,7 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
-    name: 'Name Goes Here',
+    name: 'Werowocomoco',
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
@@ -2523,6 +2740,18 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'Mom Nerroc',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [-4924, 0, -364],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-07-19T23:00:00.000Z',
+      rank: 1,
+    },
+  },
+  {
     name: 'Darkness',
     description: null,
     type: WaypointType.City,
@@ -2531,7 +2760,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2016-02-29T00:00:00.000Z',
-      rank: 4,
+      rank: 2,
     },
   },
   {
@@ -2543,7 +2772,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2016-04-18T23:00:00.000Z',
-      rank: 4,
+      rank: 3,
     },
   },
   {
@@ -2567,7 +2796,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2019-11-07T00:00:00.000Z',
-      rank: 4,
+      rank: 2,
     },
   },
   {
@@ -2615,7 +2844,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'talus',
     extraAttributes: {
       foundingDate: '2020-02-29T00:00:00.000Z',
-      rank: 3,
+      rank: 4,
     },
   },
   {
@@ -2628,6 +2857,18 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2019-03-30T00:00:00.000Z',
       rank: 5,
+    },
+  },
+  {
+    name: 'Bikini Bottom',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [4436, 0, -3732],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-07-21T23:00:00.000Z',
+      rank: 1,
     },
   },
   {
@@ -2675,7 +2916,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2016-04-09T23:00:00.000Z',
-      rank: 4,
+      rank: 5,
     },
   },
   {
@@ -2687,7 +2928,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'lok',
     extraAttributes: {
       foundingDate: '2020-03-11T00:00:00.000Z',
-      rank: 2,
+      rank: 1,
     },
   },
   {
@@ -2711,19 +2952,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'dantooine',
     extraAttributes: {
       foundingDate: '2019-09-12T23:00:00.000Z',
-      rank: 3,
-    },
-  },
-  {
-    name: 'Symbiosis',
-    description: null,
-    type: WaypointType.City,
-    serverIds: ['legends'],
-    location: [1460, 0, 204],
-    planet: 'lok',
-    extraAttributes: {
-      foundingDate: '2020-01-05T00:00:00.000Z',
-      rank: 3,
+      rank: 1,
     },
   },
   {
@@ -2775,6 +3004,18 @@ const legendsCities: readonly CityWaypoint[] = [
     },
   },
   {
+    name: 'Dragon Flats',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [5540, 0, 1548],
+    planet: 'rori',
+    extraAttributes: {
+      foundingDate: '2020-06-29T23:00:00.000Z',
+      rank: 4,
+    },
+  },
+  {
     name: 'Shadow Moses',
     description: null,
     type: WaypointType.City,
@@ -2783,7 +3024,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'rori',
     extraAttributes: {
       foundingDate: '2019-10-18T23:00:00.000Z',
-      rank: 3,
+      rank: 2,
     },
   },
   {
@@ -2819,7 +3060,7 @@ const legendsCities: readonly CityWaypoint[] = [
     planet: 'corellia',
     extraAttributes: {
       foundingDate: '2017-11-04T00:00:00.000Z',
-      rank: 5,
+      rank: 4,
     },
   },
   {
@@ -2832,6 +3073,18 @@ const legendsCities: readonly CityWaypoint[] = [
     extraAttributes: {
       foundingDate: '2016-02-29T00:00:00.000Z',
       rank: 5,
+    },
+  },
+  {
+    name: 'Emberlene',
+    description: null,
+    type: WaypointType.City,
+    serverIds: ['legends'],
+    location: [892, 0, 2460],
+    planet: 'talus',
+    extraAttributes: {
+      foundingDate: '2020-07-07T23:00:00.000Z',
+      rank: 1,
     },
   },
 ];
