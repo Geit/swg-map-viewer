@@ -8,7 +8,9 @@ import path from 'path';
 
 import rimraf from 'rimraf';
 
-import mapConfigs from '../src/data/maps';
+import mapConfigs from '../packages/frontend/src/data/maps';
+
+const MAP_BASE_PATH = path.join(process.cwd(), '/packages/tile-server');
 
 const asyncExec = promisify(exec);
 const asyncStat = promisify(fs.stat);
@@ -29,8 +31,8 @@ async function generateTiles() {
 
     if (!map.raster) continue;
 
-    const imagePath = path.join(process.cwd(), map.raster.sourceImage);
-    const tileOutBasePath = path.join(process.cwd(), '/public/planets/tiles/', map.id);
+    const imagePath = path.join(MAP_BASE_PATH, map.raster.sourceImage);
+    const tileOutBasePath = path.join(MAP_BASE_PATH, '/planets/tiles/', map.id);
     try {
       await asyncStat(imagePath);
     } catch {

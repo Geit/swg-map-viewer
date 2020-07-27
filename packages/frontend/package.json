@@ -1,0 +1,56 @@
+{
+  "name": "@swg-map-viewer/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@juggle/resize-observer": "3.2.0",
+    "@material-ui/core": "4.11.0",
+    "@material-ui/lab": "4.0.0-alpha.56",
+    "@types/react-copy-to-clipboard": "^4.3.0",
+    "leaflet": "1.6.0",
+    "lodash": "4.17.19",
+    "node-sass": "4.14.1",
+    "react": "16.13.1",
+    "react-copy-to-clipboard": "5.0.2",
+    "react-dom": "16.13.1",
+    "react-leaflet": "2.7.0",
+    "react-router-dom": "5.2.0",
+    "react-three-fiber": "4.2.14",
+    "react-use-measure": "2.0.1",
+    "three": "0.118.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.157",
+    "@types/node": "^14.0.14",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-leaflet": "^2.5.2",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/rimraf": "^3.0.0",
+    "react-app-rewired": "2.1.6",
+    "react-scripts": "3.4.1",
+    "source-map-explorer": "2.4.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all",
+      "not safari 5.1"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

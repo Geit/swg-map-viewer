@@ -35,7 +35,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_corellia.png',
+      sourceImage: 'planets/lossless/map_corellia.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -54,7 +54,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_dantooine.png',
+      sourceImage: 'planets/lossless/map_dantooine.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -73,7 +73,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_dathomir.png',
+      sourceImage: 'planets/lossless/map_dathomir.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -92,7 +92,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_endor.png',
+      sourceImage: 'planets/lossless/map_endor.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -111,7 +111,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_lok.png',
+      sourceImage: 'planets/lossless/map_lok.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -130,7 +130,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_naboo.png',
+      sourceImage: 'planets/lossless/map_naboo.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -149,7 +149,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_rori.png',
+      sourceImage: 'planets/lossless/map_rori.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -168,7 +168,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_talus.png',
+      sourceImage: 'planets/lossless/map_talus.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -187,7 +187,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_tatooine.png',
+      sourceImage: 'planets/lossless/map_tatooine.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -206,7 +206,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 4,
-      sourceImage: '/public/planets/lossless/map_yavin4.png',
+      sourceImage: 'planets/lossless/map_yavin4.png',
       attribution: "Sytner's Satellite Maps 2.0",
       size: DEFAULT_RASTERIZED_MAP_SIZE,
     },
@@ -225,7 +225,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     planetMap: { size: 8192, offset: { x: 0, z: 0 } },
     raster: {
       maxZoom: 2,
-      sourceImage: '/public/planets/lossless/map_mustafar.png',
+      sourceImage: 'planets/lossless/map_mustafar.png',
       attribution: 'SWG Game Files',
       size: 1024,
     },
@@ -247,7 +247,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     },
     raster: {
       maxZoom: 2,
-      sourceImage: '/public/planets/lossless/map_kashyyyk_main.png',
+      sourceImage: 'planets/lossless/map_kashyyyk_main.png',
       attribution: 'SWG Game Files',
       size: 1024,
     },
@@ -269,7 +269,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     },
     raster: {
       maxZoom: 2,
-      sourceImage: '/public/planets/lossless/map_kashyyyk_dead_forest.png',
+      sourceImage: 'planets/lossless/map_kashyyyk_dead_forest.png',
       attribution: 'SWG Game Files',
       size: 1024,
     },
@@ -285,7 +285,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     },
     raster: {
       maxZoom: 2,
-      sourceImage: '/public/planets/lossless/map_kashyyyk_hunting.png',
+      sourceImage: 'planets/lossless/map_kashyyyk_hunting.png',
       attribution: 'SWG Game Files',
       size: 1024,
     },
@@ -307,7 +307,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     },
     raster: {
       maxZoom: 2,
-      sourceImage: '/public/planets/lossless/map_kashyyyk_rryatt_trail.png',
+      sourceImage: 'planets/lossless/map_kashyyyk_rryatt_trail.png',
       attribution: 'SWG Game Files',
       size: 1024,
     },
@@ -323,7 +323,7 @@ const mapConfigs: readonly MapConfiguration[] = [
   //   },
   //   raster: {
   //     maxZoom: 2,
-  //     sourceImage: '/public/planets/lossless/map_kashyyyk_south_dungeons_bocctyyy.png',
+  //     sourceImage: 'planets/lossless/map_kashyyyk_south_dungeons_bocctyyy.png',
   //     attribution: 'SWG Game Files',
   //     size: 1024,
   //   },
@@ -339,7 +339,7 @@ const mapConfigs: readonly MapConfiguration[] = [
   //   },
   //   raster: {
   //     maxZoom: 2,
-  //     sourceImage: '/public/planets/lossless/map_kashyyyk_south_dungeons_hracca.png',
+  //     sourceImage: 'planets/lossless/map_kashyyyk_south_dungeons_hracca.png',
   //     attribution: 'SWG Game Files',
   //     size: 1024,
   //   },
