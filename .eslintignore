@@ -1,3 +1,9 @@
 /**/*.d.ts
 .next
 public
+
+node_modules
+build
+
+/packages/frontend/config/*
+/packages/frontend/scripts/*
