@@ -78,7 +78,7 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
       <AttributionControl prefix={false} />
 
       <TileLayer
-        url={`/planets/tiles/${map.id}/{z}/{x}/{y}.png`}
+        url={`https://swg-map-viewer.geit.uk/planets/tiles/${map.id}/{z}/{x}/{y}.png`}
         noWrap
         maxNativeZoom={map.raster.maxZoom}
         bounds={bounds}

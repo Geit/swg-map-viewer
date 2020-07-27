@@ -21,7 +21,7 @@ You'll also need the following non-Node dependencies:
 When all dependencies are installed, you can run the following commands in the project folder:
 
 ### `yarn generate-tiles`
-Generate (or regenerate) the tileset used by the application. This command must be run before begining development, and may take a long time to complete (Typically around 3~5 minutes).
+Generate (or regenerate) the tileset used by the application. This command may take a long time to complete (Typically around 3~5 minutes).
 
 As above, this process requires `python3`, `gdal2tiles-leaflet`, and `pngquant`.
 
