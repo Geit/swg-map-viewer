@@ -83,7 +83,6 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
         maxNativeZoom={map.raster.maxZoom}
         bounds={bounds}
         attribution={map.raster.attribution}
-        detectRetina
         keepBuffer={3}
       />
 

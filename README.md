@@ -1,4 +1,4 @@
-# <img height="32" src="./src/components/swg.svg"> Star Wars Galaxies Map Viewer
+# <img height="32" src="./packages/frontend/src/components/swg.svg"> Star Wars Galaxies Map Viewer
 A Map Viewer for Star Wars Galaxies. Uses [Leaflet](https://leafletjs.com/) to allow the original Planets from Galaxies to be richly annotated with waypoints, markers and other content.
 
 The Planet Selection screen is powered by [ThreeJS](https://threejs.org/), and [react-three-fiber](https://github.com/react-spring/react-three-fiber).
@@ -11,10 +11,10 @@ To bootstrap the project, you'll need a recent version of Node & Yarn v1 install
 To install Node dependencies, simply run `yarn`.
 
 You'll also need the following non-Node dependencies:
-- [gdal2tiles-leaflet](https://github.com/commenthol/gdal2tiles-leaflet) should be cloned within a sibling directory, and any of it's dependencies installed on your machine. 
+- [gdal2tiles-leaflet](https://github.com/commenthol/gdal2tiles-leaflet) should be cloned within a sibling directory, and any of it's dependencies installed on your machine.
     - This is used to split the source planet maps into tiled versions
     - Will also require `python3` to be available within your PATH.
-- [pngquant](https://pngquant.org/) to be installed on your machine. 
+- [pngquant](https://pngquant.org/) to be installed on your machine.
     - Used to compress output tiles to reduce bandwidth requirements by up to 70%. Tile compression can be disabled with by using `DISABLE_OPTIMIZATION=true yarn generate-tiles`
 
 
