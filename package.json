@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "yarn workspace @swg-map-viewer/frontend run start",
+    "lint": "eslint --ext .ts,.js,.tsx,.jsx .",
     "build": "yarn workspace @swg-map-viewer/frontend run build",
     "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts"
   },
