@@ -12,7 +12,7 @@ const SidebarLazy = React.lazy(() => import('./Sidebar'));
 
 export default function Planet() {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const { planet } = useParams();
+  const { planet } = useParams<{ planet?: string }>();
   const { serverId } = useContext(ServerContext);
   const [selectedTreeItem, setSelectedTreeItem] = useState('');
   const [selectedTreeItemType, selectedTreeItemId] = selectedTreeItem.split('-');
