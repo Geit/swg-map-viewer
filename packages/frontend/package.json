@@ -18,7 +18,7 @@
     "react-use-measure": "2.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.11.4",
+    "@babel/core": "7.11.5",
     "@svgr/webpack": "5.4.0",
     "@types/lodash": "^4.14.161",
     "@types/node": "^14.6.2",
