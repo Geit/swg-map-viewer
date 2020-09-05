@@ -1,12 +1,12 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Select, MenuItem, FormControl, InputLabel } from '@material-ui/core';
+import { useRecoilState } from 'recoil';
 
 import servers from '../data/servers';
-
-import ServerContext from './contexts/ServerContext';
+import { currentServerIdAtom } from '../atoms/waypoints';
 
 const ServerSelect: React.FC = () => {
-  const { serverId, setServerId } = useContext(ServerContext);
+  const [serverId, setServerId] = useRecoilState(currentServerIdAtom);
 
   return (
     <FormControl fullWidth margin="normal">

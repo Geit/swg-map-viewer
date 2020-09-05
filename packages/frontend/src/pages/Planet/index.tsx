@@ -1,45 +1,27 @@
-import React, { useContext, useState, Suspense, useMemo } from 'react';
+import React, { useState, Suspense, useMemo, useEffect } from 'react';
 import { Grid, Box, Drawer, Hidden, Button } from '@material-ui/core';
 import { useParams } from 'react-router-dom';
+import { useRecoilValue, useSetRecoilState } from 'recoil';
 
 import GalaxiesPlanetMap from '../../components/GalaxiesPlanetMap';
 import mapConfigs from '../../data/maps';
-import { waypoints } from '../../data/waypoints';
-import ServerContext from '../../components/contexts/ServerContext';
-import { WaypointType } from '../../enums';
+import { waypointsForMapDisplaySelector, currentPlanetAtom } from '../../atoms/waypoints';
 
 const SidebarLazy = React.lazy(() => import('./Sidebar'));
 
 export default function Planet() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const { planet } = useParams<{ planet?: string }>();
-  const { serverId } = useContext(ServerContext);
-  const [selectedTreeItem, setSelectedTreeItem] = useState('');
-  const [selectedTreeItemType, selectedTreeItemId] = selectedTreeItem.split('-');
+  const waypointsToRender = useRecoilValue(waypointsForMapDisplaySelector);
+  const setCurrentPlanet = useSetRecoilState(currentPlanetAtom);
 
   const mapConfig = useMemo(() => mapConfigs.find(({ id }) => id === planet), [planet]);
 
+  useEffect(() => {
+    setCurrentPlanet(planet || null);
+  }, [planet, setCurrentPlanet]);
+
   if (typeof planet !== 'string' || !mapConfig) return null;
-
-  const waypointsForMap = waypoints.filter(
-    waypoint =>
-      waypoint.planet === mapConfig.id && (waypoint.serverIds?.includes(serverId) || waypoint.serverIds === null)
-  );
-
-  const isCitySelected =
-    selectedTreeItemType === 'item' &&
-    selectedTreeItemId &&
-    waypoints.find(waypoint => waypoint.id === selectedTreeItemId)?.type === WaypointType.City;
-
-  const waypointsToRender = waypointsForMap.filter(waypoint => {
-    if (waypoint.type === WaypointType.City && !isCitySelected) return true;
-
-    if (selectedTreeItemType === 'category' && waypoint.type === Number(selectedTreeItemId)) return true;
-
-    if (selectedTreeItemType === 'item' && waypoint.id === selectedTreeItemId) return true;
-
-    return false;
-  });
 
   return (
     <>
@@ -50,13 +32,9 @@ export default function Planet() {
           </Box>
         </Grid>
         <Hidden xsDown initialWidth="lg">
-          <Grid item xs={4} sm={4} md={2}>
+          <Grid item xs={4} sm={4} md={3}>
             <Suspense fallback={null}>
-              <SidebarLazy
-                setSelectedTreeItem={setSelectedTreeItem}
-                currentMap={mapConfig}
-                waypointsForMap={waypointsForMap}
-              />
+              <SidebarLazy currentMap={mapConfig} />
             </Suspense>
           </Grid>
         </Hidden>
@@ -68,11 +46,7 @@ export default function Planet() {
           </Button>
           <Drawer onClose={() => setDrawerOpen(false)} open={drawerOpen} anchor="right">
             <Suspense fallback={null}>
-              <SidebarLazy
-                setSelectedTreeItem={setSelectedTreeItem}
-                currentMap={mapConfig}
-                waypointsForMap={waypointsForMap}
-              />
+              <SidebarLazy currentMap={mapConfig} />
             </Suspense>
           </Drawer>
         </Box>

@@ -11,8 +11,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#2 - Scout Trooper Right Bicep',
@@ -22,8 +23,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#3 - Scout Trooper Boots',
@@ -33,8 +35,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#4 - Scout Trooper Left Bracer',
@@ -44,8 +47,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#5 - Scout Trooper Right Bracer',
@@ -55,8 +59,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#6 - Scout Trooper Chest Piece',
@@ -66,8 +71,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#7 - Scout Trooper Gloves',
@@ -77,8 +83,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#8 - Scout Trooper Helmet',
@@ -88,8 +95,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#9 - Scout Trooper Leggings',
@@ -99,8 +107,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#10 - Scout Trooper Utility Belt',
@@ -110,8 +119,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Scout Trooper',
     },
+    parentCategories: ['Armor', 'Scout Trooper'],
   },
   {
     name: '#1 - Shock Trooper Left Bicep',
@@ -121,8 +131,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#2 - Shock Trooper Right Bicep',
@@ -132,8 +143,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#3 - Shock Trooper Boots',
@@ -143,8 +155,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#4 - Shock Trooper Left Bracer',
@@ -154,8 +167,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#5 - Shock Trooper Right Bracer',
@@ -165,8 +179,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#6 - Shock Trooper Chest Piece',
@@ -176,8 +191,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#7 - Shock Trooper Gloves',
@@ -187,8 +203,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#8 - Shock Trooper Helmet',
@@ -198,8 +215,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#9 - Shock Trooper Leggings',
@@ -209,8 +227,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#10 - Shock Trooper Utility Belt',
@@ -220,8 +239,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Shock Trooper',
     },
+    parentCategories: ['Armor', 'Shock Trooper'],
   },
   {
     name: '#1 - Stormtrooper Left Bicep',
@@ -231,8 +251,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#2 - Stormtrooper Right Bicep',
@@ -242,8 +263,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#3 - Stormtrooper Armor Boots',
@@ -253,8 +275,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#4 - Stormtrooper Left Bracer',
@@ -264,8 +287,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#5 - Stormtrooper Right Bracer',
@@ -275,8 +299,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#6 - Stormtrooper Chest Piece',
@@ -286,8 +311,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#7 - Stormtrooper Gloves',
@@ -297,8 +323,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#8 - Stormtrooper Helmet',
@@ -308,8 +335,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#9 - Stormtrooper Leggings',
@@ -319,8 +347,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: '#10 - Stormtrooper Utility Belt',
@@ -330,8 +359,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Imperial',
+      collection: 'Armor, Stormtrooper',
     },
+    parentCategories: ['Armor', 'Stormtrooper'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #1',
@@ -341,8 +371,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #2',
@@ -352,8 +383,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #3',
@@ -363,8 +395,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #4',
@@ -374,8 +407,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #5',
@@ -385,8 +419,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #6',
@@ -396,8 +431,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #7',
@@ -407,8 +443,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #8',
@@ -418,8 +455,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: 'Lost Rebel Assault Armor Collection #9',
@@ -429,8 +467,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Assault Armor',
     },
+    parentCategories: ['Armor', 'Rebel Assault Armor'],
   },
   {
     name: '#1 - Rebel Battle Armor Left Bicep',
@@ -440,8 +479,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#2 - Rebel Battle Armor Right Bicep',
@@ -451,8 +491,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#3 - Rebel Battle Armor Boots',
@@ -462,8 +503,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#4 - Rebel Battle Armor Left Bracer',
@@ -473,8 +515,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#5 - Rebel Battle Armor Right Bracer',
@@ -484,8 +527,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#6 - Rebel Battle Armor Chest Piece',
@@ -495,8 +539,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#7 - Rebel Battle Armor Gloves',
@@ -506,8 +551,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#8 - Rebel Battle Armor Helmet',
@@ -517,8 +563,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#9  - Rebel Battle Armor Leggings',
@@ -528,8 +575,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Battle Armor',
     },
+    parentCategories: ['Armor', 'Rebel Battle Armor'],
   },
   {
     name: '#1 - Rebel Marine Armor Left Bicep',
@@ -539,8 +587,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#2 - Rebel Marine Armor Right Bicep',
@@ -550,8 +599,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#3 - Rebel Marine Armor Boots',
@@ -561,8 +611,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#4 - Rebel Marine Armor Left Bracer',
@@ -572,8 +623,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#5 - Rebel Marine Armor Right Bracer',
@@ -583,8 +635,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#6 - Rebel Marine Armor Chest Piece',
@@ -594,8 +647,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#7 - Rebel Marine Armor Gloves',
@@ -605,8 +659,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#8 - Rebel Marine Armor Helmet',
@@ -616,8 +671,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
     name: '#9 - Rebel Marine Armor Leggings',
@@ -627,11 +683,12 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Armor, Rebel',
+      collection: 'Armor, Rebel Marine Armor',
     },
+    parentCategories: ['Armor', 'Rebel Marine Armor'],
   },
   {
-    name: 'Beetle Collection #1 (A Piranha Beetle)',
+    name: '#1 - A Piranha Beetle',
     description: null,
     location: [-3084, 0, -3072],
     planet: 'yavin4',
@@ -640,9 +697,10 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Beetle Collection',
     },
+    parentCategories: ['Decorations', 'Beetle Collection'],
   },
   {
-    name: 'Beetle Collection #2 (A Borer Beetle)',
+    name: '#2 - A Borer Beetle',
     description: null,
     location: [-6453, 0, 897],
     planet: 'dathomir',
@@ -651,9 +709,10 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Beetle Collection',
     },
+    parentCategories: ['Decorations', 'Beetle Collection'],
   },
   {
-    name: 'Beetle Collection #3 (A Young Cave Beetle)',
+    name: '#3 - A Young Cave Beetle',
     description: null,
     location: [-3959, 0, 6270],
     planet: 'tatooine',
@@ -662,9 +721,10 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Beetle Collection',
     },
+    parentCategories: ['Decorations', 'Beetle Collection'],
   },
   {
-    name: 'Beetle Collection #4 (A Flame Beetle)',
+    name: '#4 - A Flame Beetle',
     description: null,
     location: [328, 0, -1136],
     planet: 'mustafar',
@@ -673,9 +733,10 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Beetle Collection',
     },
+    parentCategories: ['Decorations', 'Beetle Collection'],
   },
   {
-    name: 'Beetle Collection #5 (A Ground Beetle)',
+    name: '#5 - A Ground Beetle',
     description: null,
     location: [-5417, 0, -6271],
     planet: 'corellia',
@@ -684,9 +745,10 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Beetle Collection',
     },
+    parentCategories: ['Decorations', 'Beetle Collection'],
   },
   {
-    name: 'Beetle Collection #6 (A Junk Beetle)',
+    name: '#6 - A Junk Beetle',
     description: null,
     location: [-7071, 0, -3332],
     planet: 'dantooine',
@@ -695,116 +757,127 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Beetle Collection',
     },
+    parentCategories: ['Decorations', 'Beetle Collection'],
   },
   {
-    name: 'Com-link Collection #1',
+    name: 'Com-Link Collection #1',
     description: null,
     location: [-7054, 0, 7352],
     planet: 'yavin4',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #10',
-    description: null,
-    location: [-3978, 0, 4389],
-    planet: 'naboo',
-    type: WaypointType.CollectionItem,
-    serverIds: ['legends'],
-    extraAttributes: {
-      collection: 'Comlink Collection',
-    },
-  },
-  {
-    name: 'Com-link Collection #2',
+    name: 'Com-Link Collection #2',
     description: null,
     location: [-6232, 0, -6088],
     planet: 'dathomir',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #3',
+    name: 'Com-Link Collection #3',
     description: null,
     location: [-1166, 0, 2951],
     planet: 'endor',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #4',
+    name: 'Com-Link Collection #4',
     description: null,
     location: [-5816, 0, -6395],
     planet: 'talus',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #5',
+    name: 'Com-Link Collection #5',
     description: null,
     location: [-3720, 0, -4752],
     planet: 'tatooine',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #6',
+    name: 'Com-Link Collection #6',
     description: null,
     location: [-1913, 0, 3995],
     planet: 'corellia',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #7',
+    name: 'Com-Link Collection #7',
     description: null,
     location: [2523, 0, -2862],
     planet: 'dantooine',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #8',
+    name: 'Com-Link Collection #8',
     description: null,
     location: [7056, 0, -5275],
     planet: 'rori',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
-    name: 'Com-link Collection #9',
+    name: 'Com-Link Collection #9',
     description: null,
     location: [6191, 0, 908],
     planet: 'lok',
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Comlink Collection',
+      collection: 'Com-Link Collection',
     },
+    parentCategories: ['Devices', 'Com-Link Collection'],
+  },
+  {
+    name: 'Com-Link Collection #10',
+    description: null,
+    location: [-3978, 0, 4389],
+    planet: 'naboo',
+    type: WaypointType.CollectionItem,
+    serverIds: ['legends'],
+    extraAttributes: {
+      collection: 'Com-Link Collection',
+    },
+    parentCategories: ['Devices', 'Com-Link Collection'],
   },
   {
     name: 'Collecting Comlink Pieces #1',
@@ -816,17 +889,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
-  },
-  {
-    name: 'Collecting Comlink Pieces #10',
-    description: null,
-    location: [3145, 0, -5039],
-    planet: 'tatooine',
-    type: WaypointType.CollectionItem,
-    serverIds: ['legends'],
-    extraAttributes: {
-      collection: 'Comlink Pieces',
-    },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Collecting Comlink Pieces #2',
@@ -838,6 +901,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Collecting Comlink Pieces #3',
@@ -849,6 +913,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: '#4 - Comlink Housing',
@@ -860,6 +925,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Collecting Comlink Pieces #5',
@@ -871,6 +937,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Collecting Comlink Pieces #6',
@@ -882,6 +949,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Collecting Comlink Pieces #7',
@@ -893,6 +961,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Collecting Comlink Pieces #8',
@@ -904,6 +973,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Collecting Comlink Pieces #9',
@@ -915,6 +985,19 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Comlink Pieces',
     },
+    parentCategories: ['Devices', 'Comlink Pieces'],
+  },
+  {
+    name: 'Collecting Comlink Pieces #10',
+    description: null,
+    location: [3145, 0, -5039],
+    planet: 'tatooine',
+    type: WaypointType.CollectionItem,
+    serverIds: ['legends'],
+    extraAttributes: {
+      collection: 'Comlink Pieces',
+    },
+    parentCategories: ['Devices', 'Comlink Pieces'],
   },
   {
     name: 'Datapad Collection #1',
@@ -926,18 +1009,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
-  {
-    name: 'Datapad Collection #10',
-    description: null,
-    location: [3591, 0, 349],
-    planet: 'rori',
-    type: WaypointType.CollectionItem,
-    serverIds: ['legends'],
-    extraAttributes: {
-      collection: 'Datapad Collection',
-    },
-  },
+
   {
     name: 'Datapad Collection #2',
     description: null,
@@ -948,6 +1022,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Datapad Collection #3',
@@ -959,6 +1034,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Datapad Collection #4',
@@ -970,6 +1046,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Datapad Collection #5',
@@ -981,6 +1058,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Datapad Collection #6',
@@ -992,6 +1070,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Datapad Collection #7',
@@ -1003,6 +1082,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Datapad Collection #8',
@@ -1014,6 +1094,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Datapad Collection #9',
@@ -1025,6 +1106,19 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Datapad Collection',
     },
+    parentCategories: ['Devices', 'Datapad Collection'],
+  },
+  {
+    name: 'Datapad Collection #10',
+    description: null,
+    location: [3591, 0, 349],
+    planet: 'rori',
+    type: WaypointType.CollectionItem,
+    serverIds: ['legends'],
+    extraAttributes: {
+      collection: 'Datapad Collection',
+    },
+    parentCategories: ['Devices', 'Datapad Collection'],
   },
   {
     name: 'Agrilat Swamp',
@@ -1036,6 +1130,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
+    parentCategories: ['Badges', 'Exploration', 'Corellia'],
   },
   {
     name: 'Crystal Fountain of Bela Vista',
@@ -1047,6 +1142,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
+    parentCategories: ['Badges', 'Exploration', 'Corellia'],
   },
   {
     name: 'Grand Theater of Vreni Island',
@@ -1058,6 +1154,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
+    parentCategories: ['Badges', 'Exploration', 'Corellia'],
   },
   {
     name: 'Rebel Hideout',
@@ -1069,6 +1166,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
+    parentCategories: ['Badges', 'Exploration', 'Corellia'],
   },
   {
     name: 'Rogue CorSec Base',
@@ -1080,6 +1178,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Corellia',
     },
+    parentCategories: ['Badges', 'Exploration', 'Corellia'],
   },
   {
     name: 'Abandoned Rebel Base',
@@ -1091,6 +1190,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dantooine'],
   },
   {
     name: 'Dantari Rock Village',
@@ -1102,6 +1202,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dantooine'],
   },
   {
     name: 'Dantari Village',
@@ -1113,6 +1214,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dantooine'],
   },
   {
     name: 'Jedi Temple Ruins',
@@ -1124,6 +1226,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dantooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dantooine'],
   },
   {
     name: 'Dathomir Abandoned Escape Pod',
@@ -1135,6 +1238,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dathomir'],
   },
   {
     name: 'Dathomir Tarpits',
@@ -1146,6 +1250,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dathomir'],
   },
   {
     name: 'Downed Ship',
@@ -1157,6 +1262,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dathomir'],
   },
   {
     name: 'Greater Misty Falls',
@@ -1168,6 +1274,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dathomir'],
   },
   {
     name: 'Imperial Prison',
@@ -1179,6 +1286,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dathomir'],
   },
   {
     name: 'Lesser Misty Falls',
@@ -1190,6 +1298,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dathomir'],
   },
   {
     name: 'Lesser Sarlacc',
@@ -1201,6 +1310,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Dathomir',
     },
+    parentCategories: ['Badges', 'Exploration', 'Dathomir'],
   },
   {
     name: 'Dulok Village',
@@ -1212,6 +1322,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
+    parentCategories: ['Badges', 'Exploration', 'Endor'],
   },
   {
     name: 'Ewok Lake Village',
@@ -1223,6 +1334,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
+    parentCategories: ['Badges', 'Exploration', 'Endor'],
   },
   {
     name: 'Ewok Tree Village',
@@ -1234,6 +1346,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
+    parentCategories: ['Badges', 'Exploration', 'Endor'],
   },
   {
     name: "Marauder's Stronghold",
@@ -1245,6 +1358,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Endor',
     },
+    parentCategories: ['Badges', 'Exploration', 'Endor'],
   },
   {
     name: 'Great Kimogilla Skeleton',
@@ -1256,6 +1370,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Lok',
     },
+    parentCategories: ['Badges', 'Exploration', 'Lok'],
   },
   {
     name: 'Imperial Outpost',
@@ -1267,6 +1382,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Lok',
     },
+    parentCategories: ['Badges', 'Exploration', 'Lok'],
   },
   {
     name: 'Mount Chaolt',
@@ -1278,6 +1394,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Lok',
     },
+    parentCategories: ['Badges', 'Exploration', 'Lok'],
   },
   {
     name: "Amidala's Beach",
@@ -1289,6 +1406,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
+    parentCategories: ['Badges', 'Exploration', 'Naboo'],
   },
   {
     name: "Dee'ja Peak Waterfall",
@@ -1300,6 +1418,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
+    parentCategories: ['Badges', 'Exploration', 'Naboo'],
   },
   {
     name: 'Gungan Sacred Place',
@@ -1311,6 +1430,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
+    parentCategories: ['Badges', 'Exploration', 'Naboo'],
   },
   {
     name: 'Theed Waterfall',
@@ -1322,6 +1442,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Naboo',
     },
+    parentCategories: ['Badges', 'Exploration', 'Naboo'],
   },
   {
     name: 'Imperial Encampment',
@@ -1333,6 +1454,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
+    parentCategories: ['Badges', 'Exploration', 'Rori'],
   },
   {
     name: 'Imperial Hyperdrive Facility',
@@ -1344,6 +1466,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
+    parentCategories: ['Badges', 'Exploration', 'Rori'],
   },
   {
     name: 'Kobola Spice Mine',
@@ -1355,6 +1478,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
+    parentCategories: ['Badges', 'Exploration', 'Rori'],
   },
   {
     name: 'Rebel Outpost',
@@ -1366,6 +1490,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Rori',
     },
+    parentCategories: ['Badges', 'Exploration', 'Rori'],
   },
   {
     name: 'Imperial Outpost',
@@ -1377,6 +1502,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
+    parentCategories: ['Badges', 'Exploration', 'Talus'],
   },
   {
     name: 'Imperial vs. Rebel Battle',
@@ -1388,6 +1514,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
+    parentCategories: ['Badges', 'Exploration', 'Talus'],
   },
   {
     name: 'Lost Aqualish War Partys Cave',
@@ -1399,6 +1526,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
+    parentCategories: ['Badges', 'Exploration', 'Talus'],
   },
   {
     name: 'Lost Village of Durbin',
@@ -1410,6 +1538,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Talus',
     },
+    parentCategories: ['Badges', 'Exploration', 'Talus'],
   },
   {
     name: 'Ancient Krayt Skull',
@@ -1421,6 +1550,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Tatooine'],
   },
   {
     name: "Ben Kenobi's Hut",
@@ -1432,6 +1562,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Tatooine'],
   },
   {
     name: 'Escape Pod',
@@ -1443,6 +1574,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Tatooine'],
   },
   {
     name: 'Fort Tusken',
@@ -1454,6 +1586,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Tatooine'],
   },
   {
     name: 'Great Pit of Carkoon',
@@ -1465,6 +1598,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Tatooine'],
   },
   {
     name: 'Krayt Graveyard',
@@ -1476,6 +1610,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Tatooine'],
   },
   {
     name: 'Lars Homestead',
@@ -1487,6 +1622,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Tatooine',
     },
+    parentCategories: ['Badges', 'Exploration', 'Tatooine'],
   },
   {
     name: "Temple of Exar K'un",
@@ -1498,6 +1634,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Yavin 4',
     },
+    parentCategories: ['Badges', 'Exploration', 'Yavin 4'],
   },
   {
     name: 'Temple of the Blueleaf',
@@ -1509,6 +1646,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Yavin 4',
     },
+    parentCategories: ['Badges', 'Exploration', 'Yavin 4'],
   },
   {
     name: 'Woolamander Palace',
@@ -1520,6 +1658,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Exploration Badges - Yavin 4',
     },
+    parentCategories: ['Badges', 'Exploration', 'Yavin 4'],
   },
   {
     name: "A Bouquet of Flowers #1 (Dee'ja Peak)",
@@ -1529,8 +1668,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (A)',
+      collection: 'Flowers of the Forgotten',
     },
+    parentCategories: ['Artifacts', 'Flowers of the Forgotten'],
   },
   {
     name: "A Bouquet of Flowers #2 (Nym's Stronghold)",
@@ -1540,8 +1680,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (A)',
+      collection: 'Flowers of the Forgotten',
     },
+    parentCategories: ['Artifacts', 'Flowers of the Forgotten'],
   },
   {
     name: 'A Bouquet of Flowers #3 (Coronet)',
@@ -1551,8 +1692,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (A)',
+      collection: 'Flowers of the Forgotten',
     },
+    parentCategories: ['Artifacts', 'Flowers of the Forgotten'],
   },
   {
     name: 'A Bouquet of Flowers #4 (Dearic)',
@@ -1562,8 +1704,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (A)',
+      collection: 'Flowers of the Forgotten',
     },
+    parentCategories: ['Artifacts', 'Flowers of the Forgotten'],
   },
   {
     name: 'A Bouquet of Flowers #5 (Research Outpost)',
@@ -1573,8 +1716,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (A)',
+      collection: 'Flowers of the Forgotten',
     },
+    parentCategories: ['Artifacts', 'Flowers of the Forgotten'],
   },
   {
     name: 'a Forgotten Grave #1',
@@ -1584,8 +1728,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
+      collection: 'A Grave Memorial',
     },
+    parentCategories: ['Artifacts', 'A Grave Memorial'],
   },
   {
     name: 'a Forgotten Grave #2',
@@ -1595,8 +1740,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
+      collection: 'A Grave Memorial',
     },
+    parentCategories: ['Artifacts', 'A Grave Memorial'],
   },
   {
     name: 'a Forgotten Grave #3',
@@ -1606,8 +1752,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
+      collection: 'A Grave Memorial',
     },
+    parentCategories: ['Artifacts', 'A Grave Memorial'],
   },
   {
     name: 'a Forgotten Grave #4',
@@ -1617,8 +1764,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
+      collection: 'A Grave Memorial',
     },
+    parentCategories: ['Artifacts', 'A Grave Memorial'],
   },
   {
     name: 'a Forgotten Grave #5',
@@ -1628,8 +1776,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'Flowers of the Forgotten (B) -> Grave Memorial',
+      collection: 'A Grave Memorial',
     },
+    parentCategories: ['Artifacts', 'A Grave Memorial'],
   },
   {
     name: 'Force Shui - Pitch #1 Narmle',
@@ -1641,6 +1790,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
+    parentCategories: ['Decorations', 'Force Shui - Pitch'],
   },
   {
     name: 'Force Shui - Pitch #2 Bestine',
@@ -1652,6 +1802,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
+    parentCategories: ['Decorations', 'Force Shui - Pitch'],
   },
   {
     name: "Force Shui - Pitch #3 Smuggler's Outpost",
@@ -1663,6 +1814,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
+    parentCategories: ['Decorations', 'Force Shui - Pitch'],
   },
   {
     name: 'Force Shui - Pitch #4 Science Outpost',
@@ -1674,6 +1826,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
+    parentCategories: ['Decorations', 'Force Shui - Pitch'],
   },
   {
     name: 'Force Shui - Pitch #5 Tyrena',
@@ -1685,6 +1838,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Pitch',
     },
+    parentCategories: ['Decorations', 'Force Shui - Pitch'],
   },
   {
     name: 'Force Shui - Roll #1 Nashal',
@@ -1696,6 +1850,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
+    parentCategories: ['Decorations', 'Force Shui - Roll'],
   },
   {
     name: 'Force Shui - Roll #2 Lake Retreat',
@@ -1707,6 +1862,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
+    parentCategories: ['Decorations', 'Force Shui - Roll'],
   },
   {
     name: 'Force Shui - Roll #3 Labor Outpost',
@@ -1718,6 +1874,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
+    parentCategories: ['Decorations', 'Force Shui - Roll'],
   },
   {
     name: 'Force Shui - Roll #4 Pirate Outpost',
@@ -1729,6 +1886,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
+    parentCategories: ['Decorations', 'Force Shui - Roll'],
   },
   {
     name: 'Force Shui - Roll #5',
@@ -1740,6 +1898,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Force Shui - Roll',
     },
+    parentCategories: ['Decorations', 'Force Shui - Roll'],
   },
   {
     name: 'Hanging Light #5',
@@ -1751,6 +1910,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #1',
@@ -1762,6 +1922,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #10',
@@ -1773,6 +1934,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #2',
@@ -1784,6 +1946,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #3',
@@ -1795,6 +1958,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #4',
@@ -1806,6 +1970,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #6',
@@ -1817,6 +1982,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #7',
@@ -1828,6 +1994,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #8',
@@ -1839,6 +2006,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light #9',
@@ -1850,6 +2018,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light',
     },
+    parentCategories: ['Decorations', 'Hanging Light'],
   },
   {
     name: 'Hanging Light, Style 2 #1',
@@ -1861,6 +2030,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #10',
@@ -1872,6 +2042,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #2',
@@ -1883,6 +2054,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #3',
@@ -1894,6 +2066,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #4',
@@ -1905,6 +2078,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #5',
@@ -1916,6 +2090,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #6',
@@ -1927,6 +2102,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #7',
@@ -1938,6 +2114,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #8',
@@ -1949,6 +2126,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Hanging Light, Style 2 #9',
@@ -1960,6 +2138,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Hanging Light 2',
     },
+    parentCategories: ['Decorations', 'Hanging Light 2'],
   },
   {
     name: 'Instrumental Music #1',
@@ -1971,6 +2150,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Instrumental Music',
     },
+    parentCategories: ['Hobbies', 'Instrumental Music'],
   },
   {
     name: 'Instrumental Music #2',
@@ -1982,6 +2162,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Instrumental Music',
     },
+    parentCategories: ['Hobbies', 'Instrumental Music'],
   },
   {
     name: 'Instrumental Music #3',
@@ -1993,6 +2174,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Instrumental Music',
     },
+    parentCategories: ['Hobbies', 'Instrumental Music'],
   },
   {
     name: 'Instrumental Music #4',
@@ -2004,6 +2186,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Instrumental Music',
     },
+    parentCategories: ['Hobbies', 'Instrumental Music'],
   },
   {
     name: 'Instrumental Music #5',
@@ -2015,6 +2198,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Instrumental Music',
     },
+    parentCategories: ['Hobbies', 'Instrumental Music'],
   },
   {
     name: 'Instrumental Music #6',
@@ -2026,6 +2210,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Instrumental Music',
     },
+    parentCategories: ['Hobbies', 'Instrumental Music'],
   },
   {
     name: 'Darklighter Estates',
@@ -2037,6 +2222,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Fort Tusken',
@@ -2048,6 +2234,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Imperial Oasis',
@@ -2059,6 +2246,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: "Jabba's Palace",
@@ -2070,6 +2258,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Krayt Graveyard',
@@ -2081,6 +2270,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Mirage',
@@ -2092,6 +2282,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Mos Eisley Vista',
@@ -2103,6 +2294,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: "Obi-Wan's House",
@@ -2114,6 +2306,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Old Legacy Building',
@@ -2125,6 +2318,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Ranch',
@@ -2136,6 +2330,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Panoramic Vistas: Tatooine',
     },
+    parentCategories: ['Hobbies', 'Panoramic Vistas: Tatooine'],
   },
   {
     name: 'Potted Plant Collection #1',
@@ -2147,6 +2342,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #2',
@@ -2158,6 +2354,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #3',
@@ -2169,6 +2366,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #4',
@@ -2180,6 +2378,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #5',
@@ -2191,6 +2390,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #6',
@@ -2202,6 +2402,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #7',
@@ -2213,6 +2414,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #8',
@@ -2224,6 +2426,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #9',
@@ -2235,6 +2438,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #10',
@@ -2246,6 +2450,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #11',
@@ -2257,6 +2462,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #12',
@@ -2268,6 +2474,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #13',
@@ -2279,6 +2486,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #14',
@@ -2290,6 +2498,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #15',
@@ -2301,6 +2510,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #16',
@@ -2312,6 +2522,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #17',
@@ -2323,6 +2534,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #18',
@@ -2334,6 +2546,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #19',
@@ -2345,6 +2558,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Plant Collection #20',
@@ -2356,6 +2570,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Plant',
     },
+    parentCategories: ['Decorations', 'Potted Plant'],
   },
   {
     name: 'Potted Purple Flower Collection #1',
@@ -2367,6 +2582,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #2',
@@ -2378,6 +2594,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #3',
@@ -2389,6 +2606,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #4',
@@ -2400,6 +2618,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #5',
@@ -2411,6 +2630,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #6',
@@ -2422,6 +2642,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #7',
@@ -2433,6 +2654,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #8',
@@ -2444,6 +2666,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #9',
@@ -2455,6 +2678,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #10',
@@ -2466,6 +2690,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #11',
@@ -2477,6 +2702,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #12',
@@ -2488,6 +2714,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #13',
@@ -2499,6 +2726,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #14',
@@ -2510,6 +2738,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #15',
@@ -2521,6 +2750,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #16',
@@ -2532,6 +2762,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #17',
@@ -2543,6 +2774,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #18',
@@ -2554,6 +2786,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #19',
@@ -2565,6 +2798,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Potted Purple Flower Collection #20',
@@ -2576,6 +2810,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Potted Purple Flower',
     },
+    parentCategories: ['Decorations', 'Potted Purple Flower'],
   },
   {
     name: 'Prop-er Techniques #1',
@@ -2587,6 +2822,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
+    parentCategories: ['Hobbies', 'Prop-er Techniques'],
   },
   {
     name: 'Prop-er Techniques #2',
@@ -2598,6 +2834,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
+    parentCategories: ['Hobbies', 'Prop-er Techniques'],
   },
   {
     name: 'Prop-er Techniques #3',
@@ -2609,6 +2846,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
+    parentCategories: ['Hobbies', 'Prop-er Techniques'],
   },
   {
     name: 'Prop-er Techniques #4',
@@ -2620,6 +2858,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
+    parentCategories: ['Hobbies', 'Prop-er Techniques'],
   },
   {
     name: 'Prop-er Techniques #5',
@@ -2631,6 +2870,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
+    parentCategories: ['Hobbies', 'Prop-er Techniques'],
   },
   {
     name: 'Prop-er Techniques #6',
@@ -2642,6 +2882,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Prop-er Techniques',
     },
+    parentCategories: ['Hobbies', 'Prop-er Techniques'],
   },
   {
     name: '#1 - Bloody Knife',
@@ -2653,6 +2894,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#2 - A Broken Rifle',
@@ -2664,6 +2906,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#3 - A Signal Flare',
@@ -2675,6 +2918,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#4 - A Camera',
@@ -2686,6 +2930,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#5 - A Datadisk Letter',
@@ -2697,6 +2942,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#6 - A Dirty Stuffed Bantha',
@@ -2708,6 +2954,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#7 - A Torn Shirt',
@@ -2719,6 +2966,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#8 - Radio Antenna',
@@ -2730,6 +2978,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#9 - Movement Sensor',
@@ -2741,6 +2990,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: '#10 - Cracked Helmet',
@@ -2752,6 +3002,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Items'],
   },
   {
     name: 'Alpha Oona',
@@ -2763,6 +3014,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #1',
@@ -2774,6 +3026,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #2',
@@ -2785,6 +3038,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #3',
@@ -2796,6 +3050,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #4',
@@ -2807,6 +3062,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #5',
@@ -2818,6 +3074,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #6',
@@ -2829,6 +3086,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #7',
@@ -2840,6 +3098,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #8',
@@ -2851,6 +3110,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #9',
@@ -2862,6 +3122,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #10',
@@ -2873,6 +3134,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #11',
@@ -2884,6 +3146,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #12',
@@ -2895,6 +3158,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #13',
@@ -2906,6 +3170,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #14',
@@ -2917,6 +3182,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #15',
@@ -2928,6 +3194,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #16',
@@ -2939,6 +3206,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #17',
@@ -2950,6 +3218,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #18',
@@ -2961,6 +3230,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #19',
@@ -2972,6 +3242,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #20',
@@ -2983,6 +3254,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #21',
@@ -2994,6 +3266,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #22',
@@ -3005,6 +3278,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: 'Alpha Virus Container #23',
@@ -3016,6 +3290,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Alpha Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Alpha Virus Containers'],
   },
   {
     name: '#1 - Batteries',
@@ -3027,6 +3302,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#2 - Medical Kit',
@@ -3038,6 +3314,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#3 - Bracelet',
@@ -3049,6 +3326,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#4 - Survival Kit',
@@ -3060,8 +3338,8 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
-
   {
     name: '#5 - Damaged Pistol',
     description: null,
@@ -3072,6 +3350,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#6 - Emergency Rations',
@@ -3083,6 +3362,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#7 - A Broken Radio',
@@ -3094,6 +3374,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#8 - ID Card',
@@ -3105,6 +3386,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#9 - Flashlight',
@@ -3116,6 +3398,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: '#10 - Cracked Stormtrooper Armor',
@@ -3127,6 +3410,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Items'],
   },
   {
     name: 'Beta Oona',
@@ -3138,6 +3422,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #1',
@@ -3149,6 +3434,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #10',
@@ -3160,6 +3446,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #2',
@@ -3171,6 +3458,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #3',
@@ -3182,6 +3470,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #4',
@@ -3193,6 +3482,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #5',
@@ -3204,6 +3494,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #6',
@@ -3215,6 +3506,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #7',
@@ -3226,6 +3518,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #8',
@@ -3237,6 +3530,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #9',
@@ -3248,6 +3542,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #11',
@@ -3259,6 +3554,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #12',
@@ -3270,6 +3566,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #13',
@@ -3281,6 +3578,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #14',
@@ -3292,6 +3590,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #15',
@@ -3303,6 +3602,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #16',
@@ -3314,6 +3614,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #17',
@@ -3325,6 +3626,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #18',
@@ -3336,6 +3638,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #19',
@@ -3347,6 +3650,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #20',
@@ -3358,6 +3662,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #21',
@@ -3369,6 +3674,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #22',
@@ -3380,6 +3686,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #23',
@@ -3391,6 +3698,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
   {
     name: 'Beta Virus Container #24',
@@ -3402,216 +3710,8 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Beta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Beta Virus Containers'],
   },
-  //   {
-  //     name: 'Jawiin Danod - 15 - Painted Warning',
-  //     description: null,
-  //     location: [-6455, 0, -5976],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Jaina Nassin - 65 - Experimental Lung Vat (Schematic)',
-  //     description: null,
-  //     location: [-6479, 0, -7384],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Adol Mantid - 40 - Painted Arrow (Right)',
-  //     description: null,
-  //     location: [-6486, 0, -6710],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Soon Dom - 55 - Caution Sign',
-  //     description: null,
-  //     location: [-6492, 0, -6968],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: "Fenn Kay'lay - 5",
-  //     description: null,
-  //     location: [-6521, 0, -5868],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Navik Geelo - 30 - Death Trooper Utility Belt',
-  //     description: null,
-  //     location: [-6555, 0, -6358],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Salek Panaka - 20 - Painted Bite Warning',
-  //     description: null,
-  //     location: [-6607, 0, -6263],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Ool Awmod - 60 - Scientific Work Desk (Schematic)',
-  //     description: null,
-  //     location: [-6611, 0, -6966],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Wertsnik - 70 - Pile of Stormtroopers (Schematic)',
-  //     description: null,
-  //     location: [-6678, 0, -7467],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: "Wesk Kit'pay - 75 - Deceased Shackled Prisoner (Schematic)",
-  //     description: null,
-  //     location: [-6955, 0, -7495],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Dugo Evnul - 35 - Painted Arrow (Left)',
-  //     description: null,
-  //     location: [-7004, 0, -6432],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Snotharr - 25 - Painted Instructions',
-  //     description: null,
-  //     location: [-7267, 0, -6259],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Chak Krist - 85 - Prison Guard Pants (Schematic)',
-  //     description: null,
-  //     location: [-7286, 0, -7485],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Tal Freykaa - 45 - Biohazard Warning Sign',
-  //     description: null,
-  //     location: [-7372, 0, -6624],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Vil Burren - 10 - Painted Cry for Help',
-  //     description: null,
-  //     location: [-7400, 0, -5690],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Vina Maljazara - 95 - Hooked Stormtrooper Helmet',
-  //     description: null,
-  //     location: [-7478, 0, -7323],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Ghianna Hayde - 80 - Prison Jumpsuit (Schematic)',
-  //     description: null,
-  //     location: [-7499, 0, -7016],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Treena Moldovia - 90 - Prison Guard Jacket (Schematic)',
-  //     description: null,
-  //     location: [-7500, 0, -7244],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer',
-  //     },
-  //   },
-  //   {
-  //     name: 'Kallaova - 50 - Warning Sign',
-  //     description: null,
-  //     location: [-6967, 0, -6785],
-  //     planet: 'dathomir',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Quarantine Zone, Boss Slayer, Patrols In Large Figure 8',
-  //     },
-  //   },
   {
     name: 'Camp Alpha',
     description: null,
@@ -3622,6 +3722,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Location'],
   },
   {
     name: 'Camp Beta',
@@ -3633,6 +3734,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Location'],
   },
   {
     name: 'Camp Delta',
@@ -3644,6 +3746,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Location'],
   },
   {
     name: 'Camp Epsilon',
@@ -3655,6 +3758,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Location'],
   },
   {
     name: 'Camp Gamma',
@@ -3666,6 +3770,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Location',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Location'],
   },
   {
     name: '#1 - Power Converter',
@@ -3677,6 +3782,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#2 - Ammo Canister',
@@ -3688,6 +3794,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#3 - A Basket',
@@ -3699,6 +3806,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#4 - A Scout Pistol',
@@ -3710,6 +3818,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#5 - A Pet Cage',
@@ -3721,6 +3830,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#6 - Signal Scanner',
@@ -3732,6 +3842,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#7 - Medical Scanner',
@@ -3743,6 +3854,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#8 - Sleeping Cot',
@@ -3754,6 +3866,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: '#9 - A damaged vibro sword',
@@ -3765,8 +3878,8 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
-
   {
     name: '#10 - Human Remains',
     description: null,
@@ -3777,6 +3890,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Items'],
   },
   {
     name: 'Delta Virus Container #1',
@@ -3788,6 +3902,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #2',
@@ -3799,6 +3914,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #3',
@@ -3810,6 +3926,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #4',
@@ -3821,6 +3938,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #5',
@@ -3832,6 +3950,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #6',
@@ -3843,6 +3962,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #7',
@@ -3854,6 +3974,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #8',
@@ -3865,6 +3986,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #9',
@@ -3876,6 +3998,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #10',
@@ -3887,6 +4010,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #11',
@@ -3898,6 +4022,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #12',
@@ -3909,6 +4034,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #13',
@@ -3920,6 +4046,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #14',
@@ -3931,6 +4058,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #15',
@@ -3942,6 +4070,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: 'Delta Virus Container #16',
@@ -3953,6 +4082,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Delta Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Delta Virus Containers'],
   },
   {
     name: '#1 - Holodisk',
@@ -3964,6 +4094,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#2 - Location Beacon',
@@ -3975,6 +4106,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#3 - Backpack',
@@ -3986,6 +4118,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#4 - Radio',
@@ -3997,6 +4130,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#5 - A Medical Console',
@@ -4008,6 +4142,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#6 - a camp fire',
@@ -4019,6 +4154,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#7 - a computer toolkit',
@@ -4030,6 +4166,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#8 - a carbine',
@@ -4041,6 +4178,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#9 - a medical analysis consol',
@@ -4052,6 +4190,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#10 - Antidote kit',
@@ -4063,6 +4202,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Epsilon Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Epsilon Items'],
   },
   {
     name: '#1 - Depleted Energy Cartridge',
@@ -4074,6 +4214,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#2 - Cargo Pockets',
@@ -4085,6 +4226,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#3 - Recording Rod',
@@ -4096,6 +4238,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#4 - Ambush Detector',
@@ -4107,6 +4250,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#5 - Radar Beacon',
@@ -4118,6 +4262,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#6 - Cooking Utensils',
@@ -4129,6 +4274,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#7 - Datapad Diary',
@@ -4140,6 +4286,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#8 - Used Medic Kit',
@@ -4151,6 +4298,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#9 A Unused Shuttle ticket',
@@ -4162,6 +4310,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: '#10 - Bloody Jacket',
@@ -4173,6 +4322,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Items'],
   },
   {
     name: 'Gamma Virus Container #1',
@@ -4184,6 +4334,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #2',
@@ -4195,6 +4346,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #3',
@@ -4206,6 +4358,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #4',
@@ -4217,6 +4370,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #5',
@@ -4228,6 +4382,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #6',
@@ -4239,6 +4394,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #7',
@@ -4250,6 +4406,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #8',
@@ -4261,6 +4418,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #9',
@@ -4272,6 +4430,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #10',
@@ -4283,6 +4442,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #11',
@@ -4294,6 +4454,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #12',
@@ -4305,6 +4466,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #13',
@@ -4316,6 +4478,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #14',
@@ -4327,6 +4490,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #15',
@@ -4338,6 +4502,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #16',
@@ -4349,6 +4514,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #17',
@@ -4360,6 +4526,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Gamma Virus Container #18',
@@ -4371,6 +4538,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Camp Gamma Virus Containers',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Camp Gamma Virus Containers'],
   },
   {
     name: 'Possible Spawn #1',
@@ -4382,6 +4550,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #2',
@@ -4393,6 +4562,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #3',
@@ -4404,6 +4574,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #4',
@@ -4415,6 +4586,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #5',
@@ -4426,6 +4598,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #6',
@@ -4437,6 +4610,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #7',
@@ -4448,6 +4622,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #8',
@@ -4459,6 +4634,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #9',
@@ -4470,6 +4646,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #10',
@@ -4481,6 +4658,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #11',
@@ -4492,6 +4670,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #12',
@@ -4503,6 +4682,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #13',
@@ -4514,6 +4694,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #14',
@@ -4525,6 +4706,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #15',
@@ -4536,6 +4718,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #16',
@@ -4547,6 +4730,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #17',
@@ -4558,6 +4742,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'Possible Spawn #18',
@@ -4569,6 +4754,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Hidden Deathtroopers Collection',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Hidden Deathtroopers Collection'],
   },
   {
     name: 'A Broken Rifle',
@@ -4580,6 +4766,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'A Cracked Datapad',
@@ -4591,6 +4778,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'A Frequency Scanner',
@@ -4602,6 +4790,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'A Medical Canister',
@@ -4613,6 +4802,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'A Personal Locator',
@@ -4624,6 +4814,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'Stuffed Star Destroyer',
@@ -4635,6 +4826,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'A Supply Crate',
@@ -4646,6 +4838,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'An Auto Syringe',
@@ -4657,6 +4850,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'An Emergency Generator',
@@ -4668,6 +4862,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'Patient Records',
@@ -4679,6 +4874,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Quarantine Zone, Research Facility Items',
     },
+    parentCategories: ['Achievements', 'Quarantine Zone', 'Research Facility Items'],
   },
   {
     name: 'Bubbling Rock #1',
@@ -4690,6 +4886,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #2',
@@ -4701,6 +4898,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #3',
@@ -4712,6 +4910,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #4',
@@ -4723,6 +4922,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #5',
@@ -4734,6 +4934,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #6',
@@ -4745,6 +4946,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #7',
@@ -4756,6 +4958,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #8',
@@ -4767,6 +4970,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #9',
@@ -4778,6 +4982,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Bubbling Rock #10',
@@ -4789,6 +4994,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Bubbling',
     },
+    parentCategories: ['Decorations', 'Rock', 'Bubbling'],
   },
   {
     name: 'Burning Rock #1',
@@ -4800,6 +5006,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #2',
@@ -4811,6 +5018,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #3',
@@ -4822,6 +5030,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #4',
@@ -4833,6 +5042,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #5',
@@ -4844,6 +5054,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #6',
@@ -4855,6 +5066,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #7',
@@ -4866,6 +5078,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #8',
@@ -4877,6 +5090,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #9',
@@ -4888,6 +5102,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Burning Rock #10',
@@ -4899,6 +5114,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Burning',
     },
+    parentCategories: ['Decorations', 'Rock', 'Burning'],
   },
   {
     name: 'Glowing Rock #1',
@@ -4910,6 +5126,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #2',
@@ -4921,6 +5138,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #3',
@@ -4932,6 +5150,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #4',
@@ -4943,6 +5162,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #5',
@@ -4954,6 +5174,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #6',
@@ -4965,6 +5186,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #7',
@@ -4976,6 +5198,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #8',
@@ -4987,6 +5210,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #9',
@@ -4998,6 +5222,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Glowing Rock #10',
@@ -5009,6 +5234,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Glowing',
     },
+    parentCategories: ['Decorations', 'Rock', 'Glowing'],
   },
   {
     name: 'Steaming Rock #1',
@@ -5020,6 +5246,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #2',
@@ -5031,6 +5258,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #3',
@@ -5042,6 +5270,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #4',
@@ -5053,6 +5282,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #5',
@@ -5064,6 +5294,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #6',
@@ -5075,6 +5306,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #7',
@@ -5086,6 +5318,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #8',
@@ -5097,6 +5330,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #9',
@@ -5108,6 +5342,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: 'Steaming Rock #10',
@@ -5119,6 +5354,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Rock, Steaming',
     },
+    parentCategories: ['Decorations', 'Rock', 'Steaming'],
   },
   {
     name: '#1 - Painted Spat',
@@ -5130,6 +5366,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#2 - Murra Blanca',
@@ -5141,6 +5378,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#3 - Finned Blagart',
@@ -5152,6 +5390,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#4 - Bane Black Spider',
@@ -5163,6 +5402,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#5 - Scorpion Kliknik',
@@ -5174,6 +5414,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#6a - Spiketail Blurrg',
@@ -5185,6 +5426,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#6b - Spiketail Blurrg',
@@ -5196,6 +5438,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#7 - Mutant Acklay',
@@ -5207,6 +5450,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Trophy Creatures',
     },
+    parentCategories: ['Slayer', 'Trophy Creatures'],
   },
   {
     name: '#1 - Astromech Head',
@@ -5218,6 +5462,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#2 - Astromech Torso',
@@ -5229,6 +5474,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#3 - Damaged Droid',
@@ -5240,6 +5486,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#4 - Droid Adv. Redundant Power Supply',
@@ -5251,6 +5498,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#5 - Droid Module Package',
@@ -5262,6 +5510,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#6 - Droid Motivator',
@@ -5273,6 +5522,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#7 - Droid Personality Chip',
@@ -5284,6 +5534,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#8 - Droid Playback Module',
@@ -5295,6 +5546,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#9 - Droid Sensor Suite',
@@ -5306,6 +5558,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#10 - Manipulator Arm',
@@ -5317,6 +5570,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Unknown Astromech',
     },
+    parentCategories: ['Devices', 'Unknown Astromech'],
   },
   {
     name: '#1 - Blackscale Hall Sweeper',
@@ -5328,6 +5582,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#2 - Corestrike Rancor',
@@ -5339,6 +5594,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#3 - Coynite SFOR Republic Carbine',
@@ -5350,6 +5606,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#4 - Crusader M-XIII Carbine',
@@ -5361,6 +5618,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#5 - CY-M Carbine',
@@ -5372,6 +5630,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: "#6 - Darklighter's E-11",
@@ -5383,6 +5642,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#7 - Exemplars Mark',
@@ -5394,6 +5654,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#8 - Firestar 10-K',
@@ -5405,6 +5666,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#9 - Forward Commander Carbine',
@@ -5416,6 +5678,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#10 - Grievance Striker',
@@ -5427,6 +5690,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#11 - HK-47 Carbine',
@@ -5438,6 +5702,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark I'],
   },
   {
     name: '#1 - Hair-Trigger Carbine',
@@ -5449,6 +5714,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#2 - Kalranoos Carbine',
@@ -5460,6 +5726,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#3 - Kubaza Carbine',
@@ -5471,6 +5738,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#4 - Malevolent Bowcaster',
@@ -5482,6 +5750,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#5 - Modified X-1 Carbine',
@@ -5493,6 +5762,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#6 - Mustafarian Modified SFOR Republic Carbine',
@@ -5504,6 +5774,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: "#7 - Nym's Slugthrower Carbine",
@@ -5515,6 +5786,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: "#7 - OR-5's E-5",
@@ -5526,6 +5798,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#8 - Proton Carbine',
@@ -5537,6 +5810,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#9 - SFOR Republic Carbine',
@@ -5548,6 +5822,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#10 - Special Ops Bola Carbine',
@@ -5559,6 +5834,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#11 - White Thranta E-11 Carbine',
@@ -5570,6 +5846,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Carbine Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Carbine Weapons Mark II'],
   },
   {
     name: '#1 - Corellian Destroyer',
@@ -5581,6 +5858,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#2 - AK-Prime Rocket Launcher',
@@ -5592,6 +5870,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#3 - Crusader MXX Heavy Rifle',
@@ -5603,6 +5882,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#4 - Devastator Lava Cannon',
@@ -5614,6 +5894,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#5 - Heavy Republic Flamethrower',
@@ -5625,6 +5906,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#6 - Lava Cannon',
@@ -5636,6 +5918,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#7 - Malevolent Flamethrower',
@@ -5647,6 +5930,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#8 - Oppressor Flamethrower',
@@ -5658,6 +5942,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#9 - The Void',
@@ -5669,6 +5954,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#10 - Devastator Acid Launcher',
@@ -5680,6 +5966,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Heavy Weapons',
     },
+    parentCategories: ['Weapons', 'Rare Heavy Weapons'],
   },
   {
     name: '#1 - Blade of the Betrayer',
@@ -5691,6 +5978,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#2 - Black Metal Gaderiffi Baton',
@@ -5702,6 +5990,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#3 - Blackscale Razor',
@@ -5713,6 +6002,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#4 - Blackscale Stun Stick',
@@ -5724,6 +6014,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#5 - Bloodshot Ripper',
@@ -5735,6 +6026,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#6 - Gamorrean Battleaxe',
@@ -5746,6 +6038,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#7 - Hammer of the Miner',
@@ -5757,6 +6050,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#8 - HK-47 Lance',
@@ -5768,6 +6062,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#9 - Kaminoan Great Staff',
@@ -5779,6 +6074,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#10 - Kashyyk Bladestick',
@@ -5790,6 +6086,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#11 - Lance of the Runaway',
@@ -5801,6 +6098,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: "#12 - Blade of Nyenthi'Oris",
@@ -5812,6 +6110,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#13 - HK-47 Tulrus Sword',
@@ -5823,6 +6122,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#14 - Coynite Xandank Lance',
@@ -5834,6 +6134,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: '#15 - Grooved Two-handed Sword',
@@ -5845,6 +6146,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark I'],
   },
   {
     name: "#1 - OR-5's Sword",
@@ -5856,6 +6158,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: "#2 - Rydel's Sword",
@@ -5867,6 +6170,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#3 - Taskmaster Sword',
@@ -5878,6 +6182,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#4 - Underworld Blade',
@@ -5889,6 +6194,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: "#5 - Urnsor'is Soulleecher",
@@ -5900,6 +6206,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#6 - Xris Acid Sword',
@@ -5911,6 +6218,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#7 - Sinew Wrapped Knife',
@@ -5922,6 +6230,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: "#8 - Black Sun Executioner's Hack",
@@ -5933,6 +6242,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#9 - CY-M Sword',
@@ -5944,6 +6254,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: "#10 - Darstai'is Sickle",
@@ -5955,6 +6266,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#11 - Doom Bringer Obsidian Sword',
@@ -5966,6 +6278,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#12 - Engineer Sword',
@@ -5977,6 +6290,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#13 - Forward Commander Knuckler',
@@ -5988,6 +6302,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#14 - HK-47 Knuckler',
@@ -5999,6 +6314,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#15 - Malevolent Lance',
@@ -6010,6 +6326,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#16 - Nightsister Energy Lance',
@@ -6021,6 +6338,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark II'],
   },
   {
     name: '#1 - Mustafarian Modified Two-Handed Obsidian Sword',
@@ -6032,6 +6350,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#2 - N-K Executor',
@@ -6043,6 +6362,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#3 - Two-Handed Kashyyyk Sword',
@@ -6054,6 +6374,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#4 - Two-Handed Tulrus Sword',
@@ -6065,6 +6386,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#5 - White Thranta Katana',
@@ -6076,6 +6398,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#6 - Wookiee Toothpick',
@@ -6087,6 +6410,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#7 - Caller of Storms',
@@ -6098,6 +6422,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: "#8 - Champion's Sword ",
@@ -6109,6 +6434,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#9 - CorSec Sword',
@@ -6120,6 +6446,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#10 - Knuckles of the Katarn',
@@ -6131,6 +6458,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#11 - Necrosis Nightblade',
@@ -6142,6 +6470,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#12 - Obsidian Lance',
@@ -6153,6 +6482,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#13 - Oppressor Obsidian Polearm',
@@ -6164,6 +6494,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#14 - Pestilence',
@@ -6175,6 +6506,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#15 - Poisonspike',
@@ -6186,6 +6518,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark III'],
   },
   {
     name: '#1 - Strike Assault Lance',
@@ -6197,6 +6530,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: "#2 - Trandoshan Hunter's Lance",
@@ -6208,6 +6542,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#3 - White Thranta Lance',
@@ -6219,6 +6554,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#4 - Wookiee Heartlance',
@@ -6230,6 +6566,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#5 - Katana of the Runaway',
@@ -6241,6 +6578,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#6 - Lifeblood Cleaver',
@@ -6252,6 +6590,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#7 - Malevolent Heavy Sword',
@@ -6263,6 +6602,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#8 - Eventide Smasher',
@@ -6274,6 +6614,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#9 - HK-47 Sword',
@@ -6285,8 +6626,8 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
-
   {
     name: '#10 - Malevolent Obsidian Sword',
     description: null,
@@ -6297,6 +6638,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#11 - Sayormi Heartstriker',
@@ -6308,8 +6650,8 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
-
   {
     name: '#12 - Valarian Knuckler',
     description: null,
@@ -6320,6 +6662,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#13 - White Thranta Knuckler',
@@ -6331,6 +6674,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Melee Weapons Mark IV',
     },
+    parentCategories: ['Weapons', 'Rare Melee Weapons Mark IV'],
   },
   {
     name: '#1 - The Black Falcon',
@@ -6342,6 +6686,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#2 - Blackhand Annihilator',
@@ -6353,6 +6698,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#3 - C10 Dragoneye Reaper',
@@ -6364,6 +6710,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#4 - Coynite Disrupter Pistol',
@@ -6375,6 +6722,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#5 - D18 Liquidator',
@@ -6386,6 +6734,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#6 - Deathrain D50',
@@ -6397,6 +6746,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#7 - DL-44 Dosh Special',
@@ -6408,6 +6758,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#8 - Geonosian Sonic Blaster',
@@ -6419,6 +6770,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#9 - Grooved DL44',
@@ -6430,6 +6782,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#10 - Ion Relic Pistol',
@@ -6441,6 +6794,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark I'],
   },
   {
     name: '#1 - Ion Stunner Pistol',
@@ -6452,6 +6806,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#2 - Jawa Ion Pistol',
@@ -6463,6 +6818,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#3 - Kashyyyk Stalker Pistol',
@@ -6474,6 +6830,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#4 - KYD-21 Pistol',
@@ -6485,6 +6842,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#5 - Liquidsilver L7',
@@ -6496,6 +6854,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#6 - Modified DE-10 Pistol ',
@@ -6507,6 +6866,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#7 - Modified Republic Blaster',
@@ -6518,6 +6878,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#8 - Mustafarian Modified Disruptor Pistol',
@@ -6529,6 +6890,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#9 - Oppressor Pistol',
@@ -6540,6 +6902,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: "#10 - OR-5's DE-10",
@@ -6551,6 +6914,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#11 - Perfectly-Calibrated Pistol',
@@ -6562,6 +6926,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark II'],
   },
   {
     name: '#1 - Precise DL-44',
@@ -6573,6 +6938,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#2 - Quicktrigger Countermand',
@@ -6584,6 +6950,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#3 - Red Hydra Z-5 Pistol',
@@ -6595,6 +6962,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#4 - Rhiss Mark-20',
@@ -6606,6 +6974,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#5 - SR Combat Pistol',
@@ -6617,6 +6986,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#6 - Taskmaster Flechette',
@@ -6628,6 +6998,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#7 - Tchotchee Pistol',
@@ -6639,6 +7010,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#8 - Trandoshan Suppressor Pistol',
@@ -6650,6 +7022,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#9 - The Silencer',
@@ -6661,18 +7034,8 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
-  //   {
-  //     name: '#10 - UR-G8',
-  //     description: null,
-  //     location: [74, 0, -21],
-  //     planet: 'mustafar',
-  //     type: WaypointType.CollectionItem,
-  //     serverIds: ['legends'],
-  //     extraAttributes: {
-  //       collection: 'Weapons, Rare Pistol Weapons Mark III',
-  //     },
-  //   },
   {
     name: '#11 - Vexa Flechette Pistol ',
     description: null,
@@ -6683,6 +7046,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#12 - White Thranta Striker',
@@ -6694,6 +7058,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Pistol Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Pistol Weapons Mark III'],
   },
   {
     name: '#1 - AK-Prime Rifle',
@@ -6705,6 +7070,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: '#2 - CY-M Ink Rifle',
@@ -6716,6 +7082,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: '#3 - Commander LD-1 Rifle',
@@ -6727,6 +7094,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: '#4 - CorSec E-11 Rifle',
@@ -6738,6 +7106,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: '#5 - Covert Retaliation',
@@ -6749,6 +7118,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: '#6 - Coynite Disruptor Rifle',
@@ -6760,6 +7130,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: "#7 - Darklighter's SG-82",
@@ -6771,6 +7142,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: '#8 - Darksting Assassin',
@@ -6782,6 +7154,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark I',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark I'],
   },
   {
     name: '#1 - Dawnsorrow Rifle',
@@ -6793,6 +7166,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#2 - DC15 Rifle',
@@ -6804,6 +7178,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#3 - Disruptor Rifle',
@@ -6815,6 +7190,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#4 - Doom Bringer DP-23',
@@ -6826,6 +7202,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#5 - LD-1 Rifle',
@@ -6837,6 +7214,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#6 - Ewok Crossbow',
@@ -6848,6 +7226,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#7 - Fallann Hyper-Rifle',
@@ -6859,6 +7238,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#8 - HK-47 Disruptor',
@@ -6870,6 +7250,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark II',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark II'],
   },
   {
     name: '#1 - Lithitanium Rifle',
@@ -6881,6 +7262,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: '#2 - Nullifier X',
@@ -6892,6 +7274,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: "#3 - Nak'tra Crystal Rifle",
@@ -6903,6 +7286,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: '#4 - Proton Rifle',
@@ -6914,6 +7298,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: '#5 - Taskmaster Gauss Rifle',
@@ -6925,6 +7310,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: '#6 - Tusken King Rifle',
@@ -6936,6 +7322,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: '#7 - Trandoshan Laser Rifle',
@@ -6947,6 +7334,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: '#8 - Versai Sharpshooter',
@@ -6958,6 +7346,7 @@ const collections: readonly CollectionItemWaypoint[] = [
     extraAttributes: {
       collection: 'Weapons, Rare Rifle Weapons Mark III',
     },
+    parentCategories: ['Weapons', 'Rare Rifle Weapons Mark III'],
   },
   {
     name: 'What a Piece of Junk #1 (Mos Eisley)',
@@ -6967,8 +7356,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
   {
     name: 'What a Piece of Junk #2 (Bestine)',
@@ -6978,8 +7368,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
   {
     name: 'What a Piece of Junk #3 (Kaadara)',
@@ -6989,8 +7380,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
   {
     name: 'What a Piece of Junk #4 (Coronet)',
@@ -7000,8 +7392,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
   {
     name: 'What a Piece of Junk #5 (Mos Espa)',
@@ -7011,8 +7404,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
   {
     name: 'What a Piece of Junk #6 (Dearic)',
@@ -7022,8 +7416,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
   {
     name: 'What a Piece of Junk #7 (Nashal)',
@@ -7033,8 +7428,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
   {
     name: 'What a Piece of Junk #8 (Theed)',
@@ -7044,8 +7440,9 @@ const collections: readonly CollectionItemWaypoint[] = [
     type: WaypointType.CollectionItem,
     serverIds: ['legends'],
     extraAttributes: {
-      collection: 'What a Piece of Junk (ITV)',
+      collection: 'What a Piece of Junk',
     },
+    parentCategories: ['Devices', 'What a Piece of Junk'],
   },
 ];
 

@@ -8,13 +8,14 @@ import collections from './collections';
 export type RequireFields<T, K extends keyof T> = Omit<T, K> & Required<Pick<T, K>>;
 
 export interface BaseWaypoint {
-  id?: string;
+  id?: number;
   name: string;
   description: string | null;
   type: WaypointType;
   serverIds: string[] | null;
   location: [number, number, number];
   planet: typeof mapConfigs[number]['id'];
+  parentCategories?: string[];
   extraAttributes?: unknown;
 }
 
@@ -42,5 +43,5 @@ export type Waypoint = CollectionItemWaypoint | PointOfInterestWaypoint | CityWa
 
 export const waypoints: Waypoint[] = [...cities, ...pointsOfInterest, ...collections].map((way, idx) => ({
   ...way,
-  id: `${idx}`,
+  id: idx,
 }));
