@@ -4,22 +4,31 @@ import { CityWaypoint } from '../waypoints';
 // To update this listing, run the following code snippet on https://swglegends.com/cities.php
 
 /*
+const rankNames = {
+  1: '1. Outpost',
+  2: '2. Village',
+  3: '3. Township',
+  4: '4. City',
+  5: '5. Metropolis',
+};
+
 const cities = [...document.querySelectorAll('#cities tbody tr')].map((element) => {
 	const [nameEl, locationEl, foundedEl, rankEl] = element.querySelectorAll('td');
 
   const [planet, x, z] = locationEl.innerText.toLowerCase().split(/[\s,]+/);
+  const rank = parseInt(rankEl.innerText);
 
   return {
 		name: nameEl.innerText,
     description: null,
     type: 'WaypointType.City',
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', rankNames[rank]],
     location: [parseInt(x), 0, parseInt(z)],
     planet: planet,
     extraAttributes: {
       foundingDate: new Date(foundedEl.innerText).toISOString(),
-      rank: parseInt(rankEl.innerText),
+      rank: rank,
     }
   }
 });
@@ -33,7 +42,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-2156, 0, -6572],
     planet: 'dantooine',
     extraAttributes: {
@@ -46,7 +55,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-6252, 0, 2244],
     planet: 'talus',
     extraAttributes: {
@@ -59,7 +68,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [5836, 0, 508],
     planet: 'talus',
     extraAttributes: {
@@ -72,7 +81,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [4852, 0, 4620],
     planet: 'corellia',
     extraAttributes: {
@@ -85,7 +94,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [2572, 0, -2596],
     planet: 'corellia',
     extraAttributes: {
@@ -98,7 +107,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [356, 0, 3564],
     planet: 'talus',
     extraAttributes: {
@@ -111,7 +120,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [3620, 0, -844],
     planet: 'dantooine',
     extraAttributes: {
@@ -124,7 +133,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-5836, 0, 7076],
     planet: 'dantooine',
     extraAttributes: {
@@ -137,7 +146,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [5612, 0, 3676],
     planet: 'talus',
     extraAttributes: {
@@ -150,7 +159,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-6292, 0, 4908],
     planet: 'lok',
     extraAttributes: {
@@ -163,7 +172,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [1460, 0, 204],
     planet: 'lok',
     extraAttributes: {
@@ -176,7 +185,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-4916, 0, 2156],
     planet: 'corellia',
     extraAttributes: {
@@ -189,7 +198,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-3676, 0, 4404],
     planet: 'talus',
     extraAttributes: {
@@ -202,7 +211,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-6540, 0, 132],
     planet: 'lok',
     extraAttributes: {
@@ -215,7 +224,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-7092, 0, -1140],
     planet: 'dantooine',
     extraAttributes: {
@@ -228,7 +237,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [2620, 0, -4300],
     planet: 'dantooine',
     extraAttributes: {
@@ -241,7 +250,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-4596, 0, 2124],
     planet: 'talus',
     extraAttributes: {
@@ -254,7 +263,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [36, 0, 1708],
     planet: 'dantooine',
     extraAttributes: {
@@ -267,7 +276,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [6772, 0, 4948],
     planet: 'corellia',
     extraAttributes: {
@@ -280,7 +289,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [4900, 0, 4100],
     planet: 'dantooine',
     extraAttributes: {
@@ -293,7 +302,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [4556, 0, -7132],
     planet: 'corellia',
     extraAttributes: {
@@ -306,7 +315,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-6132, 0, -5012],
     planet: 'lok',
     extraAttributes: {
@@ -319,7 +328,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-2252, 0, 5420],
     planet: 'talus',
     extraAttributes: {
@@ -332,7 +341,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [3004, 0, -308],
     planet: 'tatooine',
     extraAttributes: {
@@ -345,7 +354,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-1036, 0, 4468],
     planet: 'naboo',
     extraAttributes: {
@@ -358,7 +367,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-2500, 0, 5620],
     planet: 'naboo',
     extraAttributes: {
@@ -371,7 +380,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-1084, 0, -900],
     planet: 'lok',
     extraAttributes: {
@@ -384,7 +393,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [3852, 0, -5604],
     planet: 'dantooine',
     extraAttributes: {
@@ -397,7 +406,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [260, 0, 7348],
     planet: 'lok',
     extraAttributes: {
@@ -410,7 +419,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-3412, 0, 5540],
     planet: 'lok',
     extraAttributes: {
@@ -423,7 +432,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3628, 0, -7540],
     planet: 'tatooine',
     extraAttributes: {
@@ -436,7 +445,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [372, 0, 2388],
     planet: 'lok',
     extraAttributes: {
@@ -449,7 +458,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [4300, 0, -772],
     planet: 'lok',
     extraAttributes: {
@@ -462,7 +471,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2164, 0, -6596],
     planet: 'rori',
     extraAttributes: {
@@ -475,7 +484,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-868, 0, 3700],
     planet: 'lok',
     extraAttributes: {
@@ -488,7 +497,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [3620, 0, -4180],
     planet: 'talus',
     extraAttributes: {
@@ -501,7 +510,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-6572, 0, 1868],
     planet: 'dantooine',
     extraAttributes: {
@@ -514,7 +523,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-6124, 0, -3020],
     planet: 'lok',
     extraAttributes: {
@@ -527,7 +536,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [4004, 0, -4324],
     planet: 'dantooine',
     extraAttributes: {
@@ -540,7 +549,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-1748, 0, 4340],
     planet: 'talus',
     extraAttributes: {
@@ -553,7 +562,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [6444, 0, 1540],
     planet: 'tatooine',
     extraAttributes: {
@@ -566,7 +575,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [1916, 0, -4460],
     planet: 'talus',
     extraAttributes: {
@@ -579,7 +588,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [2572, 0, 5332],
     planet: 'dantooine',
     extraAttributes: {
@@ -592,7 +601,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-3924, 0, -3284],
     planet: 'dantooine',
     extraAttributes: {
@@ -605,7 +614,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-2060, 0, -4908],
     planet: 'tatooine',
     extraAttributes: {
@@ -618,7 +627,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [7156, 0, 5028],
     planet: 'naboo',
     extraAttributes: {
@@ -631,7 +640,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [4508, 0, 852],
     planet: 'lok',
     extraAttributes: {
@@ -644,7 +653,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-732, 0, -236],
     planet: 'corellia',
     extraAttributes: {
@@ -657,7 +666,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-796, 0, -5492],
     planet: 'talus',
     extraAttributes: {
@@ -670,7 +679,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-7100, 0, -4820],
     planet: 'corellia',
     extraAttributes: {
@@ -683,7 +692,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-3404, 0, -4836],
     planet: 'tatooine',
     extraAttributes: {
@@ -696,7 +705,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-5108, 0, -60],
     planet: 'dantooine',
     extraAttributes: {
@@ -709,7 +718,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [5500, 0, -2300],
     planet: 'rori',
     extraAttributes: {
@@ -722,7 +731,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-3668, 0, 1076],
     planet: 'lok',
     extraAttributes: {
@@ -735,7 +744,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-604, 0, -372],
     planet: 'dantooine',
     extraAttributes: {
@@ -748,7 +757,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [2612, 0, 252],
     planet: 'corellia',
     extraAttributes: {
@@ -761,7 +770,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [5372, 0, -2252],
     planet: 'corellia',
     extraAttributes: {
@@ -774,7 +783,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [1644, 0, 2220],
     planet: 'lok',
     extraAttributes: {
@@ -787,7 +796,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-2540, 0, 6412],
     planet: 'dantooine',
     extraAttributes: {
@@ -800,7 +809,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2284, 0, 1948],
     planet: 'dantooine',
     extraAttributes: {
@@ -813,7 +822,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-1900, 0, -5924],
     planet: 'lok',
     extraAttributes: {
@@ -826,7 +835,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [5092, 0, 6628],
     planet: 'dantooine',
     extraAttributes: {
@@ -839,7 +848,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-276, 0, -3028],
     planet: 'dantooine',
     extraAttributes: {
@@ -852,7 +861,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [148, 0, -4364],
     planet: 'lok',
     extraAttributes: {
@@ -865,7 +874,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [3492, 0, -2428],
     planet: 'dantooine',
     extraAttributes: {
@@ -878,7 +887,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [5924, 0, -4364],
     planet: 'dantooine',
     extraAttributes: {
@@ -891,7 +900,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [7140, 0, 1012],
     planet: 'dantooine',
     extraAttributes: {
@@ -904,7 +913,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [4476, 0, 3676],
     planet: 'talus',
     extraAttributes: {
@@ -917,7 +926,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-4292, 0, 4660],
     planet: 'lok',
     extraAttributes: {
@@ -930,7 +939,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [5780, 0, -1196],
     planet: 'corellia',
     extraAttributes: {
@@ -943,7 +952,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [3596, 0, 812],
     planet: 'tatooine',
     extraAttributes: {
@@ -956,7 +965,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [3428, 0, 5164],
     planet: 'lok',
     extraAttributes: {
@@ -969,7 +978,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2780, 0, 4892],
     planet: 'naboo',
     extraAttributes: {
@@ -982,7 +991,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [2436, 0, -7204],
     planet: 'dantooine',
     extraAttributes: {
@@ -995,7 +1004,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-4652, 0, 2356],
     planet: 'lok',
     extraAttributes: {
@@ -1008,7 +1017,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3900, 0, 7244],
     planet: 'dantooine',
     extraAttributes: {
@@ -1021,7 +1030,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-1996, 0, -3348],
     planet: 'dantooine',
     extraAttributes: {
@@ -1034,7 +1043,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-3124, 0, 2532],
     planet: 'talus',
     extraAttributes: {
@@ -1047,7 +1056,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [1708, 0, -204],
     planet: 'talus',
     extraAttributes: {
@@ -1060,7 +1069,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-1452, 0, 6084],
     planet: 'dantooine',
     extraAttributes: {
@@ -1073,7 +1082,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [548, 0, 196],
     planet: 'corellia',
     extraAttributes: {
@@ -1086,7 +1095,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-2940, 0, 5100],
     planet: 'dantooine',
     extraAttributes: {
@@ -1099,7 +1108,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-4524, 0, 828],
     planet: 'talus',
     extraAttributes: {
@@ -1112,7 +1121,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [2052, 0, 3532],
     planet: 'lok',
     extraAttributes: {
@@ -1125,7 +1134,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2924, 0, 748],
     planet: 'dantooine',
     extraAttributes: {
@@ -1138,7 +1147,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [2388, 0, -2596],
     planet: 'dantooine',
     extraAttributes: {
@@ -1151,7 +1160,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [5668, 0, -3508],
     planet: 'talus',
     extraAttributes: {
@@ -1164,7 +1173,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [4940, 0, 364],
     planet: 'rori',
     extraAttributes: {
@@ -1177,7 +1186,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-1908, 0, -6340],
     planet: 'talus',
     extraAttributes: {
@@ -1190,7 +1199,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [644, 0, -692],
     planet: 'talus',
     extraAttributes: {
@@ -1203,7 +1212,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-6636, 0, 452],
     planet: 'rori',
     extraAttributes: {
@@ -1216,7 +1225,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [5356, 0, -5300],
     planet: 'lok',
     extraAttributes: {
@@ -1229,7 +1238,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [1436, 0, 5188],
     planet: 'rori',
     extraAttributes: {
@@ -1242,7 +1251,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-1764, 0, -692],
     planet: 'rori',
     extraAttributes: {
@@ -1255,7 +1264,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-3340, 0, 7324],
     planet: 'rori',
     extraAttributes: {
@@ -1268,7 +1277,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-2444, 0, 6172],
     planet: 'rori',
     extraAttributes: {
@@ -1281,7 +1290,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-5844, 0, 1652],
     planet: 'rori',
     extraAttributes: {
@@ -1294,7 +1303,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2324, 0, -4580],
     planet: 'tatooine',
     extraAttributes: {
@@ -1307,7 +1316,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-7276, 0, 6476],
     planet: 'rori',
     extraAttributes: {
@@ -1320,7 +1329,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [1364, 0, 4060],
     planet: 'rori',
     extraAttributes: {
@@ -1333,7 +1342,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-4612, 0, -6772],
     planet: 'rori',
     extraAttributes: {
@@ -1346,7 +1355,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-972, 0, -4860],
     planet: 'rori',
     extraAttributes: {
@@ -1359,7 +1368,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [3364, 0, -5516],
     planet: 'lok',
     extraAttributes: {
@@ -1372,7 +1381,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-460, 0, -428],
     planet: 'talus',
     extraAttributes: {
@@ -1385,7 +1394,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-7164, 0, -5692],
     planet: 'rori',
     extraAttributes: {
@@ -1398,7 +1407,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3564, 0, 460],
     planet: 'rori',
     extraAttributes: {
@@ -1411,7 +1420,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2788, 0, 3404],
     planet: 'rori',
     extraAttributes: {
@@ -1424,7 +1433,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-2868, 0, 1540],
     planet: 'rori',
     extraAttributes: {
@@ -1437,7 +1446,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [4972, 0, -2044],
     planet: 'lok',
     extraAttributes: {
@@ -1450,7 +1459,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-5284, 0, -5660],
     planet: 'rori',
     extraAttributes: {
@@ -1463,7 +1472,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-6100, 0, 2932],
     planet: 'rori',
     extraAttributes: {
@@ -1476,7 +1485,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-812, 0, 756],
     planet: 'rori',
     extraAttributes: {
@@ -1489,7 +1498,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-948, 0, -1628],
     planet: 'rori',
     extraAttributes: {
@@ -1502,7 +1511,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [1092, 0, -5356],
     planet: 'lok',
     extraAttributes: {
@@ -1515,7 +1524,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-2292, 0, -4772],
     planet: 'rori',
     extraAttributes: {
@@ -1528,7 +1537,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-5900, 0, -1788],
     planet: 'lok',
     extraAttributes: {
@@ -1541,7 +1550,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [6276, 0, 5836],
     planet: 'rori',
     extraAttributes: {
@@ -1554,7 +1563,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [1100, 0, -5972],
     planet: 'dantooine',
     extraAttributes: {
@@ -1567,7 +1576,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [3452, 0, -4572],
     planet: 'naboo',
     extraAttributes: {
@@ -1580,7 +1589,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [2172, 0, -1308],
     planet: 'talus',
     extraAttributes: {
@@ -1593,7 +1602,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-980, 0, 2172],
     planet: 'dantooine',
     extraAttributes: {
@@ -1606,7 +1615,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [5724, 0, 4972],
     planet: 'tatooine',
     extraAttributes: {
@@ -1619,7 +1628,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-3652, 0, -428],
     planet: 'talus',
     extraAttributes: {
@@ -1632,7 +1641,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3028, 0, -2020],
     planet: 'rori',
     extraAttributes: {
@@ -1645,7 +1654,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [1220, 0, 3100],
     planet: 'dantooine',
     extraAttributes: {
@@ -1658,7 +1667,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [2332, 0, -1436],
     planet: 'rori',
     extraAttributes: {
@@ -1671,7 +1680,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-524, 0, 3964],
     planet: 'tatooine',
     extraAttributes: {
@@ -1684,7 +1693,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [4340, 0, -52],
     planet: 'tatooine',
     extraAttributes: {
@@ -1697,7 +1706,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [60, 0, 5588],
     planet: 'talus',
     extraAttributes: {
@@ -1710,7 +1719,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-3316, 0, -6036],
     planet: 'tatooine',
     extraAttributes: {
@@ -1723,7 +1732,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-2268, 0, -212],
     planet: 'naboo',
     extraAttributes: {
@@ -1736,7 +1745,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-3036, 0, -7308],
     planet: 'rori',
     extraAttributes: {
@@ -1749,7 +1758,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3364, 0, -2164],
     planet: 'talus',
     extraAttributes: {
@@ -1762,7 +1771,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-3828, 0, -1532],
     planet: 'lok',
     extraAttributes: {
@@ -1775,7 +1784,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-2156, 0, -6604],
     planet: 'tatooine',
     extraAttributes: {
@@ -1788,7 +1797,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [1860, 0, 916],
     planet: 'tatooine',
     extraAttributes: {
@@ -1801,7 +1810,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [4092, 0, -828],
     planet: 'talus',
     extraAttributes: {
@@ -1814,7 +1823,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [5044, 0, -1548],
     planet: 'talus',
     extraAttributes: {
@@ -1827,7 +1836,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [3244, 0, 2588],
     planet: 'naboo',
     extraAttributes: {
@@ -1840,7 +1849,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-1828, 0, 796],
     planet: 'dantooine',
     extraAttributes: {
@@ -1853,7 +1862,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-2612, 0, -4532],
     planet: 'talus',
     extraAttributes: {
@@ -1866,7 +1875,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-2348, 0, 876],
     planet: 'tatooine',
     extraAttributes: {
@@ -1879,7 +1888,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [316, 0, -5820],
     planet: 'naboo',
     extraAttributes: {
@@ -1892,7 +1901,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [2788, 0, -3076],
     planet: 'talus',
     extraAttributes: {
@@ -1905,7 +1914,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [2772, 0, 1140],
     planet: 'lok',
     extraAttributes: {
@@ -1918,7 +1927,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [5596, 0, -2716],
     planet: 'dantooine',
     extraAttributes: {
@@ -1931,7 +1940,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3428, 0, -6252],
     planet: 'rori',
     extraAttributes: {
@@ -1944,7 +1953,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-5004, 0, -3500],
     planet: 'tatooine',
     extraAttributes: {
@@ -1957,7 +1966,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-4948, 0, 3652],
     planet: 'talus',
     extraAttributes: {
@@ -1970,7 +1979,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [6468, 0, -2308],
     planet: 'lok',
     extraAttributes: {
@@ -1983,7 +1992,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [612, 0, 3780],
     planet: 'corellia',
     extraAttributes: {
@@ -1996,7 +2005,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-4636, 0, 6756],
     planet: 'tatooine',
     extraAttributes: {
@@ -2009,7 +2018,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-2004, 0, 1940],
     planet: 'talus',
     extraAttributes: {
@@ -2022,7 +2031,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [7156, 0, -6420],
     planet: 'naboo',
     extraAttributes: {
@@ -2035,7 +2044,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-2004, 0, -2244],
     planet: 'lok',
     extraAttributes: {
@@ -2048,7 +2057,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-4756, 0, -2396],
     planet: 'lok',
     extraAttributes: {
@@ -2061,7 +2070,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [3364, 0, 7116],
     planet: 'tatooine',
     extraAttributes: {
@@ -2074,7 +2083,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-556, 0, -1644],
     planet: 'tatooine',
     extraAttributes: {
@@ -2087,7 +2096,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [2220, 0, 1300],
     planet: 'talus',
     extraAttributes: {
@@ -2100,7 +2109,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [6140, 0, -3252],
     planet: 'rori',
     extraAttributes: {
@@ -2113,7 +2122,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [988, 0, 5692],
     planet: 'tatooine',
     extraAttributes: {
@@ -2126,7 +2135,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [1332, 0, 2572],
     planet: 'rori',
     extraAttributes: {
@@ -2139,7 +2148,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-7244, 0, 2156],
     planet: 'naboo',
     extraAttributes: {
@@ -2152,7 +2161,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [4004, 0, -6252],
     planet: 'rori',
     extraAttributes: {
@@ -2165,7 +2174,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-3292, 0, 756],
     planet: 'naboo',
     extraAttributes: {
@@ -2178,7 +2187,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [2892, 0, -5884],
     planet: 'talus',
     extraAttributes: {
@@ -2191,7 +2200,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-932, 0, 4332],
     planet: 'rori',
     extraAttributes: {
@@ -2204,7 +2213,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [380, 0, -5012],
     planet: 'dantooine',
     extraAttributes: {
@@ -2217,7 +2226,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-1052, 0, -5364],
     planet: 'naboo',
     extraAttributes: {
@@ -2230,7 +2239,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-3772, 0, 3836],
     planet: 'naboo',
     extraAttributes: {
@@ -2243,7 +2252,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-4828, 0, 3076],
     planet: 'dantooine',
     extraAttributes: {
@@ -2256,7 +2265,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-2276, 0, 2332],
     planet: 'lok',
     extraAttributes: {
@@ -2269,7 +2278,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-2932, 0, -5668],
     planet: 'talus',
     extraAttributes: {
@@ -2282,7 +2291,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [5132, 0, -6404],
     planet: 'rori',
     extraAttributes: {
@@ -2295,7 +2304,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-1340, 0, 636],
     planet: 'talus',
     extraAttributes: {
@@ -2308,7 +2317,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [3580, 0, -7268],
     planet: 'rori',
     extraAttributes: {
@@ -2321,7 +2330,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-3596, 0, -1300],
     planet: 'dantooine',
     extraAttributes: {
@@ -2334,7 +2343,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [5132, 0, -4508],
     planet: 'talus',
     extraAttributes: {
@@ -2347,7 +2356,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [4188, 0, 1948],
     planet: 'rori',
     extraAttributes: {
@@ -2360,7 +2369,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3620, 0, -4820],
     planet: 'rori',
     extraAttributes: {
@@ -2373,7 +2382,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-5164, 0, -3916],
     planet: 'lok',
     extraAttributes: {
@@ -2386,7 +2395,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [2740, 0, 3908],
     planet: 'dantooine',
     extraAttributes: {
@@ -2399,7 +2408,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-1820, 0, 4932],
     planet: 'dantooine',
     extraAttributes: {
@@ -2412,7 +2421,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [1532, 0, -644],
     planet: 'dantooine',
     extraAttributes: {
@@ -2425,7 +2434,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-1148, 0, 1252],
     planet: 'corellia',
     extraAttributes: {
@@ -2438,7 +2447,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-12, 0, -2340],
     planet: 'lok',
     extraAttributes: {
@@ -2451,7 +2460,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [1268, 0, -5228],
     planet: 'rori',
     extraAttributes: {
@@ -2464,7 +2473,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-6196, 0, -692],
     planet: 'talus',
     extraAttributes: {
@@ -2477,7 +2486,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [6204, 0, 5548],
     planet: 'lok',
     extraAttributes: {
@@ -2490,7 +2499,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2556, 0, 5300],
     planet: 'talus',
     extraAttributes: {
@@ -2503,7 +2512,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-2116, 0, -4436],
     planet: 'corellia',
     extraAttributes: {
@@ -2516,7 +2525,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [2604, 0, -3916],
     planet: 'corellia',
     extraAttributes: {
@@ -2529,7 +2538,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-2236, 0, -828],
     planet: 'dantooine',
     extraAttributes: {
@@ -2542,7 +2551,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-3268, 0, -4308],
     planet: 'lok',
     extraAttributes: {
@@ -2555,7 +2564,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-1484, 0, -4532],
     planet: 'talus',
     extraAttributes: {
@@ -2568,7 +2577,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-3988, 0, 6244],
     planet: 'corellia',
     extraAttributes: {
@@ -2581,7 +2590,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [3900, 0, 3612],
     planet: 'rori',
     extraAttributes: {
@@ -2594,7 +2603,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [4716, 0, 3204],
     planet: 'lok',
     extraAttributes: {
@@ -2607,7 +2616,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [5572, 0, -3708],
     planet: 'lok',
     extraAttributes: {
@@ -2620,7 +2629,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [3836, 0, -2724],
     planet: 'talus',
     extraAttributes: {
@@ -2633,7 +2642,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-1396, 0, -7316],
     planet: 'lok',
     extraAttributes: {
@@ -2646,7 +2655,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [4116, 0, 4260],
     planet: 'lok',
     extraAttributes: {
@@ -2659,7 +2668,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-2532, 0, 4068],
     planet: 'dantooine',
     extraAttributes: {
@@ -2672,7 +2681,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-972, 0, 5908],
     planet: 'naboo',
     extraAttributes: {
@@ -2685,7 +2694,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [5924, 0, 364],
     planet: 'lok',
     extraAttributes: {
@@ -2698,7 +2707,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-5300, 0, -1460],
     planet: 'rori',
     extraAttributes: {
@@ -2711,7 +2720,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-7108, 0, 5236],
     planet: 'naboo',
     extraAttributes: {
@@ -2724,7 +2733,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-4572, 0, 5524],
     planet: 'naboo',
     extraAttributes: {
@@ -2737,7 +2746,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [5900, 0, 6196],
     planet: 'naboo',
     extraAttributes: {
@@ -2750,7 +2759,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [4220, 0, 5940],
     planet: 'rori',
     extraAttributes: {
@@ -2763,7 +2772,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-2444, 0, 4948],
     planet: 'lok',
     extraAttributes: {
@@ -2776,7 +2785,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [6164, 0, -1364],
     planet: 'dantooine',
     extraAttributes: {
@@ -2789,7 +2798,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [6060, 0, -748],
     planet: 'rori',
     extraAttributes: {
@@ -2802,7 +2811,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-4084, 0, -5220],
     planet: 'dantooine',
     extraAttributes: {
@@ -2815,7 +2824,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [252, 0, -1100],
     planet: 'lok',
     extraAttributes: {
@@ -2828,7 +2837,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-3668, 0, 3548],
     planet: 'dantooine',
     extraAttributes: {
@@ -2841,7 +2850,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-4500, 0, -6116],
     planet: 'lok',
     extraAttributes: {
@@ -2854,7 +2863,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [5972, 0, -5596],
     planet: 'dantooine',
     extraAttributes: {
@@ -2867,7 +2876,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [308, 0, -1772],
     planet: 'rori',
     extraAttributes: {
@@ -2880,7 +2889,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-316, 0, -6716],
     planet: 'rori',
     extraAttributes: {
@@ -2893,7 +2902,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [164, 0, -4972],
     planet: 'rori',
     extraAttributes: {
@@ -2906,7 +2915,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-6684, 0, -4420],
     planet: 'rori',
     extraAttributes: {
@@ -2919,7 +2928,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [1716, 0, 4300],
     planet: 'corellia',
     extraAttributes: {
@@ -2932,7 +2941,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [516, 0, -4332],
     planet: 'talus',
     extraAttributes: {
@@ -2945,7 +2954,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-4724, 0, -6148],
     planet: 'dantooine',
     extraAttributes: {
@@ -2958,7 +2967,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [2028, 0, -4316],
     planet: 'lok',
     extraAttributes: {
@@ -2971,7 +2980,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-6708, 0, -4428],
     planet: 'naboo',
     extraAttributes: {
@@ -2984,7 +2993,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-6068, 0, -708],
     planet: 'dantooine',
     extraAttributes: {
@@ -2997,7 +3006,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-4924, 0, -364],
     planet: 'talus',
     extraAttributes: {
@@ -3010,7 +3019,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-412, 0, 1692],
     planet: 'talus',
     extraAttributes: {
@@ -3023,7 +3032,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-6380, 0, -3228],
     planet: 'corellia',
     extraAttributes: {
@@ -3036,7 +3045,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [6540, 0, -6852],
     planet: 'dantooine',
     extraAttributes: {
@@ -3049,7 +3058,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '1. Outpost'],
     location: [-7172, 0, 3164],
     planet: 'lok',
     extraAttributes: {
@@ -3062,7 +3071,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-6620, 0, -4804],
     planet: 'tatooine',
     extraAttributes: {
@@ -3075,7 +3084,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-6276, 0, -6428],
     planet: 'lok',
     extraAttributes: {
@@ -3088,7 +3097,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-2140, 0, -2708],
     planet: 'talus',
     extraAttributes: {
@@ -3101,7 +3110,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-620, 0, -1620],
     planet: 'talus',
     extraAttributes: {
@@ -3114,7 +3123,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [4148, 0, 2212],
     planet: 'dantooine',
     extraAttributes: {
@@ -3127,7 +3136,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '3. Township'],
     location: [-1996, 0, -508],
     planet: 'talus',
     extraAttributes: {
@@ -3140,7 +3149,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [3700, 0, -1828],
     planet: 'lok',
     extraAttributes: {
@@ -3153,7 +3162,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-3884, 0, -4844],
     planet: 'talus',
     extraAttributes: {
@@ -3166,7 +3175,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [932, 0, -5740],
     planet: 'corellia',
     extraAttributes: {
@@ -3179,7 +3188,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-2300, 0, 1180],
     planet: 'lok',
     extraAttributes: {
@@ -3192,7 +3201,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-6060, 0, 500],
     planet: 'talus',
     extraAttributes: {
@@ -3205,7 +3214,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [-956, 0, -1796],
     planet: 'dantooine',
     extraAttributes: {
@@ -3218,7 +3227,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [5084, 0, 1476],
     planet: 'naboo',
     extraAttributes: {
@@ -3231,7 +3240,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [3892, 0, -3172],
     planet: 'lok',
     extraAttributes: {
@@ -3244,7 +3253,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [372, 0, 5244],
     planet: 'naboo',
     extraAttributes: {
@@ -3257,7 +3266,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '4. City'],
     location: [5540, 0, 1548],
     planet: 'rori',
     extraAttributes: {
@@ -3270,7 +3279,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [5764, 0, -5188],
     planet: 'rori',
     extraAttributes: {
@@ -3283,7 +3292,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-4276, 0, -1348],
     planet: 'corellia',
     extraAttributes: {
@@ -3296,7 +3305,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-3140, 0, -3372],
     planet: 'talus',
     extraAttributes: {
@@ -3309,7 +3318,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '2. Village'],
     location: [-4796, 0, -5932],
     planet: 'talus',
     extraAttributes: {
@@ -3322,7 +3331,7 @@ const legendsCities: readonly CityWaypoint[] = [
     description: null,
     type: WaypointType.City,
     serverIds: ['legends'],
-    parentCategories: ['Player Cities'],
+    parentCategories: ['Player Cities', '5. Metropolis'],
     location: [-1732, 0, -3724],
     planet: 'lok',
     extraAttributes: {

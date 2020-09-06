@@ -65,7 +65,6 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
       maxBoundsViscosity={1}
       // @ts-expect-error
       ref={mapRef}
-      useFlyTo
       onresize={() => {
         if (!mapRef.current) return;
 
