@@ -105,6 +105,8 @@ function isBranchNode(treeNode: SidebarTree[number]): treeNode is SidebarBranchN
   return (treeNode as SidebarBranchNode).__type === 'branchNode';
 }
 
+const lexograpicalTreeSort = (a: SidebarTree[number], b: SidebarTree[number]) => a.title.localeCompare(b.title);
+
 const constructTreeFromWaypoints = (waypoints: Waypoint[]): SidebarTree => {
   const sidebarResult: SidebarBranchNode[] = Object.entries(sidebarConstructionRules).map(([key, ruleset]) => ({
     __type: 'branchNode',
@@ -130,6 +132,7 @@ const constructTreeFromWaypoints = (waypoints: Waypoint[]): SidebarTree => {
               };
               wpInsertionPoint.push(newBranchNode);
               wpInsertionPoint = newBranchNode.items;
+              wpInsertionPoint.sort(lexograpicalTreeSort);
             }
           });
           wpInsertionPoint.push({
@@ -137,12 +140,14 @@ const constructTreeFromWaypoints = (waypoints: Waypoint[]): SidebarTree => {
             title: waypoint.name,
             waypointId: waypoint.id!,
           });
+          wpInsertionPoint.sort(lexograpicalTreeSort);
         } else {
           acc.push({
             __type: 'leafNode',
             title: waypoint.name,
             waypointId: waypoint.id!,
           });
+          acc.sort(lexograpicalTreeSort);
         }
 
         return acc;
