@@ -5,7 +5,7 @@ import { useRecoilValue, useSetRecoilState } from 'recoil';
 
 import GalaxiesPlanetMap from '../../components/GalaxiesPlanetMap';
 import mapConfigs from '../../data/maps';
-import { waypointsForMapDisplaySelector, currentPlanetAtom } from '../../atoms/waypoints';
+import { waypointsForMapDisplaySelector, currentPlanetAtom, sidebarSelectedNodeAtom } from '../../atoms/waypoints';
 
 const SidebarLazy = React.lazy(() => import('./Sidebar'));
 
@@ -14,12 +14,14 @@ export default function Planet() {
   const { planet } = useParams<{ planet?: string }>();
   const waypointsToRender = useRecoilValue(waypointsForMapDisplaySelector);
   const setCurrentPlanet = useSetRecoilState(currentPlanetAtom);
+  const setCurrentlySelectedNode = useSetRecoilState(sidebarSelectedNodeAtom);
 
   const mapConfig = useMemo(() => mapConfigs.find(({ id }) => id === planet), [planet]);
 
   useEffect(() => {
     setCurrentPlanet(planet || null);
-  }, [planet, setCurrentPlanet]);
+    setCurrentlySelectedNode(null);
+  }, [planet, setCurrentPlanet, setCurrentlySelectedNode]);
 
   if (typeof planet !== 'string' || !mapConfig) return null;
 

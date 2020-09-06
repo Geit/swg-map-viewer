@@ -171,7 +171,7 @@ export const sidebarTreeSelector = selector({
   },
 });
 
-export const sidebarSelectedNodeSelector = atom<null | string>({
+export const sidebarSelectedNodeAtom = atom<null | string>({
   key: 'sidebarSelectedNode',
   default: null,
 });
@@ -179,13 +179,17 @@ export const sidebarSelectedNodeSelector = atom<null | string>({
 export const sidebarSelectedWaypointIdSetSelector = selector<Set<number> | null>({
   key: 'sidebarSelectedWaypointIdSet',
   get: ({ get }) => {
-    const sidebarSelectedNode = get(sidebarSelectedNodeSelector);
+    const sidebarSelectedNode = get(sidebarSelectedNodeAtom);
 
     if (!sidebarSelectedNode) return null;
 
     const sidebarTree = get(sidebarTreeSelector);
 
-    const sidebarTreePart: SidebarTree[number] = loGet(sidebarTree, sidebarSelectedNode);
+    const sidebarTreePart: SidebarTree[number] | null = loGet(sidebarTree, sidebarSelectedNode);
+
+    if (!sidebarTreePart) {
+      return null;
+    }
 
     if (!isBranchNode(sidebarTreePart)) {
       return new Set<number>([sidebarTreePart.waypointId]);
