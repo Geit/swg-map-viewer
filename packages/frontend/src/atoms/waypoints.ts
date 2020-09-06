@@ -86,20 +86,20 @@ interface SidebarConstructionRule {
   rootTitle: string;
 }
 
-const sidebarConstructionRules: Record<WaypointType, SidebarConstructionRule> = {
-  [WaypointType.City]: {
-    rootTitle: 'Cities',
+const sidebarRootCategories = [
+  {
+    type: WaypointType.City,
+    title: 'Cities',
   },
-  [WaypointType.CollectionItem]: {
-    rootTitle: 'Collections',
+  {
+    type: WaypointType.CollectionItem,
+    title: 'Collections',
   },
-  [WaypointType.PointOfInterestWaypoint]: {
-    rootTitle: 'Points Of Interest',
+  {
+    type: WaypointType.PointOfInterestWaypoint,
+    title: 'Points Of Interest',
   },
-  [WaypointType.Waypoint]: {
-    rootTitle: 'Waypoints',
-  },
-};
+];
 
 function isBranchNode(treeNode: SidebarTree[number]): treeNode is SidebarBranchNode {
   return (treeNode as SidebarBranchNode).__type === 'branchNode';
@@ -113,11 +113,11 @@ const treeSort = (a: SidebarTree[number], b: SidebarTree[number]) => {
 };
 
 const constructTreeFromWaypoints = (waypoints: Waypoint[]): SidebarTree => {
-  const sidebarResult: SidebarBranchNode[] = Object.entries(sidebarConstructionRules).map(([key, ruleset]) => ({
+  const sidebarResult: SidebarBranchNode[] = Object.values(sidebarRootCategories).map(rootCategory => ({
     __type: 'branchNode',
-    title: ruleset.rootTitle,
+    title: rootCategory.title,
     items: waypoints
-      .filter(({ type }) => type === parseInt(key))
+      .filter(({ type }) => type === rootCategory.type)
       .reduce((acc, waypoint) => {
         if (waypoint.parentCategories) {
           let wpInsertionPoint = acc;
