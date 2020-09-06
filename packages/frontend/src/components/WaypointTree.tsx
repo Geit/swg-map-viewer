@@ -14,7 +14,12 @@ const WaypointTreeChild: React.FC<{ tree: SidebarTree; parentNodeId?: string }> 
         const nodeId = parentNodeId ? `${parentNodeId}.items.${idx}` : `${idx}`;
         if (treeItem.__type === 'branchNode') {
           return (
-            <TreeItem key={nodeId} nodeId={nodeId} label={treeItem.title} onLabelClick={evt => evt.preventDefault()}>
+            <TreeItem
+              key={nodeId}
+              nodeId={nodeId}
+              label={treeItem.title}
+              onLabelClick={evt => evt.detail !== 2 && evt.preventDefault()}
+            >
               <WaypointTreeChild tree={treeItem.items} parentNodeId={nodeId} />
             </TreeItem>
           );
@@ -35,6 +40,7 @@ const WaypointTree: React.FC = () => {
       defaultExpandIcon={<ExpandIcon />}
       defaultCollapseIcon={<CollapseIcon />}
       onNodeSelect={(_: unknown, value: string) => setSelectedTreeItem(value)}
+      style={{ userSelect: 'none' }}
     >
       <WaypointTreeChild tree={tree} />
     </TreeView>
