@@ -9349,12 +9349,12 @@ postcss-replace-overflow-wrap@^3.0.0:
   dependencies:
     postcss "^7.0.2"
 
-postcss-safe-parser@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-safe-parser/-/postcss-safe-parser-5.0.0.tgz#bb99c4816004c9ea21030880b935f145e2659c41"
-  integrity sha512-aIX7poYIGRtp+Yr/ntAcIG+nTZpnPnQpHhG0Qbf0d91EBQnKS3cfl8cgUwvq+cot8Zhn5+dC+XpcGRWPET+xdA==
+postcss-safe-parser@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-safe-parser/-/postcss-safe-parser-5.0.1.tgz#613ea9298134aea7bd738fff17194e3488082efc"
+  integrity sha512-UpLghdLWFwyDSdwp0S1lHiCkf+jc/pUWRtC0NTYdYMnickhIpW62MeCKHnoWqGOqDeKHf2vH7NeBjdgGYbnJCw==
   dependencies:
-    postcss "^8.0.2"
+    postcss "^8.0.4"
 
 postcss-selector-matches@^4.0.0:
   version "4.0.0"
@@ -9455,10 +9455,10 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, po
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.0.2:
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.0.3.tgz#f1d4658528b778e1c5c67a31a3912faed1600a66"
-  integrity sha512-nJR5mHJuiizWhF1DqVDy6RdeFbyA1Pakcl4wp4VwppKoAZLafPhS7X/rjeUgk3LdQWYQNxyixzbCbcIAbhsCTA==
+postcss@^8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.0.4.tgz#c2ce10272c83cb86083c59725ba673e445f6bc88"
+  integrity sha512-1XnscHU1hafSVykema78TOeBf1my7WThfK2jaSDtOQW90CAny63oEsWVC+EN/WSMSBpghq5PxUdPgozK693tJw==
   dependencies:
     colorette "^1.2.1"
     line-column "^1.0.2"
