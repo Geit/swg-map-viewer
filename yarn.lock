@@ -9836,10 +9836,10 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-three-fiber@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.0.2.tgz#cbbb4194fd9176aca09275908dc0bc5229f4741c"
-  integrity sha512-f5Fk6JyvFrkDqjIrdBK2P+OOP7djAcxQxCt4nu/PKd6u6N4oyzRnkSTgzXSsi9QH1Gl2LnhfOWOQBQUdMp6CGA==
+react-three-fiber@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.0.3.tgz#d0764b3f4598139b173bfe507e4ccbffa1a421a6"
+  integrity sha512-UPbxF6CdLpHyEFvZ46X1EL8FgiZd4l3MWCwySiPOmCQ5v7f1Lavf7BiQDZDI4pJdpG14HoiuabxUe6EEyhbT/w==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@juggle/resize-observer" "^3.2.0"
