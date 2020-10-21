@@ -14,7 +14,7 @@
     "react-dom": "16.14.0",
     "react-leaflet": "2.7.0",
     "react-router-dom": "5.2.0",
-    "react-three-fiber": "5.0.6",
+    "react-three-fiber": "5.1.0",
     "react-use-measure": "2.0.2",
     "recoil": "0.0.13"
   },
