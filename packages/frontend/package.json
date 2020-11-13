@@ -15,7 +15,7 @@
     "react-leaflet": "2.8.0",
     "react-router-dom": "5.2.0",
     "react-three-fiber": "5.2.1",
-    "react-use-measure": "2.0.2",
+    "react-use-measure": "2.0.3",
     "recoil": "0.0.13"
   },
   "devDependencies": {
