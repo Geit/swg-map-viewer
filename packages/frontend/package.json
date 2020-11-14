@@ -59,7 +59,7 @@
     "react-dev-utils": "11.0.0",
     "resolve": "1.19.0",
     "resolve-url-loader": "3.1.2",
-    "sass-loader": "10.0.4",
+    "sass-loader": "10.1.0",
     "semver": "7.3.2",
     "source-map-explorer": "2.5.0",
     "style-loader": "2.0.0",
