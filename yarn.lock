@@ -9591,10 +9591,10 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-three-fiber@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.0.tgz#043cc2d195570a497ac66f4cb1fad41686be41c7"
-  integrity sha512-cBcxNGTbzlIexs5p/S1uen6dgYWbnl/Lq2TP3PPP/s2o2vOZHVmnhoaSUC/ThRr5/0X6GTuFmBw04rGrIV99Iw==
+react-three-fiber@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.1.tgz#d68ffe5e1eebfa81255bde86aebaa622b7b6d538"
+  integrity sha512-nKj7TgDoofyHiKyBNuJ60UqXlCbgjEeQat5KAZALOaVMXw/hxfDtk0lyDezKHW91qLcUcUo3FBrpJSjwsU55mA==
   dependencies:
     "@babel/runtime" "^7.12.1"
     react-merge-refs "^1.1.0"
