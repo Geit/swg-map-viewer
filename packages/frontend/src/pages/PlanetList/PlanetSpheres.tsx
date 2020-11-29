@@ -1,6 +1,7 @@
 import React, { useRef, Suspense } from 'react';
 import { Canvas, useLoader, useFrame, ReactThreeFiber, useThree } from 'react-three-fiber';
-import { Mesh, TextureLoader, RepeatWrapping, OrthographicCamera } from 'three';
+import { Mesh, TextureLoader, RepeatWrapping, Vector3 } from 'three';
+import { OrthographicCamera, Sphere } from 'drei';
 
 import mapConfigs from '../../data/maps';
 
@@ -10,7 +11,7 @@ interface PlanetProps extends ReactThreeFiber.Object3DNode<Mesh, typeof Mesh> {
   position: [number, number, number];
 }
 
-const Planet: React.FC<PlanetProps> = props => {
+const PlanetRaw: React.FC<PlanetProps> = props => {
   // This reference will give us direct access to the mesh
   const mesh = useRef<ReactThreeFiber.Object3DNode<Mesh, typeof Mesh>>();
 
@@ -26,27 +27,13 @@ const Planet: React.FC<PlanetProps> = props => {
   });
 
   return (
-    <mesh {...props} ref={mesh} rotation={[0, 0, Math.PI]}>
-      <sphereBufferGeometry attach="geometry" args={[props.radius, 16, 16]} />
-      <meshStandardMaterial roughness={0} metalness={0.2} attach="material" map={texture} />
-    </mesh>
+    <Sphere {...props} ref={mesh} rotation={[0, 0, Math.PI]} args={[props.radius, 16, 16]}>
+      <meshStandardMaterial roughness={1} metalness={0} attach="material" map={texture} />
+    </Sphere>
   );
 };
 
-const CameraViewportManager = () => {
-  const three = useThree();
-
-  if (three.camera instanceof OrthographicCamera) {
-    three.camera.left = 0;
-    three.camera.top = 0;
-    three.camera.right = 1024;
-    three.camera.bottom = 1024;
-    three.camera.position.z = 50;
-    three.camera.updateProjectionMatrix();
-  }
-
-  return null;
-};
+const Planet = React.memo(PlanetRaw);
 
 class NullRenderErrorCatch extends React.Component {
   state = {
@@ -64,13 +51,34 @@ class NullRenderErrorCatch extends React.Component {
   }
 }
 
+const CameraRaw: React.FC = () => {
+  const { size } = useThree();
+
+  return (
+    <OrthographicCamera
+      makeDefault
+      zoom={size.height / 1024}
+      left={0}
+      top={0}
+      right={1024}
+      bottom={1024}
+      position={[512, 512, -50]}
+      rotation={[Math.PI, 0, 0]}
+    >
+      {null}
+    </OrthographicCamera>
+  );
+};
+
+const Camera = React.memo(CameraRaw);
+
 const PlanetSpheres = () => {
   // Catch lack of webgl and other faults
   return (
     <NullRenderErrorCatch>
-      <Canvas colorManagement orthographic noEvents className="planetSelection3DCanvas">
-        <CameraViewportManager />
-        <pointLight intensity={0.4} position={[512, 512, -900]} />
+      <Canvas colorManagement noEvents className="planetSelection3DCanvas">
+        <Camera />
+        <pointLight intensity={0.4} position={[512, 512, -500]} />
         <Suspense fallback={null}>
           {mapConfigs.map(
             ({ id, travelMapConfig }) =>
@@ -89,4 +97,4 @@ const PlanetSpheres = () => {
   );
 };
 
-export default PlanetSpheres;
+export default React.memo(PlanetSpheres);
