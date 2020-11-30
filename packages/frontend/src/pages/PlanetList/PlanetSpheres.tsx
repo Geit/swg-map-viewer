@@ -1,6 +1,6 @@
 import React, { useRef, Suspense } from 'react';
 import { Canvas, useLoader, useFrame, ReactThreeFiber, useThree } from 'react-three-fiber';
-import { Mesh, TextureLoader, RepeatWrapping, Vector3 } from 'three';
+import { Mesh, TextureLoader, RepeatWrapping } from 'three';
 import { OrthographicCamera, Sphere } from 'drei';
 
 import mapConfigs from '../../data/maps';
