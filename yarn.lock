@@ -1082,7 +1082,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.12.5", "@babel/runtime@^7.1.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
@@ -9662,19 +9662,19 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-three-fiber@5.3.4:
-  version "5.3.4"
-  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.4.tgz#79819877f9f61ae671840c01606451f73747e648"
-  integrity sha512-Dml0+FZrNJ0k9YvADBdW9aOYEoYyd2pSS0Qsn4GN4ro1efUFzlNUNaCMGRXBaw6DV5FUNZlryZy+GYKZZ037DA==
+react-three-fiber@5.3.6:
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.6.tgz#917ecd4aa056e3bbf73f1fa97c68a57f9eb5dce9"
+  integrity sha512-xZrKo8vCTct+ciR72FlLGs3BMeID5rb5XCl8tz05ZGLnSQLK4O60rLJMh1YioarsCWf0nxy+ZsIQ3jKw5WQ/Og==
   dependencies:
-    "@babel/runtime" "7.12.5"
+    "@babel/runtime" "^7.12.1"
     react-merge-refs "^1.1.0"
     react-reconciler "0.26.1"
     react-use-measure "^2.0.3"
     resize-observer-polyfill "^1.5.1"
     scheduler "0.20.1"
     tiny-emitter "^2.1.0"
-    use-asset "0.2.0"
+    use-asset "^0.1.5"
     utility-types "^3.10.0"
 
 react-transition-group@^4.4.0:
@@ -11562,10 +11562,10 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-use-asset@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/use-asset/-/use-asset-0.2.0.tgz#e626f5d16e0ac5861f35d098fa224a6b3067049d"
-  integrity sha512-vNZlJJjzIU+ChWTuJmI3cZKH9oO1QacV0EaRrNUoNPaP5M91NyuWcRy7yWAG4BFyQqkpmzhnw1ahA0B3HgHcZw==
+use-asset@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/use-asset/-/use-asset-0.1.5.tgz#196b6edf9f162bb900e0990888da3215514dec29"
+  integrity sha512-h1SDwd1OTbFPM076CiDrTOGk+9xVKBO6WRBo8Max/Bi9QxkNZqjOLO5VGEXwFPeXv2hkyDZv2V3RFI2cbkWLHw==
   dependencies:
     fast-deep-equal "^3.1.3"
 
