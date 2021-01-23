@@ -4367,10 +4367,10 @@ dotenv@8.2.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
-drei@2.2.17:
-  version "2.2.17"
-  resolved "https://registry.yarnpkg.com/drei/-/drei-2.2.17.tgz#00e7358f3a6f22fe25dab6a95d0e99af1921bd09"
-  integrity sha512-dgXoaUJYGY8IoMZl25KrJ1vSw2qtLi0gMqF4hrNOAYFqs1VO3lDZBA0aKK01/IESl56AGEoE87lXbJkTw6wD6w==
+drei@2.2.19:
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/drei/-/drei-2.2.19.tgz#30f97e06772ef2aa9150f5f256fb579d44a8d608"
+  integrity sha512-4Z+N2g+Oi7gXEkeWOcfAmUpiBf9DU8b6WB4slW/wPXRLsR3Cl2v4Q6dAqfZAOtFWE7mGSi5ZqnRA1fXmlndy6A==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/web" "^9.0.0-rc.3"
