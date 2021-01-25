@@ -9648,10 +9648,10 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-three-fiber@5.3.16:
-  version "5.3.16"
-  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.16.tgz#4fbb841694c354dcbf6b94086031a0d017bf6352"
-  integrity sha512-ip4/w0dMkoxDF1Mg/TFnf5KdoRHhqNvleTm/YcmDhwphzFIhx7OlztcCiGdUpeeVsAZ0cACq/ZCZMwOpWVtpaQ==
+react-three-fiber@5.3.17:
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.17.tgz#7a3a61db27ebeb59d8dae70fd1505de2d7ff0097"
+  integrity sha512-OwGw4scfcJz0/vYjR42MwTIKarAQlnmDJICKPwcIOzh3Rl1I/1sx7ZSKAzeQGt6+CpigNlGFsgU0Gn5mPltLyw==
   dependencies:
     "@babel/runtime" "^7.12.1"
     react-merge-refs "^1.1.0"
@@ -9660,7 +9660,7 @@ react-three-fiber@5.3.16:
     resize-observer-polyfill "^1.5.1"
     scheduler "0.20.1"
     tiny-emitter "^2.1.0"
-    use-asset "^1.0.1"
+    use-asset "^1.0.2"
     utility-types "^3.10.0"
 
 react-transition-group@^4.4.0:
@@ -11544,10 +11544,12 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-use-asset@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/use-asset/-/use-asset-1.0.1.tgz#c41287ddcc472553a2abe63f26da6c64c2b81e33"
-  integrity sha512-I0t9KCFH1wtKCl5Gw+qlAsjk2BOShB6qGcVCJrQ/LICcm48W3EDwHlAAtj+VcQ3Y0fs+4TPar97cWtguON6UOA==
+use-asset@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/use-asset/-/use-asset-1.0.2.tgz#d98a506ba480d113639de60631f89907794ead84"
+  integrity sha512-ewqcm1+SmRIpIhanbP2Kdt03u7IQfxGixi3dq2AP90GK5J0fFXBeSp4hO43tx3HG5AXvh6U4hQ00x4JXr5Dhiw==
+  dependencies:
+    fast-deep-equal "^3.1.3"
 
 use-memo-one@^1.1.0:
   version "1.1.1"
