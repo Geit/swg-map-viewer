@@ -128,7 +128,7 @@ const defaultCities: readonly CityWaypoint[] = [
   },
 
   {
-    name: 'Daeric',
+    name: 'Dearic',
     description: null,
     type: WaypointType.City,
     location: [435, 0, -2976],
