@@ -20,7 +20,7 @@
     "recoil": "0.1.2"
   },
   "devDependencies": {
-    "@babel/core": "7.12.13",
+    "@babel/core": "7.12.17",
     "@svgr/webpack": "5.5.0",
     "@types/lodash": "^4.14.161",
     "@types/node": "^14.6.4",
