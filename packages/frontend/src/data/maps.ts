@@ -359,6 +359,25 @@ const mapConfigs: readonly MapConfiguration[] = [
       radius: 35,
     },
   },
+  {
+    id: 'bespin',
+    waypointCommandId: 'bespin',
+    displayName: 'Bespin',
+    planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
+    raster: {
+      maxZoom: 5,
+      sourceImage: 'planets/lossless/map_bespin_full.png',
+      attribution: 'SWG Legends',
+      size: 16384,
+    },
+    travelMapConfig: {
+      labelPosition: 'top',
+      planetTexture: '/textures/ui_planet_sel_besp.png',
+      x: 250,
+      y: 850,
+      radius: 40,
+    },
+  },
 ] as const;
 
 export default mapConfigs;

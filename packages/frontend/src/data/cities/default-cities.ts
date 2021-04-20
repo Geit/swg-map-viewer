@@ -290,12 +290,19 @@ const defaultCities: readonly CityWaypoint[] = [
     serverIds: null,
     type: WaypointType.City,
   },
-
   {
     name: 'Wayfar',
     description: null,
     planet: 'tatooine',
     location: [-5140, 0, -6554],
+    serverIds: null,
+    type: WaypointType.City,
+  },
+  {
+    name: 'Cloud City',
+    description: null,
+    planet: 'bespin',
+    location: [0, 0, 0],
     serverIds: null,
     type: WaypointType.City,
   },
