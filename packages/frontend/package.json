@@ -37,7 +37,7 @@
     "camelcase": "6.2.0",
     "case-sensitive-paths-webpack-plugin": "2.4.0",
     "css-loader": "5.2.6",
-    "dotenv": "8.2.0",
+    "dotenv": "8.6.0",
     "dotenv-expand": "5.1.0",
     "file-loader": "6.2.0",
     "fs-extra": "9.1.0",
