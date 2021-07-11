@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Icon } from 'leaflet';
-import { Tooltip, Popup, Marker, Circle } from 'react-leaflet';
+import { Tooltip, Popup, Marker, Circle } from '@monsonjeremy/react-leaflet';
 import CopyToClipboard from 'react-copy-to-clipboard';
 import { Button, Box } from '@material-ui/core';
 

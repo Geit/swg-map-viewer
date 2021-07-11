@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { TileLayer, AttributionControl, MapContainer } from 'react-leaflet';
+import { TileLayer, AttributionControl, MapContainer } from '@monsonjeremy/react-leaflet';
 import { LatLngBounds, CRS, Util, Transformation, Map } from 'leaflet';
 
 import { MapConfiguration } from '../data/maps';
