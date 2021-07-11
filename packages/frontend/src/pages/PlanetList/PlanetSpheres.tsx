@@ -1,7 +1,7 @@
 import React, { useRef, Suspense } from 'react';
-import { Canvas, useLoader, useFrame, ReactThreeFiber, useThree } from 'react-three-fiber';
+import { Canvas as ThreeCanvas, useLoader, useFrame, ReactThreeFiber } from '@react-three/fiber';
 import { Mesh, TextureLoader, RepeatWrapping } from 'three';
-import { OrthographicCamera, Sphere } from 'drei';
+import { OrthographicCamera, Sphere } from '@react-three/drei';
 
 import mapConfigs from '../../data/maps';
 
@@ -28,7 +28,7 @@ const PlanetRaw: React.FC<PlanetProps> = props => {
 
   return (
     <Sphere {...props} ref={mesh} rotation={[0, 0, Math.PI]} args={[props.radius, 16, 16]}>
-      <meshStandardMaterial roughness={1} metalness={0} attach="material" map={texture} />
+      <meshStandardMaterial roughness={0.3} metalness={0} attach="material" map={texture} />
     </Sphere>
   );
 };
@@ -52,18 +52,16 @@ class NullRenderErrorCatch extends React.Component {
 }
 
 const CameraRaw: React.FC = () => {
-  const { size } = useThree();
-
   return (
     <OrthographicCamera
       makeDefault
-      zoom={size.height / 1024}
+      zoom={1}
       left={0}
       top={0}
       right={1024}
       bottom={1024}
-      position={[512, 512, -50]}
-      rotation={[Math.PI, 0, 0]}
+      position={[0, 0, 50]}
+      rotation={[0, 0, 0]}
     >
       {null}
     </OrthographicCamera>
@@ -76,7 +74,7 @@ const PlanetSpheres = () => {
   // Catch lack of webgl and other faults
   return (
     <NullRenderErrorCatch>
-      <Canvas colorManagement noEvents className="planetSelection3DCanvas">
+      <ThreeCanvas className="planetSelection3DCanvas">
         <Camera />
         <pointLight intensity={0.4} position={[512, 512, -500]} />
         <Suspense fallback={null}>
@@ -92,7 +90,7 @@ const PlanetSpheres = () => {
               )
           )}
         </Suspense>
-      </Canvas>
+      </ThreeCanvas>
     </NullRenderErrorCatch>
   );
 };
