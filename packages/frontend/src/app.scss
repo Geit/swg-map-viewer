@@ -226,7 +226,7 @@ html, body {
 }
 
 .tint-gold {
-  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(5deg); 
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(5deg);
 }
 
 .planetSelectionRim {
@@ -235,7 +235,7 @@ html, body {
   border-radius: 50%;
   box-shadow: 0 0 40px #ffbf00;
   cursor: pointer;
-  
+
   &:hover, &:focus {
     outline: 0;
     box-shadow: 0 0 20px #ffd000, 0 0 40px #ffbf00;
@@ -245,7 +245,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   background: black;
-  
+
   .planetSelectionWrapper {
     height: 100vw;
     width: 100vw;
@@ -253,7 +253,7 @@ html, body {
     max-width: 100vh;
     margin: 0 auto;
     position: relative;
-    background: no-repeat center/contain url(/textures/ui_rebel_starfield.png);
+    background: no-repeat center/contain url('../public/textures/ui_rebel_starfield.png');
   }
 
   .planetSelection2DCanvas {
@@ -271,27 +271,27 @@ html, body {
   .planetSelectionName {
     display: block;
     position: absolute;
-  
+
     white-space: nowrap;
-    
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-shadow: 1px 1px black;
     color: yellow;
-  
+
     &--right {
       transform: translateY(-50%);
       top: 50%;
       left: 100%;
       margin-left: 10px;
     }
-  
+
     &--top {
       bottom: 120%;
       left: 50%;
       transform: translateX(-50%);
     }
-  }  
+  }
 }
 
 .mobileDrawerTrigger {
@@ -312,8 +312,8 @@ html, body {
   background-color: var(----color_backDrop);
 
   padding: 1px;
-  
-  clip-path: 
+
+  clip-path:
     polygon(
       0 0,                 /* top left */
       calc(100% - 5px) 0%,    /* top right */
