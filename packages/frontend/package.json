@@ -17,7 +17,7 @@
     "react-three-fiber": "5.3.22",
     "react-use-measure": "2.0.4",
     "recoil": "0.3.1",
-    "three": "0.124.0"
+    "three": "0.125.0"
   },
   "devDependencies": {
     "@svgr/parcel-plugin-svgr": "^5.5.0",
