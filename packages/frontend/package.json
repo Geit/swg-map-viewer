@@ -7,8 +7,8 @@
     "@material-ui/core": "4.12.1",
     "@material-ui/lab": "4.0.0-alpha.60",
     "@monsonjeremy/react-leaflet": "3.2.2",
-    "@react-three/drei": "^7.0.6",
-    "@react-three/fiber": "^7.0.4",
+    "@react-three/drei": "7.0.6",
+    "@react-three/fiber": "7.0.4",
     "drei": "2.2.21",
     "leaflet": "1.7.1",
     "lodash": "4.17.21",
@@ -21,7 +21,7 @@
     "three": "0.130.1"
   },
   "devDependencies": {
-    "@svgr/parcel-plugin-svgr": "^5.5.0",
+    "@svgr/parcel-plugin-svgr": "5.5.0",
     "@types/lodash": "^4.14.171",
     "@types/node": "^16.3.1",
     "@types/react": "^17.0.14",
@@ -31,10 +31,10 @@
     "@types/react-router-dom": "^5.1.8",
     "@types/rimraf": "^3.0.1",
     "@types/three": "^0.130.0",
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-bundle-visualiser": "^1.2.0",
-    "parcel-plugin-static-files-copy": "^2.6.0",
-    "sass": "^1.35.2"
+    "parcel-bundler": "1.12.5",
+    "parcel-plugin-bundle-visualiser": "1.2.0",
+    "parcel-plugin-static-files-copy": "2.6.0",
+    "sass": "1.35.2"
   },
   "scripts": {
     "start": "parcel ./src/index.html -d build",
