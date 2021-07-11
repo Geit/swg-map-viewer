@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
-import { TileLayer, AttributionControl, Map } from 'react-leaflet';
-import { LatLngBounds, CRS, Util, Transformation } from 'leaflet';
+import React, { useEffect, useState } from 'react';
+import { TileLayer, AttributionControl, MapContainer } from 'react-leaflet';
+import { LatLngBounds, CRS, Util, Transformation, Map } from 'leaflet';
 
 import { MapConfiguration } from '../data/maps';
 import { Waypoint } from '../data/waypoints';
@@ -15,9 +15,9 @@ interface GalaxiesPlanetMapProps {
 const USE_INSIDE_BOUNDS = true;
 
 const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints }) => {
-  const mapRef = useRef<Map>();
+  const [mapState, setMapState] = useState<Map | null>(null);
   useEffect(() => {
-    if (!mapRef || !mapRef.current || !map.planetMap) return;
+    if (!mapState || !map.planetMap) return;
 
     const bounds = new LatLngBounds(
       [map.planetMap.size / 2, -map.planetMap.size / 2],
@@ -25,13 +25,13 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
     );
 
     // mapRef is now available and useEffect is only called once on component update
-    mapRef.current.leafletElement.fitBounds(bounds, { animate: false });
+    mapState.fitBounds(bounds, { animate: false });
 
-    const minZoomLevel = mapRef.current.leafletElement.getBoundsZoom(bounds, USE_INSIDE_BOUNDS);
+    const minZoomLevel = mapState.getBoundsZoom(bounds, USE_INSIDE_BOUNDS);
 
-    setTimeout(() => mapRef.current?.leafletElement.setMinZoom(minZoomLevel), 10);
-    setTimeout(() => mapRef.current?.leafletElement.invalidateSize(), 100);
-  }, [mapRef, map.planetMap]);
+    setTimeout(() => mapState.setMinZoom(minZoomLevel), 10);
+    setTimeout(() => mapState.invalidateSize(), 100);
+  }, [mapState, map.planetMap]);
 
   if (!map.planetMap || !map.raster) return null;
 
@@ -52,7 +52,7 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
   );
 
   return (
-    <Map
+    <MapContainer
       zoomSnap={0}
       key={map.planetMap.size}
       attributionControl={false}
@@ -63,15 +63,14 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
       crs={CRSForMap}
       maxBounds={bounds}
       maxBoundsViscosity={1}
-      // @ts-expect-error
-      ref={mapRef}
+      whenCreated={setMapState}
       onresize={() => {
-        if (!mapRef.current) return;
+        if (!mapState) return;
 
-        mapRef.current.leafletElement.setMinZoom(0);
-        const minZoomLevel = mapRef.current.leafletElement.getBoundsZoom(bounds, USE_INSIDE_BOUNDS);
+        mapState.setMinZoom(0);
+        const minZoomLevel = mapState.getBoundsZoom(bounds, USE_INSIDE_BOUNDS);
         if (typeof minZoomLevel === 'number') {
-          mapRef.current.leafletElement.setMinZoom(minZoomLevel);
+          mapState.setMinZoom(minZoomLevel);
         }
       }}
     >
@@ -96,7 +95,7 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
           />
         );
       })}
-    </Map>
+    </MapContainer>
   );
 };
 

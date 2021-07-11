@@ -1,8 +1,8 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 
 import destroyer from './themes/destroyer';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
   },

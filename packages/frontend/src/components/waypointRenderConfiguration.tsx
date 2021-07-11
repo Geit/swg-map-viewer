@@ -96,6 +96,7 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
 
   [WaypointType.City]: function CityWaypointMarker({ waypoint, map }) {
     const [showCityLimits, setShowCityLimits] = useState(false);
+
     const RankAttributes: { [index: number]: { name: string; radius: number } } = {
       1: {
         radius: 150,
@@ -126,8 +127,10 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
         icon={cityIcon}
         key={`${waypoint.name}${waypoint.location[0]}${waypoint.location[2]}`}
         position={[waypoint.location[2], waypoint.location[0]]}
-        onpopupopen={() => setShowCityLimits(true)}
-        onpopupclose={() => setShowCityLimits(false)}
+        eventHandlers={{
+          popupopen: () => setShowCityLimits(true),
+          popupclose: () => setShowCityLimits(false),
+        }}
       >
         {showCityLimits && waypoint.extraAttributes && (
           <Circle
