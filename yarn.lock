@@ -1209,10 +1209,10 @@
     utility-types "^3.10.0"
     zustand "^3.5.1"
 
-"@react-three/fiber@7.0.4":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-7.0.4.tgz#1db16bf936fd894c94598fbdf743533bba3a43dd"
-  integrity sha512-6dscg4m4f+zFmHGqpmWNNrWM+3h197pTd1HQ9bcOCODe3hMIQnQJjr9VX3PJug7hAaxVNwD4N6HcNPnGZu2CxA==
+"@react-three/fiber@7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-7.0.5.tgz#a129e5b5394fd559b560d37124e67fe64f4adb8f"
+  integrity sha512-IKNlitH2C8vQI3HUU88Dd/QMXkwgoxYJu9wfHAlHBbWGHmu1GHGrYQr2T0HoRAAz+sLlcGS1sC9VfZIlDaHngw==
   dependencies:
     "@babel/runtime" "^7.13.10"
     react-merge-refs "^1.1.0"
