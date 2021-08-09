@@ -30,7 +30,7 @@
     "@types/react-leaflet": "^2.8.2",
     "@types/react-router-dom": "^5.1.8",
     "@types/rimraf": "^3.0.1",
-    "@types/three": "^0.130.0",
+    "@types/three": "^0.131.0",
     "parcel-bundler": "1.12.5",
     "parcel-plugin-bundle-visualiser": "1.2.0",
     "parcel-plugin-static-files-copy": "2.6.0",
