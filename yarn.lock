@@ -1201,10 +1201,10 @@
     "@react-spring/shared" "~9.2.0"
     "@react-spring/types" "~9.2.0"
 
-"@react-three/drei@7.9.0":
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.9.0.tgz#c0ac4fe7f4cdfb7f4f0e15a5884d6ce195bce289"
-  integrity sha512-JMQnY5Vo0nQFB/2/UKDcVzrpe5GGfQF1IeKBmZS7nOfeHLDJxkoFzXWawIfC3BO0OtjNHqLzT4mlZFVEzPrrGg==
+"@react-three/drei@7.10.0":
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.10.0.tgz#d5967fda694b06ebd7cc8a6df9007899a782c8d1"
+  integrity sha512-XokISHE2psYLm9vNMqxJ/eHUj8oeIqZEW2DORvZjrKxMRMVQenPzrbVaYxnn0DhlnGuOFz1QZv5pAtHU8OepNw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     blob-polyfill "^5.0.20210201"
