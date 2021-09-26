@@ -1201,10 +1201,10 @@
     "@react-spring/shared" "~9.2.0"
     "@react-spring/types" "~9.2.0"
 
-"@react-three/drei@7.12.1":
-  version "7.12.1"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.12.1.tgz#b808c6c9b14dd1cb11ef6c94f391e5701aa36f46"
-  integrity sha512-0H19vqhfNYDJYgiMhLSUJtahO9jKcE2+pSdhWLAMVhvRuzC6/NMFPwBW2omqoxwLDazyxx5GnhNtW6QD9aj+tQ==
+"@react-three/drei@7.12.3":
+  version "7.12.3"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.12.3.tgz#9b49b3c83da1068aec1be9175de8dfdd893b555d"
+  integrity sha512-3xA40awOUNctep8vdJaXYiWmJMKxtqnxIdfWCnXSlc8W0HiRwZ2oTFwcXdZ7uor5npCPohqUMpSTtQkfWzX4tA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     blob-polyfill "^5.0.20210201"
@@ -1216,7 +1216,7 @@
     react-merge-refs "^1.0.0"
     stats.js "^0.17.0"
     three-mesh-bvh "^0.4.1"
-    three-stdlib "^2.4.0"
+    three-stdlib "^2.4.2"
     troika-three-text "^0.42.0"
     use-asset "^1.0.4"
     utility-types "^3.10.0"
@@ -7172,10 +7172,10 @@ three-mesh-bvh@^0.4.1:
   resolved "https://registry.yarnpkg.com/three-mesh-bvh/-/three-mesh-bvh-0.4.3.tgz#da5ac7db2e61aa0aa66dc0070a6085bcfbd1281c"
   integrity sha512-4CO1dU73hQRwGgeOL05CnsKkIa0LgNCH6S8t66D9nvSiyK9wDzrSqzGVd8e+eUytFoliYHc/lwoW0uamrmXo5w==
 
-three-stdlib@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.4.0.tgz#e6ffde19de40f3e2d8dfe5d5659667272c1918b6"
-  integrity sha512-fy1utgeo/RskodAmKPoiexkcH/m5Zy9C01QjuESTnihDd+LyjxsmqAUI+qoDCkQIAwtBvYPE53EFBXzZM0B04A==
+three-stdlib@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.4.2.tgz#f8662a151d8860d59a629315237ce86c80e2fe40"
+  integrity sha512-kGd03DzKBTtIZPDIw4VnmEnmiuQbgfUSZo6wuR8DtzUwwhTiqcCefZFVcsmn7Y73Z1cllxxPgV6bV6w+p/axcA==
   dependencies:
     "@babel/runtime" "^7.14.6"
     "@webgpu/glslang" "^0.0.15"
