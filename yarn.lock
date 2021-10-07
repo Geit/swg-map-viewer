@@ -1498,10 +1498,10 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
-"@types/three@^0.132.0":
-  version "0.132.0"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.132.0.tgz#d2d4c8336faf993855c0a5933d7107d4e70de9b6"
-  integrity sha512-NCZ7KbGMa0l8z8Pk4cNCw3tSST+keOXeD9IXdiOJWQnVaFpbUpE/wIdbalkK1c0fs/Z+OZzjLZEWf2zRoVGOCg==
+"@types/three@^0.133.0":
+  version "0.133.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.133.0.tgz#2e344ce10bc81dc89295b79a98c09932b3f0c294"
+  integrity sha512-neDN9L64GK1fhT2raWXYIFvIr6ktM6XYgssfTh4zZp+XRgowD1qJ4/w79hLrLQ0w87u1E91ZfvHB0198wBsuHg==
 
 "@typescript-eslint/eslint-plugin@3.10.1":
   version "3.10.1"
