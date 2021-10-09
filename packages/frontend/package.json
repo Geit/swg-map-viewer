@@ -8,7 +8,7 @@
     "@material-ui/lab": "4.0.0-alpha.60",
     "@monsonjeremy/react-leaflet": "3.2.2",
     "@react-three/drei": "7.13.1",
-    "@react-three/fiber": "7.0.12",
+    "@react-three/fiber": "7.0.14",
     "drei": "2.2.21",
     "leaflet": "1.7.1",
     "lodash": "4.17.21",
