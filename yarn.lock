@@ -1201,13 +1201,12 @@
     "@react-spring/shared" "~9.2.0"
     "@react-spring/types" "~9.2.0"
 
-"@react-three/drei@7.14.2":
-  version "7.14.2"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.14.2.tgz#43d6945451911696e00153ec84b33b149229bc00"
-  integrity sha512-hV6sN6atF6M6BpXU6MRyISIBqDWR+6bubNJRUgCpdOn32Ha12CGlvxtZ7GZIlXJs5gTQ48Zlr59HhVIgRCwMBQ==
+"@react-three/drei@7.14.3":
+  version "7.14.3"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.14.3.tgz#4631af9217cdffe553362547e5c6906c0103137f"
+  integrity sha512-r+z5/VJmX+GduxD+ACLpWrDqkRNiMbgYzwzvkTNRXxf+yUlbOGT0jaasTJcq4AOtg+Y5YoKDUieuQVAJ12O44w==
   dependencies:
     "@babel/runtime" "^7.11.2"
-    blob-polyfill "^5.0.20210201"
     detect-gpu "^3.1.21"
     glsl-noise "^0.0.0"
     lodash.omit "^4.5.0"
@@ -1974,11 +1973,6 @@ bindings@^1.5.0:
   integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
   dependencies:
     file-uri-to-path "1.0.0"
-
-blob-polyfill@^5.0.20210201:
-  version "5.0.20210201"
-  resolved "https://registry.yarnpkg.com/blob-polyfill/-/blob-polyfill-5.0.20210201.tgz#0024bfa5dcc3440eb5a2f1e5991cb1612a558465"
-  integrity sha512-SrH6IG6aXL9pCgSysBCiDpGcAJ1j6/c1qCwR3sTEQJhb+MTk6FITNA6eW6WNYQDNZVi4Z9GjxH5v2MMTv59CrQ==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
   version "4.12.0"
