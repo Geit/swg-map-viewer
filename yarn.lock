@@ -1201,10 +1201,10 @@
     "@react-spring/shared" "~9.2.0"
     "@react-spring/types" "~9.2.0"
 
-"@react-three/drei@7.19.2":
-  version "7.19.2"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.19.2.tgz#7df6b3309bba14cd0412edb058ce6ead0ae2d2f6"
-  integrity sha512-ifmz+aJ17Tj3EQ1/8baTqRG9BbvMXKjVJ4IsNEXzb3fzkHeAJ4LwksTV6bcs7VEAG6+1ytBhEoYJowobh5ZlkQ==
+"@react-three/drei@7.19.6":
+  version "7.19.6"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.19.6.tgz#17b51f611be9519af0b964d6865a8a6eccad5bce"
+  integrity sha512-7R0BDWjm0Z7LOCFybsi7hu319OtdVNL4EUJRWVTYAxfKCO2yNJ7aiZ16RGZCvwefh1ZJ4kpxfS/R0Wywzor8tw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     detect-gpu "^3.1.21"
