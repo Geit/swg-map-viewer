@@ -1194,6 +1194,16 @@
     "@react-spring/rafz" "~9.3.0"
     "@react-spring/types" "~9.3.0"
 
+"@react-spring/three@^9.3.1":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@react-spring/three/-/three-9.3.1.tgz#91a50851639c5a88fed8f76b4e25ff388d2b24e7"
+  integrity sha512-40iRIX2DrY+a81hIliOog6TMg/ZAtHGeZr95r0vKAsl+iX1g9Hs8XCS4wTeQIUgydZpbpShk/JL6mkcstEfBdw==
+  dependencies:
+    "@react-spring/animated" "~9.3.0"
+    "@react-spring/core" "~9.3.0"
+    "@react-spring/shared" "~9.3.0"
+    "@react-spring/types" "~9.3.0"
+
 "@react-spring/types@~9.3.0":
   version "9.3.1"
   resolved "https://registry.yarnpkg.com/@react-spring/types/-/types-9.3.1.tgz#20f392ecad15a1ea6c0865ffe86ca5016c05a278"
@@ -1209,12 +1219,14 @@
     "@react-spring/shared" "~9.3.0"
     "@react-spring/types" "~9.3.0"
 
-"@react-three/drei@7.25.4":
-  version "7.25.4"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.25.4.tgz#cb30b7276ac93353fb191bb6614664b5bf578edf"
-  integrity sha512-5m47aJIi2eiYS8Wq8f4l8bR0JhsG/cSKJg8GD9XO9NKKG1YXD6cFZlgiCx+Ee6V37DAQERoJkwt/xYveskEjEQ==
+"@react-three/drei@7.26.1":
+  version "7.26.1"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-7.26.1.tgz#febf0b2520457b0b15d772bf3e9176baca9ab77c"
+  integrity sha512-Xcbtc8b0u/jzHV2LHmytWx8yDz213NtpGVLieJAZC0n3y6BdxcE6S94Hg/pwi2YDIIH6XgHYFO7lhM9K3tY4pg==
   dependencies:
     "@babel/runtime" "^7.11.2"
+    "@react-spring/three" "^9.3.1"
+    "@use-gesture/react" "^10.2.0"
     detect-gpu "^3.1.28"
     glsl-noise "^0.0.0"
     lodash.omit "^4.5.0"
@@ -1569,6 +1581,18 @@
   integrity sha512-9JgC82AaQeglebjZMgYR5wgmfUdUc+EitGUUMW8u2nDckaeimzW+VsoLV6FoimPv2id3VQzfjwBxEMVz08ameQ==
   dependencies:
     eslint-visitor-keys "^1.1.0"
+
+"@use-gesture/core@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@use-gesture/core/-/core-10.2.0.tgz#d8c79919e9a801f0a17708dd21898a85d953c521"
+  integrity sha512-mgEcB6T+0sCI+7ZuDV5acvm6P6sO/hz4XXupPIvW3/yPChrIXppIMCDo+PSPCyLqUTu+H8URc8M6zAJoPwUxdQ==
+
+"@use-gesture/react@^10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@use-gesture/react/-/react-10.2.0.tgz#1be45ec5697f6daeacdb25d04977c20b3d52713f"
+  integrity sha512-QrtXOCScE0WrA/9+Xi6YWtUudEhUIlqQ/+dBgt/bYwviSYuajEis69LhuxeLPEcjhVaPTpOWp+3M8YMWbf+2Iw==
+  dependencies:
+    "@use-gesture/core" "10.2.0"
 
 "@webgpu/glslang@^0.0.15":
   version "0.0.15"
