@@ -1257,10 +1257,10 @@
     "@react-spring/shared" "~9.4.3-beta.0"
     "@react-spring/types" "~9.4.3-beta.0"
 
-"@react-three/drei@8.10.1":
-  version "8.10.1"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.10.1.tgz#8871cc6e17e9592dcb6bf61df5ee3c103da49c5e"
-  integrity sha512-V6GX7hk60uqOmAs3At3QldJiGfzUwVRFYtmrtT6JmmoUZVp9YX0wvu5jdUhaaa+humX5I3As6d7bNt5lOGL6UA==
+"@react-three/drei@8.10.2":
+  version "8.10.2"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.10.2.tgz#c56f88c6ef24c7176deb0fcc694689aaebd75dcf"
+  integrity sha512-6vNCMM1pqOpSXOfyFXvHtULi531nJa2q3ipVuLKoTNpOfFHCQHBMsy4LqHt0jQUJif7zPB5KIzGYeEgYnwMgVw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/three" "^9.3.1"
@@ -1272,10 +1272,10 @@
     react-composer "^5.0.2"
     react-merge-refs "^1.1.0"
     stats.js "^0.17.0"
+    suspend-react "^0.0.8"
     three-mesh-bvh "^0.5.4"
     three-stdlib "^2.8.6"
     troika-three-text "^0.45.0"
-    use-asset "^1.0.4"
     utility-types "^3.10.0"
     zustand "^3.5.13"
 
@@ -7111,6 +7111,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+suspend-react@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/suspend-react/-/suspend-react-0.0.8.tgz#b0740c1386b4eb652f17affe4339915ee268bd31"
+  integrity sha512-ZC3r8Hu1y0dIThzsGw0RLZplnX9yXwfItcvaIzJc2VQVi8TGyGDlu92syMB5ulybfvGLHAI5Ghzlk23UBPF8xg==
 
 svg-parser@^2.0.2:
   version "2.0.4"
