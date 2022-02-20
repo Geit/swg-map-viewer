@@ -1257,10 +1257,10 @@
     "@react-spring/shared" "~9.4.3-beta.0"
     "@react-spring/types" "~9.4.3-beta.0"
 
-"@react-three/drei@8.10.2":
-  version "8.10.2"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.10.2.tgz#c56f88c6ef24c7176deb0fcc694689aaebd75dcf"
-  integrity sha512-6vNCMM1pqOpSXOfyFXvHtULi531nJa2q3ipVuLKoTNpOfFHCQHBMsy4LqHt0jQUJif7zPB5KIzGYeEgYnwMgVw==
+"@react-three/drei@8.10.4":
+  version "8.10.4"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.10.4.tgz#0ef8639c01311aad56b8b61ded425871f6480c9e"
+  integrity sha512-sm229Ho4bcHePRQlysy44Tii+6xCTVJIRLfvN+Orq4bmGajczm9+O5BQXqnidMPtmDrloskz1JwSCJHVB5e4Kw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/three" "^9.3.1"
