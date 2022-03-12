@@ -1257,10 +1257,10 @@
     "@react-spring/shared" "~9.4.3-beta.0"
     "@react-spring/types" "~9.4.3-beta.0"
 
-"@react-three/drei@8.16.4":
-  version "8.16.4"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.16.4.tgz#4f3ba8b66ac86df002f48df534f0374eda88dd51"
-  integrity sha512-DjDZi1U4rAQCWXFcosvuHOroB9MG8TJdFXE2Jc86M3N7biP5utsEG02MkzjaP5a/3RMyI1HRDIrA32QKBhJ+hQ==
+"@react-three/drei@8.16.5":
+  version "8.16.5"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.16.5.tgz#cce44be8c61cf1a0638dbf0068cfa525baee2b7c"
+  integrity sha512-9PhhwPP+1hLl74DvZEaHyhlLKZ0mKIkcVXLEnxfBDtOWL7QKDDQ+zsjTVkoPUkE9oizp4cgOHS5XCHwQiSRcjg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/three" "^9.3.1"
@@ -1539,7 +1539,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^17.0.14":
-  version: "17.0.40"
+  version "17.0.40"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.40.tgz#dc010cee6254d5239a138083f3799a16638e6bad"
+  integrity sha512-UrXhD/JyLH+W70nNSufXqMZNuUD2cXHu6UjCllC6pmOQgBX4SGXOH8fjRka0O0Ee0HrFxapDD8Bwn81Kmiz6jQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
