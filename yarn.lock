@@ -1257,10 +1257,10 @@
     "@react-spring/shared" "~9.4.3-beta.0"
     "@react-spring/types" "~9.4.3-beta.0"
 
-"@react-three/drei@8.16.7":
-  version "8.16.7"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.16.7.tgz#82a0b4f021a9f562a8c16adc5a440aee2c46fcf2"
-  integrity sha512-EMkm4Te7PoBwjai/helZVQu+0Gx7oEyyGIvRW/mY3Hs0FaXPGlCGhyX9QNFw54nDRpDJMKkZMAQW3KFrjtByqw==
+"@react-three/drei@8.18.1":
+  version "8.18.1"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-8.18.1.tgz#677b6593547f5438745d1a0c02c70ae1a5a30ba5"
+  integrity sha512-XgwaKf+opNnh/o13aPC83ZueDqFIBPVeXm8vig/zkoP/6QLSOct3Fz2kpDKidyNchtcCqxKoYJ7Do2lnhXZdyg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/three" "^9.3.1"
@@ -1269,6 +1269,7 @@
     glsl-noise "^0.0.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
+    meshline "^2.0.4"
     react-composer "^5.0.2"
     react-merge-refs "^1.1.0"
     stats.js "^0.17.0"
@@ -4935,6 +4936,11 @@ merge2@^1.2.3:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
+
+meshline@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/meshline/-/meshline-2.0.4.tgz#39c7bcf36b503397642f2312e6211f2a8ecf75c5"
+  integrity sha512-Jh6DJl/zLqA4xsKvGv5950jr2ukyXQE1wgxs8u94cImHrvL6soVIggqjP+2hVHZXGYaKnWszhtjuCbKNeQyYiw==
 
 micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
