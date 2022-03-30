@@ -1297,12 +1297,13 @@
     utility-types "^3.10.0"
     zustand "^3.5.13"
 
-"@react-three/fiber@7.0.26":
-  version "7.0.26"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-7.0.26.tgz#36ec19fa7bff00738a7dd368d37d81fed912dd52"
-  integrity sha512-46NBais4fQIGcMGLBbOf84lp8y/cg73jOEVmAQQJqWX6iOVeNg29jYd15LBuCW2qPD1qDRU0rOfLbMDgwr/vxQ==
+"@react-three/fiber@7.0.27":
+  version "7.0.27"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-7.0.27.tgz#6fecaae7050a6967dc046267de8b5b016ec0cbef"
+  integrity sha512-O8zNP7QwPRzZCw4fmHwbBxC45NAd0Ysiy8NGNQF8NUReHaXI+NEwXR5QFl3O/WnZKG1XNf4/l7jtIM3GA1JPpw==
   dependencies:
     "@babel/runtime" "^7.13.10"
+    "@types/react-reconciler" "^0.26.2"
     react-merge-refs "^1.1.0"
     react-reconciler "^0.26.2"
     react-three-fiber "0.0.0-deprecated"
@@ -1476,7 +1477,44 @@
     "@types/geojson" "*"
 
 "@types/lodash@^4.14.171":
-  version: "4.14.181"
+  version "4.14.181"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.181.tgz#d1d3740c379fda17ab175165ba04e2d03389385d"
+  integrity sha512-n3tyKthHJbkiWhDZs3DkhkCzt2MexYHXlX0td5iMplyfwketaOeKboEVBqzceH7juqvEg3q5oUoBFxSLu7zFag==
+
+"@types/minimatch@*":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
+  integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
+
+"@types/node@*":
+  version "17.0.23"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.23.tgz#3b41a6e643589ac6442bdbd7a4a3ded62f33f7da"
+  integrity sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==
+
+"@types/node@^16.3.1":
+  version "16.11.26"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.26.tgz#63d204d136c9916fb4dcd1b50f9740fe86884e47"
+  integrity sha512-GZ7bu5A6+4DtG7q9GsoHXy3ALcgeIHP4NnL0Vv2wu0uUB/yQex26v0tf6/na1mm0+bS9Uw+0DFex7aaKr2qawQ==
+
+"@types/parse-json@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
+  integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
+
+"@types/prop-types@*":
+  version "15.7.4"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
+  integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
+
+"@types/q@^1.5.1":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
+  integrity sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==
+
+"@types/react-copy-to-clipboard@^5.0.1":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@types/react-copy-to-clipboard/-/react-copy-to-clipboard-5.0.2.tgz#c29690b472a54edff35916f0d1c6c797ad0fd34b"
+  integrity sha512-O29AThfxrkUFRsZXjfSWR2yaWo0ppB1yLEnHA+Oh24oNetjBAwTDu1PmolIqdJKzsZiO4J1jn6R6TmO96uBvGg==
   dependencies:
     "@types/react" "*"
 
@@ -1493,6 +1531,13 @@
   integrity sha512-Iel8Vd1bSCD38Yhiqcmm/+9hjPEdd39LFE3tBMbOytq3QAQsC3LDrbo6ifoh8JbpqPbCsQPo9Wx5OELHixEShg==
   dependencies:
     "@types/leaflet" "*"
+    "@types/react" "*"
+
+"@types/react-reconciler@^0.26.2":
+  version "0.26.4"
+  resolved "https://registry.yarnpkg.com/@types/react-reconciler/-/react-reconciler-0.26.4.tgz#651404be172cf29b65cddf246d8d964b4e448399"
+  integrity sha512-bdx4aIBkQRDAnzc23JBFeZmVpmfLJHfHikmQukEt9qs4bQtq9f+PDbNwhR9u74FkIUyIDz1I1qJ8OF6RwadKpw==
+  dependencies:
     "@types/react" "*"
 
 "@types/react-router-dom@^5.1.8":
