@@ -18,7 +18,7 @@
     "react-router-dom": "5.3.3",
     "react-use-measure": "2.1.1",
     "recoil": "0.7.2",
-    "three": "0.140.2"
+    "three": "0.141.0"
   },
   "devDependencies": {
     "@svgr/parcel-plugin-svgr": "5.5.0",
