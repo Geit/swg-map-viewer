@@ -17,7 +17,7 @@
     "react-dom": "17.0.2",
     "react-router-dom": "5.3.3",
     "react-use-measure": "2.1.1",
-    "recoil": "0.7.3",
+    "recoil": "0.7.4",
     "three": "0.141.0"
   },
   "devDependencies": {
