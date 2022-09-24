@@ -4899,10 +4899,10 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
-leaflet@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.9.0.tgz#4f5adf5ad392107935a20a24298e877520691c1e"
-  integrity sha512-lL8433PmoPoTSfPoPMzsQdTKmH36Rn2bQx9/j0bbZ98LimrsMof0P+7AQ0LntwRbjXe601j/IY1P2mwBRnN/1Q==
+leaflet@1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.9.1.tgz#73c3c31233f5bc69ad3dd681e67860ba28c87291"
+  integrity sha512-5FcDAMTLAuOq0RisQQbTFatl8Sl4bM0gMrBfuHbl7CYbYJv45BfCS8oU3T644MLjleBq1Ncq541QEA1pqUGTFA==
 
 levn@^0.4.1:
   version "0.4.1"
