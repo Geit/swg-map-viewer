@@ -1533,9 +1533,9 @@
   integrity sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==
 
 "@types/node@^16.3.1":
-  version "16.11.63"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.63.tgz#af57f6d2c3fb17a571230d527003dd734a9109b2"
-  integrity sha512-3OxnrEQLBz8EIIaHpg3CibmTAEGkDBcHY4fL5cnBwg2vd2yvHrUDGWxK+MlYPeXWWIoJJW79dGtU+oeBr6166Q==
+  version "16.11.64"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.64.tgz#9171f327298b619e2c52238b120c19056415d820"
+  integrity sha512-z5hPTlVFzNwtJ2LNozTpJcD1Cu44c4LNuzaq1mwxmiHWQh2ULdR6Vjwo1UGldzRpzL0yUEdZddnfqGW2G70z6Q==
 
 "@types/offscreencanvas@^2019.6.4":
   version "2019.7.0"
