@@ -10,7 +10,7 @@
     "@react-three/drei": "8.20.2",
     "@react-three/fiber": "7.0.29",
     "drei": "2.2.21",
-    "leaflet": "1.9.2",
+    "leaflet": "1.9.3",
     "lodash": "4.17.21",
     "react": "17.0.2",
     "react-copy-to-clipboard": "5.1.0",
