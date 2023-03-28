@@ -23,7 +23,7 @@
   "devDependencies": {
     "@svgr/parcel-plugin-svgr": "5.5.0",
     "@types/lodash": "^4.14.171",
-    "@types/node": "^16.3.1",
+    "@types/node": "^18.0.0",
     "@types/react": "^17.0.14",
     "@types/react-copy-to-clipboard": "^5.0.1",
     "@types/react-dom": "^17.0.9",
