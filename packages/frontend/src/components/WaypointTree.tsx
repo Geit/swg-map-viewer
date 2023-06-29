@@ -1,6 +1,6 @@
 import { useRecoilValue, useRecoilState } from 'recoil';
 import React from 'react';
-import { TreeView, TreeItem } from '@material-ui/lab';
+import { TreeView, TreeItem } from '@mui/lab';
 
 import { sidebarTreeSelector, SidebarTree, sidebarSelectedNodeAtom } from '../atoms/waypoints';
 
@@ -14,12 +14,7 @@ const WaypointTreeChild: React.FC<{ tree: SidebarTree; parentNodeId?: string }> 
         const nodeId = parentNodeId ? `${parentNodeId}.items.${idx}` : `${idx}`;
         if (treeItem.__type === 'branchNode') {
           return (
-            <TreeItem
-              key={nodeId}
-              nodeId={nodeId}
-              label={treeItem.title}
-              onLabelClick={evt => evt.detail !== 2 && evt.preventDefault()}
-            >
+            <TreeItem key={nodeId} nodeId={nodeId} label={treeItem.title}>
               <WaypointTreeChild tree={treeItem.items} parentNodeId={nodeId} />
             </TreeItem>
           );

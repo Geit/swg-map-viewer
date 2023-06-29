@@ -108,6 +108,7 @@ module.exports = {
     'import/no-unresolved': ['error', { ignore: ['@date-io/type'] }],
     'import/named': 'off',
     'import/order': ['error', { 'newlines-between': 'always' }],
+    'react/no-unknown-property': 'off'
   },
   settings: {
     react: {

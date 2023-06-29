@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Box, makeStyles, Button } from '@material-ui/core';
+import { Box, Button } from '@mui/material';
+import { makeStyles } from '@mui/styles';
 
-import SWGLogo from '../../components/swg.svg';
+import { ReactComponent as SWGLogo } from '../../components/swg.svg';
 import destroyer from '../../themes/destroyer';
 import ServerSelect from '../../components/ServerSelect';
 import PlanetSelect from '../../components/PlanetSelect';

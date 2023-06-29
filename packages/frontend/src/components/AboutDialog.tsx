@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dialog, DialogTitle, DialogContent, DialogProps, Typography, Link } from '@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, DialogProps, Typography, Link } from '@mui/material';
 
 interface AboutDialogProps {
   open: boolean;

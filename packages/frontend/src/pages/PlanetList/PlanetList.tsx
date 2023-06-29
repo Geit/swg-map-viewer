@@ -5,7 +5,7 @@ import { ResizeObserver } from '@juggle/resize-observer';
 
 import mapConfigs from '../../data/maps';
 
-const Component = () => {
+const PlanetList = () => {
   const [ref, bounds] = useMeasure({ polyfill: ResizeObserver });
   const PlanetSpheres = React.lazy(() => import('./PlanetSpheres'));
 
@@ -50,4 +50,4 @@ const Component = () => {
   );
 };
 
-export default Component;
+export default PlanetList;

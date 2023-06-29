@@ -1,5 +1,5 @@
 import React from 'react';
-import { Select, MenuItem, FormControl, InputLabel } from '@material-ui/core';
+import { Select, MenuItem, FormControl, InputLabel } from '@mui/material';
 import { useRecoilState } from 'recoil';
 
 import servers from '../data/servers';

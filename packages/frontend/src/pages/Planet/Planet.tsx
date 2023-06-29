@@ -1,5 +1,5 @@
 import React, { useState, Suspense, useMemo, useEffect } from 'react';
-import { Grid, Box, Drawer, Hidden, Button } from '@material-ui/core';
+import { Grid, Box, Drawer, Hidden, Button } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 
@@ -33,7 +33,7 @@ export default function Planet() {
             <GalaxiesPlanetMap map={mapConfig} waypoints={waypointsToRender} />
           </Box>
         </Grid>
-        <Hidden xsDown initialWidth="lg">
+        <Hidden smDown initialWidth="lg">
           <Grid item xs={4} sm={4} md={3}>
             <Suspense fallback={null}>
               <SidebarLazy currentMap={mapConfig} />
@@ -42,6 +42,7 @@ export default function Planet() {
         </Hidden>
       </Grid>
       <Hidden smUp>
+        {/* @ts-ignore */}
         <Box className="mobileDrawerTrigger">
           <Button variant="contained" color="primary" className="" onClick={() => setDrawerOpen(true)}>
             Menu

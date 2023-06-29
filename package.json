@@ -3,31 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "3.10.1",
-    "@typescript-eslint/parser": "3.10.1",
+    "@typescript-eslint/eslint-plugin": "5.60.1",
+    "@typescript-eslint/parser": "5.60.1",
     "babel-eslint": "10.1.0",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.5.0",
+    "eslint": "8.43.0",
+    "eslint-config-prettier": "8.8.0",
     "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
-    "prettier": "2.7.1",
-    "rimraf": "3.0.2",
+    "prettier": "2.8.8",
+    "rimraf": "5.0.1",
     "ts-node": "10.9.1",
-    "typescript": "4.9.5"
+    "typescript": "5.1.6"
   },
   "scripts": {
     "start": "yarn workspace @swg-map-viewer/frontend run start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx .",
     "build": "yarn workspace @swg-map-viewer/frontend run build",
+    "preview": "yarn workspace @swg-map-viewer/frontend run preview",
     "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts"
   },
   "workspaces": {
     "packages": [
       "packages/*"
     ]
-  }
+  },
+  "dependencies": {}
 }

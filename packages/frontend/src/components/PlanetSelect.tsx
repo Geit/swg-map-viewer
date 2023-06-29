@@ -1,15 +1,15 @@
 import React from 'react';
-import { Select, MenuItem, FormControl, InputLabel } from '@material-ui/core';
-import { useHistory } from 'react-router-dom';
+import { Select, MenuItem, FormControl, InputLabel } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 import mapConfigs from '../data/maps';
 
 interface PlanetSelectProps {
-  currentPlanet: typeof mapConfigs[number];
+  currentPlanet: (typeof mapConfigs)[number];
 }
 
 const PlanetSelect: React.FC<PlanetSelectProps> = ({ currentPlanet }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   return (
     <FormControl fullWidth>
@@ -17,7 +17,7 @@ const PlanetSelect: React.FC<PlanetSelectProps> = ({ currentPlanet }) => {
       <Select
         value={currentPlanet.id}
         labelId="planet-select"
-        onChange={evt => history.push(`/planets/${evt.target.value}`)}
+        onChange={evt => navigate(`/planets/${evt.target.value}`)}
       >
         {mapConfigs
           .filter(mapConfig => mapConfig.raster)

@@ -82,10 +82,6 @@ interface SidebarBranchNode {
   items: SidebarTree;
 }
 
-interface SidebarConstructionRule {
-  rootTitle: string;
-}
-
 const sidebarRootCategories = [
   {
     type: WaypointType.City,

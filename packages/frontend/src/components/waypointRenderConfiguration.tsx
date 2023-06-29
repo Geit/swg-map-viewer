@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Icon } from 'leaflet';
-import { Tooltip, Popup, Marker, Circle } from '@monsonjeremy/react-leaflet';
+import { Tooltip, Popup, Marker, Circle } from 'react-leaflet';
 import CopyToClipboard from 'react-copy-to-clipboard';
-import { Button, Box } from '@material-ui/core';
+import { Button, Box } from '@mui/material';
 
 import { WaypointType } from '../enums';
 import { Waypoint } from '../data/waypoints';
@@ -10,15 +10,10 @@ import { MapConfiguration } from '../data/maps';
 
 interface WaypointMarkerRenderProps {
   waypoint: Waypoint;
+  // eslint-disable-next-line react/no-unused-prop-types
   map: MapConfiguration;
+  // eslint-disable-next-line react/no-unused-prop-types
   icon?: Icon;
-}
-
-interface WaypointRenderConfiguration {
-  icon: Icon;
-  TooltipComponent: React.FC<WaypointMarkerRenderProps>;
-  PopupComponent: React.FC<WaypointMarkerRenderProps>;
-  generateWaypoint: (waypoint: Waypoint, map: MapConfiguration) => string;
 }
 
 const GenericWaypointTooltip: React.FC<WaypointMarkerRenderProps> = ({ waypoint }) => (

@@ -1,4 +1,4 @@
-import { createTheme } from '@material-ui/core/styles';
+import { createTheme } from '@mui/material/styles';
 
 import destroyer from './themes/destroyer';
 
@@ -7,7 +7,7 @@ const theme = createTheme({
     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
   },
   palette: {
-    type: 'dark',
+    mode: 'dark',
     primary: {
       main: destroyer.selected,
     },
