@@ -4,6 +4,7 @@ public
 
 node_modules
 build
+dist
 
 /packages/frontend/config/*
 /packages/frontend/scripts/*

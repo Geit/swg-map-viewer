@@ -7,9 +7,11 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/typescript',
     'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
-  plugins: ['prettier', 'promise', 'react', 'react-hooks'],
-  parser: '@babel/eslint-parser',
+  plugins: ['@typescript-eslint', 'prettier', 'promise', 'react', 'react-hooks'],
+  parser: '@typescript-eslint/parser',
+  root: true,
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
@@ -108,22 +110,13 @@ module.exports = {
     'import/no-unresolved': ['error', { ignore: ['@date-io/type'] }],
     'import/named': 'off',
     'import/order': ['error', { 'newlines-between': 'always' }],
-    'react/no-unknown-property': 'off'
+    'react/no-unknown-property': 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
   },
   settings: {
     react: {
       version: 'detect',
     },
   },
-  overrides: [
-    {
-      files: ['**/*.ts', '**/*.tsx'],
-      parser: '@typescript-eslint/parser',
-      plugins: ['@typescript-eslint/eslint-plugin'],
-      rules: {
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 'error',
-      },
-    },
-  ],
 };

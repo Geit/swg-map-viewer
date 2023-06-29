@@ -10,11 +10,11 @@ import { MapConfiguration } from '../../data/maps';
 import AboutDialog from '../../components/AboutDialog';
 import WaypointTree from '../../components/WaypointTree';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(() => ({
   outerSidebarBox: {
     display: 'flex',
     height: '100%',
-    padding: theme.spacing(1),
+    padding: '16px',
     flexDirection: 'column',
     boxShadow: 'inset 0 0 20px rgba(0,0,0, 0.8)',
     border: `1px solid ${destroyer.line1}`,
@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
   innerSidebarBox: {
     border: `1px solid ${destroyer.contrast5}`,
     borderRadius: 8,
-    padding: theme.spacing(1),
+    padding: '16px',
 
     overflow: 'auto',
     backgroundColor: destroyer.back2,
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
     verticalAlign: 'middle',
     height: '1.3rem',
     color: 'gold',
-    marginRight: theme.spacing(1),
+    marginRight: '16px',
   },
 }));
 
@@ -48,23 +48,32 @@ const Sidebar: React.FC<SidebarProps> = ({ currentMap }) => {
   const [aboutDialogOpen, setAboutDialogOpen] = useState(false);
 
   return (
-    <Box p={2} height="100vh">
-      <Box className={classes.outerSidebarBox}>
-        <Box className={classes.innerSidebarBox} flexGrow={1} mb={2}>
+    <Box component="div" sx={{ height: '100vh', padding: '32px' }}>
+      <Box component="div" className={classes.outerSidebarBox}>
+        <Box
+          component="div"
+          className={classes.innerSidebarBox}
+          sx={{ display: 'flex', flexGrow: 1, marginBottom: '32px' }}
+          flexGrow={1}
+          mb={2}
+        >
           <WaypointTree />
         </Box>
 
         <Box
-          position="relative"
-          display="flex"
-          flexDirection="column"
-          flexBasis="40%"
+          component="div"
+          sx={{
+            position: 'relative',
+            display: 'flex',
+            flexDirection: 'column',
+            flexBasis: '40%',
+          }}
           className={classes.innerSidebarBox}
         >
           <PlanetSelect currentPlanet={currentMap} />
           <ServerSelect />
 
-          <Box alignSelf="end" mt="auto">
+          <Box component="div" sx={{ display: 'flex', alignSelf: 'end', marginTop: 'auto' }}>
             <Button onClick={() => setAboutDialogOpen(true)}>
               <SWGLogo className={classes.swgIcon} />
               About

@@ -29,7 +29,7 @@ export default function Planet() {
     <>
       <Grid container>
         <Grid item xs>
-          <Box height="100vh">
+          <Box component="div" sx={{ height: '100vh' }}>
             <GalaxiesPlanetMap map={mapConfig} waypoints={waypointsToRender} />
           </Box>
         </Grid>
@@ -42,8 +42,7 @@ export default function Planet() {
         </Hidden>
       </Grid>
       <Hidden smUp>
-        {/* @ts-ignore */}
-        <Box className="mobileDrawerTrigger">
+        <Box component="div" className="mobileDrawerTrigger">
           <Button variant="contained" color="primary" className="" onClick={() => setDrawerOpen(true)}>
             Menu
           </Button>

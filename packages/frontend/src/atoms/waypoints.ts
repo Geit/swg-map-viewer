@@ -61,7 +61,7 @@ export const waypointsForMapDisplaySelector = selector({
         return true;
       }
 
-      if (sidebarSelectedWaypointIdSet && sidebarSelectedWaypointIdSet.has(waypoint.id!)) {
+      if (sidebarSelectedWaypointIdSet && sidebarSelectedWaypointIdSet.has(waypoint.id)) {
         return true;
       }
 
@@ -139,14 +139,14 @@ const constructTreeFromWaypoints = (waypoints: Waypoint[]): SidebarTree => {
           wpInsertionPoint.push({
             __type: 'leafNode',
             title: waypoint.name,
-            waypointId: waypoint.id!,
+            waypointId: waypoint.id,
           });
           wpInsertionPoint.sort(treeSort);
         } else {
           acc.push({
             __type: 'leafNode',
             title: waypoint.name,
-            waypointId: waypoint.id!,
+            waypointId: waypoint.id,
           });
           acc.sort(treeSort);
         }

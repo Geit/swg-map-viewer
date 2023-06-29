@@ -21,10 +21,11 @@
   },
   "scripts": {
     "start": "yarn workspace @swg-map-viewer/frontend run start",
-    "lint": "eslint --ext .ts,.js,.tsx,.jsx .",
+    "lint": "eslint --ext .ts,.js,.tsx,.jsx . && npm run typecheck",
     "build": "yarn workspace @swg-map-viewer/frontend run build",
     "preview": "yarn workspace @swg-map-viewer/frontend run preview",
-    "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts"
+    "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts",
+    "typecheck": "yarn workspace @swg-map-viewer/frontend run typecheck"
   },
   "workspaces": {
     "packages": [

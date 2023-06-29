@@ -43,7 +43,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "analyze": "source-map-explorer 'build/*.js'",
-    "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts"
+    "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts",
+    "typecheck": "tsc --noEmit"
   },
   "browserslist": {
     "production": [

@@ -13,7 +13,7 @@ interface PlanetProps extends ReactThreeFiber.Object3DNode<Mesh, typeof Mesh> {
 
 const PlanetRaw: React.FC<PlanetProps> = props => {
   // This reference will give us direct access to the mesh
-  const mesh = useRef<ReactThreeFiber.Object3DNode<Mesh, typeof Mesh>>();
+  const mesh = useRef<Mesh>(null);
 
   const texture = useLoader(TextureLoader, props.planetImageUrl);
 
@@ -22,8 +22,7 @@ const PlanetRaw: React.FC<PlanetProps> = props => {
   texture.repeat.set(1, 1);
 
   useFrame(() => {
-    // @ts-ignore
-    mesh.current.rotation.y -= 0.0035;
+    if (mesh.current) mesh.current.rotation.y -= 0.0035;
   });
 
   return (

@@ -29,7 +29,7 @@ const GenericWaypointPopup: React.FC<WaypointMarkerRenderProps> = ({ waypoint, m
     </h3>
     {waypoint.description}
 
-    <Box>
+    <Box component="div">
       <CopyToClipboard text={waypointGenerator(waypoint.name, waypoint.location, map)}>
         <Button color="primary">Copy as Waypoint</Button>
       </CopyToClipboard>
@@ -148,11 +148,11 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
             </ul>
           )}
 
-          <Box>
+          <div>
             <CopyToClipboard text={waypointGenerator(waypoint.name, waypoint.location, map)}>
               <Button color="primary">Copy as Waypoint</Button>
             </CopyToClipboard>
-          </Box>
+          </div>
         </Popup>
       </Marker>
     );
@@ -176,7 +176,7 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
             Part of the collection: <strong>{waypoint.extraAttributes.collection}</strong>
           </p>
           {waypoint.description}
-          <Box>
+          <div>
             <CopyToClipboard
               text={waypointGenerator(
                 `${waypoint.extraAttributes.collection} ${waypoint.name}`,
@@ -187,7 +187,7 @@ const WaypointRenderConfiguration: Record<WaypointType, React.FC<WaypointMarkerR
             >
               <Button color="primary">Copy as Waypoint</Button>
             </CopyToClipboard>
-          </Box>
+          </div>
         </Popup>
       </Marker>
     );
