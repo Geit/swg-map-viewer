@@ -1,4 +1,3 @@
-
 .ui-palette-destroyer, :root {
   --color_AccentDark: #1E2D2B;
   --color_AccentLight: #5E8079;
@@ -253,7 +252,7 @@ html, body {
     max-width: 100vh;
     margin: 0 auto;
     position: relative;
-    background: no-repeat center/contain url('../public/textures/ui_rebel_starfield.png');
+    background: no-repeat center/contain url('textures/ui_rebel_starfield.png');
   }
 
   .planetSelection2DCanvas {
