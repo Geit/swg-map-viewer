@@ -20,7 +20,7 @@ jobs:
     - name: rsync deployments
       uses: burnett01/rsync-deployments@5.2
       with:
-        switches: -avzr --no-t --delete-after --exclude="tiles/" --exclude="planets/"
+        switches: -vzr --delete-after --exclude="tiles/" --exclude="planets/"
         path: packages/frontend/build/
         remote_path:  ${{ secrets.DEPLOY_PATH }}
         remote_port:  ${{ secrets.DEPLOY_PORT }}
