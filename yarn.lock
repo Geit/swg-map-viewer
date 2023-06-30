@@ -1678,10 +1678,10 @@
     "@react-spring/shared" "~9.7.3"
     "@react-spring/types" "~9.7.3"
 
-"@react-three/drei@9.77.7":
-  version "9.77.7"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.77.7.tgz#19d369a9e53b86f5f0e71e44936bb7d736df71eb"
-  integrity sha512-eR2DvlZMba2lypjAkp7pt/c86sHwWUBZds3iCGZP4+uNJcb+l3wixln0yGvjM8GHcJXt0P0+h43YCEOMb4Dfmw==
+"@react-three/drei@9.77.9":
+  version "9.77.9"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.77.9.tgz#2a579afeae436ebac6d47502473ba0aac8bd8d95"
+  integrity sha512-BzXqEct1clNTlx0rFPsNQLBdcUQroSY1rYyD/qEMO8eUZjs/XsvX3LUC6+OlO7qlN5tktk8SyhbbF+XhYOlufA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.2-rc2"
@@ -4593,6 +4593,7 @@ stats.js@^0.17.0:
   integrity sha512-hNKz8phvYLPEcRkeG1rsGmV5ChMjKDAWU7/OJJdDErPBNChQXxCo3WZurGpnWc6gZhAzEPFad1aVgyOANH1sMw==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
