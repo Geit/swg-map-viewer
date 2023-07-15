@@ -33,7 +33,7 @@
     "@types/react-copy-to-clipboard": "^5.0.1",
     "@types/react-dom": "^18.2.6",
     "@types/rimraf": "^4.0.5",
-    "@types/three": "^0.153.0",
+    "@types/three": "^0.154.0",
     "@vitejs/plugin-react": "^4.0.1",
     "sass": "1.63.6",
     "vite": "^4.3.9"
