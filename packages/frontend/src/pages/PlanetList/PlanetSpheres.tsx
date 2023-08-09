@@ -58,7 +58,7 @@ const PlanetSpheres = () => {
   return (
     <ThreeCanvas className="planetSelection3DCanvas">
       <Camera />
-      <pointLight intensity={0.4} position={[512, 512, -500]} />
+      <pointLight intensity={500000} position={[512, 512, -500]} />
       <Suspense fallback={null}>
         {mapConfigs.map(
           ({ id, travelMapConfig }) =>
