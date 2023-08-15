@@ -9,7 +9,7 @@
     "@mui/lab": "^5.0.0-alpha.134",
     "@mui/material": "^5.13.6",
     "@mui/styles": "^5.13.2",
-    "@react-three/drei": "9.80.2",
+    "@react-three/drei": "9.80.3",
     "@react-three/fiber": "8.13.6",
     "drei": "2.2.21",
     "leaflet": "1.9.4",
