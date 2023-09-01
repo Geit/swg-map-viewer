@@ -21,7 +21,7 @@
     "react-router-dom": "6.15.0",
     "react-use-measure": "2.1.1",
     "recoil": "0.7.7",
-    "three": "0.155.0",
+    "three": "0.156.0",
     "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
