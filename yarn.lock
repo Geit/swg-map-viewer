@@ -1704,10 +1704,10 @@
     utility-types "^3.10.0"
     zustand "^3.5.13"
 
-"@react-three/fiber@8.13.7":
-  version "8.13.7"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.13.7.tgz#809f63c85effc7dddd3001ee10c2256c53a82b16"
-  integrity sha512-fH1wYi8+A2YZX8uYd9N4hfbAV+kHE565s7f62+SMNmpeynaUsN8NzXACmmJ6BpVKAKdxfvOde6dBGwG1BrWOKQ==
+"@react-three/fiber@8.13.9":
+  version "8.13.9"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.13.9.tgz#fa61a44157314003353b8bcf3d299092090b4baf"
+  integrity sha512-oq28soBEbRlIv1x31wKphEbeQ2u2L2KNZmHuXP9VctZbsBZbOn0iuemNiiVpeqxKozevlTEklNKcsxz/ooqIEA==
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
@@ -4927,6 +4927,7 @@ stats.js@^0.17.0:
   integrity sha512-hNKz8phvYLPEcRkeG1rsGmV5ChMjKDAWU7/OJJdDErPBNChQXxCo3WZurGpnWc6gZhAzEPFad1aVgyOANH1sMw==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
