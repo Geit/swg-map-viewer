@@ -5383,10 +5383,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vite-plugin-svgr@^3.2.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-svgr/-/vite-plugin-svgr-3.3.0.tgz#024f083c0f0831497d8507b82e49a8ee2b29701a"
-  integrity sha512-vWZMCcGNdPqgziYFKQ3Y95XP0d0YGp28+MM3Dp9cTa/px5CKcHHrIoPl2Jw81rgVm6/ZUNONzjXbZQZ7Kw66og==
+vite-plugin-svgr@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-svgr/-/vite-plugin-svgr-4.0.0.tgz#2fb2537bde793602784c126f04210eaf130304bd"
+  integrity sha512-ingW8FEJ4vz9mQumnMDhNysE+YleiaThYmgflhUIVI4iIjVsVA1SswYIKprWVmyFsiIk1DqcwUeTFCnUJA3Vvg==
   dependencies:
     "@rollup/pluginutils" "^5.0.4"
     "@svgr/core" "^8.1.0"
