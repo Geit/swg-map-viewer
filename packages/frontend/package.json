@@ -10,7 +10,7 @@
     "@mui/material": "^5.13.6",
     "@mui/styles": "^5.13.2",
     "@react-three/drei": "9.88.13",
-    "@react-three/fiber": "8.15.10",
+    "@react-three/fiber": "8.15.11",
     "drei": "2.2.21",
     "leaflet": "1.9.4",
     "lodash": "4.17.21",
