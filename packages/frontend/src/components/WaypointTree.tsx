@@ -1,6 +1,6 @@
 import { useRecoilValue, useRecoilState } from 'recoil';
 import React from 'react';
-import { TreeView, TreeItem } from '@mui/lab';
+import { TreeView, TreeItem } from '@mui/x-tree-view';
 
 import { sidebarTreeSelector, SidebarTree, sidebarSelectedNodeAtom } from '../atoms/waypoints';
 
