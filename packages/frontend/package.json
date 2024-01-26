@@ -10,7 +10,7 @@
     "@mui/styles": "^5.13.2",
     "@mui/x-tree-view": "^6.17.0",
     "@react-three/drei": "9.96.4",
-    "@react-three/fiber": "8.15.14",
+    "@react-three/fiber": "8.15.15",
     "drei": "2.2.21",
     "leaflet": "1.9.4",
     "lodash": "4.17.21",
