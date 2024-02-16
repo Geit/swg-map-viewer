@@ -1651,10 +1651,10 @@
     "@react-spring/shared" "~9.7.3"
     "@react-spring/types" "~9.7.3"
 
-"@react-three/drei@9.97.5":
-  version "9.97.5"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.97.5.tgz#76cdd3a11d48fcb9f817bdbaf0c2509e3d71aaf3"
-  integrity sha512-+l8I8xht1jAQ7SRFA1hVzASL5zqrbKt+DztBW+/EPNN6ELg7DJiZpL+ImE6V7cfAA7hKsyYdtGR5k5QJ195jfg==
+"@react-three/drei@9.97.6":
+  version "9.97.6"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.97.6.tgz#27219447986b62186e9e6564a095891c57fabe23"
+  integrity sha512-8Vdle+YklXTBEFNOaKlF0zgiQDvIZNU/OSKT2FPUmrFQiMrUFGaKXcYg7xUkOUq1ajqFscKOUETLnOD0yKCHhg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.8"
