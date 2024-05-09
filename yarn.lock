@@ -1691,10 +1691,10 @@
     uuid "^9.0.1"
     zustand "^3.7.1"
 
-"@react-three/fiber@8.16.4":
-  version "8.16.4"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.16.4.tgz#94db0eb5e03cddc35c64b7b47dd512a0d54f1a6e"
-  integrity sha512-Jvn5JXublvVZUMWht8zb86oWPNTPpG72T4O1PCp9EjkfWr1ZSJhJ/YtNZrev/uHQ1RwqziIwaFJjfiNUjYreCQ==
+"@react-three/fiber@8.16.5":
+  version "8.16.5"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.16.5.tgz#43a6463d981166f9a5efd07047f87836be481ea1"
+  integrity sha512-ALRkdZj57mxgbvTHcSmepslgeWM0FXBMyII6l3gDodKhCLp3KRPXVOXKMo4jh7VhwTdYtEZeidkldYZtLSgnCw==
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
