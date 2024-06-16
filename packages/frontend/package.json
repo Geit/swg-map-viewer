@@ -9,7 +9,7 @@
     "@mui/material": "^5.13.6",
     "@mui/styles": "^5.13.2",
     "@mui/x-tree-view": "^6.17.0",
-    "@react-three/drei": "9.106.1",
+    "@react-three/drei": "9.107.0",
     "@react-three/fiber": "8.16.8",
     "drei": "2.2.21",
     "leaflet": "1.9.4",
