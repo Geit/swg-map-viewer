@@ -2197,9 +2197,9 @@
     meshoptimizer "~0.18.1"
 
 "@types/three@^0.167.0":
-  version "0.167.0"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.167.0.tgz#bd15122d8ef4770571dc02a922b6f9397b54b02e"
-  integrity sha512-BC+Vbm0d6yMzct7dhTBe9ZjEh6ygupyn1k/UcZncIIS/5aNIbfvF77gQw1IFP09Oyj1UxWj0EUBBqc1GkqzsOw==
+  version "0.167.1"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.167.1.tgz#51edd68d6650c2e25f55ae930146b865921eab01"
+  integrity sha512-OCd2Uv/8/4TbmSaIRFawrCOnDMLdpaa+QGJdhlUBmdfbHjLY8k6uFc0tde2/UvcaHQ6NtLl28onj/vJfofV+Tg==
   dependencies:
     "@tweenjs/tween.js" "~23.1.2"
     "@types/stats.js" "*"
