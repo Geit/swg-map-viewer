@@ -1326,9 +1326,9 @@
     prop-types "^15.8.1"
 
 "@mui/styles@^5.13.2":
-  version "5.16.9"
-  resolved "https://registry.yarnpkg.com/@mui/styles/-/styles-5.16.9.tgz#c12c96b2c44995ab88d8980c3662d16177d3dcc9"
-  integrity sha512-7Lxn2Bk8tRv5k8Pq0eZ/bNQ2CQr6hIU1sWGjuIK5cUI62bQTx6s+VtJ+x9IjqLKjDJAz99f4/ba+t8RmwQsoRA==
+  version "5.16.10"
+  resolved "https://registry.yarnpkg.com/@mui/styles/-/styles-5.16.10.tgz#1c6017affe1bd3fa70187b239cf50cb2f261abd3"
+  integrity sha512-Ih/xvEmDwB9d3Ga5hK0t4UC/G+KFLrbZWyuttWbbtr1s8pprflIsYpbabnoICNoxEZRKzV5g0JHKWTbJ4yvktQ==
   dependencies:
     "@babel/runtime" "^7.23.9"
     "@emotion/hash" "^0.9.1"
