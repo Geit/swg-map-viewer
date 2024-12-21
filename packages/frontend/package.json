@@ -28,7 +28,7 @@
     "@svgr/parcel-plugin-svgr": "5.5.0",
     "@types/leaflet": "^1.9.3",
     "@types/lodash": "^4.14.195",
-    "@types/node": "^20.3.2",
+    "@types/node": "^22.0.0",
     "@types/react": "^18.2.14",
     "@types/react-copy-to-clipboard": "^5.0.1",
     "@types/react-dom": "^18.2.6",
