@@ -19,7 +19,7 @@
     "react-dom": "18.3.1",
     "react-leaflet": "^4.2.1",
     "react-router-dom": "6.28.2",
-    "react-use-measure": "2.1.1",
+    "react-use-measure": "2.1.7",
     "recoil": "0.7.7",
     "three": "0.172.0",
     "vite-plugin-svgr": "^4.0.0"
