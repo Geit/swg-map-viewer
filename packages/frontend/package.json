@@ -35,7 +35,7 @@
     "@types/rimraf": "^4.0.5",
     "@types/three": "^0.175.0",
     "@vitejs/plugin-react": "^4.0.1",
-    "sass": "1.89.1",
+    "sass": "1.89.2",
     "vite": "^6.0.0"
   },
   "scripts": {
