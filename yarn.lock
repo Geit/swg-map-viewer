@@ -1073,6 +1073,11 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@dimforge/rapier3d-compat@~0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@dimforge/rapier3d-compat/-/rapier3d-compat-0.12.0.tgz#7b3365e1dfdc5cd957b45afe920b4ac06c7cd389"
+  integrity sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==
+
 "@emotion/babel-plugin@^11.13.5":
   version "11.13.5"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.13.5.tgz#eab8d65dbded74e0ecfd28dc218e75607c4e7bc0"
@@ -2339,22 +2344,28 @@
     fflate "~0.8.2"
     meshoptimizer "~0.18.1"
 
-"@types/three@^0.175.0":
-  version "0.175.0"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.175.0.tgz#dfb15b3e2d09a16c6e2fd8caeaf5c35f7b6d7e6a"
-  integrity sha512-ldMSBgtZOZ3g9kJ3kOZSEtZIEITmJOzu8eKVpkhf036GuNkM4mt0NXecrjCn5tMm1OblOF7dZehlaDypBfNokw==
+"@types/three@^0.182.0":
+  version "0.182.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.182.0.tgz#2994f2cb87529ba21e4daa593e27cbf59c548f74"
+  integrity sha512-WByN9V3Sbwbe2OkWuSGyoqQO8Du6yhYaXtXLoA5FkKTUJorZ+yOHBZ35zUUPQXlAKABZmbYp5oAqpA4RBjtJ/Q==
   dependencies:
+    "@dimforge/rapier3d-compat" "~0.12.0"
     "@tweenjs/tween.js" "~23.1.3"
     "@types/stats.js" "*"
-    "@types/webxr" "*"
+    "@types/webxr" ">=0.5.17"
     "@webgpu/types" "*"
     fflate "~0.8.2"
-    meshoptimizer "~0.18.1"
+    meshoptimizer "~0.22.0"
 
 "@types/webxr@*", "@types/webxr@^0.5.2":
   version "0.5.20"
   resolved "https://registry.yarnpkg.com/@types/webxr/-/webxr-0.5.20.tgz#b16b681af314ec011b2e8221b0a072d691c04953"
   integrity sha512-JGpU6qiIJQKUuVSKx1GtQnHJGxRjtfGIhzO2ilq43VZZS//f1h1Sgexbdk+Lq+7569a6EYhOWrUpIruR/1Enmg==
+
+"@types/webxr@>=0.5.17":
+  version "0.5.24"
+  resolved "https://registry.yarnpkg.com/@types/webxr/-/webxr-0.5.24.tgz#734d5d90dadc5809a53e422726c60337fa2f4a44"
+  integrity sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==
 
 "@typescript-eslint/eslint-plugin@7.18.0":
   version "7.18.0"
@@ -4925,6 +4936,11 @@ meshoptimizer@~0.18.1:
   resolved "https://registry.yarnpkg.com/meshoptimizer/-/meshoptimizer-0.18.1.tgz#cdb90907f30a7b5b1190facd3b7ee6b7087797d8"
   integrity sha512-ZhoIoL7TNV4s5B6+rx5mC//fw8/POGyNxS/DZyCJeiZ12ScLfVwRE/GfsxwiTkMYYD5DmK2/JXnEVXqL4rF+Sw==
 
+meshoptimizer@~0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/meshoptimizer/-/meshoptimizer-0.22.0.tgz#1ec36b075543e7d661f5ebc21339ae3dab4bc18c"
+  integrity sha512-IebiK79sqIy+E4EgOr+CAw+Ke8hAspXKzBd0JdgEmPHiAwmvEj2S4h1rfvo+o/BnfEYd/jAOg5IeeIjzlzSnDg==
+
 micromatch@^4.0.4, micromatch@^4.0.5:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.8.tgz#d66fa18f3a47076789320b9b1af32bd86d9fa202"
@@ -6052,10 +6068,10 @@ three-stdlib@^2.35.6:
     fflate "^0.6.9"
     potpack "^1.0.1"
 
-three@0.175.0:
-  version "0.175.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.175.0.tgz#67b357b0b1ee8ef0445b9a768f59363ab1fa7921"
-  integrity sha512-nNE3pnTHxXN/Phw768u0Grr7W4+rumGg/H6PgeseNJojkJtmeHJfZWi41Gp2mpXl1pg1pf1zjwR4McM1jTqkpg==
+three@0.182.0:
+  version "0.182.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.182.0.tgz#535b71b4335529d0eacdb1d30eba72bada3d0b54"
+  integrity sha512-GbHabT+Irv+ihI1/f5kIIsZ+Ef9Sl5A1Y7imvS5RQjWgtTPfPnZ43JmlYI7NtCRDK9zir20lQpfg8/9Yd02OvQ==
 
 three@^0.170.0:
   version "0.170.0"
