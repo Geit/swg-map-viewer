@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2022",
+    // moduleResolution "node" is deprecated in TS 6.0 but kept intentionally:
+    // these scripts run under ts-node in CommonJS mode, and node resolution is
+    // required for its extensionless relative/bare imports. Revisit for TS 7.
+    "ignoreDeprecations": "6.0",
     "lib": [
       "dom",
       "dom.iterable",
