@@ -93,6 +93,19 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
     >
       <AttributionControl prefix={false} />
 
+      {/* Coarse whole-planet base (native zoom 1) kept under the sharp layer to fill gaps while
+          it loads. ~4 tiles; only the in-view one loads. */}
+      <TileLayer
+        key={`${map.id}-${activeTileSet.id}-base`}
+        url={tileUrl}
+        noWrap
+        minNativeZoom={0}
+        maxNativeZoom={1}
+        bounds={bounds}
+        zIndex={0}
+        updateWhenZooming={false}
+      />
+
       <TileLayer
         // Leaflet keys the layer per tileset so switching remounts it rather than swapping URLs.
         key={`${map.id}-${activeTileSet.id}`}
@@ -102,6 +115,8 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
         bounds={bounds}
         attribution={activeTileSet.attribution}
         keepBuffer={3}
+        zIndex={1}
+        updateWhenZooming={false}
       />
 
       {waypoints.map(waypoint => {
