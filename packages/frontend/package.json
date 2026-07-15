@@ -19,7 +19,7 @@
     "react-leaflet": "^5.0.0",
     "react-router-dom": "7.18.1",
     "react-use-measure": "2.1.7",
-    "three": "0.175.0",
+    "three": "0.185.1",
     "vite-plugin-svgr": "^5.2.0"
   },
   "devDependencies": {
@@ -31,7 +31,7 @@
     "@types/react-copy-to-clipboard": "^5.0.1",
     "@types/react-dom": "^19.2.3",
     "@types/rimraf": "^4.0.5",
-    "@types/three": "^0.175.0",
+    "@types/three": "^0.185.0",
     "@vitejs/plugin-react": "^6.0.3",
     "sass": "1.101.0",
     "vite": "^8.1.4"
