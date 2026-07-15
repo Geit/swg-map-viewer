@@ -1,3 +1,24 @@
+export interface TileSet {
+  /** Stable id used to persist the user's tileset choice across planets (e.g. 'base', 'hd'). */
+  id: string;
+  /** Label shown in the tileset picker. Only surfaced when a planet has more than one tileset. */
+  label: string;
+  /** Path segment under planets/tiles/ that the {z}/{x}/{y} tiles live under. */
+  path: string;
+  format: 'png' | 'webp';
+  maxNativeZoom: number;
+  attribution: string;
+  /**
+   * Build-pipeline input: the master image generate-tiles.ts rasterises into this tileset, and the
+   * pixel size of that image. Omitted for pre-baked tilesets (the HD capture layers are produced
+   * separately by generate-capture-tiles.ts).
+   */
+  source?: {
+    image: string;
+    size: number;
+  };
+}
+
 export interface MapConfiguration {
   id: string;
   waypointCommandId: string | false;
@@ -9,12 +30,11 @@ export interface MapConfiguration {
       z: number;
     };
   } | null;
-  raster: {
-    maxZoom: number;
-    sourceImage: string;
-    attribution: string;
-    size: number;
-  } | null;
+  /**
+   * Runtime-selectable tile layers. Entry [0] is the default/fallback used when the globally
+   * selected tileset isn't available for this planet. Empty means the planet has no rendered map.
+   */
+  tileSets: readonly TileSet[];
   travelMapConfig: {
     labelPosition: 'top' | 'right';
     planetTexture: string;
@@ -26,6 +46,49 @@ export interface MapConfiguration {
 
 const DEFAULT_SWG_MAP_SIZE = 16_384;
 const DEFAULT_RASTERIZED_MAP_SIZE = 4_096;
+const SYTNERS_ATTRIBUTION = "Sytner's Satellite Maps 2.0";
+const HD_CAPTURE_ATTRIBUTION = 'Omega HD Satellite Maps (2026)';
+
+// The ten core planets share the same setup: a Sytner's base raster plus an HD capture layer.
+const coreTileSets = (id: string): readonly TileSet[] => [
+  {
+    id: 'base',
+    label: "Sytner's",
+    path: id,
+    format: 'png',
+    maxNativeZoom: 4,
+    attribution: SYTNERS_ATTRIBUTION,
+    source: { image: `planets/lossless/map_${id}.png`, size: DEFAULT_RASTERIZED_MAP_SIZE },
+  },
+  {
+    id: 'hd',
+    label: 'HD Satellite',
+    path: `${id}-hd`,
+    format: 'webp',
+    maxNativeZoom: 7,
+    attribution: HD_CAPTURE_ATTRIBUTION,
+  },
+];
+
+// A planet with a single base tileset rasterised from one source image (no HD capture layer).
+// The label is never surfaced (the picker only shows for >1 tileset) so it mirrors the attribution.
+const singleTileSet = (opts: {
+  path: string;
+  attribution: string;
+  maxNativeZoom: number;
+  image: string;
+  size: number;
+}): readonly TileSet[] => [
+  {
+    id: 'base',
+    label: opts.attribution,
+    path: opts.path,
+    format: 'png',
+    maxNativeZoom: opts.maxNativeZoom,
+    attribution: opts.attribution,
+    source: { image: opts.image, size: opts.size },
+  },
+];
 
 const mapConfigs: readonly MapConfiguration[] = [
   {
@@ -33,12 +96,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'corellia',
     displayName: 'Corellia',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_corellia.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('corellia'),
     travelMapConfig: {
       labelPosition: 'right',
       planetTexture: '/textures/ui_planet_sel_corl.png',
@@ -52,12 +110,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'dantooine',
     displayName: 'Dantooine',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_dantooine.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('dantooine'),
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_dant.png',
@@ -71,12 +124,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'dathomir',
     displayName: 'Dathomir',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_dathomir.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('dathomir'),
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_dath.png',
@@ -90,12 +138,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'endor',
     displayName: 'Endor',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_endor.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('endor'),
     travelMapConfig: {
       labelPosition: 'right',
       planetTexture: '/textures/ui_planet_sel_endo.png',
@@ -109,12 +152,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'lok',
     displayName: 'Lok',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_lok.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('lok'),
     travelMapConfig: {
       labelPosition: 'right',
       planetTexture: '/textures/ui_planet_sel_lok.png',
@@ -128,12 +166,8 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'naboo',
     displayName: 'Naboo',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_naboo.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    // naboo's hd layer moves to maxNativeZoom 8 once the 0.25 m/px scan is retiled
+    tileSets: coreTileSets('naboo'),
     travelMapConfig: {
       labelPosition: 'right',
       planetTexture: '/textures/ui_planet_sel_nboo.png',
@@ -147,12 +181,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'rori',
     displayName: 'Rori',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_rori.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('rori'),
     travelMapConfig: {
       labelPosition: 'right',
       planetTexture: '/textures/ui_planet_sel_rori.png',
@@ -166,12 +195,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'talus',
     displayName: 'Talus',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_talus.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('talus'),
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_talu.png',
@@ -185,12 +209,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'tatooine',
     displayName: 'Tatooine',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_tatooine.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('tatooine'),
     travelMapConfig: {
       labelPosition: 'right',
       planetTexture: '/textures/ui_planet_sel_tatt.png',
@@ -204,12 +223,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'yavin4',
     displayName: 'Yavin 4',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 4,
-      sourceImage: 'planets/lossless/map_yavin4.png',
-      attribution: "Sytner's Satellite Maps 2.0",
-      size: DEFAULT_RASTERIZED_MAP_SIZE,
-    },
+    tileSets: coreTileSets('yavin4'),
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_yavi.png',
@@ -223,12 +237,13 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'mustafar',
     displayName: 'Mustafar',
     planetMap: { size: 8192, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 2,
-      sourceImage: 'planets/lossless/map_mustafar.png',
+    tileSets: singleTileSet({
+      path: 'mustafar',
       attribution: 'SWG Game Files',
+      maxNativeZoom: 2,
+      image: 'planets/lossless/map_mustafar.png',
       size: 1024,
-    },
+    }),
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_must.png',
@@ -245,12 +260,13 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 2048,
       offset: { x: 0, z: 112 },
     },
-    raster: {
-      maxZoom: 2,
-      sourceImage: 'planets/lossless/map_kashyyyk_main.png',
+    tileSets: singleTileSet({
+      path: 'kashyyyk',
       attribution: 'SWG Game Files',
+      maxNativeZoom: 2,
+      image: 'planets/lossless/map_kashyyyk_main.png',
       size: 1024,
-    },
+    }),
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_kash.png',
@@ -267,12 +283,13 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 1000,
       offset: { x: 0, z: 0 },
     },
-    raster: {
-      maxZoom: 2,
-      sourceImage: 'planets/lossless/map_kashyyyk_dead_forest.png',
+    tileSets: singleTileSet({
+      path: 'kashyyyk_dead_forest',
       attribution: 'SWG Game Files',
+      maxNativeZoom: 2,
+      image: 'planets/lossless/map_kashyyyk_dead_forest.png',
       size: 1024,
-    },
+    }),
     travelMapConfig: null,
   },
   {
@@ -283,12 +300,13 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 2844,
       offset: { x: 0, z: 0 },
     },
-    raster: {
-      maxZoom: 2,
-      sourceImage: 'planets/lossless/map_kashyyyk_hunting.png',
+    tileSets: singleTileSet({
+      path: 'kashyyyk_hunting',
       attribution: 'SWG Game Files',
+      maxNativeZoom: 2,
+      image: 'planets/lossless/map_kashyyyk_hunting.png',
       size: 1024,
-    },
+    }),
     travelMapConfig: null,
   },
   // The Rryatt trail is weird - It has multiple different coordinate systems for each of the different levels
@@ -305,12 +323,13 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 2048,
       offset: { x: -0, z: 0 },
     },
-    raster: {
-      maxZoom: 2,
-      sourceImage: 'planets/lossless/map_kashyyyk_rryatt_trail.png',
+    tileSets: singleTileSet({
+      path: 'kashyyyk_rryatt_trail',
       attribution: 'SWG Game Files',
+      maxNativeZoom: 2,
+      image: 'planets/lossless/map_kashyyyk_rryatt_trail.png',
       size: 1024,
-    },
+    }),
     travelMapConfig: null,
   },
   // {
@@ -321,12 +340,17 @@ const mapConfigs: readonly MapConfiguration[] = [
   //     size: 512,
   //     offset: { x: 0, z: 0 },
   //   },
-  //   raster: {
-  //     maxZoom: 2,
-  //     sourceImage: 'planets/lossless/map_kashyyyk_south_dungeons_bocctyyy.png',
-  //     attribution: 'SWG Game Files',
-  //     size: 1024,
-  //   },
+  //   tileSets: [
+  //     {
+  //       id: 'base',
+  //       label: 'SWG Game Files',
+  //       path: 'map_kashyyyk_south_dungeons_bocctyyy',
+  //       format: 'png',
+  //       maxNativeZoom: 2,
+  //       attribution: 'SWG Game Files',
+  //       source: { image: 'planets/lossless/map_kashyyyk_south_dungeons_bocctyyy.png', size: 1024 },
+  //     },
+  //   ],
   //   travelMapConfig: null,
   // },
   // {
@@ -337,12 +361,17 @@ const mapConfigs: readonly MapConfiguration[] = [
   //     size: 1024,
   //     offset: { x: 0, z: 0 },
   //   },
-  //   raster: {
-  //     maxZoom: 2,
-  //     sourceImage: 'planets/lossless/map_kashyyyk_south_dungeons_hracca.png',
-  //     attribution: 'SWG Game Files',
-  //     size: 1024,
-  //   },
+  //   tileSets: [
+  //     {
+  //       id: 'base',
+  //       label: 'SWG Game Files',
+  //       path: 'map_kashyyyk_south_dungeons_hracca',
+  //       format: 'png',
+  //       maxNativeZoom: 2,
+  //       attribution: 'SWG Game Files',
+  //       source: { image: 'planets/lossless/map_kashyyyk_south_dungeons_hracca.png', size: 1024 },
+  //     },
+  //   ],
   //   travelMapConfig: null,
   // },
   {
@@ -350,7 +379,7 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: false,
     displayName: 'Ord Mantell',
     planetMap: null,
-    raster: null,
+    tileSets: [],
     travelMapConfig: {
       labelPosition: 'right',
       planetTexture: '/textures/ui_planet_sel_ordmantel.png',
@@ -364,12 +393,13 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'bespin',
     displayName: 'Bespin',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    raster: {
-      maxZoom: 5,
-      sourceImage: 'planets/lossless/map_bespin_full.png',
+    tileSets: singleTileSet({
+      path: 'bespin',
       attribution: 'SWG Legends',
+      maxNativeZoom: 5,
+      image: 'planets/lossless/map_bespin_full.png',
       size: 16384,
-    },
+    }),
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_besp.png',
@@ -379,5 +409,8 @@ const mapConfigs: readonly MapConfiguration[] = [
     },
   },
 ] as const;
+
+export const resolveTileSet = (map: MapConfiguration, tileSetId: string): TileSet | undefined =>
+  map.tileSets.find(tileSet => tileSet.id === tileSetId) ?? map.tileSets[0];
 
 export default mapConfigs;

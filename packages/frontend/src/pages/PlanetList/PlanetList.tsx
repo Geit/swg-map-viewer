@@ -14,7 +14,7 @@ const PlanetList = () => {
       <div className="planetSelectionWrapper">
         <div ref={ref} className="planetSelection2DCanvas">
           {mapConfigs
-            .filter(({ raster, travelMapConfig }) => raster && travelMapConfig)
+            .filter(({ tileSets, travelMapConfig }) => tileSets.length > 0 && travelMapConfig)
             .map(({ id, displayName, travelMapConfig }) => {
               if (!travelMapConfig) return null;
 

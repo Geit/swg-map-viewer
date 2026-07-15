@@ -1,9 +1,12 @@
 import React, { useCallback } from 'react';
 import { TileLayer, AttributionControl, MapContainer } from 'react-leaflet';
 import { LatLngBounds, CRS, Util, Transformation, Map } from 'leaflet';
+import { useRecoilValue } from 'recoil';
 
-import { MapConfiguration } from '../data/maps';
+import { MapConfiguration, resolveTileSet } from '../data/maps';
+import { PROD_TILE_HOST } from '../data/tileHost';
 import { Waypoint } from '../data/waypoints';
+import { currentTileSetAtom } from '../atoms/waypoints';
 
 import waypointRenderConfiguration from './waypointRenderConfiguration';
 
@@ -14,7 +17,12 @@ interface GalaxiesPlanetMapProps {
 
 const USE_INSIDE_BOUNDS = true;
 
+// In dev the vite server serves /planets/* from packages/tile-server (with production as the
+// fallback for tiles not on disk), so freshly generated tilesets are visible before deploying.
+const TILE_HOST = import.meta.env.DEV ? '' : PROD_TILE_HOST;
+
 const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints }) => {
+  const tileSet = useRecoilValue(currentTileSetAtom);
   const mapStateRefCb = useCallback(
     (mapState: Map) => {
       if (!mapState || !map.planetMap) return;
@@ -45,7 +53,8 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
     [map]
   );
 
-  if (!map.planetMap || !map.raster) return null;
+  const activeTileSet = resolveTileSet(map, tileSet);
+  if (!map.planetMap || !activeTileSet) return null;
 
   const scaleFactor = (map.planetMap.size / 1_024) * 4;
 
@@ -63,14 +72,19 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
     [-map.planetMap.size / 2, map.planetMap.size / 2]
   );
 
+  // Zoom past the deepest native tileset is left to Leaflet's upscaling; the container always
+  // allows at least zoom 7 so HD detail is reachable.
+  const maxNativeZoom = Math.max(...map.tileSets.map(({ maxNativeZoom: zoom }) => zoom));
+
+  const tileUrl = `${TILE_HOST}/planets/tiles/${activeTileSet.path}/{z}/{x}/{y}.${activeTileSet.format}`;
+
   return (
     <MapContainer
-      zoomSnap={0}
       key={map.displayName}
       attributionControl={false}
       center={[0, 0]}
       zoom={1}
-      maxZoom={7}
+      maxZoom={Math.max(7, maxNativeZoom)}
       minZoom={1}
       crs={CRSForMap}
       maxBounds={bounds}
@@ -80,11 +94,13 @@ const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints })
       <AttributionControl prefix={false} />
 
       <TileLayer
-        url={`https://swg-map-viewer.geit.uk/planets/tiles/${map.id}/{z}/{x}/{y}.png`}
+        // Leaflet keys the layer per tileset so switching remounts it rather than swapping URLs.
+        key={`${map.id}-${activeTileSet.id}`}
+        url={tileUrl}
         noWrap
-        maxNativeZoom={map.raster.maxZoom}
+        maxNativeZoom={activeTileSet.maxNativeZoom}
         bounds={bounds}
-        attribution={map.raster.attribution}
+        attribution={activeTileSet.attribution}
         keepBuffer={3}
       />
 
