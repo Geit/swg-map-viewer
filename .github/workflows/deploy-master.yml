@@ -18,7 +18,7 @@ jobs:
     - run: yarn install
     - run: yarn build
     - name: rsync deployments
-      uses: burnett01/rsync-deployments@5.2
+      uses: burnett01/rsync-deployments@9.0.0
       with:
         switches: -vzr --delete-after --exclude="tiles/" --exclude="planets/"
         path: packages/frontend/build/
