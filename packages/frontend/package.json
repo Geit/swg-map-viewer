@@ -22,21 +22,21 @@
     "react-use-measure": "2.1.7",
     "recoil": "0.7.7",
     "three": "0.175.0",
-    "vite-plugin-svgr": "^4.5.0"
+    "vite-plugin-svgr": "^5.2.0"
   },
   "devDependencies": {
     "@svgr/parcel-plugin-svgr": "5.5.0",
     "@types/leaflet": "^1.9.21",
     "@types/lodash": "^4.17.24",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.13.3",
     "@types/react": "^18.3.31",
     "@types/react-copy-to-clipboard": "^5.0.1",
     "@types/react-dom": "^18.3.7",
     "@types/rimraf": "^4.0.5",
     "@types/three": "^0.175.0",
-    "@vitejs/plugin-react": "^4.7.0",
+    "@vitejs/plugin-react": "^6.0.3",
     "sass": "1.101.0",
-    "vite": "^7.0.0"
+    "vite": "^8.1.4"
   },
   "scripts": {
     "start": "vite dev",

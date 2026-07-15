@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Box, Button } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
-// eslint-disable-next-line import/no-unresolved
 import SWGLogo from '../../components/swg.svg?react';
 import destroyer from '../../themes/destroyer';
 import ServerSelect from '../../components/ServerSelect';
