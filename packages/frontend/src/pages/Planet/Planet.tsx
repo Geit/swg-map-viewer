@@ -1,5 +1,5 @@
 import React, { useState, Suspense, useMemo, useEffect } from 'react';
-import { Grid, Box, Drawer, Hidden, Button } from '@mui/material';
+import { Grid, Box, Drawer, Button, useMediaQuery } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { useAtomValue, useSetAtom } from 'jotai';
 
@@ -16,6 +16,12 @@ export default function Planet() {
   const setCurrentPlanet = useSetAtom(currentPlanetAtom);
   const setCurrentlySelectedNode = useSetAtom(sidebarSelectedNodeAtom);
 
+  // Replaces the removed <Hidden> component: the inline sidebar showed on md+
+  // (was `Hidden smDown`) and the mobile drawer trigger showed on xs (was `Hidden smUp`).
+  // noSsr evaluates the query immediately (client-only app) to avoid a layout flash.
+  const showSidebar = useMediaQuery(theme => theme.breakpoints.up('md'), { noSsr: true });
+  const showMobileMenu = useMediaQuery(theme => theme.breakpoints.down('sm'), { noSsr: true });
+
   const mapConfig = useMemo(() => mapConfigs.find(({ id }) => id === planet), [planet]);
 
   useEffect(() => {
@@ -28,22 +34,22 @@ export default function Planet() {
   return (
     <>
       <Grid container>
-        <Grid item xs>
+        <Grid size="grow">
           <Box component="div" sx={{ height: '100vh' }}>
             <GalaxiesPlanetMap map={mapConfig} waypoints={waypointsToRender} />
           </Box>
         </Grid>
-        <Hidden smDown initialWidth="lg">
-          <Grid item xs={4} sm={4} md={3}>
+        {showSidebar && (
+          <Grid size={{ xs: 4, sm: 4, md: 3 }}>
             <Suspense fallback={null}>
               <SidebarLazy currentMap={mapConfig} />
             </Suspense>
           </Grid>
-        </Hidden>
+        )}
       </Grid>
-      <Hidden smUp>
+      {showMobileMenu && (
         <Box component="div" className="mobileDrawerTrigger">
-          <Button variant="contained" color="primary" className="" onClick={() => setDrawerOpen(true)}>
+          <Button variant="contained" color="primary" onClick={() => setDrawerOpen(true)}>
             Menu
           </Button>
           <Drawer onClose={() => setDrawerOpen(false)} open={drawerOpen} anchor="right">
@@ -52,7 +58,7 @@ export default function Planet() {
             </Suspense>
           </Drawer>
         </Box>
-      </Hidden>
+      )}
     </>
   );
 }

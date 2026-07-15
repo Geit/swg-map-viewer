@@ -34,7 +34,7 @@ const WaypointTree: React.FC = () => {
     <SimpleTreeView
       slots={{ expandIcon: ExpandIcon, collapseIcon: CollapseIcon }}
       onSelectedItemsChange={(_, itemId) => setSelectedTreeItem(itemId)}
-      style={{ userSelect: 'none' }}
+      style={{ userSelect: 'none', width: '100%' }}
     >
       <WaypointTreeChild tree={tree} />
     </SimpleTreeView>
