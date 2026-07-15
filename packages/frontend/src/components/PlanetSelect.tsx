@@ -20,7 +20,7 @@ const PlanetSelect: React.FC<PlanetSelectProps> = ({ currentPlanet }) => {
         onChange={evt => navigate(`/planets/${evt.target.value}`)}
       >
         {mapConfigs
-          .filter(mapConfig => mapConfig.raster)
+          .filter(mapConfig => mapConfig.tileSets.length > 0)
           .map(map => (
             <MenuItem value={map.id} key={map.id}>
               {map.displayName}

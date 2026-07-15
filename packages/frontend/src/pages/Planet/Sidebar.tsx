@@ -7,6 +7,7 @@ import SWGLogo from '../../components/swg.svg?react';
 import destroyer from '../../themes/destroyer';
 import ServerSelect from '../../components/ServerSelect';
 import PlanetSelect from '../../components/PlanetSelect';
+import TileSetSelect from '../../components/TileSetSelect';
 import { MapConfiguration } from '../../data/maps';
 import AboutDialog from '../../components/AboutDialog';
 import WaypointTree from '../../components/WaypointTree';
@@ -73,6 +74,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentMap }) => {
         >
           <PlanetSelect currentPlanet={currentMap} />
           <ServerSelect />
+          <TileSetSelect currentMap={currentMap} />
 
           <Box component="div" sx={{ display: 'flex', alignSelf: 'end', marginTop: 'auto' }}>
             <Button onClick={() => setAboutDialogOpen(true)}>

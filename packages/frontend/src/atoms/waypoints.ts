@@ -24,6 +24,16 @@ export const currentServerIdAtom = atom<string>({
   default: 'legends',
 });
 
+// Globally preferred tileset id. Each planet resolves this against its own tileSets list
+// (see resolveTileSet), falling back to its default tileset when it has no match — so planets
+// without an HD layer render their base tileset whatever this holds.
+export type TileSetId = string;
+
+export const currentTileSetAtom = atom<TileSetId>({
+  key: 'currentTileSet',
+  default: 'hd',
+});
+
 const waypointsForServerAtom = selector({
   key: 'waypointsForServer',
   get: ({ get }) => {

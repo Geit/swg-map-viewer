@@ -16,6 +16,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "prettier": "3.1.1",
     "rimraf": "5.0.5",
+    "sharp": "^0.34.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
   },
@@ -25,6 +26,7 @@
     "build": "yarn workspace @swg-map-viewer/frontend run build",
     "preview": "yarn workspace @swg-map-viewer/frontend run preview",
     "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts",
+    "generate-capture-tiles": "yarn ts-node-script scripts/generate-capture-tiles.ts",
     "typecheck": "yarn workspace @swg-map-viewer/frontend run typecheck"
   },
   "workspaces": {
