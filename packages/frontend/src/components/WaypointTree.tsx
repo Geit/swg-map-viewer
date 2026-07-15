@@ -1,44 +1,43 @@
-import { useRecoilValue, useRecoilState } from 'recoil';
+import { useAtomValue, useSetAtom } from 'jotai';
 import React from 'react';
-import { TreeView, TreeItem } from '@mui/x-tree-view';
+import { SimpleTreeView, TreeItem } from '@mui/x-tree-view';
 
-import { sidebarTreeSelector, SidebarTree, sidebarSelectedNodeAtom } from '../atoms/waypoints';
+import { sidebarTreeAtom, SidebarTree, sidebarSelectedNodeAtom } from '../atoms/waypoints';
 
 const ExpandIcon = () => <img alt="" style={{ height: '0.8rem' }} src="/icons/ui_tree_expand.png" />;
 const CollapseIcon = () => <img alt="" style={{ height: '0.8rem' }} src="/icons/ui_tree_collapse.png" />;
 
-const WaypointTreeChild: React.FC<{ tree: SidebarTree; parentNodeId?: string }> = ({ tree, parentNodeId }) => {
+const WaypointTreeChild: React.FC<{ tree: SidebarTree; parentItemId?: string }> = ({ tree, parentItemId }) => {
   return (
     <>
       {tree.map((treeItem, idx) => {
-        const nodeId = parentNodeId ? `${parentNodeId}.items.${idx}` : `${idx}`;
+        const itemId = parentItemId ? `${parentItemId}.items.${idx}` : `${idx}`;
         if (treeItem.__type === 'branchNode') {
           return (
-            <TreeItem key={nodeId} nodeId={nodeId} label={treeItem.title}>
-              <WaypointTreeChild tree={treeItem.items} parentNodeId={nodeId} />
+            <TreeItem key={itemId} itemId={itemId} label={treeItem.title}>
+              <WaypointTreeChild tree={treeItem.items} parentItemId={itemId} />
             </TreeItem>
           );
         }
 
-        return <TreeItem key={nodeId} nodeId={nodeId} label={treeItem.title} />;
+        return <TreeItem key={itemId} itemId={itemId} label={treeItem.title} />;
       })}
     </>
   );
 };
 
 const WaypointTree: React.FC = () => {
-  const tree = useRecoilValue(sidebarTreeSelector);
-  const [, setSelectedTreeItem] = useRecoilState(sidebarSelectedNodeAtom);
+  const tree = useAtomValue(sidebarTreeAtom);
+  const setSelectedTreeItem = useSetAtom(sidebarSelectedNodeAtom);
 
   return (
-    <TreeView
-      defaultExpandIcon={<ExpandIcon />}
-      defaultCollapseIcon={<CollapseIcon />}
-      onNodeSelect={(_: unknown, value: string) => setSelectedTreeItem(value)}
+    <SimpleTreeView
+      slots={{ expandIcon: ExpandIcon, collapseIcon: CollapseIcon }}
+      onSelectedItemsChange={(_, itemId) => setSelectedTreeItem(itemId)}
       style={{ userSelect: 'none' }}
     >
       <WaypointTreeChild tree={tree} />
-    </TreeView>
+    </SimpleTreeView>
   );
 };
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Select, MenuItem, FormControl, InputLabel } from '@mui/material';
-import { useRecoilState } from 'recoil';
+import { useAtom } from 'jotai';
 
 import servers from '../data/servers';
 import { currentServerIdAtom } from '../atoms/waypoints';
 
 const ServerSelect: React.FC = () => {
-  const [serverId, setServerId] = useRecoilState(currentServerIdAtom);
+  const [serverId, setServerId] = useAtom(currentServerIdAtom);
 
   return (
     <FormControl fullWidth margin="normal">

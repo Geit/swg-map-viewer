@@ -1,20 +1,20 @@
 import React, { useState, Suspense, useMemo, useEffect } from 'react';
 import { Grid, Box, Drawer, Hidden, Button } from '@mui/material';
 import { useParams } from 'react-router-dom';
-import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { useAtomValue, useSetAtom } from 'jotai';
 
 import GalaxiesPlanetMap from '../../components/GalaxiesPlanetMap';
 import mapConfigs from '../../data/maps';
-import { waypointsForMapDisplaySelector, currentPlanetAtom, sidebarSelectedNodeAtom } from '../../atoms/waypoints';
+import { waypointsForMapDisplayAtom, currentPlanetAtom, sidebarSelectedNodeAtom } from '../../atoms/waypoints';
 
 const SidebarLazy = React.lazy(() => import('./Sidebar'));
 
 export default function Planet() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const { planet } = useParams<{ planet?: string }>();
-  const waypointsToRender = useRecoilValue(waypointsForMapDisplaySelector);
-  const setCurrentPlanet = useSetRecoilState(currentPlanetAtom);
-  const setCurrentlySelectedNode = useSetRecoilState(sidebarSelectedNodeAtom);
+  const waypointsToRender = useAtomValue(waypointsForMapDisplayAtom);
+  const setCurrentPlanet = useSetAtom(currentPlanetAtom);
+  const setCurrentlySelectedNode = useSetAtom(sidebarSelectedNodeAtom);
 
   const mapConfig = useMemo(() => mapConfigs.find(({ id }) => id === planet), [planet]);
 

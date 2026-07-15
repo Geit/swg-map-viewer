@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider, StyledEngineProvider } from '@mui/material';
-import { RecoilRoot } from 'recoil';
+import { Provider } from 'jotai';
 
 import PlanetList from './pages/PlanetList/PlanetList';
 import Planet from './pages/Planet/Planet';
@@ -11,7 +11,7 @@ import './app.scss';
 
 function App() {
   return (
-    <RecoilRoot>
+    <Provider>
       <StyledEngineProvider injectFirst>
         <ThemeProvider theme={theme}>
           <CssBaseline />
@@ -23,7 +23,7 @@ function App() {
           </Router>
         </ThemeProvider>
       </StyledEngineProvider>
-    </RecoilRoot>
+    </Provider>
   );
 }
 

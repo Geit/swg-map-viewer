@@ -1,83 +1,59 @@
-import { atom, selector } from 'recoil';
+import { atom } from 'jotai';
 import { get as loGet } from 'lodash';
 
 import { waypoints as defaultWaypoints, Waypoint } from '../data/waypoints';
 import { WaypointType } from '../enums';
 
-const waypointsAtom = atom<Waypoint[]>({
-  key: 'waypoints',
-  default: defaultWaypoints,
-});
+const waypointsAtom = atom<Waypoint[]>(defaultWaypoints);
 
-const showAllMapsInSidebarAtom = atom<boolean>({
-  key: 'showAllMapsInSidebar',
-  default: false,
-});
+const showAllMapsInSidebarAtom = atom<boolean>(false);
 
-export const currentPlanetAtom = atom<string | null>({
-  key: 'currentPlanet',
-  default: null,
-});
+export const currentPlanetAtom = atom<string | null>(null);
 
-export const currentServerIdAtom = atom<string>({
-  key: 'serverId',
-  default: 'legends',
-});
+export const currentServerIdAtom = atom<string>('legends');
 
 // Globally preferred tileset id. Each planet resolves this against its own tileSets list
 // (see resolveTileSet), falling back to its default tileset when it has no match — so planets
 // without an HD layer render their base tileset whatever this holds.
 export type TileSetId = string;
 
-export const currentTileSetAtom = atom<TileSetId>({
-  key: 'currentTileSet',
-  default: 'hd',
+export const currentTileSetAtom = atom<TileSetId>('hd');
+
+const waypointsForServerAtom = atom(get => {
+  const waypoints = get(waypointsAtom);
+  const serverId = get(currentServerIdAtom);
+
+  return waypoints.filter(waypoint => waypoint.serverIds?.includes(serverId) || waypoint.serverIds === null);
 });
 
-const waypointsForServerAtom = selector({
-  key: 'waypointsForServer',
-  get: ({ get }) => {
-    const waypoints = get(waypointsAtom);
-    const serverId = get(currentServerIdAtom);
+const waypointsForSidebarDisplayAtom = atom(get => {
+  const showAllMapsInSidebar = get(showAllMapsInSidebarAtom);
+  const currentPlanet = get(currentPlanetAtom);
+  const waypoints = get(waypointsForServerAtom);
 
-    return waypoints.filter(waypoint => waypoint.serverIds?.includes(serverId) || waypoint.serverIds === null);
-  },
+  return waypoints.filter(waypoint => showAllMapsInSidebar || waypoint.planet === currentPlanet);
 });
 
-const waypointsForSidebarDisplaySelector = selector({
-  key: 'waypointsForSidebarDisplay',
-  get: ({ get }) => {
-    const showAllMapsInSidebar = get(showAllMapsInSidebarAtom);
-    const currentPlanet = get(currentPlanetAtom);
-    const waypoints = get(waypointsForServerAtom);
+export const waypointsForMapDisplayAtom = atom(get => {
+  const currentPlanet = get(currentPlanetAtom);
+  const waypoints = get(waypointsAtom);
+  const sidebarSelectedWaypointIdSet = get(sidebarSelectedWaypointIdSetAtom);
 
-    return waypoints.filter(waypoint => showAllMapsInSidebar || waypoint.planet === currentPlanet);
-  },
-});
-
-export const waypointsForMapDisplaySelector = selector({
-  key: 'waypointsForMapDisplaySelector',
-  get: ({ get }) => {
-    const currentPlanet = get(currentPlanetAtom);
-    const waypoints = get(waypointsAtom);
-    const sidebarSelectedWaypointIdSet = get(sidebarSelectedWaypointIdSetSelector);
-
-    return waypoints.filter(waypoint => {
-      if (waypoint.planet !== currentPlanet) {
-        return false;
-      }
-
-      if (!sidebarSelectedWaypointIdSet && waypoint.type === WaypointType.City) {
-        return true;
-      }
-
-      if (sidebarSelectedWaypointIdSet && sidebarSelectedWaypointIdSet.has(waypoint.id)) {
-        return true;
-      }
-
+  return waypoints.filter(waypoint => {
+    if (waypoint.planet !== currentPlanet) {
       return false;
-    });
-  },
+    }
+
+    if (!sidebarSelectedWaypointIdSet && waypoint.type === WaypointType.City) {
+      return true;
+    }
+
+    if (sidebarSelectedWaypointIdSet && sidebarSelectedWaypointIdSet.has(waypoint.id)) {
+      return true;
+    }
+
+    return false;
+  });
 });
 
 export type SidebarTree = (SidebarBranchNode | SidebarLeafNode)[];
@@ -168,49 +144,40 @@ const constructTreeFromWaypoints = (waypoints: Waypoint[]): SidebarTree => {
   return sidebarResult;
 };
 
-export const sidebarTreeSelector = selector({
-  key: 'sidebarTree',
-  get: ({ get }) => {
-    const waypoints = get(waypointsForSidebarDisplaySelector);
+export const sidebarTreeAtom = atom(get => {
+  const waypoints = get(waypointsForSidebarDisplayAtom);
 
-    return constructTreeFromWaypoints(waypoints);
-  },
+  return constructTreeFromWaypoints(waypoints);
 });
 
-export const sidebarSelectedNodeAtom = atom<null | string>({
-  key: 'sidebarSelectedNode',
-  default: null,
-});
+export const sidebarSelectedNodeAtom = atom<null | string>(null);
 
-export const sidebarSelectedWaypointIdSetSelector = selector<Set<number> | null>({
-  key: 'sidebarSelectedWaypointIdSet',
-  get: ({ get }) => {
-    const sidebarSelectedNode = get(sidebarSelectedNodeAtom);
+export const sidebarSelectedWaypointIdSetAtom = atom((get): Set<number> | null => {
+  const sidebarSelectedNode = get(sidebarSelectedNodeAtom);
 
-    if (!sidebarSelectedNode) return null;
+  if (!sidebarSelectedNode) return null;
 
-    const sidebarTree = get(sidebarTreeSelector);
+  const sidebarTree = get(sidebarTreeAtom);
 
-    const sidebarTreePart: SidebarTree[number] | null = loGet(sidebarTree, sidebarSelectedNode);
+  const sidebarTreePart: SidebarTree[number] | null = loGet(sidebarTree, sidebarSelectedNode);
 
-    if (!sidebarTreePart) {
-      return null;
-    }
+  if (!sidebarTreePart) {
+    return null;
+  }
 
-    if (!isBranchNode(sidebarTreePart)) {
-      return new Set<number>([sidebarTreePart.waypointId]);
-    }
+  if (!isBranchNode(sidebarTreePart)) {
+    return new Set<number>([sidebarTreePart.waypointId]);
+  }
 
-    const getChildWaypointsIds = (treeItems: SidebarTree): number[] => {
-      return treeItems.flatMap(item => {
-        if (isBranchNode(item)) {
-          return getChildWaypointsIds(item.items);
-        }
+  const getChildWaypointsIds = (treeItems: SidebarTree): number[] => {
+    return treeItems.flatMap(item => {
+      if (isBranchNode(item)) {
+        return getChildWaypointsIds(item.items);
+      }
 
-        return item.waypointId;
-      });
-    };
+      return item.waypointId;
+    });
+  };
 
-    return new Set(getChildWaypointsIds(sidebarTreePart.items));
-  },
+  return new Set(getChildWaypointsIds(sidebarTreePart.items));
 });

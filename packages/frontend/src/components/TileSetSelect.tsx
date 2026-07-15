@@ -1,6 +1,6 @@
 import React from 'react';
 import { Select, MenuItem, FormControl, InputLabel } from '@mui/material';
-import { useRecoilState } from 'recoil';
+import { useAtom } from 'jotai';
 
 import { MapConfiguration, resolveTileSet } from '../data/maps';
 import { currentTileSetAtom, TileSetId } from '../atoms/waypoints';
@@ -11,7 +11,7 @@ interface TileSetSelectProps {
 
 // Tileset picker for planets that offer more than one tileset; renders nothing for the rest.
 const TileSetSelect: React.FC<TileSetSelectProps> = ({ currentMap }) => {
-  const [tileSet, setTileSet] = useRecoilState(currentTileSetAtom);
+  const [tileSet, setTileSet] = useAtom(currentTileSetAtom);
 
   if (currentMap.tileSets.length < 2) return null;
 

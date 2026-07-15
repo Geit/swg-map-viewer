@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { TileLayer, AttributionControl, MapContainer } from 'react-leaflet';
 import { LatLngBounds, CRS, Util, Transformation, Map } from 'leaflet';
-import { useRecoilValue } from 'recoil';
+import { useAtomValue } from 'jotai';
 
 import { MapConfiguration, resolveTileSet } from '../data/maps';
 import { PROD_TILE_HOST } from '../data/tileHost';
@@ -22,7 +22,7 @@ const USE_INSIDE_BOUNDS = true;
 const TILE_HOST = import.meta.env.DEV ? '' : PROD_TILE_HOST;
 
 const GalaxiesPlanetMap: React.FC<GalaxiesPlanetMapProps> = ({ map, waypoints }) => {
-  const tileSet = useRecoilValue(currentTileSetAtom);
+  const tileSet = useAtomValue(currentTileSetAtom);
   const mapStateRefCb = useCallback(
     (mapState: Map) => {
       if (!mapState || !map.planetMap) return;

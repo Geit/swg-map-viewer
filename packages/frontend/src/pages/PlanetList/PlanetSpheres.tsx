@@ -1,11 +1,11 @@
 import React, { useRef, Suspense } from 'react';
-import { Canvas as ThreeCanvas, useLoader, useFrame, ReactThreeFiber } from '@react-three/fiber';
+import { Canvas as ThreeCanvas, useLoader, useFrame, ThreeElement } from '@react-three/fiber';
 import { Mesh, TextureLoader, RepeatWrapping } from 'three';
 import { OrthographicCamera, Sphere } from '@react-three/drei';
 
 import mapConfigs from '../../data/maps';
 
-interface PlanetProps extends ReactThreeFiber.Object3DNode<Mesh, typeof Mesh> {
+interface PlanetProps extends ThreeElement<typeof Mesh> {
   planetImageUrl: string;
   radius: number;
   position: [number, number, number];
