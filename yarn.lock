@@ -857,7 +857,7 @@
     "@babel/helper-string-parser" "^7.29.7"
     "@babel/helper-validator-identifier" "^7.29.7"
 
-"@base-ui/utils@^0.3.0":
+"@base-ui/utils@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@base-ui/utils/-/utils-0.3.1.tgz#329b4fbd5e66a78a93df68223061224f474e5c0f"
   integrity sha512-gFFiltORVmW/N6IILTGxizP3PBpVpysqML1ALY5Vk0mH+7faVkCknOU31goYHN5Aoek2dkjxva1XOD2Ce9WuIg==
@@ -1446,26 +1446,26 @@
     prop-types "^15.8.1"
     react-is "^19.2.6"
 
-"@mui/x-internals@^9.9.0":
-  version "9.9.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.9.0.tgz#adcd60c490573e1ad81e8d4a26acf6f4e48bc9be"
-  integrity sha512-RMddUd59Qie2o4dralFUcp4Hzu0HOyeYqjh2t3zkpURX1CGX2tUbYZxCwC5UjLJ/PBcSqmSDrGalx7Z8UQFX+g==
+"@mui/x-internals@^9.10.0":
+  version "9.10.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.10.0.tgz#707c16ab5cc707dfcbf7fa9cc3fd6e484d8553dc"
+  integrity sha512-ubd8eMVMEfu9ByLa6jR4xVborrDcauiRos2m1HtIlJALYBiGw5/FIW9TYFnzHkOHH1dl3+5rhjlXx9x+8wo54A==
   dependencies:
     "@babel/runtime" "^7.29.7"
-    "@base-ui/utils" "^0.3.0"
+    "@base-ui/utils" "^0.3.1"
     "@mui/utils" "^9.2.0"
     reselect "^5.2.0"
     use-sync-external-store "^1.6.0"
 
 "@mui/x-tree-view@^9.9.0":
-  version "9.9.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.9.0.tgz#b89bc8da5a3900595bf816bfa1e7a992e64dd0f7"
-  integrity sha512-GLp5T3aXoogyjSWq09zBdmxSbYm2Mx9X7nzHN2PxEcl+yZGZAE/ItLOjUNYz+p8g9o+38+IAJXw93FOMgsuTEw==
+  version "9.10.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.10.0.tgz#8cc23372f8c0b8f8f8563ac3d76d6250234059cd"
+  integrity sha512-Yg7ypZOXcT9fdaDOm5fKGZl9259iE2y2enODeuq44X1FAtjACodG0JZis57es1e/zXyn6uLGjr8UZfVm8IpWvg==
   dependencies:
     "@babel/runtime" "^7.29.7"
-    "@base-ui/utils" "^0.3.0"
+    "@base-ui/utils" "^0.3.1"
     "@mui/utils" "^9.2.0"
-    "@mui/x-internals" "^9.9.0"
+    "@mui/x-internals" "^9.10.0"
     "@types/react-transition-group" "^4.4.12"
     clsx "^2.1.1"
     prop-types "^15.8.1"
