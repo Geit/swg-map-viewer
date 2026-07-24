@@ -1446,10 +1446,10 @@
     prop-types "^15.8.1"
     react-is "^19.2.6"
 
-"@mui/x-internals@^9.10.0":
-  version "9.10.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.10.0.tgz#707c16ab5cc707dfcbf7fa9cc3fd6e484d8553dc"
-  integrity sha512-ubd8eMVMEfu9ByLa6jR4xVborrDcauiRos2m1HtIlJALYBiGw5/FIW9TYFnzHkOHH1dl3+5rhjlXx9x+8wo54A==
+"@mui/x-internals@^9.10.1":
+  version "9.10.1"
+  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.10.1.tgz#1b38cf1870ac7968117511f90bbdc9d815f6cb28"
+  integrity sha512-pKFVzFQHB34TuMG3gOVx+LfIR8VBsi/ZhX/erRX2WOXu+ewEYGvdeK1mW9hLe7e2v3uyUbgT8RNeN0cy10cDjg==
   dependencies:
     "@babel/runtime" "^7.29.7"
     "@base-ui/utils" "^0.3.1"
@@ -1458,14 +1458,14 @@
     use-sync-external-store "^1.6.0"
 
 "@mui/x-tree-view@^9.9.0":
-  version "9.10.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.10.0.tgz#8cc23372f8c0b8f8f8563ac3d76d6250234059cd"
-  integrity sha512-Yg7ypZOXcT9fdaDOm5fKGZl9259iE2y2enODeuq44X1FAtjACodG0JZis57es1e/zXyn6uLGjr8UZfVm8IpWvg==
+  version "9.10.1"
+  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.10.1.tgz#d6ba7bcd25dc231a677ff0b7f98e3f98dfd21160"
+  integrity sha512-MTXh1Ua1sBqtykvEaNbTIo0fp+iLIPj8LAxq28XcXRRO8Guu2hr0PXUq9C3HoO9+N8RPc1CHpJHzOOlHbDpaWw==
   dependencies:
     "@babel/runtime" "^7.29.7"
     "@base-ui/utils" "^0.3.1"
     "@mui/utils" "^9.2.0"
-    "@mui/x-internals" "^9.10.0"
+    "@mui/x-internals" "^9.10.1"
     "@types/react-transition-group" "^4.4.12"
     clsx "^2.1.1"
     prop-types "^15.8.1"
