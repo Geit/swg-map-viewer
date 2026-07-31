@@ -28,6 +28,7 @@
     "preview": "yarn workspace @swg-map-viewer/frontend run preview",
     "generate-tiles": "yarn ts-node-script scripts/generate-tiles.ts",
     "generate-capture-tiles": "yarn ts-node-script scripts/generate-capture-tiles.ts",
+    "generate-game-tiles": "yarn ts-node-script scripts/generate-game-tiles.ts",
     "typecheck": "yarn workspace @swg-map-viewer/frontend run typecheck"
   },
   "workspaces": {

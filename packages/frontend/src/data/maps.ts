@@ -48,8 +48,24 @@ const DEFAULT_SWG_MAP_SIZE = 16_384;
 const DEFAULT_RASTERIZED_MAP_SIZE = 4_096;
 const SYTNERS_ATTRIBUTION = "Sytner's Satellite Maps 2.0";
 const HD_CAPTURE_ATTRIBUTION = 'Omega HD Satellite Maps (2026)';
+const GAME_FILES_ATTRIBUTION = 'SWG Game Files';
 
-// The ten core planets share the same setup: a Sytner's base raster plus an HD capture layer.
+// The client's ui_map_<scene>.dds art is 1024px, i.e. log2(1024 / 256) native zoom levels.
+const GAME_MAP_ZOOM = 2;
+const BESPIN_GAME_MAP_ZOOM = 4;
+
+// Retiled by scripts/generate-game-tiles.ts. Pre-baked like the HD layers, hence no `source`.
+const gameTileSet = (id: string, maxNativeZoom: number = GAME_MAP_ZOOM): TileSet => ({
+  id: 'game',
+  label: 'Original Game Map',
+  path: `${id}-game`,
+  format: 'webp',
+  maxNativeZoom,
+  attribution: GAME_FILES_ATTRIBUTION,
+});
+
+// The ten core planets share the same setup: a Sytner's base raster, an HD capture layer, and the
+// client's own map art.
 const coreTileSets = (id: string): readonly TileSet[] => [
   {
     id: 'base',
@@ -68,27 +84,26 @@ const coreTileSets = (id: string): readonly TileSet[] => [
     maxNativeZoom: 7,
     attribution: HD_CAPTURE_ATTRIBUTION,
   },
+  gameTileSet(id),
 ];
 
-// A planet with a single base tileset rasterised from one source image (no HD capture layer).
-// The label is never surfaced (the picker only shows for >1 tileset) so it mirrors the attribution.
-const singleTileSet = (opts: {
+// The default tileset, rasterised from one source image by generate-tiles.ts. Its label is only
+// surfaced on planets that have a second tileset, so it mirrors the attribution.
+const baseTileSet = (opts: {
   path: string;
   attribution: string;
   maxNativeZoom: number;
   image: string;
   size: number;
-}): readonly TileSet[] => [
-  {
-    id: 'base',
-    label: opts.attribution,
-    path: opts.path,
-    format: 'png',
-    maxNativeZoom: opts.maxNativeZoom,
-    attribution: opts.attribution,
-    source: { image: opts.image, size: opts.size },
-  },
-];
+}): TileSet => ({
+  id: 'base',
+  label: opts.attribution,
+  path: opts.path,
+  format: 'png',
+  maxNativeZoom: opts.maxNativeZoom,
+  attribution: opts.attribution,
+  source: { image: opts.image, size: opts.size },
+});
 
 const mapConfigs: readonly MapConfiguration[] = [
   {
@@ -237,13 +252,17 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'mustafar',
     displayName: 'Mustafar',
     planetMap: { size: 8192, offset: { x: 0, z: 0 } },
-    tileSets: singleTileSet({
-      path: 'mustafar',
-      attribution: 'SWG Game Files',
-      maxNativeZoom: 2,
-      image: 'planets/lossless/map_mustafar.png',
-      size: 1024,
-    }),
+    // Mustafar and the Kashyyyk maps below already render the client's art — their masters decode
+    // from the matching ui_map_<scene>.dds — so a 'game' tileset would duplicate this one.
+    tileSets: [
+      baseTileSet({
+        path: 'mustafar',
+        attribution: GAME_FILES_ATTRIBUTION,
+        maxNativeZoom: 2,
+        image: 'planets/lossless/map_mustafar.png',
+        size: 1024,
+      }),
+    ],
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_must.png',
@@ -260,13 +279,15 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 2048,
       offset: { x: 0, z: 112 },
     },
-    tileSets: singleTileSet({
-      path: 'kashyyyk',
-      attribution: 'SWG Game Files',
-      maxNativeZoom: 2,
-      image: 'planets/lossless/map_kashyyyk_main.png',
-      size: 1024,
-    }),
+    tileSets: [
+      baseTileSet({
+        path: 'kashyyyk',
+        attribution: GAME_FILES_ATTRIBUTION,
+        maxNativeZoom: 2,
+        image: 'planets/lossless/map_kashyyyk_main.png',
+        size: 1024,
+      }),
+    ],
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_kash.png',
@@ -283,13 +304,15 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 1000,
       offset: { x: 0, z: 0 },
     },
-    tileSets: singleTileSet({
-      path: 'kashyyyk_dead_forest',
-      attribution: 'SWG Game Files',
-      maxNativeZoom: 2,
-      image: 'planets/lossless/map_kashyyyk_dead_forest.png',
-      size: 1024,
-    }),
+    tileSets: [
+      baseTileSet({
+        path: 'kashyyyk_dead_forest',
+        attribution: GAME_FILES_ATTRIBUTION,
+        maxNativeZoom: 2,
+        image: 'planets/lossless/map_kashyyyk_dead_forest.png',
+        size: 1024,
+      }),
+    ],
     travelMapConfig: null,
   },
   {
@@ -300,13 +323,15 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 2844,
       offset: { x: 0, z: 0 },
     },
-    tileSets: singleTileSet({
-      path: 'kashyyyk_hunting',
-      attribution: 'SWG Game Files',
-      maxNativeZoom: 2,
-      image: 'planets/lossless/map_kashyyyk_hunting.png',
-      size: 1024,
-    }),
+    tileSets: [
+      baseTileSet({
+        path: 'kashyyyk_hunting',
+        attribution: GAME_FILES_ATTRIBUTION,
+        maxNativeZoom: 2,
+        image: 'planets/lossless/map_kashyyyk_hunting.png',
+        size: 1024,
+      }),
+    ],
     travelMapConfig: null,
   },
   // The Rryatt trail is weird - It has multiple different coordinate systems for each of the different levels
@@ -323,13 +348,15 @@ const mapConfigs: readonly MapConfiguration[] = [
       size: 2048,
       offset: { x: -0, z: 0 },
     },
-    tileSets: singleTileSet({
-      path: 'kashyyyk_rryatt_trail',
-      attribution: 'SWG Game Files',
-      maxNativeZoom: 2,
-      image: 'planets/lossless/map_kashyyyk_rryatt_trail.png',
-      size: 1024,
-    }),
+    tileSets: [
+      baseTileSet({
+        path: 'kashyyyk_rryatt_trail',
+        attribution: GAME_FILES_ATTRIBUTION,
+        maxNativeZoom: 2,
+        image: 'planets/lossless/map_kashyyyk_rryatt_trail.png',
+        size: 1024,
+      }),
+    ],
     travelMapConfig: null,
   },
   // {
@@ -393,13 +420,17 @@ const mapConfigs: readonly MapConfiguration[] = [
     waypointCommandId: 'bespin',
     displayName: 'Bespin',
     planetMap: { size: DEFAULT_SWG_MAP_SIZE, offset: { x: 0, z: 0 } },
-    tileSets: singleTileSet({
-      path: 'bespin',
-      attribution: 'SWG Legends',
-      maxNativeZoom: 5,
-      image: 'planets/lossless/map_bespin_full.png',
-      size: 16384,
-    }),
+    tileSets: [
+      baseTileSet({
+        path: 'bespin',
+        attribution: 'SWG Legends',
+        maxNativeZoom: 5,
+        image: 'planets/lossless/map_bespin_full.png',
+        size: 16384,
+      }),
+      // Bespin's client art is 4096px, not the usual 1024px.
+      gameTileSet('bespin', BESPIN_GAME_MAP_ZOOM),
+    ],
     travelMapConfig: {
       labelPosition: 'top',
       planetTexture: '/textures/ui_planet_sel_besp.png',

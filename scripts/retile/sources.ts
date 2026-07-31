@@ -2,8 +2,11 @@
 // of capture tiles) into geometry (mapPx, baseZoom) plus a factory that builds the appropriate
 // BaseGrid. Source paths are resolved by the caller; nothing here reads a config file.
 
+import path from 'path';
+
 import sharp from 'sharp';
 
+import { decodeDdsFile, readDdsInfo } from './dds';
 import { createCaptureGrid } from './tga';
 import { BaseGrid, TILE_SIZE } from './types';
 
@@ -37,17 +40,42 @@ function isPowerOfTwo(n: number): boolean {
   return Number.isInteger(n) && n >= 1 && (n & (n - 1)) === 0;
 }
 
-// Decode a single square master PNG once into a top-down RGB buffer and serve base tiles as
-// sub-region copies. Intended for the legacy 4096px masters (~50MB raw); larger masters should use
-// capture sources, which never hold the whole map in memory.
-async function createMasterGrid(absPath: string, mapPx: number, baseZoom: number): Promise<BaseGrid> {
+// Client map art is block-compressed DDS, which sharp cannot read; both paths yield packed
+// top-down RGB, so the grid below is format-agnostic.
+function isDds(absPath: string): boolean {
+  return path.extname(absPath).toLowerCase() === '.dds';
+}
+
+async function readMasterSize(absPath: string): Promise<{ width: number; height: number }> {
+  if (isDds(absPath)) {
+    return readDdsInfo(absPath);
+  }
+  const meta = await sharp(absPath, { limitInputPixels: false }).metadata();
+  if (!meta.width || !meta.height) {
+    throw new Error(`Master ${absPath}: could not read image dimensions`);
+  }
+  return { width: meta.width, height: meta.height };
+}
+
+async function decodeMaster(absPath: string): Promise<{ data: Buffer; width: number; height: number }> {
+  if (isDds(absPath)) {
+    return decodeDdsFile(absPath);
+  }
   // limitInputPixels: sharp refuses >268MP by default; capture-derived masters run to 1GP+.
   const { data, info } = await sharp(absPath, { limitInputPixels: false })
     .removeAlpha()
     .raw()
     .toBuffer({ resolveWithObject: true });
-  if (info.width !== mapPx || info.height !== mapPx) {
-    throw new Error(`Master ${absPath}: decoded to ${info.width}x${info.height}, expected ${mapPx}x${mapPx}`);
+  return { data, width: info.width, height: info.height };
+}
+
+// Decode a single square master image once into a top-down RGB buffer and serve base tiles as
+// sub-region copies. Intended for the legacy 4096px masters (~50MB raw); larger masters should use
+// capture sources, which never hold the whole map in memory.
+async function createMasterGrid(absPath: string, mapPx: number, baseZoom: number): Promise<BaseGrid> {
+  const { data, width, height } = await decodeMaster(absPath);
+  if (width !== mapPx || height !== mapPx) {
+    throw new Error(`Master ${absPath}: decoded to ${width}x${height}, expected ${mapPx}x${mapPx}`);
   }
   let store: Buffer | null = data;
 
@@ -79,12 +107,7 @@ export async function resolveLayer(request: LayerRequest): Promise<ResolvedLayer
 
   if (source.type === 'master') {
     const absPath = source.path;
-    const meta = await sharp(absPath, { limitInputPixels: false }).metadata();
-    const width = meta.width;
-    const height = meta.height;
-    if (!width || !height) {
-      throw new Error(`Master ${absPath}: could not read image dimensions`);
-    }
+    const { width, height } = await readMasterSize(absPath);
     if (width !== height) {
       throw new Error(`Master ${absPath}: must be square, got ${width}x${height}`);
     }
