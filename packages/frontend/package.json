@@ -17,7 +17,7 @@
     "react-copy-to-clipboard": "5.1.1",
     "react-dom": "19.2.8",
     "react-leaflet": "^5.0.0",
-    "react-router-dom": "7.18.2",
+    "react-router-dom": "7.18.3",
     "react-use-measure": "2.1.7",
     "three": "0.185.1",
     "vite-plugin-svgr": "^5.2.0"
