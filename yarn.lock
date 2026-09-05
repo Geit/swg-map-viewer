@@ -857,7 +857,7 @@
     "@babel/helper-string-parser" "^7.29.7"
     "@babel/helper-validator-identifier" "^7.29.7"
 
-"@base-ui/utils@^0.3.1":
+"@base-ui/utils@^0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@base-ui/utils/-/utils-0.3.2.tgz#21983db937f78a378d1f2e0f50157a2bc107123d"
   integrity sha512-oWy1aq/I2GmYjpl4PhEAhzflF8VPGKgZeq0xAWTbfD5KBWyxcN0ZP2+WHSUm/5Z6lVMBDLReLcoXwSYoRc/zNQ==
@@ -1412,7 +1412,7 @@
   dependencies:
     "@babel/runtime" "^7.29.7"
 
-"@mui/utils@^9.3.0", "@mui/utils@^9.4.0":
+"@mui/utils@^9.4.0":
   version "9.4.0"
   resolved "https://registry.yarnpkg.com/@mui/utils/-/utils-9.4.0.tgz#3e4946c1bf0d8f735e71d4d90d4fb9d1afa48cec"
   integrity sha512-WkzY8uYtqUDyGKPShrRQRBomfMQHddlsyKu/gRRESYO24tDPD2z0xRE8CBoUsWqpBa+YrFs9KixiS7kQRjsPAQ==
@@ -1424,30 +1424,28 @@
     prop-types "^15.8.1"
     react-is "^19.2.8"
 
-"@mui/x-internals@^9.12.0":
-  version "9.12.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.12.0.tgz#1e6ff8d96aba939aacaff55365fa295391fdb827"
-  integrity sha512-rpG9EgJhH3JeOK2Q/tKaUWk5vP8C1NfL8DaXMKR1XCA7RhpZUI/xT67WKY80QtogNWu7U/BRezKyQGtiZ8soYg==
+"@mui/x-internals@^9.13.0":
+  version "9.13.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.13.0.tgz#320cf718cccaa36734c913a9c05b6c5a4acd203c"
+  integrity sha512-TAxYhWSQR351zhUO709ShsGlvbI9RSsh6zIn99tLmkxKav+QFoxAlullzd79dQOxjUsau6spw/hmYcB+zLGipQ==
   dependencies:
     "@babel/runtime" "^7.29.7"
-    "@base-ui/utils" "^0.3.1"
-    "@mui/utils" "^9.3.0"
+    "@base-ui/utils" "^0.3.2"
+    "@mui/utils" "^9.4.0"
     reselect "^5.2.0"
     use-sync-external-store "^1.6.0"
 
 "@mui/x-tree-view@^9.9.0":
-  version "9.12.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.12.0.tgz#b3781d7880dda13a1b4ba5680453a98123e58a04"
-  integrity sha512-SRlwOAY4IBfYcYvJgyzlG5MnN34mrjl+a51gS1RKZBGlX/fb/XxeC8YXcPTCUjtRKCxaTajJ8XUXX168tWn8jA==
+  version "9.13.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.13.0.tgz#18f57c855f14a66344e220e745550db77aeef61d"
+  integrity sha512-wnIXe5bhbm1nFo6cofQBVb1Zll5oD3e7MkEZ78wXHY5nKjjathIbPZ7J7bFSCa/OIdtMCaLpholVLG2Bi73CeA==
   dependencies:
     "@babel/runtime" "^7.29.7"
-    "@base-ui/utils" "^0.3.1"
-    "@mui/utils" "^9.3.0"
-    "@mui/x-internals" "^9.12.0"
-    "@types/react-transition-group" "^4.4.12"
+    "@base-ui/utils" "^0.3.2"
+    "@mui/utils" "^9.4.0"
+    "@mui/x-internals" "^9.13.0"
     clsx "^2.1.1"
     prop-types "^15.8.1"
-    react-transition-group "^4.4.5"
 
 "@napi-rs/wasm-runtime@^1.1.4":
   version "1.2.3"
