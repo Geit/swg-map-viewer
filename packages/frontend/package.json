@@ -33,7 +33,7 @@
     "@types/rimraf": "^4.0.5",
     "@types/three": "^0.186.0",
     "@vitejs/plugin-react": "^6.0.3",
-    "sass": "1.104.0",
+    "sass": "1.104.1",
     "vite": "^8.1.4"
   },
   "scripts": {
