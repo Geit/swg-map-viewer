@@ -1424,26 +1424,26 @@
     prop-types "^15.8.1"
     react-is "^19.2.8"
 
-"@mui/x-internals@^9.13.0":
-  version "9.13.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.13.0.tgz#320cf718cccaa36734c913a9c05b6c5a4acd203c"
-  integrity sha512-TAxYhWSQR351zhUO709ShsGlvbI9RSsh6zIn99tLmkxKav+QFoxAlullzd79dQOxjUsau6spw/hmYcB+zLGipQ==
+"@mui/x-internals@^9.14.0":
+  version "9.14.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.14.0.tgz#c1866a908a9a00d7a640ae61bf385d07ac3044fe"
+  integrity sha512-m4XkKIihP+uWvz18BgSOHtwxCBWtE3Qi2X9hZUdEGW5mk50umziYaCLn9B/3cT9qBU7LirEC8agqpWxDSYjaNw==
   dependencies:
     "@babel/runtime" "^7.29.7"
     "@base-ui/utils" "^0.3.2"
     "@mui/utils" "^9.4.0"
     reselect "^5.2.0"
-    use-sync-external-store "^1.6.0"
+    use-sync-external-store "^1.7.0"
 
 "@mui/x-tree-view@^9.9.0":
-  version "9.13.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.13.0.tgz#18f57c855f14a66344e220e745550db77aeef61d"
-  integrity sha512-wnIXe5bhbm1nFo6cofQBVb1Zll5oD3e7MkEZ78wXHY5nKjjathIbPZ7J7bFSCa/OIdtMCaLpholVLG2Bi73CeA==
+  version "9.14.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.14.0.tgz#27173fe643aa77bff0585f488eed09648909039b"
+  integrity sha512-oF0X0iR6ZqOd4x1UfMFDGSBMw7FZwmxiy1sGYp2uRy2sBOmsV9JqqvMEAWlDDfEUUJECbWsW9eeJ52QZXwT8kw==
   dependencies:
     "@babel/runtime" "^7.29.7"
     "@base-ui/utils" "^0.3.2"
     "@mui/utils" "^9.4.0"
-    "@mui/x-internals" "^9.13.0"
+    "@mui/x-internals" "^9.14.0"
     clsx "^2.1.1"
     prop-types "^15.8.1"
 
@@ -5217,7 +5217,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-use-sync-external-store@^1.2.2, use-sync-external-store@^1.4.0, use-sync-external-store@^1.6.0:
+use-sync-external-store@^1.2.2, use-sync-external-store@^1.4.0, use-sync-external-store@^1.6.0, use-sync-external-store@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.7.0.tgz#6dcb66ef569e02f186af6b3d575f414ce746e18f"
   integrity sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==
