@@ -1593,10 +1593,10 @@
     utility-types "^3.11.0"
     zustand "^5.0.1"
 
-"@react-three/fiber@9.8.1":
-  version "9.8.1"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-9.8.1.tgz#9379621d5f3730ec50eab597c551fffb80abd4b2"
-  integrity sha512-GbNP4r6F/gpclFKkLGHzXcuwFWAzLyKsmrQGcDuwK3wQnwLH6F1TfGtEYjHy8OQoGsajwT19B9jtVLLjjfH09w==
+"@react-three/fiber@9.8.2":
+  version "9.8.2"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-9.8.2.tgz#c4ca62cec8a2fd51302694d504a6807f82f8e993"
+  integrity sha512-6s0ejw0bT1myQ/aLLugcil8/zBmNnnHw/AISWF1yfDLOxfX3yYaTS+0IkpJITEnm/SSMLtxje6CJDt0i5Wu1Sw==
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/webxr" "*"
