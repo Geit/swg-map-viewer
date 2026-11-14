@@ -3803,10 +3803,10 @@ its-fine@^2.1.1:
   dependencies:
     "@types/react-reconciler" "^0.28.9"
 
-jotai@2.20.3:
-  version "2.20.3"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.20.3.tgz#862ce7289f07ae1991dca9cba93bff94f8c35285"
-  integrity sha512-N8L9FUbeGDP+0qNJw1FebOxt+5hk+jTOwUA2LlRE4C081jUcY6F1T/FSETp4DT2/INMtiSRZyNm2D+yZdzrSgA==
+jotai@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-3.0.2.tgz#0414db3ae3e39533975a36df372c81a962979dd7"
+  integrity sha512-1h+H6BQN+D048zv8hRGVeNxghxRLFZCB+l2WhFe7RhRiF0JlC8516G2BtRUXhPvMQTGB9OHst2N/BW9aNpp5aA==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
