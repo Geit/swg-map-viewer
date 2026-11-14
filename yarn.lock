@@ -1417,24 +1417,24 @@
     prop-types "^15.8.1"
     react-is "^19.3.0"
 
-"@mui/x-internals@9.17.0":
-  version "9.17.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.17.0.tgz#6c98a0774659a41a2fdd2b510abe0591e1515a7d"
-  integrity sha512-rk9yNkDR/ty/zpzdObwqLbax3V1lNqz5inat5IVC3KHWj64K9uEBoHLxMBZNtQd8WtPfHR7RS2KjuAI35rcusg==
+"@mui/x-internals@9.18.0":
+  version "9.18.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-internals/-/x-internals-9.18.0.tgz#4a5da56dc25309b3ab79b6988a74cebaf100d343"
+  integrity sha512-6gdqj9FjwmnIeqxX63ZL0eGIiLVNxusn4x6GCVQNZ7Unor3DepzRea4cKh8g0NPuUbeXV7yqTzv5sOcwkkAoCQ==
   dependencies:
     "@babel/runtime" "^7.29.7 || ^8.0.0"
     "@base-ui/utils" "^0.5.0"
     "@mui/utils" "^9.5.0"
 
 "@mui/x-tree-view@^9.9.0":
-  version "9.17.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.17.0.tgz#db098569b3fda98de21045ff2a08889ab996c64d"
-  integrity sha512-QOZvbWG/ZIa07n53clqT1wQ9bJvlQdUGl28AmOihWh7w7lkBPFtn2WqiBsFmYoDi6N50CmzQ4/RBj291W+6Pjg==
+  version "9.18.0"
+  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-9.18.0.tgz#cb4efdbcbb2715f02960b99759d409c5153665e0"
+  integrity sha512-MT7gqURBQA7+6ZjSb0j+9gagC5uVLlgy9R6p7xukNdHD83f7h3MxXb7tUzXHC7eoOFpoH/YJF/q4IbkdFUaujg==
   dependencies:
     "@babel/runtime" "^7.29.7 || ^8.0.0"
     "@base-ui/utils" "^0.5.0"
     "@mui/utils" "^9.5.0"
-    "@mui/x-internals" "9.17.0"
+    "@mui/x-internals" "9.18.0"
     clsx "^2.1.1"
     prop-types "^15.8.1"
 
